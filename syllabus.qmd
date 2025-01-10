@@ -31,118 +31,119 @@ _This document does not replace the official syllabus in the course brightspace 
 </center>
 <br>
 
-## Course Description
+## Course Description and Objectives
 
-The course is designed to introduce students to basic data analysis techniques. Coverage will include the application of probability distributions such as the normal, the $t$, and the binomial; sampling distributions, basic statistical inference methods, analysis of variance, applied linear regression techniques, logistic regression time series analysis, statistical quality control, and decision analysis.
+The course enables students to navigate the entire predictive analytics pipeline skillfully—from data preparation and exploration to modeling, assessment, and interpretation. Throughout the course, learners engage with real-world examples and hands-on labs emphasizing essential programming and analytical skills. By exploring topics such as linear and logistic regression, classification, resampling methods, regularization techniques, tree-based approaches, support vector machines, and advanced learning paradigms (including neural networks and unsupervised methods), participants gain a robust theoretical understanding and practical experience. Ultimately, students will leave the course equipped to apply predictive models to data-driven problems, communicate their findings to diverse audiences, and critically evaluate model performance to inform strategic decision-making across various business contexts.
 
-**Course Website**: <https://davi-moreira.github.io/2025S_business_statistics_purdue_MGMT305>{target="_blank"}
+**Course Website**: [https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/](https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/){target="_blank"}
 
 ## Instructor
 
 ### Instructor: [Professor Davi Moreira](https://davi-moreira.github.io)
 
--   Office: Young Hall 414
 -   Email: [dmoreira@purdue.edu](mailto:dmoreira@purdue.edu)
--   Virtual Office hours: Zoom link in your Course Brightspace Page
--   Individual Appointments: Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.
+-   Office: Young Hall 414
+-   Virtual Office hours: _Zoom link in your Course Brightspace Page_
+-   Individual Appointments: _Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment._
 
 ## Learning Outcomes
 
-By the end of this course, students will be able to:
+By the conclusion of this course, students will be able to:
 
-1. Understand the basic statistical principles and their applications in the area of management and business.
-2. Understand fundamental issues in business and management.
-3. Describe and use the commonly used statistical techniques for analyzing business data.
-4. Understand the impacts of recent developments in big data and AI in business and management.
-5. Be proficient in using Excel to carry out statistical and analytics methods covered in the course.
+1.	**Explain Core Predictive Analytics Concepts:** Articulate key principles of statistical learning and predictive analytics, including fundamental terminology, modeling strategies, and the role of data-driven insights in business contexts.
 
-## Objectives
+2.	**Prepare and Explore Data Effectively:** Demonstrate proficiency in cleaning, organizing, and exploring datasets, applying tools and techniques for data preprocessing, feature engineering, and exploratory analysis.
 
-Our main goal is to instill the basic quantitative and data analysis skills needed by managers in modern business, where Business Analytics and Data Science have become important. These skills will help managers to understand and carry out data-based decision making, risk assessments, and policy making and to work effectively with data analysis teams to improve all aspects of business performance.
+3.	**Implement Diverse Modeling Techniques:** Construct predictive models using linear and logistic regression, classification methods, resampling procedures, and regularization techniques.
 
-Modern data analysis is done using computers and various types of sophisticated software. Therefore, to most effectively introduce management candidates to its techniques, we will also emphasize software applications (with Microsoft Excel, R, or Python) in this course.
+4.	**Assess and Interpret Model Performance:** Evaluate the accuracy, robustness, and interpretability of predictive models, critically examining issues such as overfitting, bias-variance trade-offs, and cross-validation results.
+
+5.	**Communicate Analytical Findings:** Present analytical outcomes and model interpretations to technical and non-technical audiences, crafting clear, concise, and visually effective reports or presentations.
+
+6.	**Integrate Predictive Analytics into Decision-Making:** Recommend actionable strategies based on model findings, demonstrating the ability to align analytical results with organizational objectives and inform evidence-based decision processes.
 
 ## Course Materials
 
-1. **Textbook**: Anderson, Sweeney, Williams, Camn, Cochran, Fry, and Ohlmann: Modern Business Statistics with Microsoft Excel, 7th edition, 2020, Cengage Learning, Inc. (Required). This text is also used in STAT 30301.
-2. **Handouts**: Lecture slides and supplementary materials. These are posted on Brightspace (Brightspace -> Content -> Table of Contents -> ….)
+- **Textbooks (Required): [ISLP]** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2023). An Introduction to Statistical Learning with Applications in Python. Springer. https://doi.org/10.1007/978-1-0716-2926-2. Download here: [https://www.statlearning.com/](https://www.statlearning.com/){target="_blank"} 
 
-## Course Infrastructure
+- **Computing (Required):** A laptop or desktop with internet access and the capability to run Python code through Google Colab: [https://colab.research.google.com/](https://colab.research.google.com/){target="_blank"}. 
 
-- **Brightspace**: The Course Brightspace Page (<https://purdue.brightspace.com/>) should be checked on a regular basis for announcements and course material.
-- **Software**: Microsoft Excel will be used for in-class demonstrations and instruction. The main tool is Data Analysis under Tools. If you don’t see this tool, follow these steps to add it in:
-  - File > Options > Add-ins > Select Analysis ToolPak and Analysis ToolPak-VBA (also select StatTools 7.5, if available) > Go > Data > Data Analysis (to conduct analyses)
-- **Course Website**: This class website will be used throughout the course, but it does not replace the Course Brightspace Page.
+- **Software (Required):** [Google Colab](https://colab.research.google.com/){target="_blank"} is a cloud-based platform that requires no software installation on your local machine; it is accessible through a modern web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari. To use Google Colab, you need a Google account and a stable internet connection. While optional, having tools like a local Python installation (e.g., Anaconda) or a Python IDE (e.g., Jupyter Notebook or VS Code) can be helpful for offline development. Additionally, browser extensions, such as those for VS Code integration, can enhance your experience but are not required. This makes Google Colab convenient and easy for Python programming and data science tasks.
+
+### Course Infra-structure
+
+**Brightspace:** The Course Brightspace Page <https://purdue.brightspace.com/> should be checked on a regular basis for announcements and course material.
 
 ## Assessments
 
-### Grading
+As part of a university-wide initiative, the Business School has adopted an **Official Grading Policy** that caps the overall class GPA at 3.3. Final letter grades are determined by curving final percentages, subject to any extra-credit exceptions discussed in this syllabus. While you will see your final percentage in Brightspace, individual grade thresholds will not be disclosed before official submissions.
 
-Following a university-wide initiative, the School has adopted an Official Grading Policy for core courses such as MGMT 30500. Under this policy, the overall GPA for this class can be no higher than 3.0. To comply with this course policy, final course letter grades will be based on the curved class final course percentages. The final course percentage is based on a weighted percentage computed using the weights shown in the table below:
-
-| **Assignment**             | **Percentage** |
-|----------------------------|:--------------:|
-| Homework*                  |      40%       |
-| Quizzes**                  |      15%       |
-| Midterms***                |      15%       |
-| Attendance/Participation   |       7%       |
-| Final****                  |      23%       |
-
-\*There are eight homework assignments. No homework assignment is dropped. The final homework score is calculated using aggregated points.
-
-\**There are three quizzes worth 5% each. Quizzes 2 and 3 are not cumulative.
-
-\***There are two midterms: each is worth 7.5%. Midterms are not cumulative.
-
-\**** Final is cumulative.
-
-### Homework
-
-Homework assignments are uploaded to Brightspace and must be submitted as a single PDF or Word file with all relevant outputs. Late submissions are not accepted. Ensure to:
-
-- Include all software outputs addressing the homework questions.
-- Clearly identify each problem with its respective chapter and problem number.
-- Do not copy and paste datasets into your submissions.
-
-Discuss problems with classmates, but ensure individual submissions. Duplicate papers are considered cheating.
-
-### Quizzes and Exams
-
-- Quizzes: Three quizzes will be given, with none being cumulative. Exceptional circumstances for make-ups require documentation.
-- Exams: Two midterms (7.5% each) and one final (23%) will test technical and conceptual understanding. Calculators without internet access are required. Makeup exams are only granted for documented exceptional circumstances.
+| **Assessment**             | **Weight** |
+|----------------------------|-----------:|
+| Attendance/Participation   | 10%        |
+| Quizzes                    | 20%        |
+| Homework                   | 30%        |
+| Final Project              | 40%        |
 
 ### Attendance and Participation
 
-Random attendance will be recorded through participation activities during class time. Participation in class discussions is essential and will influence the grade.
+Attend class, participate in activities, and complete any participatory exercises. Random attendance checks will be used to measure involvement. According to Purdue regulations, students are expected to attend every class/lab meeting for which they are registered.
+
+### Quizzes
+
+Regular quizzes based on lecture material will be administered, with no drops. Due dates and details will be on Brightspace. Quizzes help reinforce content and maintain steady engagement.
+
+### Homework
+
+Homework assignments offer practical, hands-on exposure to data mining tasks. Expect multiple-choice questions requiring analysis of provided results. Deadlines will be posted in Brightspace. These assignments are crucial for building technical and analytical skills.
+
+### Final Project
+
+In groups, students will complete a practical predictive analytics project culminating in a poster presentation at the Undergraduate Research Conference. A comprehensive set of project guidelines will be provided, and the assessment structure will adhere to the following criteria:
+
+1.	Milestone Deliverables (40%): Students will submit incremental project components on specific due dates. These deliverables allow for early feedback and ensure steady progress throughout the semester. Grades will reflect each milestone's clarity, completeness, and timely submission.
+
+2.	Peer Evaluation (20%): To encourage accountability and productive teamwork, students will evaluate their peers' contributions. These assessments help ensure balanced participation and measure collaborative effectiveness.
+
+3.	Poster Presentation at the Purdue Undergraduate Research Conference (40%): A poster template and assessment rubric will be shared, and you are encouraged to review previous award-winning student posters for inspiration. Your final posters must be submitted by the due date indicated in the syllabus, after which they will be printed and distributed during a dedicated Poster Presentation Preparation class. Additional details on the conference can be found at [https://www.purdue.edu/undergrad-research/conferences/index.php](https://www.purdue.edu/undergrad-research/conferences/index.php){target="_blank"}.
+As the event may not coincide with our regular class time, please communicate with your other course instructors in advance regarding potential scheduling conflicts. If any issues arise, please let me know. We will not hold our usual class immediately following the Poster Presentation, allowing you time to rest and catch up on other coursework. Consult the course schedule for further details.
 
 ### Grade Challenges
 
-Challenges to grades must be submitted within 7 calendar days of the grade announcement, with the exception of the final homework, which has a 3-day window. Provide specific details and reasons for challenges via email.
+Grades and solutions will be posted soon after each assignment deadline. Students have **7 calendar days** from the grade posting to submit any challenge (3 days for the final two quizzes and homework assignments). Challenges must be based on legitimate discrepancies regarding data mining principles or grading accuracy.
 
-### Extra Credit Opportunity
+1. **Review posted solutions** thoroughly.  
+2. If you suspect an error, email Dr. Moreira with:  
+   - Course name, section, and lecture day/time  
+   - Your name and Student ID  
+   - Assignment/Exam Title or Number  
+   - Specific deduction questioned  
+   - Clear rationale referencing solutions or rubrics  
 
-A bonus will be provided if at least 85% of the class completes the midterm and/or final course evaluations.
+> *No grades will be discussed in-class. Please use office hours for clarifications. After the 7-day (or 3-day) window, grades are final.*
 
-## Keys to Success
 
-1. Consistent Effort: Follow the schedule diligently.
-2. Pre-Class Preparation: Review materials and exercises beforehand.
-3. Class Materials: Ensure accessibility of readings and notes.
-4. Engagement: Regularly practice problems and seek clarifications.
-5. Active Learning: Actively engage with materials and presentations.
+## Course Policies and Additional Details
 
-## AI Policy
+### Extra Credit Opportunities
 
-Students are encouraged to use AI tools for learning enhancement but must adhere to the following:
+- Check the Course Syllabus document on Brightspace for details.
 
-- AI tools are prohibited during exams.
-- Refine prompts for effective outputs.
-- Use AI for learning, not solution generation.
-- Cite any use of AI tools in submissions.
+### AI Policy
 
-## Additional Information
+- You may use AI tools to support your learning (e.g., clarifying concepts, generating examples), but:  
+  1. **Do not** use AI for requesting solutions or exams.  
+  2. Practice refining prompts to get better AI outputs.  
+  3. Verify all AI-generated content for accuracy.  
+  4. Cite any AI usage in your documents.
+  
+### Additional Information
 
 Refer to Brightspace for deadlines, academic integrity policies, accommodations, CAPS information, and non-discrimination statements.
+
+### Subject to Change Policy 
+
+While we will endeavor to maintain the course schedule, the syllabus may be adjusted to accommodate the learning pace and needs of the class.
 
 ## [Schedule](./schedule.qmd)
 

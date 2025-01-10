@@ -66,35 +66,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -150,14 +121,8 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./material.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Materials</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./schedule.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Schedule</span></a>
+ <span class="menu-text">Schedule and Material</span></a>
   </div>
 </li>
     </ul>
@@ -170,16 +135,13 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course Description</a>
+  <li><a href="#course-description-and-objectives" id="toc-course-description-and-objectives" class="nav-link active" data-scroll-target="#course-description-and-objectives">Course Description and Objectives</a>
   <ul class="collapse">
   <li><a href="#instructor-professor-davi-moreira" id="toc-instructor-professor-davi-moreira" class="nav-link" data-scroll-target="#instructor-professor-davi-moreira">Instructor: Professor Davi Moreira</a></li>
   </ul></li>
   <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
-  <li><a href="#objective" id="toc-objective" class="nav-link" data-scroll-target="#objective">Objective</a>
-  <ul class="collapse">
   <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course Materials</a></li>
   <li><a href="#course-infra-structure" id="toc-course-infra-structure" class="nav-link" data-scroll-target="#course-infra-structure">Course Infra-structure</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -210,17 +172,18 @@ window.Quarto = {
 <p><br></p>
 <center>
 <p><em>IMPORTANT</em></p>
-<p><em>This document does not replace the official information in the course brightspace page</em></p>
+<p><em>This document does not replace the official material in the course brightspace page</em></p>
 </center>
 <p><br></p>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>XXX This course is designed to introduce students to basic data analysis techniques. Coverage will include the application of probability distributions such as the normal, the <span class="math inline">\(t\)</span>, and the binomial; sampling distributions, basic statistical inference methods, analysis of variance, applied linear regression techniques, logistic regression time series analysis, statistical quality control, and decision analysis.</p>
-<p><strong>Course Website</strong>: <a href="https://davi-moreira.github.io/2025F_business_statistics_purdue_MGMT305" target="_blank">https://davi-moreira.github.io/2025F_business_statistics_purdue_MGMT305</a></p>
+<section id="course-description-and-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="course-description-and-objectives">Course Description and Objectives</h2>
+<p>The course enables students to navigate the entire predictive analytics pipeline skillfully—from data preparation and exploration to modeling, assessment, and interpretation. Throughout the course, learners engage with real-world examples and hands-on labs emphasizing essential programming and analytical skills. By exploring topics such as linear and logistic regression, classification, resampling methods, regularization techniques, tree-based approaches, support vector machines, and advanced learning paradigms (including neural networks and unsupervised methods), participants gain a robust theoretical understanding and practical experience. Ultimately, students will leave the course equipped to apply predictive models to data-driven problems, communicate their findings to diverse audiences, and critically evaluate model performance to inform strategic decision-making across various business contexts.</p>
+<p><strong>Course Website</strong>: <a href="https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/" target="_blank">https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/</a></p>
 <section id="instructor-professor-davi-moreira" class="level3">
 <h3 class="anchored" data-anchor-id="instructor-professor-davi-moreira">Instructor: <a href="https://davi-moreira.github.io">Professor Davi Moreira</a></h3>
 <ul>
 <li>Email: <a href="mailto:dmoreira@purdue.edu">dmoreira@purdue.edu</a></li>
+<li>Office: Young Hall 414</li>
 <li>Virtual Office hours: <em>Zoom link in your Course Brightspace Page</em></li>
 <li>Individual Appointments: <em>Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.</em></li>
 </ul>
@@ -228,38 +191,29 @@ window.Quarto = {
 </section>
 <section id="learning-outcomes" class="level2">
 <h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
-<p>By the end of this course, students will be able to:</p>
+<p>By the conclusion of this course, students will be able to:</p>
 <ol type="1">
-<li>Understand the basic statistical principles and their applications in the area of management and business.</li>
-<li>Understand fundamental issues in business and management.</li>
-<li>Describe and use the commonly used statistical techniques for analyzing business data.</li>
-<li>Understand the impacts of recent developments in big data and AI in business and management.</li>
-<li>Be proficient in using Excel to carry out statistical and analytics methods covered in the course.</li>
+<li><p><strong>Explain Core Predictive Analytics Concepts:</strong> Articulate key principles of statistical learning and predictive analytics, including fundamental terminology, modeling strategies, and the role of data-driven insights in business contexts.</p></li>
+<li><p><strong>Prepare and Explore Data Effectively:</strong> Demonstrate proficiency in cleaning, organizing, and exploring datasets, applying tools and techniques for data preprocessing, feature engineering, and exploratory analysis.</p></li>
+<li><p><strong>Implement Diverse Modeling Techniques:</strong> Construct predictive models using linear and logistic regression, classification methods, resampling procedures, and regularization techniques.</p></li>
+<li><p><strong>Assess and Interpret Model Performance:</strong> Evaluate the accuracy, robustness, and interpretability of predictive models, critically examining issues such as overfitting, bias-variance trade-offs, and cross-validation results.</p></li>
+<li><p><strong>Communicate Analytical Findings:</strong> Present analytical outcomes and model interpretations to technical and non-technical audiences, crafting clear, concise, and visually effective reports or presentations.</p></li>
+<li><p><strong>Integrate Predictive Analytics into Decision-Making:</strong> Recommend actionable strategies based on model findings, demonstrating the ability to align analytical results with organizational objectives and inform evidence-based decision processes.</p></li>
 </ol>
 </section>
-<section id="objective" class="level2">
-<h2 class="anchored" data-anchor-id="objective">Objective</h2>
-<p>Our main goal is to instill the basic quantitative and data analysis skills needed by managers in modern business, where Business Analytics and Data Science have become important. These skills will help managers to understand and carry out data-based decision making, risk assessments, and policy making and to work effectively with data analysis teams to improve all aspects of business performance.</p>
-<p>Modern data analysis is done using computers and various types of sophisticated software. Therefore, to most effectively introduce management candidates to its techniques, we will also emphasize software applications (with Microsoft Excel, R, or Python) in this course.</p>
-<section id="course-materials" class="level3">
-<h3 class="anchored" data-anchor-id="course-materials">Course Materials</h3>
-<p>The following are learning materials:</p>
-<ol type="1">
-<li>Text book: Anderson, Sweeney, Williams, Camn, Cochran, Fry, and Ohlmann: Modern Business Statistics with Microsoft Excel, 7th edition, 2018, Cengage Learning, Inc.&nbsp;(Required) This text is also used in STAT 30301.</li>
-<li>Handouts: Lecture Slides and Supplementary Materials. (Posted in this page and on Brightspace: Brightspace -&gt; Content -&gt; Table of Contents -&gt; ….)</li>
-</ol>
-</section>
-<section id="course-infra-structure" class="level3">
-<h3 class="anchored" data-anchor-id="course-infra-structure">Course Infra-structure</h3>
-<p><strong>Brightspace:</strong> The Course Brightspace Page <a href="https://purdue.brightspace.com/" class="uri">https://purdue.brightspace.com/</a> should be checked on a regular basis for announcements and course material.</p>
-<p><strong>Software:</strong> Microsoft Excel will be used for in-class demonstrations and instruction. The main tool is Data Analysis under Tools. If you don’t see this tool, follow the following steps to add in:</p>
+<section id="course-materials" class="level2">
+<h2 class="anchored" data-anchor-id="course-materials">Course Materials</h2>
 <ul>
-<li>File -&gt; Options -&gt; Add-ins -&gt; Select Analysis ToolPak and Analysis ToolPak-VBA (also select StatTools 7.5, if available) -&gt; Go -&gt; Data -&gt; Data Analysis (to conduct analyses)</li>
+<li><p><strong>Textbooks (Required): [ISLP]</strong> James, G., Witten, D., Hastie, T., &amp; Tibshirani, R. (2023). An Introduction to Statistical Learning with Applications in Python. Springer. https://doi.org/10.1007/978-1-0716-2926-2. Download here: <a href="https://www.statlearning.com/" target="_blank">https://www.statlearning.com/</a></p></li>
+<li><p><strong>Computing (Required):</strong> A laptop or desktop with internet access and the capability to run Python code through Google Colab: <a href="https://colab.research.google.com/" target="_blank">https://colab.research.google.com/</a>.</p></li>
+<li><p><strong>Software (Required):</strong> <a href="https://colab.research.google.com/" target="_blank">Google Colab</a> is a cloud-based platform that requires no software installation on your local machine; it is accessible through a modern web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari. To use Google Colab, you need a Google account and a stable internet connection. While optional, having tools like a local Python installation (e.g., Anaconda) or a Python IDE (e.g., Jupyter Notebook or VS Code) can be helpful for offline development. Additionally, browser extensions, such as those for VS Code integration, can enhance your experience but are not required. This makes Google Colab convenient and easy for Python programming and data science tasks.</p></li>
 </ul>
-<p><strong>Course Website:</strong> This class website will be used throughout the course, but it does not replace the Course Brightspace Page.</p>
-
-
 </section>
+<section id="course-infra-structure" class="level2">
+<h2 class="anchored" data-anchor-id="course-infra-structure">Course Infra-structure</h2>
+<p><strong>Brightspace:</strong> The Course Brightspace Page <a href="https://purdue.brightspace.com/" class="uri">https://purdue.brightspace.com/</a> should be checked on a regular basis for announcements and course material.</p>
+
+
 </section>
 
 </main> <!-- /main -->

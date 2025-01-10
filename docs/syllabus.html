@@ -8,7 +8,7 @@
 
 <meta name="author" content="Davi Moreira">
 
-<title>Syllabus – MGMT 30500: Business Statistics</title>
+<title>Syllabus – MGMT 47400: Predictive Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -124,10 +95,10 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/mgmt_305_ai_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/mgmt_474_ai_logo_02-modified.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
-    <a href="https://github.com/davi-moreira/2025S_business_statistics_purdue_MGMT305" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/davi-moreira/2025S_predictive_analytics_purdue_MGMT474" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -151,14 +122,8 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./material.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Materials</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./schedule.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Schedule</span></a>
+ <span class="menu-text">Schedule and Material</span></a>
   </div>
 </li>
     </ul>
@@ -171,27 +136,31 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#course-description-and-objectives" id="toc-course-description-and-objectives" class="nav-link active" data-scroll-target="#course-description-and-objectives">Course Description and Objectives</a></li>
   <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a>
   <ul class="collapse">
   <li><a href="#instructor-professor-davi-moreira" id="toc-instructor-professor-davi-moreira" class="nav-link" data-scroll-target="#instructor-professor-davi-moreira">Instructor: Professor Davi Moreira</a></li>
   </ul></li>
   <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course Materials</a></li>
-  <li><a href="#course-infrastructure" id="toc-course-infrastructure" class="nav-link" data-scroll-target="#course-infrastructure">Course Infrastructure</a></li>
+  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course Materials</a>
+  <ul class="collapse">
+  <li><a href="#course-infra-structure" id="toc-course-infra-structure" class="nav-link" data-scroll-target="#course-infra-structure">Course Infra-structure</a></li>
+  </ul></li>
   <li><a href="#assessments" id="toc-assessments" class="nav-link" data-scroll-target="#assessments">Assessments</a>
   <ul class="collapse">
-  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
-  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
-  <li><a href="#quizzes-and-exams" id="toc-quizzes-and-exams" class="nav-link" data-scroll-target="#quizzes-and-exams">Quizzes and Exams</a></li>
   <li><a href="#attendance-and-participation" id="toc-attendance-and-participation" class="nav-link" data-scroll-target="#attendance-and-participation">Attendance and Participation</a></li>
+  <li><a href="#quizzes" id="toc-quizzes" class="nav-link" data-scroll-target="#quizzes">Quizzes</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
+  <li><a href="#final-project" id="toc-final-project" class="nav-link" data-scroll-target="#final-project">Final Project</a></li>
   <li><a href="#grade-challenges" id="toc-grade-challenges" class="nav-link" data-scroll-target="#grade-challenges">Grade Challenges</a></li>
-  <li><a href="#extra-credit-opportunity" id="toc-extra-credit-opportunity" class="nav-link" data-scroll-target="#extra-credit-opportunity">Extra Credit Opportunity</a></li>
   </ul></li>
-  <li><a href="#keys-to-success" id="toc-keys-to-success" class="nav-link" data-scroll-target="#keys-to-success">Keys to Success</a></li>
+  <li><a href="#course-policies-and-additional-details" id="toc-course-policies-and-additional-details" class="nav-link" data-scroll-target="#course-policies-and-additional-details">Course Policies and Additional Details</a>
+  <ul class="collapse">
+  <li><a href="#extra-credit-opportunities" id="toc-extra-credit-opportunities" class="nav-link" data-scroll-target="#extra-credit-opportunities">Extra Credit Opportunities</a></li>
   <li><a href="#ai-policy" id="toc-ai-policy" class="nav-link" data-scroll-target="#ai-policy">AI Policy</a></li>
   <li><a href="#additional-information" id="toc-additional-information" class="nav-link" data-scroll-target="#additional-information">Additional Information</a></li>
+  <li><a href="#subject-to-change-policy" id="toc-subject-to-change-policy" class="nav-link" data-scroll-target="#subject-to-change-policy">Subject to Change Policy</a></li>
+  </ul></li>
   <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
   </ul>
 </nav>
@@ -230,150 +199,152 @@ window.Quarto = {
 <p><em>This document does not replace the official syllabus in the course brightspace page</em></p>
 </center>
 <p><br></p>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>The course is designed to introduce students to basic data analysis techniques. Coverage will include the application of probability distributions such as the normal, the <span class="math inline">\(t\)</span>, and the binomial; sampling distributions, basic statistical inference methods, analysis of variance, applied linear regression techniques, logistic regression time series analysis, statistical quality control, and decision analysis.</p>
-<p><strong>Course Website</strong>: <a href="https://davi-moreira.github.io/2025S_business_statistics_purdue_MGMT305" target="_blank">https://davi-moreira.github.io/2025S_business_statistics_purdue_MGMT305</a></p>
+<section id="course-description-and-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="course-description-and-objectives">Course Description and Objectives</h2>
+<p>The course enables students to navigate the entire predictive analytics pipeline skillfully—from data preparation and exploration to modeling, assessment, and interpretation. Throughout the course, learners engage with real-world examples and hands-on labs emphasizing essential programming and analytical skills. By exploring topics such as linear and logistic regression, classification, resampling methods, regularization techniques, tree-based approaches, support vector machines, and advanced learning paradigms (including neural networks and unsupervised methods), participants gain a robust theoretical understanding and practical experience. Ultimately, students will leave the course equipped to apply predictive models to data-driven problems, communicate their findings to diverse audiences, and critically evaluate model performance to inform strategic decision-making across various business contexts.</p>
+<p><strong>Course Website</strong>: <a href="https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/" target="_blank">https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/</a></p>
 </section>
 <section id="instructor" class="level2">
 <h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
 <section id="instructor-professor-davi-moreira" class="level3">
 <h3 class="anchored" data-anchor-id="instructor-professor-davi-moreira">Instructor: <a href="https://davi-moreira.github.io">Professor Davi Moreira</a></h3>
 <ul>
-<li>Office: Young Hall 414</li>
 <li>Email: <a href="mailto:dmoreira@purdue.edu">dmoreira@purdue.edu</a></li>
-<li>Virtual Office hours: Zoom link in your Course Brightspace Page</li>
-<li>Individual Appointments: Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.</li>
+<li>Office: Young Hall 414</li>
+<li>Virtual Office hours: <em>Zoom link in your Course Brightspace Page</em></li>
+<li>Individual Appointments: <em>Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.</em></li>
 </ul>
 </section>
 </section>
 <section id="learning-outcomes" class="level2">
 <h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
-<p>By the end of this course, students will be able to:</p>
+<p>By the conclusion of this course, students will be able to:</p>
 <ol type="1">
-<li>Understand the basic statistical principles and their applications in the area of management and business.</li>
-<li>Understand fundamental issues in business and management.</li>
-<li>Describe and use the commonly used statistical techniques for analyzing business data.</li>
-<li>Understand the impacts of recent developments in big data and AI in business and management.</li>
-<li>Be proficient in using Excel to carry out statistical and analytics methods covered in the course.</li>
+<li><p><strong>Explain Core Predictive Analytics Concepts:</strong> Articulate key principles of statistical learning and predictive analytics, including fundamental terminology, modeling strategies, and the role of data-driven insights in business contexts.</p></li>
+<li><p><strong>Prepare and Explore Data Effectively:</strong> Demonstrate proficiency in cleaning, organizing, and exploring datasets, applying tools and techniques for data preprocessing, feature engineering, and exploratory analysis.</p></li>
+<li><p><strong>Implement Diverse Modeling Techniques:</strong> Construct predictive models using linear and logistic regression, classification methods, resampling procedures, and regularization techniques.</p></li>
+<li><p><strong>Assess and Interpret Model Performance:</strong> Evaluate the accuracy, robustness, and interpretability of predictive models, critically examining issues such as overfitting, bias-variance trade-offs, and cross-validation results.</p></li>
+<li><p><strong>Communicate Analytical Findings:</strong> Present analytical outcomes and model interpretations to technical and non-technical audiences, crafting clear, concise, and visually effective reports or presentations.</p></li>
+<li><p><strong>Integrate Predictive Analytics into Decision-Making:</strong> Recommend actionable strategies based on model findings, demonstrating the ability to align analytical results with organizational objectives and inform evidence-based decision processes.</p></li>
 </ol>
-</section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<p>Our main goal is to instill the basic quantitative and data analysis skills needed by managers in modern business, where Business Analytics and Data Science have become important. These skills will help managers to understand and carry out data-based decision making, risk assessments, and policy making and to work effectively with data analysis teams to improve all aspects of business performance.</p>
-<p>Modern data analysis is done using computers and various types of sophisticated software. Therefore, to most effectively introduce management candidates to its techniques, we will also emphasize software applications (with Microsoft Excel, R, or Python) in this course.</p>
 </section>
 <section id="course-materials" class="level2">
 <h2 class="anchored" data-anchor-id="course-materials">Course Materials</h2>
-<ol type="1">
-<li><strong>Textbook</strong>: Anderson, Sweeney, Williams, Camn, Cochran, Fry, and Ohlmann: Modern Business Statistics with Microsoft Excel, 7th edition, 2020, Cengage Learning, Inc.&nbsp;(Required). This text is also used in STAT 30301.</li>
-<li><strong>Handouts</strong>: Lecture slides and supplementary materials. These are posted on Brightspace (Brightspace -&gt; Content -&gt; Table of Contents -&gt; ….)</li>
-</ol>
-</section>
-<section id="course-infrastructure" class="level2">
-<h2 class="anchored" data-anchor-id="course-infrastructure">Course Infrastructure</h2>
 <ul>
-<li><strong>Brightspace</strong>: The Course Brightspace Page (<a href="https://purdue.brightspace.com/" class="uri">https://purdue.brightspace.com/</a>) should be checked on a regular basis for announcements and course material.</li>
-<li><strong>Software</strong>: Microsoft Excel will be used for in-class demonstrations and instruction. The main tool is Data Analysis under Tools. If you don’t see this tool, follow these steps to add it in:
-<ul>
-<li>File &gt; Options &gt; Add-ins &gt; Select Analysis ToolPak and Analysis ToolPak-VBA (also select StatTools 7.5, if available) &gt; Go &gt; Data &gt; Data Analysis (to conduct analyses)</li>
-</ul></li>
-<li><strong>Course Website</strong>: This class website will be used throughout the course, but it does not replace the Course Brightspace Page.</li>
+<li><p><strong>Textbooks (Required): [ISLP]</strong> James, G., Witten, D., Hastie, T., &amp; Tibshirani, R. (2023). An Introduction to Statistical Learning with Applications in Python. Springer. https://doi.org/10.1007/978-1-0716-2926-2. Download here: <a href="https://www.statlearning.com/" target="_blank">https://www.statlearning.com/</a></p></li>
+<li><p><strong>Computing (Required):</strong> A laptop or desktop with internet access and the capability to run Python code through Google Colab: <a href="https://colab.research.google.com/" target="_blank">https://colab.research.google.com/</a>.</p></li>
+<li><p><strong>Software (Required):</strong> <a href="https://colab.research.google.com/" target="_blank">Google Colab</a> is a cloud-based platform that requires no software installation on your local machine; it is accessible through a modern web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari. To use Google Colab, you need a Google account and a stable internet connection. While optional, having tools like a local Python installation (e.g., Anaconda) or a Python IDE (e.g., Jupyter Notebook or VS Code) can be helpful for offline development. Additionally, browser extensions, such as those for VS Code integration, can enhance your experience but are not required. This makes Google Colab convenient and easy for Python programming and data science tasks.</p></li>
 </ul>
+<section id="course-infra-structure" class="level3">
+<h3 class="anchored" data-anchor-id="course-infra-structure">Course Infra-structure</h3>
+<p><strong>Brightspace:</strong> The Course Brightspace Page <a href="https://purdue.brightspace.com/" class="uri">https://purdue.brightspace.com/</a> should be checked on a regular basis for announcements and course material.</p>
+</section>
 </section>
 <section id="assessments" class="level2">
 <h2 class="anchored" data-anchor-id="assessments">Assessments</h2>
-<section id="grading" class="level3">
-<h3 class="anchored" data-anchor-id="grading">Grading</h3>
-<p>Following a university-wide initiative, the School has adopted an Official Grading Policy for core courses such as MGMT 30500. Under this policy, the overall GPA for this class can be no higher than 3.0. To comply with this course policy, final course letter grades will be based on the curved class final course percentages. The final course percentage is based on a weighted percentage computed using the weights shown in the table below:</p>
+<p>As part of a university-wide initiative, the Business School has adopted an <strong>Official Grading Policy</strong> that caps the overall class GPA at 3.3. Final letter grades are determined by curving final percentages, subject to any extra-credit exceptions discussed in this syllabus. While you will see your final percentage in Brightspace, individual grade thresholds will not be disclosed before official submissions.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th><strong>Assignment</strong></th>
-<th style="text-align: center;"><strong>Percentage</strong></th>
+<th><strong>Assessment</strong></th>
+<th style="text-align: right;"><strong>Weight</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Homework*</td>
-<td style="text-align: center;">40%</td>
-</tr>
-<tr class="even">
-<td>Quizzes**</td>
-<td style="text-align: center;">15%</td>
-</tr>
-<tr class="odd">
-<td>Midterms***</td>
-<td style="text-align: center;">15%</td>
-</tr>
-<tr class="even">
 <td>Attendance/Participation</td>
-<td style="text-align: center;">7%</td>
+<td style="text-align: right;">10%</td>
+</tr>
+<tr class="even">
+<td>Quizzes</td>
+<td style="text-align: right;">20%</td>
 </tr>
 <tr class="odd">
-<td>Final****</td>
-<td style="text-align: center;">23%</td>
+<td>Homework</td>
+<td style="text-align: right;">30%</td>
+</tr>
+<tr class="even">
+<td>Final Project</td>
+<td style="text-align: right;">40%</td>
 </tr>
 </tbody>
 </table>
-<p>*There are eight homework assignments. No homework assignment is dropped. The final homework score is calculated using aggregated points.</p>
-<p>**There are three quizzes worth 5% each. Quizzes 2 and 3 are not cumulative.</p>
-<p>***There are two midterms: each is worth 7.5%. Midterms are not cumulative.</p>
-<p>**** Final is cumulative.</p>
+<section id="attendance-and-participation" class="level3">
+<h3 class="anchored" data-anchor-id="attendance-and-participation">Attendance and Participation</h3>
+<p>Attend class, participate in activities, and complete any participatory exercises. Random attendance checks will be used to measure involvement. According to Purdue regulations, students are expected to attend every class/lab meeting for which they are registered.</p>
+</section>
+<section id="quizzes" class="level3">
+<h3 class="anchored" data-anchor-id="quizzes">Quizzes</h3>
+<p>Regular quizzes based on lecture material will be administered, with no drops. Due dates and details will be on Brightspace. Quizzes help reinforce content and maintain steady engagement.</p>
 </section>
 <section id="homework" class="level3">
 <h3 class="anchored" data-anchor-id="homework">Homework</h3>
-<p>Homework assignments are uploaded to Brightspace and must be submitted as a single PDF or Word file with all relevant outputs. Late submissions are not accepted. Ensure to:</p>
-<ul>
-<li>Include all software outputs addressing the homework questions.</li>
-<li>Clearly identify each problem with its respective chapter and problem number.</li>
-<li>Do not copy and paste datasets into your submissions.</li>
-</ul>
-<p>Discuss problems with classmates, but ensure individual submissions. Duplicate papers are considered cheating.</p>
+<p>Homework assignments offer practical, hands-on exposure to data mining tasks. Expect multiple-choice questions requiring analysis of provided results. Deadlines will be posted in Brightspace. These assignments are crucial for building technical and analytical skills.</p>
 </section>
-<section id="quizzes-and-exams" class="level3">
-<h3 class="anchored" data-anchor-id="quizzes-and-exams">Quizzes and Exams</h3>
-<ul>
-<li>Quizzes: Three quizzes will be given, with none being cumulative. Exceptional circumstances for make-ups require documentation.</li>
-<li>Exams: Two midterms (7.5% each) and one final (23%) will test technical and conceptual understanding. Calculators without internet access are required. Makeup exams are only granted for documented exceptional circumstances.</li>
-</ul>
-</section>
-<section id="attendance-and-participation" class="level3">
-<h3 class="anchored" data-anchor-id="attendance-and-participation">Attendance and Participation</h3>
-<p>Random attendance will be recorded through participation activities during class time. Participation in class discussions is essential and will influence the grade.</p>
+<section id="final-project" class="level3">
+<h3 class="anchored" data-anchor-id="final-project">Final Project</h3>
+<p>In groups, students will complete a practical predictive analytics project culminating in a poster presentation at the Undergraduate Research Conference. A comprehensive set of project guidelines will be provided, and the assessment structure will adhere to the following criteria:</p>
+<ol type="1">
+<li><p>Milestone Deliverables (40%): Students will submit incremental project components on specific due dates. These deliverables allow for early feedback and ensure steady progress throughout the semester. Grades will reflect each milestone’s clarity, completeness, and timely submission.</p></li>
+<li><p>Peer Evaluation (20%): To encourage accountability and productive teamwork, students will evaluate their peers’ contributions. These assessments help ensure balanced participation and measure collaborative effectiveness.</p></li>
+<li><p>Poster Presentation at the Purdue Undergraduate Research Conference (40%): A poster template and assessment rubric will be shared, and you are encouraged to review previous award-winning student posters for inspiration. Your final posters must be submitted by the due date indicated in the syllabus, after which they will be printed and distributed during a dedicated Poster Presentation Preparation class. Additional details on the conference can be found at <a href="https://www.purdue.edu/undergrad-research/conferences/index.php" target="_blank">https://www.purdue.edu/undergrad-research/conferences/index.php</a>. As the event may not coincide with our regular class time, please communicate with your other course instructors in advance regarding potential scheduling conflicts. If any issues arise, please let me know. We will not hold our usual class immediately following the Poster Presentation, allowing you time to rest and catch up on other coursework. Consult the course schedule for further details.</p></li>
+</ol>
 </section>
 <section id="grade-challenges" class="level3">
 <h3 class="anchored" data-anchor-id="grade-challenges">Grade Challenges</h3>
-<p>Challenges to grades must be submitted within 7 calendar days of the grade announcement, with the exception of the final homework, which has a 3-day window. Provide specific details and reasons for challenges via email.</p>
-</section>
-<section id="extra-credit-opportunity" class="level3">
-<h3 class="anchored" data-anchor-id="extra-credit-opportunity">Extra Credit Opportunity</h3>
-<p>A bonus will be provided if at least 85% of the class completes the midterm and/or final course evaluations.</p>
-</section>
-</section>
-<section id="keys-to-success" class="level2">
-<h2 class="anchored" data-anchor-id="keys-to-success">Keys to Success</h2>
+<p>Grades and solutions will be posted soon after each assignment deadline. Students have <strong>7 calendar days</strong> from the grade posting to submit any challenge (3 days for the final two quizzes and homework assignments). Challenges must be based on legitimate discrepancies regarding data mining principles or grading accuracy.</p>
 <ol type="1">
-<li>Consistent Effort: Follow the schedule diligently.</li>
-<li>Pre-Class Preparation: Review materials and exercises beforehand.</li>
-<li>Class Materials: Ensure accessibility of readings and notes.</li>
-<li>Engagement: Regularly practice problems and seek clarifications.</li>
-<li>Active Learning: Actively engage with materials and presentations.</li>
-</ol>
-</section>
-<section id="ai-policy" class="level2">
-<h2 class="anchored" data-anchor-id="ai-policy">AI Policy</h2>
-<p>Students are encouraged to use AI tools for learning enhancement but must adhere to the following:</p>
+<li><strong>Review posted solutions</strong> thoroughly.<br>
+</li>
+<li>If you suspect an error, email Dr.&nbsp;Moreira with:
 <ul>
-<li>AI tools are prohibited during exams.</li>
-<li>Refine prompts for effective outputs.</li>
-<li>Use AI for learning, not solution generation.</li>
-<li>Cite any use of AI tools in submissions.</li>
+<li>Course name, section, and lecture day/time<br>
+</li>
+<li>Your name and Student ID<br>
+</li>
+<li>Assignment/Exam Title or Number<br>
+</li>
+<li>Specific deduction questioned<br>
+</li>
+<li>Clear rationale referencing solutions or rubrics</li>
+</ul></li>
+</ol>
+<blockquote class="blockquote">
+<p><em>No grades will be discussed in-class. Please use office hours for clarifications. After the 7-day (or 3-day) window, grades are final.</em></p>
+</blockquote>
+</section>
+</section>
+<section id="course-policies-and-additional-details" class="level2">
+<h2 class="anchored" data-anchor-id="course-policies-and-additional-details">Course Policies and Additional Details</h2>
+<section id="extra-credit-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="extra-credit-opportunities">Extra Credit Opportunities</h3>
+<ul>
+<li>Check the Course Syllabus document on Brightspace for details.</li>
 </ul>
 </section>
-<section id="additional-information" class="level2">
-<h2 class="anchored" data-anchor-id="additional-information">Additional Information</h2>
+<section id="ai-policy" class="level3">
+<h3 class="anchored" data-anchor-id="ai-policy">AI Policy</h3>
+<ul>
+<li>You may use AI tools to support your learning (e.g., clarifying concepts, generating examples), but:
+<ol type="1">
+<li><strong>Do not</strong> use AI for requesting solutions or exams.<br>
+</li>
+<li>Practice refining prompts to get better AI outputs.<br>
+</li>
+<li>Verify all AI-generated content for accuracy.<br>
+</li>
+<li>Cite any AI usage in your documents.</li>
+</ol></li>
+</ul>
+</section>
+<section id="additional-information" class="level3">
+<h3 class="anchored" data-anchor-id="additional-information">Additional Information</h3>
 <p>Refer to Brightspace for deadlines, academic integrity policies, accommodations, CAPS information, and non-discrimination statements.</p>
+</section>
+<section id="subject-to-change-policy" class="level3">
+<h3 class="anchored" data-anchor-id="subject-to-change-policy">Subject to Change Policy</h3>
+<p>While we will endeavor to maintain the course schedule, the syllabus may be adjusted to accommodate the learning pace and needs of the class.</p>
+</section>
 </section>
 <section id="schedule" class="level2">
 <h2 class="anchored" data-anchor-id="schedule"><a href="./schedule.html">Schedule</a></h2>

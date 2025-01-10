@@ -11,53 +11,50 @@ subtitle: "Mitch. Daniels School of Business, Purdue University"
 
 *IMPORTANT*
 
-*This document does not replace the official information in the course brightspace page*
+*This document does not replace the official material in the course brightspace page*
 
 </center>
 
 <br>
 
-## Course Description
+## Course Description and Objectives
 
-XXX This course is designed to introduce students to basic data analysis techniques. Coverage will include the application of probability distributions such as the normal, the $t$, and the binomial; sampling distributions, basic statistical inference methods, analysis of variance, applied linear regression techniques, logistic regression time series analysis, statistical quality control, and decision analysis.
+The course enables students to navigate the entire predictive analytics pipeline skillfully—from data preparation and exploration to modeling, assessment, and interpretation. Throughout the course, learners engage with real-world examples and hands-on labs emphasizing essential programming and analytical skills. By exploring topics such as linear and logistic regression, classification, resampling methods, regularization techniques, tree-based approaches, support vector machines, and advanced learning paradigms (including neural networks and unsupervised methods), participants gain a robust theoretical understanding and practical experience. Ultimately, students will leave the course equipped to apply predictive models to data-driven problems, communicate their findings to diverse audiences, and critically evaluate model performance to inform strategic decision-making across various business contexts.
 
-**Course Website**: [https://davi-moreira.github.io/2025F_business_statistics_purdue_MGMT305](https://davi-moreira.github.io/2025F_business_statistics_purdue_MGMT305){target="_blank"}
+**Course Website**: [https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/](https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/){target="_blank"}
 
 ### Instructor: [Professor Davi Moreira](https://davi-moreira.github.io)
 
--   Email: [dmoreira\@purdue.edu](mailto:dmoreira@purdue.edu)
--   Virtual Office hours: *Zoom link in your Course Brightspace Page*
--   Individual Appointments: *Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.*
+-   Email: [dmoreira@purdue.edu](mailto:dmoreira@purdue.edu)
+-   Office: Young Hall 414
+-   Virtual Office hours: _Zoom link in your Course Brightspace Page_
+-   Individual Appointments: _Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment._
 
 ## Learning Outcomes
 
-By the end of this course, students will be able to:
+By the conclusion of this course, students will be able to:
 
-1.  Understand the basic statistical principles and their applications in the area of management and business.
-2.  Understand fundamental issues in business and management.
-3.  Describe and use the commonly used statistical techniques for analyzing business data.
-4.  Understand the impacts of recent developments in big data and AI in business and management.
-5.  Be proficient in using Excel to carry out statistical and analytics methods covered in the course.
+1.	**Explain Core Predictive Analytics Concepts:** Articulate key principles of statistical learning and predictive analytics, including fundamental terminology, modeling strategies, and the role of data-driven insights in business contexts.
 
-## Objective
+2.	**Prepare and Explore Data Effectively:** Demonstrate proficiency in cleaning, organizing, and exploring datasets, applying tools and techniques for data preprocessing, feature engineering, and exploratory analysis.
 
-Our main goal is to instill the basic quantitative and data analysis skills needed by managers in modern business, where Business Analytics and Data Science have become important. These skills will help managers to understand and carry out data-based decision making, risk assessments, and policy making and to work effectively with data analysis teams to improve all aspects of business performance.
+3.	**Implement Diverse Modeling Techniques:** Construct predictive models using linear and logistic regression, classification methods, resampling procedures, and regularization techniques.
 
-Modern data analysis is done using computers and various types of sophisticated software. Therefore, to most effectively introduce management candidates to its techniques, we will also emphasize software applications (with Microsoft Excel, R, or Python) in this course.
+4.	**Assess and Interpret Model Performance:** Evaluate the accuracy, robustness, and interpretability of predictive models, critically examining issues such as overfitting, bias-variance trade-offs, and cross-validation results.
 
-### Course Materials
+5.	**Communicate Analytical Findings:** Present analytical outcomes and model interpretations to technical and non-technical audiences, crafting clear, concise, and visually effective reports or presentations.
 
-The following are learning materials:
+6.	**Integrate Predictive Analytics into Decision-Making:** Recommend actionable strategies based on model findings, demonstrating the ability to align analytical results with organizational objectives and inform evidence-based decision processes.
 
-1.  Text book: Anderson, Sweeney, Williams, Camn, Cochran, Fry, and Ohlmann: Modern Business Statistics with Microsoft Excel, 7th edition, 2018, Cengage Learning, Inc. (Required) This text is also used in STAT 30301.
-2.  Handouts: Lecture Slides and Supplementary Materials. (Posted in this page and on Brightspace: Brightspace -\> Content -\> Table of Contents -\> ….)
+## Course Materials
 
-### Course Infra-structure
+- **Textbooks (Required): [ISLP]** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2023). An Introduction to Statistical Learning with Applications in Python. Springer. https://doi.org/10.1007/978-1-0716-2926-2. Download here: [https://www.statlearning.com/](https://www.statlearning.com/){target="_blank"} 
+
+- **Computing (Required):** A laptop or desktop with internet access and the capability to run Python code through Google Colab: [https://colab.research.google.com/](https://colab.research.google.com/){target="_blank"}. 
+
+- **Software (Required):** [Google Colab](https://colab.research.google.com/){target="_blank"} is a cloud-based platform that requires no software installation on your local machine; it is accessible through a modern web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari. To use Google Colab, you need a Google account and a stable internet connection. While optional, having tools like a local Python installation (e.g., Anaconda) or a Python IDE (e.g., Jupyter Notebook or VS Code) can be helpful for offline development. Additionally, browser extensions, such as those for VS Code integration, can enhance your experience but are not required. This makes Google Colab convenient and easy for Python programming and data science tasks.
+
+## Course Infra-structure
 
 **Brightspace:** The Course Brightspace Page <https://purdue.brightspace.com/> should be checked on a regular basis for announcements and course material.
 
-**Software:** Microsoft Excel will be used for in-class demonstrations and instruction. The main tool is Data Analysis under Tools. If you don’t see this tool, follow the following steps to add in:
-
--   File -\> Options -\> Add-ins -\> Select Analysis ToolPak and Analysis ToolPak-VBA (also select StatTools 7.5, if available) -\> Go -\> Data -\> Data Analysis (to conduct analyses)
-
-**Course Website:** This class website will be used throughout the course, but it does not replace the Course Brightspace Page.

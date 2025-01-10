@@ -151,14 +151,8 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../material.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Materials</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../schedule.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Schedule</span></a>
+ <span class="menu-text">Schedule and Material</span></a>
   </div>
 </li>
     </ul>
@@ -517,7 +511,7 @@ Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p + \epsilon,
 <li>The ideal scenario is when the predictors are uncorrelated — a <em>balanced design</em>:
 <ul>
 <li>Each coefficient can be estimated and tested separately.</li>
-<li>Interpretations such as <em>“a unit change in <span class="math inline">\(X_j\)</span> is associated with a <span class="math inline">\(\beta_j\)</span> change in <span class="math inline">\(Y\)</span>, while all the other variables stay fixed”</em> are possible.</li>
+<li>Interpretations such as *“a unit change in* <span class="math inline">\(X_j\)</span> is associated with a <span class="math inline">\(\beta_j\)</span> change in <span class="math inline">\(Y\)</span>, while all the other variables stay fixed” are possible.</li>
 </ul></li>
 <li>Correlations amongst predictors cause problems:
 <ul>
@@ -543,11 +537,11 @@ Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p + \epsilon,
 <ul>
 <li>Given estimates ( _0, _1, , _p ), we can make predictions using the formula:</li>
 </ul>
-<p>[ = _0 + _1x_1 + _2x_2 + + _px_p. ]</p>
+<p>[ = _0 + _1x_1 + _2x_2 + + _px_p.&nbsp;]</p>
 <ul>
 <li>We estimate ( _0, _1, , _p ) as the values that minimize the sum of squared residuals:</li>
 </ul>
-<p>[ RSS = _{i=1}^n (y_i - <em>i)^2 ] [ = </em>{i=1}^n ( y_i - _0 - <em>1x</em>{i1} - <em>2x</em>{i2} - - <em>px</em>{ip} )^2. ]</p>
+<p>[ RSS = _{i=1}^n (y_i - <em>i)^2 ] [ =</em> ^n ( y_i - _0 - <em>1x</em>{i1} - <em>2x</em>{i2} - - <em>px</em>{ip} )^2. ]</p>
 <ul>
 <li>This is done using standard statistical software. The values ( _0, _1, , _p ) that minimize ( RSS ) are the multiple least squares regression coefficient estimates.</li>
 </ul>
@@ -754,14 +748,14 @@ F = \frac{(TSS - RSS) / p}{RSS / (n - p - 1)} \sim F_{p, n-p-1}
 <section id="qualitative-predictors-continued" class="level2">
 <h2 class="anchored" data-anchor-id="qualitative-predictors-continued">Qualitative Predictors — Continued</h2>
 <p>Example: investigate differences in credit card balance between males and females, ignoring the other variables. We create a new variable:</p>
-[ x_i =
+<p>[ x_i =</p>
 <span class="math display">\[\begin{cases}
 1 &amp; \text{if } i\text{th person is female} \\
 0 &amp; \text{if } i\text{th person is male}
 \end{cases}\]</span>
 <p>]</p>
 <p>Resulting model:</p>
-[ y_i = _0 + _1 x_i + _i =
+<p>[ y_i = _0 + _1 x_i + _i =</p>
 <span class="math display">\[\begin{cases}
 \beta_0 + \beta_1 + \epsilon_i &amp; \text{if } i\text{th person is female} \\
 \beta_0 + \epsilon_i &amp; \text{if } i\text{th person is male.}
@@ -774,11 +768,11 @@ F = \frac{(TSS - RSS) / p}{RSS / (n - p - 1)} \sim F_{p, n-p-1}
 <p><strong>Results for gender model:</strong></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 29%">
+<col style="width: 27%">
 <col style="width: 19%">
 <col style="width: 17%">
 <col style="width: 19%">
-<col style="width: 13%">
+<col style="width: 16%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -813,7 +807,7 @@ F = \frac{(TSS - RSS) / p}{RSS / (n - p - 1)} \sim F_{p, n-p-1}
 <ul>
 <li>For example, for the <code>ethnicity</code> variable, we create two dummy variables:</li>
 </ul>
-$$ x_{i1} =
+<p>$$ x_{i1} =</p>
 <span class="math display">\[\begin{cases}
       1 &amp; \text{if i-th person is Asian} \\
       0 &amp; \text{if i-th person is not Asian}
@@ -846,11 +840,11 @@ y_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \epsilon_i
 <h2 class="anchored" data-anchor-id="results-for-ethnicity">Results for Ethnicity</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 29%">
-<col style="width: 19%">
+<col style="width: 32%">
 <col style="width: 17%">
-<col style="width: 19%">
-<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 17%">
+<col style="width: 15%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1076,13 +1070,6 @@ mpg = \\beta_0 + \\beta_1 \\times horsepower + \\beta_2 \\times horsepower^2 + \
 \]</span></p>
 <p>may provide a better fit.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 27%">
-<col style="width: 20%">
-<col style="width: 17%">
-<col style="width: 19%">
-<col style="width: 14%">
-</colgroup>
 <thead>
 <tr class="header">
 <th></th>
