@@ -1,0 +1,392 @@
+---
+title: "<span style = 'font-size: 100%;'> MGMT 17300: Data Mining Lab </span>"
+subtitle: "<span style = 'font-size: 150%;'> Intro. & Technical Enablers </span>"
+author: "Professor: Davi Moreira"
+date: "2024-08-01"
+date-format: "MMMM DD, YYYY"
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    width: 1600
+    height: 900
+    center: true
+    slide-number: true
+    incremental: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    #logo: images/quarto.png
+    footer: "Data Mining Lab"
+    theme: [simple,custom.scss]
+---
+
+# Welcome! {background-color="#cfb991"}
+
+## Overview
+
+::: {.nonincremental}
+
+::: columns
+::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
+-   Introductions
+-   Course Overview and Logistics
+-   Motivation
+-   Course Objectives
+:::
+
+::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
+-   Key Topics
+    - M3DM and other approaches.  
+    - Key terms.
+    - M3DM three technical pillars.
+:::
+:::
+
+:::
+
+# Introductions
+
+## Instructor
+
+::: columns
+::: {.column width="40%" style="text-align: center; justify-content: center; align-items: center;"}
+```{r  echo=FALSE, out.width = "60%",fig.align="center"}
+knitr::include_graphics("figs/davi_moreira_photo.JPG") 
+```
+
+[dmoreira\@purdue.edu](dmoreira@purdue.edu)
+
+[https://davi-moreira.github.io/](https://davi-moreira.github.io/)
+:::
+
+::: {.column width="60%" style="text-align: center; justify-content: center; align-items: center;"}
+-   Clinical Assistant Professor in the Management Department at Purdue University;
+
+<br>
+
+-   My academic work addresses Political Communication, Data Science, Text as Data, Artificial Intelligence, and Comparative Politics.
+
+<br>
+
+-   [M&E Specialist consultant - World Bank (Brazil, Mozambique, Angola, and DRC)](https://blogs.worldbank.org/opendata/improving-how-we-measure-progress-community-biodiversity-conservation-projects-mozambique)
+:::
+:::
+
+## Instructor's Passions
+
+```{r  echo=FALSE, out.width = "20%", fig.align="center"}
+knitr::include_graphics("figs/palmeiras_logo.png") 
+```
+
+```{r  echo=FALSE, out.width = "45%", fig.align="center"}
+knitr::include_graphics("figs/palmeiras_stadium.jpg") 
+```
+
+<center>
+
+::: {style="font-size: 80%;"}
+[The Most Exciting Game in History - Video](https://www.youtube.com/watch?v=FCebgeX_3hI&t=89s)
+:::
+
+</center>
+
+<br> <br>
+
+## Instructor's Passions
+
+```{r  echo=FALSE, out.width = "25%", fig.align="center"}
+knitr::include_graphics("figs/carnaval_olinda.jpg") 
+```
+
+<center>[NYT - How John Travolta Became the Star of Carnival](https://www.nytimes.com/2024/02/13/world/americas/brazil-carnival-john-travolta.html)[-Video.](https://www.nytimes.com/video/world/americas/100000009311331/the-star-of-this-carnival-is-a-giant-john-travolta-puppet.html?auth=login-google1tap&login=google1tap)</center>
+
+<br>
+
+## Students
+
+<br>
+
+-   It is your turn! - 5 minutes
+
+<br>
+
+-   Present yourself to your left/right colleague and tell her/him what are the current two main passions in your life.
+
+# Course Overview and Logistics {background-color="#cfb991"}
+
+## Course Overview and Logistics
+
+-   **Materials**:
+
+    -   Brightspace
+
+    -   [Course Webpage](https://davi-moreira.github.io/2024F_data_mining_MGMT173/){target="_blank"}
+
+-   [**Syllabus**](https://davi-moreira.github.io/2024F_data_mining_MGMT173/){target="_blank"}
+
+-   [**Schedule**](https://davi-moreira.github.io/2024F_data_mining_MGMT173/){target="_blank"}
+
+
+## Modern Data Driven Decision Making - Text Book
+
+<br>
+
+```{r  echo=FALSE, out.width = "50%",fig.align="center"}
+knitr::include_graphics("figs/m3dm_cover.png") 
+```
+
+
+# Motivation {background-color="#cfb991"}
+
+# What motivated you to enroll in the Data Mining Lab course? {background-color="#cfb991"}
+
+<br>
+<br>
+
+<center>
+Gradescope!
+</center>
+
+## Motivation
+
+::: columns
+::: {.column width="60%" style="text-align: center; justify-content: center; align-items: center;"}
+<!---Statistics can be defined as the science of collecting, analyzing, interpreting, presenting, and organizing data to make informed business decisions. It involves using mathematical theoriesto process numerical information and draw meaningful conclusions. The primary goal of statistics in business is to help managers and decision-makers understand data patterns, trends, and relationships, enabling them to make data-driven decisions, optimize operations, forecast future events, and reduce uncertainty. --->
+
+<br>
+
+<br>
+
+<br>
+
+> "Without data, you're just another person with an opinion." – W. Edwards Deming
+:::
+
+::: {.column width="40%" style="text-align: center; justify-content: center; align-items: center;"}
+```{r  echo=FALSE, out.width = "70%",fig.align="center"}
+knitr::include_graphics("figs/w_edwards_deming.jpg") 
+```
+
+W. Edwards Deming
+
+[Wiki](https://en.wikipedia.org/wiki/W._Edwards_Deming)
+:::
+:::
+
+# Study Design {background-color="#cfb991"}
+
+## Study Design
+
+::: columns
+::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
+**Observational**
+
+In observational studies, no attempt is made to control or influence the variables of interest. A survey is a good example.
+
+<br> <br> <br>
+
+> An example of an observational study is researchers observing a randomly selected group of customers that enter a Walmart Supercenter to collect data on variables such as time spent in the store, gender of the customer, and the amount spent.
+:::
+
+::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
+**Experimental** 
+
+An experimental study involves the active manipulation of one or more independent variables to observe their effect on a dependent variable, while controlling for confounding factors. Participants are typically randomly assigned to groups (e.g., treatment vs. control), and outcomes are compared to determine causal relationships. This design provides strong evidence for cause-and-effect due to the controlled environment and random assignment.
+
+<!---The researcher actively manipulates one or more independent (treatment) variables to observe the effect on a dependent (outcome) variable, while controlling for other potential confounding factors. This type of study aims to establish causal relationships between variables. In an experimental study, subjects are usually randomly assigned to different groups or conditions (e.g., treatment vs. control), and the outcomes are compared to determine the impact of the manipulated variable. The strength of experimental studies lies in their ability to provide strong evidence for cause-and-effect relationships due to the controlled environment and random assignment.--->
+
+> The largest experimental study ever conducted is believed to be the [1954 Public Health Service experiment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1114166/) for the Salk polio vaccine. Nearly two million U.S. children (grades 1 through 3) were selected.
+:::
+:::
+
+
+## Study Design
+
+<br>
+
+<br>
+
+```{r  echo=FALSE, out.width = "2%",fig.align="center"}
+knitr::include_graphics("figs/xkcd.png") 
+```
+
+<br>
+
+<br>
+
+<br>
+
+## Study Design: Random Assignment vs. Random Sampling
+
+<br>
+
+<br>
+
+```{r  echo=FALSE, out.width = "50%",fig.align="center"}
+knitr::include_graphics("figs/random_assignment_sampling.png") 
+```
+
+<br>
+
+<br>
+
+# Modern Data Driven Decision Making {background-color="#cfb991"}
+
+## Text Book
+
+<br>
+
+```{r  echo=FALSE, out.width = "50%",fig.align="center"}
+knitr::include_graphics("figs/m3dm_cover.png") 
+```
+
+
+## Modern Data Driven Decision Making 
+
+<br>
+
+```{r  echo=FALSE, out.width = "50%",fig.align="center"}
+knitr::include_graphics("figs/m3dm_pillars.png") 
+```
+
+<br>
+
+<br>
+
+## Modern Data Driven Decision Making 
+
+<br>
+
+```{r  echo=FALSE, out.width = "50%",fig.align="center"}
+knitr::include_graphics("figs/m3dm_goal.png") 
+```
+
+<br>
+
+<br>
+
+# Statistical Inference {background-color="#cfb991"}
+
+## Statistical Inference
+
+<br>
+
+<br>
+
+::: columns
+::: {.column width="40%" style="text-align: center; justify-content: center; align-items: center;"}
+```{r  echo=FALSE, out.width = "80%",fig.align="center"}
+knitr::include_graphics("figs/inference.svg") 
+```
+:::
+
+::: {.column width="50%" style="text-align: left; justify-content: center; align-items: center;"}
+::: fragment
+::: r-fit-text
+-   **Population**: the set of all elements of interest in a particular study.
+
+-   **Sample**: a subset of the population.
+
+-   **Descriptive Statistics**: Tabular, graphical, and numerical summaries of data.
+
+-   **Inferential Statistics**: The process of using data from the sample to make estimates or test hypotheses about the characteristics of a population
+
+-   **Estimation**: Using sample data to approximate population parameters.
+
+-   **Hypotheses Testing**: Determining if there is enough evidence in a sample to support a claim about a population.
+
+-   **Prediction**: Forecasting future events based on historical data.
+:::
+:::
+:::
+:::
+
+# Summarizing and Presenting Data {background-color="#cfb991"}
+
+## Summarizing and Presenting Data {.smaller}
+
+<br>
+
+```{r  echo=FALSE, out.width = "50%",fig.align="center"}
+knitr::include_graphics("figs/steve-jobs-pie.jpg") 
+```
+
+<br>
+
+<center>[June 9th Apple CEO Steve Jobs - Post](https://paragraft.wordpress.com/2008/06/03/the-chart-junk-of-steve-jobs/)</center>
+
+<br>
+
+## Summarizing and Presenting Data {.smaller}
+
+```{r  echo=FALSE, out.width = "70%",fig.align="center"}
+knitr::include_graphics("figs/pie-vs-bar.png") 
+```
+
+<br>
+
+<center>[Problems with pie charts - Post](https://stats.stackexchange.com/questions/8974/problems-with-pie-charts)</center>
+
+<br>
+
+
+
+# Data Science, Big Data, and Data Mining {background-color="#cfb991"}
+
+## Data Science, Big Data, and Data Mining - Definitions
+
+::: {.nonincremental}
+
+-   **Data Science**:
+    -   The interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.
+-   **Big Data**:
+    -   Extremely large datasets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions.
+-   **Data Mining**:
+    -   The practice of examining large databases to generate new information, involving methods at the intersection of machine learning, statistics, and database systems.
+
+:::
+
+## How Data Science, Big Data, and Data Mining are Used
+
+::: {.nonincremental}
+
+::: r-fit-text
+
+-   **Data Science**:
+    -   Personalizing marketing efforts by analyzing customer data to predict preferences and buying behavior.
+    -   Optimizing supply chain management through predictive analytics.
+-   **Big Data**:
+    -   Analyzing customer feedback and social media interactions to improve customer service and develop new products.
+    -   Enhancing risk management in financial institutions by monitoring transaction patterns and detecting fraudulent activities.
+-   **Data Mining**:
+    -   Identifying potential leads and sales opportunities by analyzing past sales data and customer demographics.
+    -   Enhancing customer retention by understanding churn patterns and developing targeted retention strategies.
+
+:::
+:::
+
+# Summary {background-color="#cfb991"}
+
+## Summary
+
+::: {.nonincremental}
+
+- **Modern Data Driven Decision Making (M3DM)**:
+  - M3DM is essential in leveraging data to guide business decisions.
+  - The approach integrates statistics, machine learning, and data management to inform and optimize strategies.
+  
+- **Technical Pillars**:
+
+    - **Data Acquisition**: Gathering relevant and high-quality data.
+    - **Data Processing**: Cleaning, transforming, and organizing data for analysis.
+    - **Data Analysis**: Using statistical and machine learning techniques to extract insights.
+
+- **Practical Application**:
+  
+    - Real-world applications of M3DM include predictive analytics, customer segmentation, and operational optimization.
+    - Data-driven decisions can significantly enhance business performance and competitive advantage.
+
+:::
+
+# Thank you! {background-color="#cfb991"}

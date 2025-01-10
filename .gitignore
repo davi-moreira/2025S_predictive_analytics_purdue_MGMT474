@@ -1,3 +1,32 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+_command_line_activity_solution.qmd
+_command_line_activity_solution.html
+_command_line_activity_solution_files/
+
+/.quarto/
+
+_complementary_material/
+_syllabus/
+_syllabus_docx/
+_adm_stuff/
+_test_ignore/
+_00_py4ps_install_guide/
+_handouts/
+# figs/
+#images/
+_homework/
+_lecture_notes/
+_quizzes/
+_supplemental_material/
+_grades/
+_grade/
+grades/
+grade/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -160,3 +189,4 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+.Rproj.user

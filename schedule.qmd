@@ -1,0 +1,92 @@
+---
+title: "Schedule"
+author: "Davi Moreira"
+# date-modified: "last-modified"
+# date: "2025-01-13"
+# date-format: "MMM D, YYYY"
+# listing:
+#   - id: schedule
+#     contents:
+#       - topics/topic-*.qmd
+#     type: table
+#     fields: [week, title, subtitle, date]
+#     field-display-names:
+#       week: "Week"
+#       title: "Topic"
+#       description: "Dates"
+#       subtitle: "Description"
+#     date-format: "MMMM DD, YYYY to MMMM DD, YYYY"
+#     sort: [filename]
+#     sort-ui: false
+#     filter-ui: false
+ #tbl-colwidths: [5,20,50,25]
+editor: visual
+---
+
+::: overflow-table
+| Date | Topic | Book Sections\* | Slides\*\* | Data | Supplementary Materials |
+|------------|------------|-------------|------------|------------|------------|
+| Aug 19 | Intro. & Basic Stat. & Prob. Rvw. | Syl., 1.2, 1.4, 1.5 | [slides](/lecture_slides/01_chapter_data_statistics/01_chapter_data_statistics.html){target="_blank"} | [data](/lecture_slides/01_chapter_data_statistics/data/hudson_auto_repair.xlsx){target="_blank"} | \- [**Video**: The NBA Data Scientist](https://www.youtube.com/watch?v=MpLHMKTolVw&list=PLkIselvEzpM5nFf4nu--q2OGccA_0alYO){target="_blank"}<br>- [**Video**: Hans Rosling's 200 Countries, 200 Years](https://www.youtube.com/watch?v=jbkSRLYSojo&list=PLkIselvEzpM5nFf4nu--q2OGccA_0alYO&index=1){target="_blank"}<br>- [IMS: Introduction to data](https://openintro-ims.netlify.app/introduction-to-data){target="_blank"} |
+| Aug 21 | Basic Stat. & Prob. Rvw. | 1.8, 3.3 (omit Chebyshev), 3.4, 3.5 | [slides](/lecture_slides/03_chapter_descriptive_statistics/03_chapter_descriptive_statistics.html){target="_blank"} | [data](/lecture_slides/03_chapter_descriptive_statistics/data/data.zip){target="_blank"} | \- [**Video**: Data Basics: Observations, Variable, and Data Matrices](https://www.youtube.com/watch?v=Mjif8PTgzUs&list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8){target="_blank"}<br>- [**Video**: Summarizing and Graphing Numerical Data](https://www.youtube.com/watch?v=Xm0PPtci3JE&list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8){target="_blank"}<br>- [**Video**: Exploring Categorical Data](https://www.youtube.com/watch?v=7NhNeADL8fA&list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8){target="_blank"}<br>-[IMS: Exploratory data analysis](https://openintro-ims.netlify.app/exploratory-data-analysis){target="_blank"} |
+| Aug 23 | Basic Stat. & Prob. Rvw. | 6.2, t Dist. Supplement | [slides](/lecture_slides/06_chapter_continuous_probability_distributions/06_chapter_continuous_probability_distributions.html){target="_blank"} | . | \- [**Video**: Normal Distribution](https://www.youtube.com/watch?v=S_p5D-YXLS4&list=PLkIselvEzpM6V9h55s0l9Kzivih9BUWeW){target="_blank"}<br> |
+| Aug 26 | Int. Est. Rvw. | 8.1, 8.2, 8.3, 8.4 | [slides](/lecture_slides/08_chapter_interval_estimation/08_chapter_interval_estimation.html){target="_blank"} | . | \- [**Video**: Point Estimates and Sampling Variability](https://www.youtube.com/watch?v=oLW_uzkPZGA&list=PLkIselvEzpM4SHQojH116fYAQJLaN_4Xo){target="_blank"}<br> - [**Video**: Confidence Intervals](https://www.youtube.com/watch?v=A6_W8qY8zJo&list=PLkIselvEzpM4SHQojH116fYAQJLaN_4Xo){target="_blank"}<br>- [**Video**: Inferences for Proportions](https://www.youtube.com/watch?v=_iFAZgpWsx0&list=PLkIselvEzpM5Gn-sHTw1NF0e8IvMxwHDW){target="_blank"}<br>- [**Video**: t-distribution](https://www.youtube.com/watch?v=uVEj2uBJfq0&list=PLkIselvEzpM5G3IO1tzQ-DUThsJKQzQCD){target="_blank"}<br>- [**Video**: Inference for one mean](https://www.youtube.com/watch?v=RYVIGj1l4xs&list=PLkIselvEzpM5G3IO1tzQ-DUThsJKQzQCD){target="_blank"}<br>- [IMS: Inference with mathematical models](https://openintro-ims.netlify.app/foundations-mathematical){target="_blank"}<br>- [IMS: Confidence intervals with bootstrapping](https://openintro-ims.netlify.app/foundations-bootstrapping){target="_blank"}<br> - [IMS: Inference for a single proportion](https://openintro-ims.netlify.app/inference-one-prop){target="_blank"}<br> -[IMS: Inference for a single mean](https://openintro-ims.netlify.app/inference-one-mean){target="_blank"} |
+| Aug 28 | Hyp. Testing Rvw. | 9.1, 9.2, 9.4, 9.5 | [slides](/lecture_slides/09_chapter_hypothesis_tests/09_chapter_hypothesis_tests.html){target="_blank"} | . | \- [**Video**: Hypothesis Testing Fundamentals](https://www.youtube.com/watch?v=NVbPE1_Cbx8&list=PLkIselvEzpM4SHQojH116fYAQJLaN_4Xo){target="_blank"}<br> - [IMS: Hypothesis testing with randomization](https://openintro-ims.netlify.app/foundations-randomization){target="_blank"}<br>- [MD: Hypothesis Testing](https://moderndive.com/9-hypothesis-testing.html){target="_blank"} |
+| Aug 30 | Hyp. Testing Rvw. | 11.1, 11.2 | [slides](/lecture_slides/11_chapter_inference_pop_variance/11_chapter_inference_pop_variance.html){target="_blank"} | [data](/lecture_slides/11_chapter_inference_pop_variance/data/data.zip){target="_blank"} | \- [Blog: There is Still Only One Test](There%20is%20still%20only%20one%20test){target="_blank"}<br> - [Nature: Statisticians issue warning over misuse of P-values](https://www.nature.com/articles/nature.2016.19503){target="_blank"}<br> - [ASA: Statement on Statistical Significance and p-values](https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf) |
+| **Sep 1** | **Homework 1 due date** | **Basic Stat. & Prob. Rvw.** | . | . | . |
+| **Sep 2** | **Labor Day** | **No class** | . | . | . |
+| **Sep 3** | **Quiz 1** | **Review Material (Chs. 1 – 12)** | . | . | . |
+| **Sep 4** | **No class** | **No class** | . | . | . |
+| Sep 6 | Analysis of Variance | 13.1, 13.2 | [slides](/lecture_slides/13_chapter_one_way_anova/13_chapter_one_way_anova.html){target="_blank"} | [data](/lecture_slides/13_chapter_one_way_anova/data/data.zip){target="_blank"} | \- [**Video**: ANOVA Introduction](https://www.youtube.com/watch?v=W36DMVJ4Ibo&list=PLkIselvEzpM5G3IO1tzQ-DUThsJKQzQCD&index=6){target="_blank"}<br> - [**Video**: Conditions for ANOVA](https://www.youtube.com/watch?v=HGFiWMA5OC8&list=PLkIselvEzpM5G3IO1tzQ-DUThsJKQzQCD&index=7){target="_blank"}<br> - [**Video**: Multiple comparisons](https://www.youtube.com/watch?v=THG0P3YNbdI&list=PLkIselvEzpM5G3IO1tzQ-DUThsJKQzQCD){target="_blank"}<br> -[IMS: Inference for comparing many means](https://openintro-ims.netlify.app/inference-many-means){target="_blank"} |
+| **Sep 8** | **Homework 2 due date** | **Int. Est. & Hyp. Testing Rvw.** | . | . | . |
+| Sep 9 | Simple Regression | 14.1 | [slides](/lecture_slides/14_chapter_simple_regression/14_chapter_simple_regression.html){target="_blank"} | [data](/lecture_slides/14_chapter_simple_regression/data/data.zip){target="_blank"} | \- [**Video**: Line Fitting, Residuals, and Correlation](https://www.youtube.com/watch?v=mPvtZhdPBhQ&list=PLkIselvEzpM63ikRfN41DNIhSgzboELOM){target="_blank"}<br> - [**Video**: Fitting a Line with Least Squares Regression](https://www.youtube.com/watch?v=z8DmwG2G4Qc&list=PLkIselvEzpM63ikRfN41DNIhSgzboELOM){target="_blank"}<br> - [**Video**: Least Squares Regression](https://www.youtube.com/watch?v=yqf0L_WEaW0&list=PLkIselvEzpM63ikRfN41DNIhSgzboELOM){target="_blank"}<br> - [**Video**: Types of Outliers in Linear Regression](https://www.youtube.com/watch?v=jZEKAlo1E54&list=PLkIselvEzpM63ikRfN41DNIhSgzboELOM){target="_blank"}<br> - [**Video**: Inference for Linear Regression](https://www.youtube.com/watch?v=depiT-hTaGA&list=PLkIselvEzpM63ikRfN41DNIhSgzboELOM){target="_blank"}<br> -[IMS: Linear regression with a single predictor](https://openintro-ims.netlify.app/model-slr){target="_blank"}<br> -[IMS: Inference for linear regression with a single predictor](https://openintro-ims.netlify.app/inf-model-slr){target="_blank"} |
+| Sep 11 | Simple Regression | 14.2, 14.3 | [slides](/lecture_slides/14_chapter_simple_regression/14_chapter_simple_regression.html){target="_blank"} | . | . |
+| Sep 13 | Simple Regression | 14.4, 14.5 | [slides](/lecture_slides/14_chapter_simple_regression/14_chapter_simple_regression.html){target="_blank"} | . | . |
+| Sep 16 | Simple Regression | 14.6, 14.7 | [slides](/lecture_slides/14_chapter_simple_regression/14_chapter_simple_regression.html){target="_blank"} | . | . |
+| Sep 18 | Simple Regression | 14.8 | [slides](/lecture_slides/14_chapter_simple_regression/14_chapter_simple_regression.html){target="_blank"} | . | . |
+| Sep 20 | Simple Regression | 14.9 | [slides](/lecture_slides/14_chapter_simple_regression/14_chapter_simple_regression.html){target="_blank"} | . | . |
+| **Sep 22** | **Homework 3 due date** | **Simple Regression** |  |  |  |
+| . | . | . |  |  |  |
+| Sep 23 | Multiple Regression | 15.1 | [slides](/lecture_slides/15_chapter_multiple_regression/15_chapter_multiple_regression.html){target="_blank"} | [data](/lecture_slides/15_chapter_multiple_regression/data/data.zip){target="_blank"} | \- [**Video**: Introduction to Multiple Regression](https://www.youtube.com/watch?v=sQpAuyfEYZg&list=PLkIselvEzpM5f1HYzIjFt52SD4izsJ2_I){target="_blank"}<br>- [**Video**: Model Selection in Multiple Regression](https://www.youtube.com/watch?v=VB1qSwoF-l0&list=PLkIselvEzpM5f1HYzIjFt52SD4izsJ2_I){target="_blank"}<br>- [**Video**: Checking Multiple Regression Diagnostics Using Graphs](https://www.youtube.com/watch?v=3KSUeYMKt5A&list=PLkIselvEzpM5f1HYzIjFt52SD4izsJ2_I){target="_blank"}<br>-[IMS: Linear regression with multiple predictors](https://openintro-ims.netlify.app/model-mlr){target="_blank"}<br>-[IMS: Inference for linear regression with multiple predictors](https://openintro-ims.netlify.app/inf-model-mlr){target="_blank"} |
+| Sep 25 | Multiple Regression | 15.2 | [slides](/lecture_slides/15_chapter_multiple_regression/15_chapter_multiple_regression.html){target="_blank"} | . | . |
+| Sep 27 | Multiple Regression | **Midterm 1 Review** | . | . | . |
+| **Sep 30** | **Midterm 1 (6:30 pm – 7:30 pm, UC 114)** | **Analysis of Variance and Simple Regression** | . | . | . |
+| Oct 2 | Multiple Regression | 15.3, 15.4 | [slides](/lecture_slides/15_chapter_multiple_regression/15_chapter_multiple_regression.html){target="_blank"} | . | . |
+| Oct 4 | Multiple Regression | 15.5, 15.6 | [slides](/lecture_slides/15_chapter_multiple_regression/15_chapter_multiple_regression.html){target="_blank"} | . | . |
+| **Oct 6** | **Homework 4 due date** | **Multiple Regression Pt. 1** | . | . | . |
+| **Oct 7-8** | **Oct Break** | **No Class** | . | . | . |
+| Oct 9 | Multiple Regression | 15.7 | [slides](/lecture_slides/15_chapter_multiple_regression/15_chapter_multiple_regression.html){target="_blank"} | . | . |
+| Oct 11 | Multiple Regression | 15.8 | [slides](/lecture_slides/15_chapter_multiple_regression/15_chapter_multiple_regression.html){target="_blank"} | . | . |
+| **Oct 14** | **Quiz 2** | **Multiple Regression** | . | . | . |
+| Oct 16 | Model Building | 16.1 | [slides](/lecture_slides/16_chapter_model_building/16_chapter_model_building.html){target="_blank"} | [data](/lecture_slides/16_chapter_model_building/data/data.zip){target="_blank"} | \- [**Video**: Model Selection in Multiple Regression](https://www.youtube.com/watch?v=VB1qSwoF-l0&list=PLkIselvEzpM5f1HYzIjFt52SD4izsJ2_I){target="_blank"}<br>- [IMS: Model Selection](https://openintro-ims.netlify.app/model-mlr#sec-model-selection){target="_blank"}<br>- [IMS: Multicollinearity](https://openintro-ims.netlify.app/inf-model-mlr#sec-inf-mult-reg-collin){target="_blank"}<br>- [IMS: Cross-validation for prediction error](https://openintro-ims.netlify.app/inf-model-mlr#sec-inf-mult-reg-cv){target="_blank"} |
+| Oct 18 | Model Building | 16.2 | [slides](/lecture_slides/16_chapter_model_building/16_chapter_model_building.html){target="_blank"} | . | . |
+| Oct 21 | Model Building | 16.3, 16.4 | [slides](/lecture_slides/16_chapter_model_building/16_chapter_model_building.html){target="_blank"} | . | . |
+| **Oct 23** | **Homework 5 due date** | **Multiple Regression Pt.** 2 | . | . | . |
+| Oct 23 | Logistic Regression | Supplement in Brightspace and Slides | [slides](/lecture_slides/16_02_logistic_regression/16_02_logistic_regression.html){target="_blank"} | . | \- [**Video**: Basic Ideas of Logistic Regression](https://www.youtube.com/watch?v=uYC2eLVSpI8&list=PLkIselvEzpM5f1HYzIjFt52SD4izsJ2_I){target="_blank"}<br>- [IMS: Logistic regression](https://openintro-ims.netlify.app/model-logistic){target="_blank"}<br>- [IMS: Inference for logistic regression](https://openintro-ims.netlify.app/inf-model-logistic){target="_blank"} |
+| Oct 25 | Logistic Regression | Supplement in Brightspace and Slides | [slides](/lecture_slides/16_02_logistic_regression/16_02_logistic_regression.html){target="_blank"} | . | . |
+| **Oct 28** | **Midterm 2 Review** | **Mult. Regr. Model Bldg Log. Regr.** | . | . | . |
+| **Oct 29** | **Homework 6 due date** | **Logistic Regression** | . | . | . |
+| **31** | **Midterm 2 (6:30 pm – 7:30 pm, UC 114)** | **Mult. Regr. Model Bldg Log. Regr.** | . | . | . |
+| Nov 1 | Time Series | 17.1 | [slides](/lecture_slides/17_chapter_time_series/17_chapter_time_series.html){target="_blank"} | [data](/lecture_slides/17_chapter_time_series/data/data.zip){target="_blank"} | [**Video**: Time Series Forecast Using Forecast Sheet in Excel](https://www.youtube.com/watch?v=WU6UKKuVGY8){target="_blank"} |
+| Nov 4 | Time Series | 17.2, 17.3 | [slides](/lecture_slides/17_chapter_time_series/17_chapter_time_series.html){target="_blank"} | . | . |
+| Nov 6 | Time Series | 17.4, 17.5 | [slides](/lecture_slides/17_chapter_time_series/17_chapter_time_series.html){target="_blank"} | . | . |
+| Nov 8 | Time Series | 17.6 | [slides](/lecture_slides/17_chapter_time_series/17_chapter_time_series.html){target="_blank"} | . | . |
+| **Nov 10** | **Homework 7 due date** | **Time Series** | . | . | . |
+| **Nov 11** | **No class** | **No class** | . | . | . |
+| **Nov 12** | **Quiz 3** | **Time Series** | . | . | . |
+| Nov 13 | Quality Control | 19.1 | [slides](/lecture_slides/19_chapter_quality_control/19_chapter_quality_control.html){target="_blank"} | . | . |
+| Nov 15 | Quality Control | 19.2, 19.3 | [slides](/lecture_slides/19_chapter_quality_control/19_chapter_quality_control.html){target="_blank"} | . | . |
+| Nov 18 | Decision Analysis | 20.1 | [slides](/lecture_slides/20_chapter_decision_analysis/20_chapter_decision_analysis.html){target="_blank"} | . | [**Video**: Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM){target="_blank"} |
+| Nov 20 | Decision Analysis | 20.2 | [slides](/lecture_slides/20_chapter_decision_analysis/20_chapter_decision_analysis.html){target="_blank"} | . | . |
+| Nov 22 | Decision Analysis | 20.3, 20.4 | [slides](/lecture_slides/20_chapter_decision_analysis/20_chapter_decision_analysis.html){target="_blank"} | . | . |
+| Nov 25 | Asynchronous Class | Video or set of videos and activity. | Posted at Brightspace. | . | . |
+| **Nov 27-30** | **Thanksgiving Break** | **No Class** | . | . | . |
+| **Dec 1** | **Homework 8 due date** | **Quality Control and Decision Analysis** | . | . | . |
+| Dec 2 | Final Exam Review | Cumulative | . | . | . |
+| Dec 4 | Final Exam Review | Cumulative | . | . | . |
+| **Dec 6** | **Final Exam Preparation** | **No Class** | . | . | . |
+| **TBD** | **Final Exam** | **Cumulative** | . | . | . |
+:::
+
+\*Section Numbers refer to sections in the course textbook.
+
+\*\* Course material adapted from the textbook and previous course editions to better fit our curriculum. Thanks to Professor Jen Tang for guidance and for generously sharing the materials.

@@ -1,0 +1,272 @@
+---
+title: "<span style = 'font-size: 100%;'> MGMT 47400: Predictive Analytics </span>"
+subtitle: "<span style = 'font-size: 150%;'> Syllabus, Logistics,  and  Introduction</span>"
+author: "Professor: Davi Moreira"
+#date: "2024-08-01"
+date-format: "MMMM DD, YYYY"
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    width: 1600
+    height: 900
+    center: true
+    slide-number: true
+    incremental: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    #logo: images/quarto.png
+    footer: "Data Mining Lab"
+    theme: [simple,custom.scss]
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+---
+
+# Welcome! {background-color="#cfb991"}
+
+## Overview
+
+:::::: nonincremental
+::::: columns
+::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
+
+-   Introductions
+-   Course Overview and Logistics
+-   Motivation
+-   Course Objectives
+
+:::
+
+::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
+
+-   XXX
+
+
+:::
+:::::
+::::::
+
+# Introductions
+
+## Instructor
+
+::::: columns
+::: {.column width="40%" style="text-align: center; justify-content: center; align-items: center;"}
+```{r  echo=FALSE, out.width = "60%",fig.align="center"}
+knitr::include_graphics("figs/davi_moreira_photo.JPG") 
+```
+
+[dmoreira\@purdue.edu](dmoreira@purdue.edu)
+
+<https://davi-moreira.github.io/>
+:::
+
+::: {.column width="60%" style="text-align: center; justify-content: center; align-items: center;"}
+-   Clinical Assistant Professor in the Management Department at Purdue University;
+
+<br>
+
+-   My academic work addresses Political Communication, Data Science, Text as Data, Artificial Intelligence, and Comparative Politics.
+
+<br>
+
+-   [M&E Specialist consultant - World Bank (Brazil, Mozambique, Angola, and DRC)](https://blogs.worldbank.org/opendata/improving-how-we-measure-progress-community-biodiversity-conservation-projects-mozambique)
+:::
+:::::
+
+## Instructor's Passions
+
+```{r  echo=FALSE, out.width = "17%", fig.align="center"}
+knitr::include_graphics("figs/palmeiras_logo.png") 
+```
+
+```{r  echo=FALSE, out.width = "40%", fig.align="center"}
+knitr::include_graphics("figs/palmeiras_stadium.jpg") 
+```
+
+<center>
+
+::: {style="font-size: 80%;"}
+[The Most Exciting Game in History - Video](https://www.youtube.com/watch?v=FCebgeX_3hI&t=89s)
+:::
+
+</center>
+
+<br> <br>
+
+## Instructor's Passions
+
+```{r  echo=FALSE, out.width = "25%", fig.align="center"}
+knitr::include_graphics("figs/carnaval_olinda.jpg") 
+```
+
+<center>[NYT - How John Travolta Became the Star of Carnival](https://www.nytimes.com/2024/02/13/world/americas/brazil-carnival-john-travolta.html)[-Video.](https://www.nytimes.com/video/world/americas/100000009311331/the-star-of-this-carnival-is-a-giant-john-travolta-puppet.html?auth=login-google1tap&login=google1tap)</center>
+
+<br>
+
+## Students
+
+<br>
+
+-   It is your turn! - 5 minutes
+
+<br>
+
+-   Present yourself to your left/right colleague and tell her/him what are the current two main passions in your life.
+
+# Course Overview and Logistics {background-color="#cfb991"}
+
+## Course Overview and Logistics
+
+-   **Materials**:
+
+    -   Brightspace
+
+    -   [Course Webpage](https://davi-moreira.github.io/2024F_data_mining_MGMT173/){target="_blank"}
+
+-   [**Syllabus**](https://davi-moreira.github.io/2025S_data_mining_lab_MGMT173/){target="_blank"}
+
+-   [**Schedule**](https://davi-moreira.github.io/2025S_data_mining_lab_MGMT173/){target="_blank"}
+
+# Motivation {background-color="#cfb991"}
+
+<!---
+
+## Statistical Learning Problems
+
+- **Identify the risk factors for prostate cancer.**
+
+- Classify a recorded phoneme based on a log-periodogram.
+
+- Predict whether someone will have a heart attack on the basis of demographic, diet, and clinical measurements.
+
+- Customize an email spam detection system.
+
+- Identify the numbers in a handwritten zip code.
+
+- Classify a tissue sample into one of several cancer classes, based on a gene expression profile.
+
+- Establish the relationship between salary and demographic variables in population survey data.
+
+- Classify the pixels in a LANDSAT image, by usage.
+
+--->
+
+## Spam Detection
+
+- Data from 4601 emails sent to an individual (named George, at HP Labs, before 2000). Each is labeled as *spam* or *email*.
+- Goal: build a customized spam filter.
+- Input features: relative frequencies of 57 of the most commonly occurring words and punctuation marks in these email messages.
+
+| Word   | Spam | Email |
+|--------|------|-------|
+| george | 0.00 | 1.27  |
+| you    | 2.26 | 1.27  |
+| hp     | 0.02 | 0.90  |
+| free   | 0.52 | 0.07  |
+| !      | 0.51 | 0.11  |
+| edu    | 0.01 | 0.29  |
+| remove | 0.28 | 0.01  |
+
+*Average percentage of words or characters in an email message equal to the indicated word or character. We have chosen the words and characters showing the largest difference between spam and email.*
+
+
+## Zip Code
+
+Identify the numbers in a handwritten zip code.
+
+```{r  echo=FALSE, out.width = "40%", fig.align="center"}
+knitr::include_graphics("figs/zip_code.png") 
+```
+
+## The Supervised Learning Problem
+
+**Starting point:**
+
+- Outcome measurement $Y$ (also called dependent variable, response, target).
+
+- Vector of $p$ predictor measurements $X$ (also called inputs, regressors, covariates, features, independent variables).
+
+- In the regression problem, $Y$ is quantitative (e.g., price, blood pressure).
+
+- In the classification problem, $Y$ takes values in a finite, unordered set (e.g., survived/died, digit 0–9, cancer class of tissue sample).
+
+- We have training data $(x_1, y_1), \ldots, (x_N, y_N)$. These are observations (examples, instances) of these measurements.
+
+## Objectives
+
+On the basis of the training data, we would like to:
+
+- Accurately predict unseen test cases.
+- Understand which inputs affect the outcome, and how.
+- Assess the quality of our predictions and inferences.
+
+## Philosophy
+
+- It is important to understand the ideas behind the various techniques, in order to know how and when to use them.
+
+- One has to understand the simpler methods first, in order to grasp the more sophisticated ones.
+
+- It is important to accurately assess the performance of a method, to know how well or how badly it is working (simpler methods often perform as well as fancier ones!).
+
+- This is an exciting research area, having important applications in science, industry, and finance.
+
+- Statistical learning is a fundamental ingredient in the training of a modern *data scientist*.
+
+## Unsupervised Learning
+
+- No outcome variable, just a set of predictors (features) measured on a set of samples.
+
+- Objective is more fuzzy:
+
+    - Find groups of samples that behave similarly.
+    - Find features that behave similarly.
+    - Find linear combinations of features with the most variation.
+
+- Difficult to know how well you are doing.
+
+- Different from supervised learning, but can be useful as a pre-processing step for supervised learning.
+
+
+## The Netflix Prize
+
+- Competition started in October 2006. Training data is ratings for 18,000 movies by 400,000 Netflix customers, each rating between 1 and 5.
+
+- Training data is very sparse—about 98% missing.
+
+- Objective is to predict the rating for a set of 1 million customer-movie pairs that are missing in the training data.
+
+- Netflix’s original algorithm achieved a root MSE of 0.953.
+
+- The first team to achieve a 10% improvement wins one million dollars.
+
+- Is this a supervised or unsupervised problem?
+
+
+## Statistical Learning versus Machine Learning
+
+- Machine learning arose as a subfield of Artificial Intelligence.
+
+- Statistical learning arose as a subfield of Statistics.
+
+- **There is much overlap—both fields focus on supervised and unsupervised problems:**
+    - Machine learning has a greater emphasis on *large scale applications* and *prediction accuracy*.
+    - Statistical learning emphasizes *models* and their *interpretability*, and *precision* and *uncertainty*.
+
+- The distinction has become more blurred, with significant cross-fertilization.
+
+- Machine learning has the upper hand in *Marketing*!
+
+# Summary {background-color="#cfb991"}
+
+## Summary
+
+::: nonincremental
+- XXX
+
+:::
+
+
+# Thank you! {background-color="#cfb991"}

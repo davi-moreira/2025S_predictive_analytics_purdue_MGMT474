@@ -1,0 +1,21 @@
+/* CSS styles for hyperlinks */
+a {
+  color: #8e6f3e !important; /* Regular link color with !important */
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+a:hover {
+  color: #6e5630 !important; /* Optional: Different color when hovering with !important */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/* CSS styles */
+code {
+  color: #041E42;
+}
+
+/* CSS class for the quarto-sidebar */
+#quarto-sidebar {
+  background-color: #CFB991; /* Change this to your desired color */
+  /* Other styles */
+}

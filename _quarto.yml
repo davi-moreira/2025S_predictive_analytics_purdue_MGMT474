@@ -1,0 +1,68 @@
+# IMPORTANT REFERENCE: https://www.youtube.com/watch?v=uimdXPZc40I&list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo&index=4
+project:
+  type: website
+  output-dir: docs
+  
+
+website:
+  title: "MGMT 47400: Predictive Analytics"
+  sidebar:
+    background: primary
+    logo: "images/mgmt_474_ai_logo_02-modified.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/davi-moreira/2025S_business_statistics_purdue_MGMT305
+        text: GitHub
+    style: docked
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: material.qmd
+        text: Materials
+      - href: schedule.qmd
+        text: Schedule
+#      #- href: problemset.qmd
+#      #  text: Problem Sets
+#      # - href: finalproject.qmd
+#      #  text: Final Project
+#      - section: "Materials"
+#        contents: 
+#          - href: topics-pages/page-topic-01.qmd
+#            text: "Topic 1: Intro"
+#          - href: topics-pages/page-topic-02.qmd
+#            text: "Topic 2: Comp. Literacy"
+#          - href: topics-pages/page-topic-03.qmd
+#            text: "Topic 3: Command Line"
+#          - href: topics-pages/page-topic-04.qmd
+#            text: "Topic 4: Version Control"
+#          - href: topics-pages/page-topic-05.qmd
+#            text: "Topic 5: Python Essentials"
+#          - href: topics-pages/page-topic-06.qmd
+#            text: "Topic 6: Algorithms and Data Structures"
+          ## - href: topics-pages/page-topic-05.qmd
+          ##   text: "Topic 5: Data Structures"
+          ## - href: topics-pages/page-topic-06.qmd
+          ##   text: "Topic 6: SQL"
+          ## - href: topics-pages/page-topic-07.qmd
+          ##   text: "Topic 7: NoSQL"
+          ## - href: topics-pages/page-topic-08.qmd
+          ##   text: "Topic 8: DSM"
+          ## - href: topics-pages/page-topic-09.qmd
+          ##   text: "Topic 9: CPM"
+          ## - href: topics-pages/page-topic-10.qmd
+          ##   text: "Topic 10: Cloud DB"
+          ## - href: topics-pages/page-topic-11.qmd
+          ##   text: "Topic 11: Final Project"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

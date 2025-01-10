@@ -1,0 +1,2208 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
+
+  <meta name="author" content="Professor Davi Moreira ">
+  <title>MGMT 30500: Business Statistics –  MGMT 30500: Business Statistics </title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title"><span style="font-size: 100%;"> MGMT 30500: Business Statistics </span></h1>
+  <p class="subtitle"><span style="font-size: 150%;"> Quality Control </span></p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Professor<br>Davi Moreira<br> 
+</div>
+</div>
+</div>
+
+</section>
+<section id="overview" class="slide level2 center">
+<h2>Overview</h2>
+<div>
+<div class="columns">
+<div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<ul>
+<li><p>Philosophies and frameworks</p></li>
+<li><p>Statistical Process Control (SPC) with Control Charts for</p>
+<ul>
+<li>Process mean (<span class="math inline">\(\mu\)</span>)</li>
+<li>Process variability (Range, R)</li>
+<li>Process proportion of defectives (<span class="math inline">\(p\)</span>)</li>
+<li>Process expected number of defectives (<span class="math inline">\(np\)</span>) in a sample of size <span class="math inline">\(n\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<ul>
+<li>Acceptance Sampling</li>
+<li>Multiple Sampling Plans</li>
+</ul>
+</div></div>
+</div>
+</section>
+<section>
+<section id="quality-control" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Quality Control</h1>
+
+</section>
+<section id="quality" class="slide level2 center">
+<h2>Quality</h2>
+<p>The American Society for Quality (ASQ) defines quality as:</p>
+<p><br></p>
+<blockquote>
+<p>“the characteristics of a product or service that bear on its ability to satisfy stated or implied needs.”</p>
+</blockquote>
+<p><br></p>
+<ul>
+<li class="fragment"><p>U.S. Organizations recognize that they must strive for high levels of quality (Car industry in 1980’s).</p></li>
+<li class="fragment"><p>In addition to managerial philosophy, they have increased the emphasis on statistical methods for monitoring and maintaining quality.</p></li>
+</ul>
+</section>
+<section id="total-quality" class="slide level2 center">
+<h2>Total Quality</h2>
+<ul>
+<li class="fragment"><p><strong>Total Quality (TQ)</strong> is a people-focused management system that aims at continual increase in customer satisfaction at continually lower real cost.</p>
+<ul>
+<li class="fragment">TQ is a total system approach (not a separate work program) and an integral part of high-level strategy. TQ works horizontally across functions (Concurrent engineering).</li>
+<li class="fragment">TQ involves all employees, top to bottom, and extends backward and forward to include both the supply and customer chains.</li>
+<li class="fragment">TQ stresses learning and continuous improvement as keys to organizational success.
+<ul>
+<li class="fragment">Learning -&gt; Improve quality -&gt; Increased productivity -&gt; Lower cost -&gt; Gain in market share -&gt; Stay in business -&gt; Responsibility to society.</li>
+</ul></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="quality-gurus-and-philosophies" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Quality Gurus and Philosophies</h1>
+
+</section>
+<section id="quality-gurus-and-philosophies-1" class="slide level2 center">
+<h2>Quality Gurus and Philosophies</h2>
+<div class="columns">
+<div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<p><br></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/shewhart.jpg" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="https://en.wikipedia.org/wiki/Walter_A._Shewhart"><strong>Dr.&nbsp;Walter A. Shewhart</strong></a></p>
+</div><div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<ul>
+<li class="fragment"><p>Developed a set of principles that are the basis for what is known today as process control.</p></li>
+<li class="fragment"><p>Constructed a diagram that would now be recognized as a statistical control chart.</p></li>
+<li class="fragment"><p>Brought together the disciplines of statistics, engineering, and economics and changed the course of industrial history.</p></li>
+<li class="fragment"><p>Recognized as the father of statistical quality control.</p></li>
+</ul>
+</div></div>
+</section>
+<section id="quality-gurus-and-philosophies-2" class="slide level2 center">
+<h2>Quality Gurus and Philosophies</h2>
+<div class="columns">
+<div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<p><br></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/deming.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="https://en.wikipedia.org/wiki/W._Edwards_Deming"><strong>Dr.&nbsp;W. Edwards Deming</strong></a></p>
+<div class="fragment">
+<blockquote>
+<p>“Without data, you’re just another person with an opinion.”</p>
+</blockquote>
+</div>
+</div><div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<ul>
+<li class="fragment"><p>Helped educate the Japanese on quality management shortly after World War II.</p></li>
+<li class="fragment"><p>Father of modern Total Quality Management: Stressed that the focus on quality must be led by managers.</p></li>
+<li class="fragment"><p>Developed a list of 14 points he believed represent the key responsibilities of managers.</p></li>
+<li class="fragment"><p>Japan named its national quality award the Deming Prize in his honor.</p></li>
+</ul>
+</div></div>
+</section>
+<section id="quality-gurus-and-philosophies-3" class="slide level2 center">
+<h2>Quality Gurus and Philosophies</h2>
+<div class="columns">
+<div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<p><br></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/juran.jpg" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="https://en.wikipedia.org/wiki/Joseph_M._Juran"><strong>Joseph Juran</strong></a></p>
+</div><div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<ul>
+<li class="fragment"><p>Helped educate the Japanese on quality management shortly after World War II.</p></li>
+<li class="fragment"><p>Proposed a simple definition of quality: <strong>fitness for use</strong></p></li>
+<li class="fragment"><p>His approach to quality focused on three quality processes: quality <strong>planning</strong>, quality <strong>control</strong>, and quality <strong>improvement</strong>.</p></li>
+</ul>
+</div></div>
+</section></section>
+<section>
+<section id="quality-frameworks" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Quality Frameworks</h1>
+
+</section>
+<section id="quality-frameworks-malcolm-baldrige-national-quality-award" class="slide level2 center">
+<h2>Quality Frameworks: Malcolm Baldrige National Quality Award</h2>
+<ul>
+<li class="fragment"><p>Established in 1987 and given by the U.S. president to organizations that judged to be outstanding in:</p>
+<ol type="1">
+<li class="fragment">Leadership</li>
+<li class="fragment">Strategy</li>
+<li class="fragment">Customer measurement, analysis, and knowledge management</li>
+<li class="fragment">Workforce</li>
+<li class="fragment">Operations</li>
+<li class="fragment">Results</li>
+</ol></li>
+<li class="fragment"><p>The first awards were presented in 1988.</p></li>
+<li class="fragment"><p>The Award is named for Malcolm Baldrige, who was U.S. Secretary of Commerce from 1981 to 1987.</p></li>
+<li class="fragment"><p>The U.S. Commerce Department’s National Institute of Standards and Technology (NIST) manages the Award.</p></li>
+</ul>
+</section>
+<section id="quality-frameworks-iso-9000-series" class="slide level2 center">
+<h2>Quality Frameworks: ISO 9000 series</h2>
+<ul>
+<li class="fragment"><p>A series of five standards published in 1987 by the International Organization for Standardization in Geneva, Switzerland.</p></li>
+<li class="fragment"><p>The standards describe the need for:</p>
+<ul>
+<li class="fragment">an effective quality system,</li>
+<li class="fragment">ensuring that measuring and testing equipment is calibrated regularly,</li>
+<li class="fragment">maintaining an adequate record-keeping system.</li>
+</ul></li>
+<li class="fragment"><p>ISO 9000 registration determines whether a company complies with its own quality system.</p></li>
+</ul>
+</section>
+<section id="quality-frameworks-six-sigma" class="slide level2 center">
+<h2>Quality Frameworks: Six Sigma</h2>
+<ul>
+<li class="fragment"><p>Emphasizes the importance of taking measurements on critical quality characteristics.</p></li>
+<li class="fragment"><p>Focuses more on the process <strong>variation</strong> than the process mean.</p></li>
+<li class="fragment"><p><strong>A process is a Six Sigma process if its mean is centered, and the distances between the mean and Upper and Lower Specifications are six times the process’s standard deviation (σ).</strong></p></li>
+<li class="fragment"><p>Six sigma level of quality means that for every million opportunities, no more than <strong>3.4</strong> defects will occur if the process mean drifts or shifts slightly.</p></li>
+<li class="fragment"><p>The methodology created to reach this quality goal is referred to as <a href="https://en.wikipedia.org/wiki/Six_Sigma">Six Sigma</a>.</p></li>
+</ul>
+</section>
+<section id="quality-frameworks-six-sigma-1" class="slide level2 center">
+<h2>Quality Frameworks: Six Sigma</h2>
+
+<img data-src="figs/six_sigma.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"><div style="font-size: 70%;">
+<ul>
+<li class="fragment"><p>Six Sigma aims for defects to be so minimal that only <strong>3.4 per million</strong> occur.</p></li>
+<li class="fragment"><p>The target is represented as a bell curve centered at the mean (<span class="math inline">\(\mu\)</span>) with six standard deviations (<span class="math inline">\(\sigma\)</span>) between the mean and the specification limits.</p></li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[
+\text{Defective Rate} = \text{Total Tail Areas}
+\]</span> <span class="math display">\[
+\text{Defective Rate} = \text{NORM.S.DIST(-6, TRUE) + {1 - NORM.S.DIST(6, TRUE)}} \approx 0
+\]</span></p>
+<ul>
+<li class="fragment"><p>With Six Sigma, shifts in the process mean are accommodated.</p>
+<ul>
+<li class="fragment">A shift of 1.5<span class="math inline">\(\sigma\)</span> still maintains low defect rates.</li>
+<li class="fragment">This shift leads to a defect rate of approximately 3.4 per million produced.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="quality-frameworks-service-sector" class="slide level2 center">
+<h2>Quality Frameworks: Service Sector</h2>
+<ul>
+<li class="fragment"><p>Quality control is critical in service businesses (e.g., law firms, hotels, airlines, restaurants, and banks).</p></li>
+<li class="fragment"><p>Focus on customer satisfaction and improving the customer experience.</p></li>
+<li class="fragment"><p>Services are often intangible, making customer satisfaction subjective and quality measurement challenging.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="quality-terminology" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Quality Terminology</h1>
+
+</section>
+<section id="quality-terminology-1" class="slide level2 center">
+<h2>Quality Terminology</h2>
+<ul>
+<li class="fragment"><p><strong>Quality assurance</strong> refers to the entire system of policies, procedures, and guidelines established by an organization to achieve and maintain quality.</p></li>
+<li class="fragment"><p>Quality assurance consists of two functions:</p>
+<ul>
+<li class="fragment"><strong>Quality engineering</strong> - its objective is to include quality in the design of products and processes and to identify potential quality problems prior to production.</li>
+<li class="fragment"><strong>Quality control</strong> consists of making a series of inspections and measurements to determine whether quality standards are being met.</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="statistical-methods-for-quality" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Statistical Methods for Quality</h1>
+
+</section>
+<section id="statistical-methods-for-quality-1" class="slide level2 center">
+<h2>Statistical Methods for Quality</h2>
+<ul>
+<li class="fragment"><p>Statistical Design of Experiments (DOEs): For process and product design.</p>
+<ul>
+<li class="fragment">One-factor ANOVA.</li>
+<li class="fragment">Factorial design, etc.</li>
+</ul></li>
+<li class="fragment"><p><strong>Statistical Process Control (SPC)</strong>: Monitoring and controlling process for stability over time.</p></li>
+<li class="fragment"><p><strong>Acceptance Sampling</strong>: Sorting products into conforming or nonconforming products, and lot sentencing.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="statistical-process-control-spc" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Statistical Process Control (SPC)</h1>
+
+</section>
+<section id="statistical-process-control-spc-1" class="slide level2 center">
+<h2>Statistical Process Control (SPC)</h2>
+<ul>
+<li class="fragment"><p>Critical process quality characteristic is inspected and measured.</p>
+<ul>
+<li class="fragment"><p>There will always be variation in the unit-to-unit measurements.</p></li>
+<li class="fragment"><p>Two types of causes of variation: <strong>Common Causes</strong> and <strong>Assignable Causes</strong>.</p></li>
+<li class="fragment"><p>Common causes are allowed for the time being, but assignable causes need to be removed immediately.</p></li>
+<li class="fragment"><p>Adjusting a process with only common cause variations will increase process variation. (<a href="https://deming.org/explore/the-funnel-experiment/">The Deming’s funnel experiment</a>.)</p></li>
+</ul></li>
+<li class="fragment"><p>The <strong>goal</strong> of SPC is to detect and eliminate the <strong>assignable causes</strong> as soon as possible, based on samples from the process <strong>over time</strong>.</p></li>
+</ul>
+</section>
+<section id="statistical-process-control-spc-common-causes" class="slide level2 center">
+<h2>Statistical Process Control (SPC): Common Causes</h2>
+<ul>
+<li class="fragment"><p>Randomly occurring variations in materials, humidity, temperature, etc.</p></li>
+<li class="fragment"><p>Variation is natural and unexplained.</p></li>
+<li class="fragment"><p>Affecting <strong>all</strong> units/outputs.</p></li>
+<li class="fragment"><p>Variations the producer cannot control (in the short-term).</p></li>
+<li class="fragment"><p>Process is in <strong>statistical control</strong> and hence, does not need adjustment.</p></li>
+</ul>
+</section>
+<section id="statistical-process-control-spc-assignable-causes" class="slide level2 center">
+<h2>Statistical Process Control (SPC): Assignable Causes</h2>
+<ul>
+<li class="fragment">Non-random and identifiable (significant) variations in output due to tools wearing out, operator error, incorrect machine settings of a few machines, poor quality raw material from certain vendors, etc.</li>
+<li class="fragment">Affecting certain or <strong>individual</strong> outputs.</li>
+<li class="fragment">Process is <strong>out of control</strong>, and the producer can and must control (immediately).</li>
+<li class="fragment"><strong>Corrective action</strong> should be taken.</li>
+</ul>
+</section>
+<section id="statistical-process-control-spc-applications" class="slide level2 center">
+<h2>Statistical Process Control (SPC): Applications</h2>
+<div>
+<ul>
+<li>Temperature of a die</li>
+<li>Weights of bags of potato chips of a filling process</li>
+<li>Weekly sales figures</li>
+<li>Customer complaints</li>
+<li>Product responses</li>
+<li>Inventory level</li>
+<li>Absenteeism</li>
+<li>Accidents</li>
+<li>Account receivables</li>
+<li>Process defective rate</li>
+</ul>
+</div>
+</section>
+<section id="spc-vs.-hypothesis-testing" class="slide level2 center">
+<h2>SPC vs.&nbsp;Hypothesis Testing</h2>
+<p>We use SPC to monitor and control the parameters (mean, variability, or proportion) of a process at each time and over time. Based on hypothesis-testing methodology, we have:</p>
+<p><span class="math display">\[
+H_0: \text{Process is in control } (\mu = \mu_0, \text{ or } R = R_0)
+\]</span></p>
+<p><span class="math display">\[
+H_a: \text{Process is out of control}
+\]</span></p>
+<ul>
+<li class="fragment">The test statistic is the monitoring statistic in SPC: <span class="math inline">\(\overline{x}\)</span> for process mean, <span class="math inline">\(\overline{p}\)</span> for process proportion, etc.</li>
+</ul>
+</section>
+<section id="statistical-process-control-spc-decisions-and-errors" class="slide level2 center">
+<h2>Statistical Process Control (SPC): Decisions and Errors</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 44%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Decision</th>
+<th>State of Production Process</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>H<sub>0</sub> True Process in Control</strong></td>
+<td><strong>H<sub>0</sub> False Process Out of Control</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Continue Process</strong></td>
+<td>Correct decision</td>
+<td>Type II error (allowing an out-of-control process to continue)</td>
+</tr>
+<tr class="odd">
+<td><strong>Adjust Process</strong></td>
+<td>Type I error (adjusting an in-control process)</td>
+<td>Correct decision</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<ul>
+<li class="fragment">Control the <strong>Probability of a False Alarm</strong> at <span class="math inline">\(\alpha\)</span> (the significance level).</li>
+</ul>
+</section>
+<section id="statistical-process-control-spc-control-charts" class="slide level2 center">
+<h2>Statistical Process Control (SPC): Control Charts</h2>
+<div style="font-size: 65%;">
+<p>SPC uses graphical displays known as <strong>control charts</strong> to monitor a production process (mean, variability, or percent defectives).</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/x_bar_chart.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment"><p>The Center Line (CL) represents what the process parameter value should be when the process is in control (denoted by <span class="math inline">\(\mu_0\)</span> or <span class="math inline">\(R_0\)</span>).</p></li>
+<li class="fragment"><p>The Upper Control Limit (UCL) and Lower Control Limit (LCL) are the two-sided <strong>critical values</strong> for the monitoring statistic.</p>
+<ul>
+<li class="fragment">They are chosen so that when the process is in control, there will be a high probability that the monitoring statistic value will be between the two lines.</li>
+<li class="fragment">They are chosen to allow common causes variation in the process and hence in the monitoring statistic.</li>
+<li class="fragment">Values outside of the control limits provide strong evidence that the process is out of control.</li>
+</ul></li>
+</ul>
+</div>
+<!---
+# Variables Control Charts
+
+A variable control chart is used to monitor and control a process parameter over time if the process’ quality characteristic, $X$, is continuous or numeric; for example, the completion time of a task, weight of a bag, temperature of a die, etc.
+
+- $\overline{X}$ Chart is used to monitor the process mean ($\mu$) of $X$. The monitoring statistic at time $j$ is the sample mean, $\overline{X}_j$.
+
+- $R$ Chart is used to monitor the process range ($R$), a measure of variability. The monitoring statistic at time $j$ is the sample range, $R_j$.
+
+--->
+</section></section>
+<section>
+<section id="barx-chart-process-mean-and-standard-deviation-known" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Known</h1>
+
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-known-1" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Known</h2>
+<p><strong>Example: KJW Packaging</strong></p>
+<p>When KJW’s cereal carton filling process is in control, the weight of cartons of cereal filled by the process is normally distributed with a mean of 16.05 ounces and a standard deviation of 0.10 ounces.</p>
+<ul>
+<li class="fragment"><strong>Question:</strong> What should be the control limits for <span class="math inline">\(\bar{X}\)</span> based on a sample of n = 10 observations?</li>
+</ul>
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-known-2" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Known</h2>
+<p>Assume in-control process mean is <span class="math inline">\(\mu_0\)</span> and standard deviation is <span class="math inline">\(\sigma\)</span>.</p>
+<p>For each <span class="math inline">\(\bar{X}_j\)</span>,</p>
+<p><span class="math display">\[
+  \text{UCL} = \mu_0 + 3 \frac{\sigma}{\sqrt{n}}
+  \]</span></p>
+<p><span class="math display">\[
+  \text{CL} = \mu_0
+  \]</span></p>
+<p><span class="math display">\[
+  \text{LCL} = \mu_0 - 3 \frac{\sigma}{\sqrt{n}}
+  \]</span></p>
+<p>where <span class="math inline">\(\frac{\sigma}{\sqrt{n}}\)</span> is the standard deviation of <span class="math inline">\(\bar{X}_j\)</span> with a sample size of n.</p>
+<ul>
+<li class="fragment">3 is the z-multiplier with 99.97% confidence level, or a false alarm rate of <span class="math inline">\(\alpha = 0.27\%\)</span>.</li>
+</ul>
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-known-3" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Known</h2>
+<p><strong>Example: KJW Packaging</strong></p>
+<p><span class="math display">\[
+\mu_0 = 16.05, \quad \sigma = 0.10, \quad n = 10
+\]</span></p>
+<p><span class="math display">\[
+\frac{\sigma}{\sqrt{n}} = \frac{0.10}{\sqrt{10}} = 0.032
+\]</span> <span class="math display">\[
+\text{UCL} = 16.05 + 3(0.032) = 16.146
+\]</span></p>
+<p><span class="math display">\[
+\text{CL} = 16.05
+\]</span> <span class="math display">\[
+\text{LCL} = 16.05 - 3(0.032) = 15.954
+\]</span></p>
+<p>A sample mean based on <span class="math inline">\(n\)</span> observations outside the limits indicates the process mean is out of control.</p>
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-known-4" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Known</h2>
+<p><strong>Example: KJW Packaging</strong></p>
+
+<img data-src="figs/x_bar_cereal_filling_process.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"><ul>
+<li class="fragment"><p>Note that the fifth sample shows there is strong evidence that the process is out of control.</p></li>
+<li class="fragment"><p>It indicates that assignable causes of output variation are present and that underfilling is occurring.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="barx-chart-process-mean-and-standard-deviation-unknown" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Unknown</h1>
+
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-unknown-1" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Unknown</h2>
+<ul>
+<li class="fragment"><p><strong>Assume the in-control process mean and standard deviation are unknown.</strong></p>
+<ul>
+<li class="fragment">They need to be estimated from an in-control process.</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<p><strong>Example: Jensen Computer Supplies Problem</strong></p>
+<p>JCS manufactures 3.5-inch-diameter solid state drives. It wants to develop an X-bar (for process mean) and Range charts (for process variability) based on twenty samples of 5 drives each.</p>
+</div>
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-unknown-2" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Unknown</h2>
+<p><strong>Example: Jensen Computer Supplies Problem</strong></p>
+<p>Data and Sample Summary Statistics</p>
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 8%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sample</th>
+<th>Observation 1</th>
+<th>Observation 2</th>
+<th>Observation 3</th>
+<th>Observation 4</th>
+<th>Observation 5</th>
+<th>Mean</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>3.5056</td>
+<td>3.5086</td>
+<td>3.5144</td>
+<td>3.5009</td>
+<td>3.5030</td>
+<td>3.5065</td>
+<td>0.0135</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>3.4882</td>
+<td>3.5085</td>
+<td>3.4884</td>
+<td>3.5250</td>
+<td>3.5031</td>
+<td>3.5026</td>
+<td>0.0368</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>3.4897</td>
+<td>3.4898</td>
+<td>3.4995</td>
+<td>3.5130</td>
+<td>3.4969</td>
+<td>3.4978</td>
+<td>0.0233</td>
+</tr>
+<tr class="even">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr class="odd">
+<td>18</td>
+<td>3.4959</td>
+<td>3.4823</td>
+<td>3.4964</td>
+<td>3.5082</td>
+<td>3.4871</td>
+<td>3.4940</td>
+<td>0.0259</td>
+</tr>
+<tr class="even">
+<td>19</td>
+<td>3.4878</td>
+<td>3.4864</td>
+<td>3.4960</td>
+<td>3.5070</td>
+<td>3.4894</td>
+<td>3.4933</td>
+<td>0.0259</td>
+</tr>
+<tr class="odd">
+<td>20</td>
+<td>3.4969</td>
+<td>3.5144</td>
+<td>3.5053</td>
+<td>3.4985</td>
+<td>3.4885</td>
+<td>3.5007</td>
+<td>0.0259</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>Average</strong></td>
+<td><strong>3.4995</strong></td>
+<td><strong>0.0253</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment">Table of sample observations with 5 observations per sample and calculated means and ranges.</li>
+</ul>
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-unknown-3" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Unknown</h2>
+<p>For each <span class="math inline">\(\bar{X}_j\)</span>,</p>
+<p><span class="math display">\[
+\text{UCL} = \bar{\bar{X}} + A_2 \bar{R}
+\]</span></p>
+<p><span class="math display">\[
+  \text{CL} = \bar{\bar{X}}
+\]</span></p>
+<p><span class="math display">\[
+  \text{LCL} = \bar{\bar{X}} - A_2 \bar{R}
+\]</span></p>
+<p>where:</p>
+<ul>
+<li class="fragment"><span class="math inline">\(\bar{\bar{X}}\)</span> = overall sample mean (e.g., 3.4995)</li>
+<li class="fragment"><span class="math inline">\(\bar{R}\)</span> = average range (e.g., 0.0253)</li>
+<li class="fragment"><span class="math inline">\(A_2\)</span> = constant depending on <span class="math inline">\(n\)</span> (from the “Factors for Control Charts” table)</li>
+</ul>
+</section>
+<section id="factors-for-barx-control-chart" class="slide level2 center">
+<h2>Factors for <span class="math inline">\(\bar{X}\)</span> Control Chart</h2>
+<div style="font-size: 80%;">
+<p>The <a href="https://compass.astm.org/document/?contentCode=ASTM%7CMNL72017004101%7Cen-US&amp;proxycl=https%3A%2F%2Fsecure.astm.org&amp;fromLogin=true"><em>American Society for Testing and Materials Manual on Presentation of Data and Control Chart Analysis</em></a> provides valuses for <span class="math inline">\(d_2\)</span> for different sample sizes (<span class="math inline">\(n\)</span>) as shown below:</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>n</th>
+<th><span class="math inline">\(d_2\)</span></th>
+<th><span class="math inline">\(A_2\)</span></th>
+<th><span class="math inline">\(d_3\)</span></th>
+<th><span class="math inline">\(D_3\)</span></th>
+<th><span class="math inline">\(D_4\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>2.326</td>
+<td>0.577</td>
+<td>0.864</td>
+<td>0</td>
+<td>2.114</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>2.534</td>
+<td>0.483</td>
+<td>0.848</td>
+<td>0</td>
+<td>2.004</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>2.704</td>
+<td>0.419</td>
+<td>0.833</td>
+<td>0.076</td>
+<td>1.924</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>2.847</td>
+<td>0.373</td>
+<td>0.820</td>
+<td>0.136</td>
+<td>1.864</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>2.970</td>
+<td>0.337</td>
+<td>0.808</td>
+<td>0.184</td>
+<td>1.816</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>3.078</td>
+<td>0.308</td>
+<td>0.797</td>
+<td>0.223</td>
+<td>1.777</td>
+</tr>
+<tr class="even">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment"><strong><span class="math inline">\(d_2\)</span></strong> and <strong><span class="math inline">\(d_3\)</span></strong>: Constants used for range calculations.</li>
+<li class="fragment"><strong><span class="math inline">\(A_2\)</span></strong>: Used in <span class="math inline">\(\bar{X}\)</span> charts for control limits.</li>
+<li class="fragment"><strong><span class="math inline">\(D_3\)</span></strong> and <strong><span class="math inline">\(D_4\)</span></strong>: Constants for the R-chart control limits.</li>
+</ul>
+</div>
+</section>
+<section id="factors-for-barx-control-chart-explanation" class="slide level2 center">
+<h2>Factors for <span class="math inline">\(\bar{X}\)</span> Control Chart: Explanation</h2>
+<div style="font-size: 65%;">
+<ol type="1">
+<li class="fragment"><p><strong>n</strong>: The sample size, or the number of observations within each subgroup.</p></li>
+<li class="fragment"><p><strong><span class="math inline">\(d_2\)</span></strong>: A constant used to estimate the mean of the range (<span class="math inline">\(\bar{R}\)</span>) when the sample size <span class="math inline">\(n\)</span> is known.</p></li>
+<li class="fragment"><p><strong><span class="math inline">\(A_2\)</span></strong>: A constant for calculating control limits for the <span class="math inline">\(\bar{X}\)</span> (X-bar) chart:</p></li>
+</ol>
+<div class="fragment">
+<p><span class="math display">\[
+   \text{UCL} = \bar{\bar{X}} + A_2 \bar{R}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+   \text{LCL} = \bar{\bar{X}} - A_2 \bar{R}
+\]</span></p>
+<p>where <span class="math inline">\(\bar{\bar{X}}\)</span> is the mean of sample means, and <span class="math inline">\(\bar{R}\)</span> is the average range.</p>
+</div>
+<ol start="4" type="1">
+<li class="fragment"><p><strong><span class="math inline">\(d_3\)</span></strong>: A constant related to the standard deviation of the range distribution, useful for control limits on range charts.</p></li>
+<li class="fragment"><p><strong><span class="math inline">\(D_3\)</span></strong>: Used for the Lower Control Limit (LCL) on the R-chart:</p></li>
+</ol>
+<div class="fragment">
+<p><span class="math display">\[
+   \text{LCL} = D_3 \times \bar{R}
+\]</span></p>
+<p>For small sample sizes, <span class="math inline">\(D_3\)</span> is often zero, indicating no lower control limit.</p>
+</div>
+<ol start="6" type="1">
+<li class="fragment"><strong><span class="math inline">\(D_4\)</span></strong>: Used for the Upper Control Limit (UCL) on the R-chart:</li>
+</ol>
+<div class="fragment">
+<p><span class="math display">\[
+   \text{UCL} = D_4 \times \bar{R}
+\]</span></p>
+<p>Adjusts the upper limit based on sample size, providing a threshold for large ranges.</p>
+</div>
+</div>
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-unknown-4" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Unknown</h2>
+<p><br></p>
+<p>Given <span class="math inline">\(\bar{X} = 3.4995\)</span>, <span class="math inline">\(\bar{R} = 0.0253\)</span>, <span class="math inline">\(n = 5\)</span>,</p>
+<p><span class="math display">\[
+\text{UCL} = \bar{X} + A_2 \bar{R} = 3.4995 + 0.577(0.0253) = 3.514
+\]</span></p>
+<p><span class="math display">\[
+\text{CL} = \bar{X} = 3.4995
+\]</span></p>
+<p><span class="math display">\[
+\text{LCL} = \bar{X} - A_2 \bar{R} = 3.4995 - 0.577(0.0253) = 3.485
+\]</span></p>
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-unknown-5" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Unknown</h2>
+<div style="font-size: 80%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/x_bar_chart_jensen_computer.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment"><p>Graph showing the <span class="math inline">\(\bar{X}\)</span> chart with control limits at 3.485 and 3.514.</p></li>
+<li class="fragment"><p>Conclusion: Process mean was in control in each time period.</p></li>
+</ul>
+</div>
+</section>
+<section id="barx-chart-process-mean-and-standard-deviation-unknown-6" class="slide level2 center">
+<h2><span class="math inline">\(\bar{X}\)</span> Chart: Process Mean and Standard Deviation Unknown</h2>
+<ul>
+<li class="fragment"><p><strong>In case the process is out-of-control for some samples, exclude these samples and re-calculate the CL, UCL, and LCL to re-check the process.</strong></p></li>
+<li class="fragment"><p>This approach applies to other types of control charts as well.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="r-chart-for-process-variability" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1><span class="math inline">\(R\)</span> Chart for Process Variability</h1>
+
+</section>
+<section id="r-chart-for-process-variability-1" class="slide level2 center">
+<h2><span class="math inline">\(R\)</span> Chart for Process Variability</h2>
+<ul>
+<li class="fragment"><p><strong>Assume the in-control process mean and standard deviation are unknown.</strong></p></li>
+<li class="fragment"><p>Because the control limits for the <span class="math inline">\(\bar{X}\)</span> chart depend on the value of the average range (<span class="math inline">\(\bar{R}\)</span>), these limits will not have much meaning unless the process range is in control.</p></li>
+<li class="fragment"><p>In practice, the <span class="math inline">\(R\)</span> chart is usually constructed before the <span class="math inline">\(\bar{X}\)</span> chart.</p>
+<ul>
+<li class="fragment">If the <span class="math inline">\(R\)</span> chart indicates that the process variability is in control, then the <span class="math inline">\(\bar{R}\)</span> is used when constructing the <span class="math inline">\(\bar{X}\)</span> chart.</li>
+</ul></li>
+<li class="fragment"><p>The plotting statistic is the Sample Range, <span class="math inline">\(R_j\)</span>.</p></li>
+</ul>
+</section>
+<section id="r-chart-for-process-variability-2" class="slide level2 center">
+<h2><span class="math inline">\(R\)</span> Chart for Process Variability</h2>
+<p>For each <span class="math inline">\(R_j\)</span>,</p>
+<p><span class="math display">\[
+\text{UCL} = D_4 \bar{R}
+\]</span></p>
+<p><span class="math display">\[
+\text{CL} = \bar{R}
+\]</span></p>
+<p><span class="math display">\[
+\text{LCL} = D_3 \bar{R}
+\]</span></p>
+<p>where:</p>
+<ul>
+<li class="fragment"><p><span class="math inline">\(\bar{R}\)</span> = average range</p></li>
+<li class="fragment"><p><span class="math inline">\(D_3, D_4\)</span> = constants that depend on <span class="math inline">\(n\)</span>; refer to the “Factors for Control Charts” table.</p></li>
+</ul>
+</section>
+<section id="r-chart-for-process-variability-3" class="slide level2 center">
+<h2><span class="math inline">\(R\)</span> Chart for Process Variability</h2>
+<p><strong>Example: Jensen Computer Supplies Problem</strong></p>
+<p>Given: - <span class="math inline">\(\bar{\bar{X}} = 3.4995\)</span>, <span class="math inline">\(\bar{R} = 0.0253\)</span>, <span class="math inline">\(n = 5\)</span></p>
+<p>Calculations:</p>
+<p><span class="math display">\[
+\text{UCL} = D_4 \bar{R} = 2.114(0.0253) = 0.053
+\]</span></p>
+<p><span class="math display">\[
+\text{CL} = \bar{R} = 0.0253
+\]</span></p>
+<p><span class="math display">\[
+\text{LCL} = D_3 \bar{R} = 0(0.0253) = 0
+\]</span></p>
+</section>
+<section id="r-chart-for-process-variability-4" class="slide level2 center">
+<h2><span class="math inline">\(R\)</span> Chart for Process Variability</h2>
+<div style="font-size: 80%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/r_chart_jensen_computer.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment">Conclusion: The process variability was in control in each sample.</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="attributes-control-charts" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Attributes Control Charts</h1>
+
+</section>
+<section id="attributes-control-charts-1" class="slide level2 center">
+<h2>Attributes Control Charts</h2>
+<p>An attributes control chart is used if the quality of the output is measured in terms of discrete/counting data such as the number of defective units (<span class="math inline">\(X\)</span>) in a sample, etc.</p>
+<ul>
+<li class="fragment"><p><span class="math inline">\(X\)</span> is assumed to follow a Binomial distribution with a defective rate (proportion of “success”), <span class="math inline">\(p\)</span>. The expected value of <span class="math inline">\(X\)</span> is <span class="math inline">\(np\)</span>.</p></li>
+<li class="fragment"><p><strong><span class="math inline">\(p\)</span> Chart</strong>: Used to monitor <span class="math inline">\(p\)</span>. The monitoring statistic at time <span class="math inline">\(j\)</span> is the sample proportion <span class="math inline">\(\overline{p_j}\)</span>.</p></li>
+<li class="fragment"><p><strong><span class="math inline">\(np\)</span> Chart</strong>: Used to monitor the expected number of defectives in a sample of size <span class="math inline">\(n\)</span>, <span class="math inline">\(np\)</span>. The monitoring statistic at time <span class="math inline">\(j\)</span> is <span class="math inline">\(X_j\)</span>.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="p-chart-for-process-proportion" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1><span class="math inline">\(p\)</span> Chart for Process Proportion</h1>
+
+</section>
+<section id="p-chart-for-process-proportion-1" class="slide level2 center">
+<h2><span class="math inline">\(p\)</span> Chart for Process Proportion</h2>
+<p>Assume the in-control process proportion is known as <span class="math inline">\(p_0\)</span>.</p>
+<p>For each <span class="math inline">\(\bar{p}_j\)</span>, <span class="math display">\[
+\text{UCL} = p_0 + 3\sigma_{\overline{p}}
+\]</span></p>
+<p><span class="math display">\[
+\text{CL} = p_0
+\]</span></p>
+<p><span class="math display">\[
+\text{LCL} = p_0 - 3\sigma_{\overline{p}}
+\]</span></p>
+<p>where</p>
+<p><span class="math display">\[
+\sigma_{\overline{p_j}} \approx \sqrt{\frac{p_0(1 - p_0)}{n}}
+\]</span></p>
+<p>assuming <span class="math inline">\(np_0 \geq 5\)</span> and <span class="math inline">\(n(1 - p_0) \geq 5\)</span>.</p>
+<ul>
+<li class="fragment"><strong>Note</strong>: If computed LCL is negative, set LCL = 0.</li>
+</ul>
+</section>
+<section id="p-chart-for-process-proportion-2" class="slide level2 center">
+<h2><span class="math inline">\(p\)</span> Chart for Process Proportion</h2>
+<p>Assume the in-control process proportion is <strong>unknown</strong>.</p>
+<p><strong>Example</strong>: Automated mail-sorting process.</p>
+<p>The automated mail sorting process in a post office scans the zip codes on the letters and diverts them to the proper carrier route. Suppose a sample of 200 letters is selected each hour for 24 hours to establish control limits for a <strong>p chart</strong>, where <span class="math inline">\(p\)</span> is the proportion of incorrectly sorted letters.</p>
+</section>
+<section id="p-chart-for-process-proportion-3" class="slide level2 center">
+<h2><span class="math inline">\(p\)</span> Chart for Process Proportion</h2>
+<div style="font-size: 60%;">
+<p><strong>Sample Data</strong></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 15%">
+<col style="width: 35%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sample</th>
+<th>Sample Size</th>
+<th>Number of Incorrects (<span class="math inline">\(X_j\)</span>)</th>
+<th>Sample Proportion (<span class="math inline">\(\bar{P}_j\)</span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>200</td>
+<td>6</td>
+<td>0.03</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>200</td>
+<td>2</td>
+<td>0.01</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>200</td>
+<td>0</td>
+<td>0.00</td>
+</tr>
+<tr class="even">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr class="odd">
+<td>22</td>
+<td>200</td>
+<td>2</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td>23</td>
+<td>200</td>
+<td>0</td>
+<td>0.00</td>
+</tr>
+<tr class="odd">
+<td>24</td>
+<td>200</td>
+<td>2</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>4800</strong></td>
+<td><strong>104</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment"><strong>Sample</strong>: Identifies each sample in the sequence.</li>
+<li class="fragment"><strong>Sample Size</strong> (<span class="math inline">\(n\)</span>): Total number of observations in each sample. Here, each sample size is 200.</li>
+<li class="fragment"><strong>Number of Incorrects</strong> (<span class="math inline">\(X_j\)</span>): Number of incorrect observations in each sample.</li>
+<li class="fragment"><strong>Sample Proportion</strong> (<span class="math inline">\(\bar{P}_j\)</span>): Proportion of incorrect observations in each sample, calculated as <span class="math inline">\(X_j / n\)</span>.</li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[
+\text{Estimated overall defective rate} = \overline{p} = \frac{\text{Total number of incorrects}}{\text{Total sample size}} = \frac{104}{4800} = 0.0217
+\]</span></p>
+</div>
+</div>
+</section>
+<section id="p-chart-for-process-proportion-4" class="slide level2 center">
+<h2><span class="math inline">\(p\)</span> Chart for Process Proportion</h2>
+<p><strong>Example</strong>: Automated mail-sorting process</p>
+<p><span class="math inline">\(\overline{p} = 0.0217\)</span></p>
+<p><span class="math display">\[
+\sigma_{\overline{p_j}} \approx \sqrt{\frac{\overline{p}(1 - \overline{p})}{n}} = \sqrt{\frac{0.0217(1 - 0.0217)}{200}} = 0.0103
+\]</span></p>
+<ul>
+<li class="fragment"><strong>UCL</strong> = <span class="math inline">\(\overline{p} + 3\sigma_{\overline{p}} = 0.0217 + 3(0.0103) = 0.0526\)</span></li>
+<li class="fragment"><strong>CL</strong> = <span class="math inline">\(\overline{p} = 0.0217\)</span></li>
+<li class="fragment"><strong>LCL</strong> = <span class="math inline">\(\overline{p} - 3\sigma_{\overline{p}} = 0.0217 - 3(0.0103) = -0.0092 \rightarrow 0\)</span></li>
+</ul>
+</section>
+<section id="p-chart-for-process-proportion-5" class="slide level2 center">
+<h2><span class="math inline">\(p\)</span> Chart for Process Proportion</h2>
+
+<img data-src="figs/p_chart_process_proportion.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"><p>The process is out-of-control in Hour 8.</p>
+<p><br></p>
+</section></section>
+<section>
+<section id="np-chart-for-expected-number-of-defectives" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1><span class="math inline">\(np\)</span> Chart for Expected Number of Defectives</h1>
+
+</section>
+<section id="np-chart-for-expected-number-of-defectives-1" class="slide level2 center">
+<h2><span class="math inline">\(np\)</span> Chart for Expected Number of Defectives</h2>
+<p>An <span class="math inline">\(np\)</span> chart is a control chart developed for the number of defective items in a sample. In this case, <span class="math inline">\(n\)</span> is the sample size and <span class="math inline">\(p\)</span> is the probability of observing a <strong>defective</strong> item when the process is in control.</p>
+<p>For each <span class="math inline">\(X_j\)</span>, <span class="math display">\[
+UCL = np + 3\sqrt{np(1 - \overline{p})}
+\]</span></p>
+<p><span class="math display">\[
+CL = np
+\]</span></p>
+<p><span class="math display">\[
+LCL = np - 3\sqrt{np(1 - \overline{p})}
+\]</span></p>
+<p>assuming <span class="math inline">\(np \geq 5\)</span> and <span class="math inline">\(n(1 - \overline{p}) \geq 5\)</span>.</p>
+<p><strong>Note</strong>: If computed LCL is negative, set LCL = 0.</p>
+</section>
+<section id="interpretation-of-control-charts" class="slide level2 center">
+<h2>Interpretation of Control Charts</h2>
+<ul>
+<li class="fragment"><p>The location and pattern of points in a control chart enable us to determine, with a small probability of error, whether a process is in statistical control.</p></li>
+<li class="fragment"><p>A primary indication that a process may be out of control is a <strong>data point outside the control limits</strong>.</p></li>
+<li class="fragment"><p>Certain patterns of points within the control limits can be warning signals of quality problems (<strong>Nelson’s 8 rules</strong>):</p>
+<ul>
+<li class="fragment">A large number of points on one side of the center line (9 points).</li>
+<li class="fragment">Six or seven points in a row that indicate either an increasing or decreasing trend.</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="acceptance-sampling" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Acceptance Sampling</h1>
+
+</section>
+<section id="acceptance-sampling-1" class="slide level2 center">
+<h2>Acceptance Sampling</h2>
+<ul>
+<li class="fragment"><p><strong>Acceptance sampling</strong> is a statistical method that enables us to base the accept-reject decision on the results of inspection of a sample of items from the lot.</p></li>
+<li class="fragment"><p>The items of interest can be incoming shipments of raw materials or purchased parts as well as finished goods from final assembly (End-of-line inspection).</p></li>
+<li class="fragment"><p>Acceptance sampling has advantages over 100% inspection including:</p>
+<ul>
+<li class="fragment">Usually less expensive.</li>
+<li class="fragment">Less product damage due to less handling.</li>
+<li class="fragment">Fewer inspectors required.</li>
+<li class="fragment">Provides the only approach possible if destructive testing must be used.</li>
+</ul></li>
+</ul>
+</section>
+<section id="acceptance-sampling-procedure" class="slide level2 center">
+<h2>Acceptance Sampling Procedure</h2>
+
+<img data-src="figs/acceptance_sampling_procedure.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"><p><br></p>
+</section>
+<section id="acceptance-sampling-vs-ht" class="slide level2 center">
+<h2>Acceptance Sampling vs HT</h2>
+<div>
+<ul>
+<li><strong>Acceptance sampling</strong> is based on hypothesis-testing methodology.</li>
+</ul>
+<p><span class="math display">\[
+H_0: \text{Good-quality lot}
+\]</span> <span class="math display">\[
+H_a: \text{Poor-quality lot}
+\]</span></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 33%">
+<col style="width: 37%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Decision</strong>/<strong>State of the Lot</strong></td>
+<td><span class="math inline">\(H_0\)</span> True Good-Quality Lot</td>
+<td><span class="math inline">\(H_0\)</span> False Poor-Quality Lot</td>
+</tr>
+<tr class="even">
+<td>Accept the Lot</td>
+<td>Correct decision</td>
+<td>Type II error (accepting a poor-quality lot)</td>
+</tr>
+<tr class="odd">
+<td>Reject the Lot</td>
+<td>Type I error (rejecting a good-quality lot)</td>
+<td>Correct decision</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="recall-binomial-distribution" class="slide level2 center">
+<h2>Recall: Binomial Distribution</h2>
+<div title="Binomial Probability Function for Acceptance Sampling">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Binomial Probability Function for Acceptance Sampling</strong></p>
+</div>
+<div class="callout-content">
+<div>
+<p><span class="math display">\[
+X \sim \text{Binomial}(n, p)
+\]</span></p>
+<p><span class="math display">\[
+P(X = x) = f(x) = \frac{n!}{x!(n - x)!} p^x (1 - p)^{(n - x)}
+\]</span></p>
+<p><span class="math display">\[
+P(X \leq x) = f(0) + \dots + f(x)
+\]</span></p>
+<p>where</p>
+<ul>
+<li><span class="math inline">\(n\)</span> = the sample size</li>
+<li><span class="math inline">\(p\)</span> = the proportion of defective items in the lot</li>
+<li><span class="math inline">\(x\)</span> = the number of defective items in the sample <span class="math inline">\(n\)</span></li>
+<li><span class="math inline">\(f(x)\)</span> = the probability of <span class="math inline">\(x\)</span> defective items in the sample</li>
+<li>Excel Formula: <code>=BINOM.DIST(# successes trials, # trials, probability of success, TRUE)</code></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="acceptance-sampling-example-kali-inc." class="slide level2 center">
+<h2>Acceptance Sampling: Example KALI, Inc.</h2>
+<p>KALI, Inc.&nbsp;manufactures home appliances that are marketed under a variety of trade names. It uses acceptance sampling plan to monitor the quality of overload protectors. Suppose a sample of 15 items is selected from each incoming shipment or lot and the policy is to accept a lot if at most one defective item is found in the sample.</p>
+<p><br></p>
+<p>Find the probability of accepting the lot when the defective rate of the incoming lot is 5%.</p>
+</section>
+<section id="acceptance-sampling-example-kali-inc.-1" class="slide level2 center">
+<h2>Acceptance Sampling: Example KALI, Inc.</h2>
+<div style="font-size: 80%;">
+<p>A <strong>simple lot acceptance sampling plan</strong> is determined by <span class="math inline">\((n, c)\)</span>, where <span class="math inline">\(n\)</span> is the sample size, and <span class="math inline">\(c\)</span> is the <strong>acceptance number</strong> such that if the number of defectives in the sample is less than or equal to <span class="math inline">\(c\)</span> (i.e., <span class="math inline">\(X \leq c\)</span>), the entire lot is accepted.</p>
+<p><span class="math display">\[
+n = 15, \quad c = 1.
+\]</span></p>
+<p>When the defective rate of the incoming lot is 5%, <span class="math inline">\(p = 0.05\)</span>, the probability of accepting the lot is:</p>
+<p><span class="math display">\[
+\begin{align*}
+P(\text{Accept Lot}) &amp; = P(X \leq 1) = f(0) + f(1)\\
+&amp; = \frac{15!}{0!(15 - 0)!} \cdot 0.05^0 (1 - 0.05)^{15 - 0} + \frac{15!}{1!(15 - 1)!} \cdot 0.05^1 (1 - 0.05)^{15 - 1}\\
+&amp; = 0.4633 + 0.3658 \\
+&amp; = 0.8290
+\end{align*}
+\]</span></p>
+<p>For its turn, the the probability of rejecting the lot is:</p>
+<p><span class="math display">\[
+P(\text{Reject Lot}) = 1 - 0.8290 = 0.1710
+\]</span></p>
+</div>
+</section></section>
+<section>
+<section id="selecting-an-acceptance-sampling-plan" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Selecting an Acceptance Sampling Plan</h1>
+
+</section>
+<section id="selecting-an-acceptance-sampling-plan-example-kali-inc." class="slide level2 center">
+<h2>Selecting an Acceptance Sampling Plan: Example KALI, Inc.</h2>
+<p><br></p>
+<p>In formulating a plan, managers must consider the following:</p>
+<ul>
+<li class="fragment"><p><strong>Producer’s risk</strong>: Probability of rejecting a lot with an acceptable defective rate.</p></li>
+<li class="fragment"><p><strong>Consumer’s risk</strong>: Probability of accepting a lot with an unacceptable defective rate.</p></li>
+</ul>
+</section>
+<section id="selecting-an-acceptance-sampling-plan-example-kali-inc.-1" class="slide level2 center">
+<h2>Selecting an Acceptance Sampling Plan: Example KALI, Inc.</h2>
+<div class="columns">
+<div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<div style="font-size: 60%;">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">Acceptance Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">0.00</td>
+<td style="text-align: center;">1.0000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.05</td>
+<td style="text-align: center;">0.8290</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.10</td>
+<td style="text-align: center;">0.5490</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.15</td>
+<td style="text-align: center;">0.3186</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.20</td>
+<td style="text-align: center;">0.1671</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.25</td>
+<td style="text-align: center;">0.0802</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.30</td>
+<td style="text-align: center;">0.0353</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.35</td>
+<td style="text-align: center;">0.0142</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.40</td>
+<td style="text-align: center;">0.0052</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.45</td>
+<td style="text-align: center;">0.0017</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.50</td>
+<td style="text-align: center;">0.0005</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.55</td>
+<td style="text-align: center;">0.0001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.60</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.65</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.70</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.75</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.80</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.85</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0.90</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0.95</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.00</td>
+<td style="text-align: center;">0.0000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<p><strong>Acceptance Probability Plot</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/acceptance_probability_plot.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The plot presents the probability of accepting the lot (y-axis) based on the percent of defective items in the lot (x-axis).</p>
+</div></div>
+</section>
+<section id="selecting-an-acceptance-sampling-plan-example-kali-inc.-2" class="slide level2 center">
+<h2>Selecting an Acceptance Sampling Plan: Example KALI, Inc.</h2>
+<p><br></p>
+<p>In formulating a plan, managers must specify the following:</p>
+<p><span class="math display">\[
+\begin{cases}
+p_0 = \text{Maximum acceptable defective rate (under $H_0$)} \\
+\alpha = \text{The Producer's Risk: }\text{the probability that a lot with defective rate $p_0$ will be rejected} \\
+\quad
+\end{cases}
+\]</span></p>
+<p><span class="math display">\[
+\begin{cases}
+p_1 = \text{Minimum unacceptable defective rate (under $H_a$)} \\
+\beta = \text{The Consumer's Risk: } \text{the probability that a lot with defective rate $p_1$ will be accepted} \\
+\quad
+\end{cases}
+\]</span></p>
+</section>
+<section id="selecting-an-acceptance-sampling-plan-example-kali-inc.-3" class="slide level2 center">
+<h2>Selecting an Acceptance Sampling Plan: Example KALI, Inc.</h2>
+<p><br></p>
+<p>A simple sampling plan with <span class="math inline">\((n, c)\)</span> is selected when it comes close to meeting both the <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> requirements specified.</p>
+<p><strong>Example</strong>: For the purpose of illustration, suppose we <strong>require</strong>:</p>
+<ul>
+<li class="fragment"><p>If <span class="math inline">\(p_0 = 0.03\)</span>, <span class="math inline">\(\alpha = \Pr(\text{Reject the lot} \mid p_0 = 0.03) = 8\%\)</span> (Producer’s Risk)</p></li>
+<li class="fragment"><p>If <span class="math inline">\(p_1 = 0.15\)</span>, <span class="math inline">\(\beta = \Pr(\text{Accept the lot} \mid p_1 = 0.15) = 4\%\)</span> (Consumer’s Risk)</p></li>
+</ul>
+<p><br></p>
+<div class="fragment">
+<center>
+Is <span class="math inline">\((n, c) = (15, 0)\)</span> an acceptable plan?
+</center>
+</div>
+</section>
+<section id="selecting-an-acceptance-sampling-plan-example-kali-inc.-4" class="slide level2 center">
+<h2>Selecting an Acceptance Sampling Plan: Example KALI, Inc.</h2>
+<p><br></p>
+<center>
+Is <span class="math inline">\((n, c) = (15, 0)\)</span> an acceptable plan?
+</center>
+<p>For <span class="math inline">\((n, c) = (15, 0)\)</span>:</p>
+<p><span class="math display">\[
+\begin{align*}
+\text{Producer's risk} &amp; = P(\text{Reject the lot} \mid p = 0.03) = P(X &gt; 0 \mid p = 0.03) \\
+&amp; = 1 - P(X \leq 0 \mid p = 0.03) \\
+&amp;  = 1 - \text{Bin}(15, 0.03) = 1 - 0.633 = 0.367 \quad \text{(Too high)}
+\end{align*}
+\]</span></p>
+<div class="fragment">
+<p><span class="math display">\[
+\begin{align*}
+\text{Consumer's risk} &amp; = P(\text{Accept the lot} \mid p = 0.15) = P(X \leq 0 \mid p = 0.15) \\
+&amp; = \text{Bin}(15, 0.15) = 0.087 \quad \text{(Close)}
+\end{align*}
+\]</span></p>
+</div>
+</section>
+<section id="selecting-an-acceptance-sampling-plan-example-kali-inc.-5" class="slide level2 center">
+<h2>Selecting an Acceptance Sampling Plan: Example KALI, Inc.</h2>
+<div style="font-size: 80%;">
+<p><br></p>
+<center>
+Is <span class="math inline">\((n, c) = (15, 0)\)</span> an acceptable plan?
+</center>
+<p><br></p>
+<ul>
+<li class="fragment"><p><strong>Producer’s Risk</strong>: The calculated producer’s risk is 36.7%, which is significantly higher than the acceptable level of 8%. This means there is a high probability that a lot with an acceptable defect rate (<span class="math inline">\(p_0 = 0.03\)</span>) will be incorrectly rejected, resulting in an unacceptably high risk for the producer.</p></li>
+<li class="fragment"><p><strong>Consumer’s Risk</strong>: The consumer’s risk is 8.7%, which is close to the acceptable level of 4%. This indicates that the plan is nearly adequate in terms of the consumer’s risk, but it is still slightly above the target.</p></li>
+<li class="fragment"><p><strong>Conclusion</strong>: The acceptance sampling plan <span class="math inline">\((n, c) = (15, 0)\)</span> is <strong>not acceptable</strong> because it does not adequately meet the producer’s risk requirement. The producer’s risk is too high, resulting in a high probability of rejecting acceptable lots.</p></li>
+<li class="fragment"><p><strong>Recommendation</strong>: Adjustments to the sampling plan are needed to better balance both the producer’s and consumer’s risk requirements. This may involve increasing the acceptance number <span class="math inline">\(c\)</span> or adjusting the sample size <span class="math inline">\(n\)</span>.</p></li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="multiple-sampling-plans" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Multiple Sampling Plans</h1>
+
+</section>
+<section id="multiple-sampling-plans-1" class="slide level2 center">
+<h2>Multiple Sampling Plans</h2>
+<ul>
+<li class="fragment"><p>A <strong>multiple sampling plan</strong> uses two or more stages of sampling.</p></li>
+<li class="fragment"><p>At each stage, decisions include:</p>
+<ul>
+<li class="fragment">Stopping and accepting the lot,</li>
+<li class="fragment">Stopping and rejecting the lot,</li>
+<li class="fragment">Continuing sampling.</li>
+</ul></li>
+<li class="fragment"><p><strong>Multiple sampling plans</strong> can reduce total sample size while maintaining Type I and Type II error levels.</p></li>
+</ul>
+</section>
+<section id="multiple-sampling-plans-two-stage-acceptance-sampling-plan-procedure" class="slide level2 center">
+<h2>Multiple Sampling Plans: Two Stage Acceptance Sampling Plan Procedure</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/two_stage_acceptance_sampling_plan_procedure.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 60%;">
+<ul>
+<li class="fragment"><p><strong>Stage 1</strong>:</p>
+<ul>
+<li class="fragment">Take an initial sample of <span class="math inline">\(n_1\)</span> items.</li>
+<li class="fragment">Find the number of defectives <span class="math inline">\(x_1\)</span> in this sample.</li>
+<li class="fragment">Decision criteria:
+<ul>
+<li class="fragment">If <span class="math inline">\(x_1 \leq c_1\)</span>: Accept the lot.</li>
+<li class="fragment">If <span class="math inline">\(x_1 \geq c_2\)</span>: Reject the lot.</li>
+<li class="fragment">If <span class="math inline">\(c_1 &lt; x_1 &lt; c_2\)</span>: Proceed to Stage 2.</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><p><strong>Stage 2</strong>:</p>
+<ul>
+<li class="fragment">Take an additional sample of <span class="math inline">\(n_2\)</span> items.</li>
+<li class="fragment">Find the number of defectives <span class="math inline">\(x_2\)</span> in this second sample.</li>
+<li class="fragment">Decision criteria:
+<ul>
+<li class="fragment">If <span class="math inline">\(x_1 + x_2 \leq c_3\)</span>: Accept the lot.</li>
+<li class="fragment">If <span class="math inline">\(x_1 + x_2 &gt; c_3\)</span>: Reject the lot.</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><p><strong>Acceptance Criteria</strong>: The lot is accepted if the defectives in Stage 1 are within <span class="math inline">\(c_1\)</span>, or if the combined defectives in both stages are within <span class="math inline">\(c_3\)</span>.</p></li>
+<li class="fragment"><p><strong>Rejection Criteria</strong>: The lot is rejected if the defectives in Stage 1 exceed <span class="math inline">\(c_2\)</span>, or if the combined defectives in both stages exceed <span class="math inline">\(c_3\)</span>.</p></li>
+</ul>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="summary" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Summary</h1>
+
+</section>
+<section id="summary-1" class="slide level2 center">
+<h2>Summary</h2>
+<div style="font-size: 90%;">
+<div>
+<p>Some key takeaways from this session:</p>
+<ul>
+<li><p><strong>Importance of Quality Control</strong>: Quality control is essential for ensuring products meet customer expectations and can enhance a company’s competitiveness. Tools like control charts, SPC, and acceptance sampling are critical.</p></li>
+<li><p><strong>Statistical Process Control (SPC)</strong>: SPC uses control charts to monitor and maintain process stability by identifying common and assignable causes of variation.</p></li>
+<li><p><strong>Control Charts</strong>: Used to monitor different quality metrics, such as the mean (<span class="math inline">\(\bar{X}\)</span>), variability (R-chart), and defect proportion (p-chart). Control limits are established to detect out-of-control conditions and require adjustments only for assignable causes.</p></li>
+<li><p><strong>Acceptance Sampling</strong>: Provides a practical method for lot quality decisions without inspecting every item. It balances producer’s and consumer’s risks by setting limits on acceptable defect rates.</p></li>
+<li><p><strong>Multiple Sampling Plans</strong>: These plans, including the two-stage acceptance sampling plan, can minimize sample size while maintaining error controls, improving efficiency over single-stage plans.</p></li>
+</ul>
+</div>
+</div>
+</section></section>
+<section id="thank-you" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Thank you!</h1>
+
+<div class="quarto-auto-generated-content">
+<div class="footer footer-default">
+<p>Business Statistics</p>
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1600,
+
+        height: 900,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

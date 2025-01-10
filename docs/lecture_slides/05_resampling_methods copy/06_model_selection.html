@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
+
+  <meta name="author" content="Professor: Davi Moreira">
+  <title>MGMT 47400: Predictive Analytics –  MGMT 47400: Predictive Analytics </title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title"><span style="font-size: 100%;"> MGMT 47400: Predictive Analytics </span></h1>
+  <p class="subtitle"><span style="font-size: 150%;"> Model Selection and Regularization </span></p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Professor: Davi Moreira 
+</div>
+</div>
+</div>
+
+</section>
+<section id="overview" class="slide level2 center">
+<h2>Overview</h2>
+<div>
+<div class="columns">
+<div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<ul>
+<li>XXXX</li>
+</ul>
+</div><div class="column" style="text-align: center; justify-content: center; align-items: center;">
+<ul>
+<li>XXX</li>
+</ul>
+</div></div>
+</div>
+</section>
+<section>
+<section id="xxx" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>XXX</h1>
+
+</section>
+<section id="linear-model-selection-and-regularization" class="slide level2 center">
+<h2>Linear Model Selection and Regularization</h2>
+<ul>
+<li class="fragment">Recall the linear model</li>
+</ul>
+<p><span class="math display">\[
+Y = \beta_0 + \beta_1 X_1 + \cdots + \beta_p X_p + \epsilon.
+\]</span></p>
+<ul>
+<li class="fragment"><p>In the lectures that follow, we consider some approaches for extending the linear model framework. In the lectures covering Chapter 7 of the text, we generalize the linear model in order to accommodate <em>non-linear</em>, but still <em>additive</em>, relationships.</p></li>
+<li class="fragment"><p>In the lectures covering Chapter 8, we consider even more general <em>non-linear</em> models.</p></li>
+</ul>
+</section>
+<section id="in-praise-of-linear-models" class="slide level2 center">
+<h2>In praise of linear models!</h2>
+<ul>
+<li class="fragment"><p>Despite its simplicity, the linear model has distinct advantages in terms of its <em>interpretability</em> and often shows good <em>predictive performance</em>.</p></li>
+<li class="fragment"><p>Hence we discuss in this lecture some ways in which the simple linear model can be improved, by replacing ordinary least squares fitting with some alternative fitting procedures.</p></li>
+</ul>
+</section>
+<section id="why-consider-alternatives-to-least-squares" class="slide level2 center">
+<h2>Why consider alternatives to least squares?</h2>
+<ul>
+<li class="fragment"><p><em>Prediction Accuracy</em>: especially when <span class="math inline">\(p &gt; n\)</span>, to control the variance.</p></li>
+<li class="fragment"><p><em>Model Interpretability</em>: By removing irrelevant features — that is, by setting the corresponding coefficient estimates to zero — we can obtain a model that is more easily interpreted. We will present some approaches for automatically performing <em>feature selection</em>.</p></li>
+</ul>
+</section>
+<section id="three-classes-of-methods" class="slide level2 center">
+<h2>Three classes of methods</h2>
+<ul>
+<li class="fragment"><p><em>Subset Selection</em>. We identify a subset of the <span class="math inline">\(p\)</span> predictors that we believe to be related to the response. We then fit a model using least squares on the reduced set of variables.</p></li>
+<li class="fragment"><p><em>Shrinkage</em>. We fit a model involving all <span class="math inline">\(p\)</span> predictors, but the estimated coefficients are shrunken towards zero relative to the least squares estimates. This shrinkage (also known as <em>regularization</em>) has the effect of reducing variance and can also perform variable selection.</p></li>
+<li class="fragment"><p><em>Dimension Reduction</em>. We project the <span class="math inline">\(p\)</span> predictors into a <span class="math inline">\(M\)</span>-dimensional subspace, where <span class="math inline">\(M &lt; p\)</span>. This is achieved by computing <span class="math inline">\(M\)</span> different <em>linear combinations</em>, or <em>projections</em>, of the variables. Then these <span class="math inline">\(M\)</span> projections are used as predictors to fit a linear regression model by least squares.</p></li>
+</ul>
+</section>
+<section id="subset-selection" class="slide level2 center">
+<h2>Subset Selection</h2>
+<p><em>Best subset and stepwise model selection procedures</em></p>
+<p><strong>Best Subset Selection</strong></p>
+<ol type="1">
+<li class="fragment"><p>Let <span class="math inline">\(\mathcal{M}_0\)</span> denote the <em>null model</em>, which contains no predictors. This model simply predicts the sample mean for each observation.</p></li>
+<li class="fragment"><p>For <span class="math inline">\(k = 1, 2, \ldots, p\)</span>:</p>
+<ul>
+<li class="fragment"><ol type="a">
+<li class="fragment">Fit all <span class="math inline">\(\binom{p}{k}\)</span> models that contain exactly <span class="math inline">\(k\)</span> predictors.</li>
+</ol></li>
+<li class="fragment"><ol start="2" type="a">
+<li class="fragment">Pick the best among these <span class="math inline">\(\binom{p}{k}\)</span> models, and call it <span class="math inline">\(\mathcal{M}_k\)</span>. Here <em>best</em> is defined as having the smallest RSS, or equivalently the largest <span class="math inline">\(R^2\)</span>.</li>
+</ol></li>
+</ul></li>
+<li class="fragment"><p>Select a single best model from among <span class="math inline">\(\mathcal{M}_0, \ldots, \mathcal{M}_p\)</span> using cross-validated prediction error, <span class="math inline">\(C_p\)</span> (AIC), BIC, or adjusted <span class="math inline">\(R^2\)</span>.</p></li>
+</ol>
+</section>
+<section id="example---credit-data-set" class="slide level2 center">
+<h2>Example - Credit data set</h2>
+
+<img data-src="figs/6_1-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><ul>
+<li class="fragment"><p>For each possible model containing a subset of the ten predictors in the <em>Credit</em> data set, the RSS and <span class="math inline">\(R^2\)</span> are displayed. The red frontier tracks the <em>best</em> model for a given number of predictors, according to RSS and <span class="math inline">\(R^2\)</span>.</p></li>
+<li class="fragment"><p>Though the data set contains only ten predictors, the x-axis ranges from 1 to 11, since one of the variables is categorical and takes on three values, leading to the creation of two dummy variables.</p></li>
+</ul>
+</section>
+<section id="extensions-to-other-models" class="slide level2 center">
+<h2>Extensions to other models</h2>
+<ul>
+<li class="fragment"><p>Although we have presented best subset selection here for least squares regression, the same ideas apply to other types of models, such as logistic regression.</p></li>
+<li class="fragment"><p>The <em>deviance</em>—negative two times the maximized log-likelihood—plays the role of RSS for a broader class of models.</p></li>
+</ul>
+</section>
+<section id="stepwise-selection" class="slide level2 center">
+<h2>Stepwise Selection</h2>
+<ul>
+<li class="fragment"><p>For computational reasons, best subset selection cannot be applied with very large <span class="math inline">\(p\)</span>. <em>Why not?</em></p></li>
+<li class="fragment"><p>Best subset selection may also suffer from statistical problems when <span class="math inline">\(p\)</span> is large: larger the search space, the higher the chance of finding models that look good on the training data, even though they might not have any predictive power on future data.</p></li>
+<li class="fragment"><p>Thus an enormous search space can lead to <em>overfitting</em> and high variance of the coefficient estimates.</p></li>
+<li class="fragment"><p>For both of these reasons, <em>stepwise</em> methods, which explore a far more restricted set of models, are attractive alternatives to best subset selection.</p></li>
+</ul>
+</section>
+<section id="forward-stepwise-selection" class="slide level2 center">
+<h2>Forward Stepwise Selection</h2>
+<ul>
+<li class="fragment"><p>Forward stepwise selection begins with a model containing no predictors, and then adds predictors to the model, one-at-a-time, until all of the predictors are in the model.</p></li>
+<li class="fragment"><p>In particular, at each step the variable that gives the greatest <em>additional</em> improvement to the fit is added to the model.</p></li>
+</ul>
+</section>
+<section id="in-detail" class="slide level2 center">
+<h2>In Detail</h2>
+<p><em>Forward Stepwise Selection</em></p>
+<ol type="1">
+<li class="fragment"><p>Let <span class="math inline">\(\mathcal{M}_0\)</span> denote the <em>null model</em>, which contains no predictors.</p></li>
+<li class="fragment"><p>For <span class="math inline">\(k = 0, \ldots, p - 1\)</span>:</p>
+<ul>
+<li class="fragment">2.1 Consider all <span class="math inline">\(p - k\)</span> models that augment the predictors in <span class="math inline">\(\mathcal{M}_k\)</span> with one additional predictor.</li>
+<li class="fragment">2.2 Choose the <em>best</em> among these <span class="math inline">\(p - k\)</span> models, and call it <span class="math inline">\(\mathcal{M}_{k+1}\)</span>. Here <em>best</em> is defined as having smallest RSS or highest <span class="math inline">\(R^2\)</span>.</li>
+</ul></li>
+<li class="fragment"><p>Select a single best model from among <span class="math inline">\(\mathcal{M}_0, \ldots, \mathcal{M}_p\)</span> using cross-validated prediction error, <span class="math inline">\(C_p\)</span> (AIC), BIC, or adjusted <span class="math inline">\(R^2\)</span>.</p></li>
+</ol>
+</section>
+<section id="more-on-forward-stepwise-selection" class="slide level2 center">
+<h2>More on Forward Stepwise Selection</h2>
+<ul>
+<li class="fragment"><p>Computational advantage over best subset selection is clear.</p></li>
+<li class="fragment"><p>It is not guaranteed to find the best possible model out of all <span class="math inline">\(2^p\)</span> models containing subsets of the <span class="math inline">\(p\)</span> predictors. <em>Why not? Give an example.</em></p></li>
+</ul>
+</section>
+<section id="credit-data-example" class="slide level2 center">
+<h2>Credit data example</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 38%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th># Variables</th>
+<th>Best subset</th>
+<th>Forward stepwise</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>One</td>
+<td><em>rating</em></td>
+<td><em>rating</em></td>
+</tr>
+<tr class="even">
+<td>Two</td>
+<td><em>rating, income</em></td>
+<td><em>rating, income</em></td>
+</tr>
+<tr class="odd">
+<td>Three</td>
+<td><em>rating, income, student</em></td>
+<td><em>rating, income, student</em></td>
+</tr>
+<tr class="even">
+<td>Four</td>
+<td><em>cards, income, student, limit</em></td>
+<td><em>rating, income, student, limit</em></td>
+</tr>
+</tbody>
+</table>
+<p><em>The first four selected models for best subset selection and forward stepwise selection on the Credit data set. The first three models are identical but the fourth models differ.</em></p>
+</section>
+<section id="backward-stepwise-selection" class="slide level2 center">
+<h2>Backward Stepwise Selection</h2>
+<ul>
+<li class="fragment"><p>Like forward stepwise selection, <em>backward stepwise selection</em> provides an efficient alternative to best subset selection.</p></li>
+<li class="fragment"><p>However, unlike forward stepwise selection, it begins with the full least squares model containing all <span class="math inline">\(p\)</span> predictors, and then iteratively removes the least useful predictor, one-at-a-time.</p></li>
+</ul>
+</section>
+<section id="backward-stepwise-selection-details" class="slide level2 center">
+<h2>Backward Stepwise Selection: details</h2>
+<p><em>Backward Stepwise Selection</em></p>
+<ol type="1">
+<li class="fragment"><p>Let <span class="math inline">\(\mathcal{M}_p\)</span> denote the <em>full model</em>, which contains all <span class="math inline">\(p\)</span> predictors.</p></li>
+<li class="fragment"><p>For <span class="math inline">\(k = p, p - 1, \ldots, 1\)</span>:</p>
+<ul>
+<li class="fragment">2.1 Consider all <span class="math inline">\(k\)</span> models that contain all but one of the predictors in <span class="math inline">\(\mathcal{M}_k\)</span>, for a total of <span class="math inline">\(k - 1\)</span> predictors.</li>
+<li class="fragment">2.2 Choose the <em>best</em> among these <span class="math inline">\(k\)</span> models, and call it <span class="math inline">\(\mathcal{M}_{k-1}\)</span>. Here <em>best</em> is defined as having smallest RSS or highest <span class="math inline">\(R^2\)</span>.</li>
+</ul></li>
+<li class="fragment"><p>Select a single best model from among <span class="math inline">\(\mathcal{M}_0, \ldots, \mathcal{M}_p\)</span> using cross-validated prediction error, <span class="math inline">\(C_p\)</span> (AIC), BIC, or adjusted <span class="math inline">\(R^2\)</span>.</p></li>
+</ol>
+</section>
+<section id="more-on-backward-stepwise-selection" class="slide level2 center">
+<h2>More on Backward Stepwise Selection</h2>
+<ul>
+<li class="fragment"><p>Like forward stepwise selection, the backward selection approach searches through only <span class="math inline">\(1 + p(p+1)/2\)</span> models, and so can be applied in settings where <span class="math inline">\(p\)</span> is too large to apply best subset selection.</p></li>
+<li class="fragment"><p>Like forward stepwise selection, backward stepwise selection is not guaranteed to yield the <em>best</em> model containing a subset of the <span class="math inline">\(p\)</span> predictors.</p></li>
+<li class="fragment"><p>Backward selection requires that the <em>number of samples <span class="math inline">\(n\)</span> is larger than the number of variables <span class="math inline">\(p\)</span></em> (so that the full model can be fit). In contrast, forward stepwise can be used even when <span class="math inline">\(n &lt; p\)</span>, and so is the only viable subset method when <span class="math inline">\(p\)</span> is very large.</p></li>
+</ul>
+</section>
+<section id="choosing-the-optimal-model" class="slide level2 center">
+<h2>Choosing the Optimal Model</h2>
+<ul>
+<li class="fragment"><p>The model containing all of the predictors will always have the smallest RSS and the largest <span class="math inline">\(R^2\)</span>, since these quantities are related to the training error.</p></li>
+<li class="fragment"><p>We wish to choose a model with low test error, not a model with low training error. Recall that training error is usually a poor estimate of test error.</p></li>
+<li class="fragment"><p>Therefore, RSS and <span class="math inline">\(R^2\)</span> are not suitable for selecting the best model among a collection of models with different numbers of predictors.</p></li>
+</ul>
+</section>
+<section id="estimating-test-error-two-approaches" class="slide level2 center">
+<h2>Estimating test error: two approaches</h2>
+<ul>
+<li class="fragment"><p>We can indirectly estimate test error by making an <em>adjustment</em> to the training error to account for the bias due to overfitting.</p></li>
+<li class="fragment"><p>We can <em>directly</em> estimate the test error, using either a validation set approach or a cross-validation approach, as discussed in previous lectures.</p></li>
+<li class="fragment"><p>We illustrate both approaches next.</p></li>
+</ul>
+</section>
+<section id="c_p-aic-bic-and-adjusted-r2" class="slide level2 center">
+<h2><span class="math inline">\(C_p\)</span>, AIC, BIC, and Adjusted <span class="math inline">\(R^2\)</span></h2>
+<ul>
+<li class="fragment"><p>These techniques adjust the training error for the model size, and can be used to select among a set of models with different numbers of variables.</p></li>
+<li class="fragment"><p>The next figure displays <span class="math inline">\(C_p\)</span>, BIC, and adjusted <span class="math inline">\(R^2\)</span> for the best model of each size produced by best subset selection on the <em>Credit</em> data set.</p></li>
+</ul>
+</section>
+<section id="credit-data-example-1" class="slide level2 center">
+<h2>Credit data example</h2>
+
+<img data-src="figs/6_2-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"></section>
+<section id="now-for-some-details" class="slide level2 center">
+<h2>Now for some details</h2>
+<ul>
+<li class="fragment"><em>Mallow’s <span class="math inline">\(C_p\)</span></em>: <span class="math display">\[
+C_p = \frac{1}{n} (\text{RSS} + 2d\hat{\sigma}^2),
+\]</span></li>
+</ul>
+<p>where <span class="math inline">\(d\)</span> is the total # of parameters used and <span class="math inline">\(\hat{\sigma}^2\)</span> is an estimate of the variance of the error <span class="math inline">\(\epsilon\)</span> associated with each response measurement.</p>
+<ul>
+<li class="fragment">The <em>AIC</em> criterion is defined for a large class of models fit by maximum likelihood:</li>
+</ul>
+<p><span class="math display">\[
+  \text{AIC} = -2 \log L + 2 \cdot d,
+\]</span></p>
+<p>where <span class="math inline">\(L\)</span> is the maximized value of the likelihood function for the estimated model.</p>
+<ul>
+<li class="fragment">In the case of the linear model with Gaussian errors, maximum likelihood and least squares are the same thing, and <span class="math inline">\(C_p\)</span> and AIC are equivalent. <em>Prove this.</em></li>
+</ul>
+</section>
+<section id="details-on-bic" class="slide level2 center">
+<h2>Details on BIC</h2>
+<p><span class="math display">\[
+\text{BIC} = \frac{1}{n} \left( \text{RSS} + \log(n)d\hat{\sigma}^2 \right).
+\]</span></p>
+<ul>
+<li class="fragment"><p>Like <span class="math inline">\(C_p\)</span>, the BIC will tend to take on a small value for a model with a low test error, and so generally we select the model that has the lowest BIC value.</p></li>
+<li class="fragment"><p>Notice that BIC replaces the <span class="math inline">\(2d\hat{\sigma}^2\)</span> used by <span class="math inline">\(C_p\)</span> with a <span class="math inline">\(\log(n)d\hat{\sigma}^2\)</span> term, where <span class="math inline">\(n\)</span> is the number of observations.</p></li>
+<li class="fragment"><p>Since <span class="math inline">\(\log n &gt; 2\)</span> for any <span class="math inline">\(n &gt; 7\)</span>, the BIC statistic generally places a heavier penalty on models with many variables, and hence results in the selection of smaller models than <span class="math inline">\(C_p\)</span>.</p></li>
+</ul>
+</section>
+<section id="adjusted-r2" class="slide level2 center">
+<h2>Adjusted <span class="math inline">\(R^2\)</span></h2>
+<ul>
+<li class="fragment">For a least squares model with <span class="math inline">\(d\)</span> variables, the adjusted <span class="math inline">\(R^2\)</span> statistic is calculated as <span class="math display">\[
+\text{Adjusted } R^2 = 1 - \frac{\text{RSS}/(n - d - 1)}{\text{TSS}/(n - 1)}.
+\]</span></li>
+</ul>
+<p>where TSS is the total sum of squares.</p>
+<ul>
+<li class="fragment"><p>Unlike <span class="math inline">\(C_p\)</span>, AIC, and BIC, for which a <em>small</em> value indicates a model with a low test error, a <em>large</em> value of adjusted <span class="math inline">\(R^2\)</span> indicates a model with a small test error.</p></li>
+<li class="fragment"><p>Maximizing the adjusted <span class="math inline">\(R^2\)</span> is equivalent to minimizing <span class="math inline">\(\frac{\text{RSS}}{n - d - 1}\)</span>. While RSS always decreases as the number of variables in the model increases, <span class="math inline">\(\frac{\text{RSS}}{n - d - 1}\)</span> may increase or decrease, due to the presence of <span class="math inline">\(d\)</span> in the denominator.</p></li>
+<li class="fragment"><p>Unlike the <span class="math inline">\(R^2\)</span> statistic, the adjusted <span class="math inline">\(R^2\)</span> statistic <em>pays a price</em> for the inclusion of unnecessary variables in the model.</p></li>
+</ul>
+</section>
+<section id="validation-and-cross-validation" class="slide level2 center">
+<h2>Validation and Cross-Validation</h2>
+<ul>
+<li class="fragment"><p>Each of the procedures returns a sequence of models <span class="math inline">\(\mathcal{M}_k\)</span> indexed by model size <span class="math inline">\(k = 0, 1, 2, \ldots\)</span>. Our job here is to select <span class="math inline">\(\hat{k}\)</span>. Once selected, we will return model <span class="math inline">\(\mathcal{M}_{\hat{k}}\)</span>.</p></li>
+<li class="fragment"><p>We compute the validation set error or the cross-validation error for each model <span class="math inline">\(\mathcal{M}_k\)</span> under consideration, and then select the <span class="math inline">\(k\)</span> for which the resulting estimated test error is smallest.</p></li>
+<li class="fragment"><p>This procedure has an advantage relative to AIC, BIC, <span class="math inline">\(C_p\)</span>, and adjusted <span class="math inline">\(R^2\)</span>, in that it provides a direct estimate of the test error, and <em>doesn’t require an estimate of the error variance <span class="math inline">\(\sigma^2\)</span></em>.</p></li>
+<li class="fragment"><p>It can also be used in a wider range of model selection tasks, even in cases where it is hard to pinpoint the model degrees of freedom (e.g., the number of predictors in the model) or hard to estimate the error variance <span class="math inline">\(\sigma^2\)</span>.</p></li>
+</ul>
+</section>
+<section id="credit-data-example-2" class="slide level2 center">
+<h2>Credit data example</h2>
+
+<img data-src="figs/6_3-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"></section>
+<section id="details-of-previous-figure" class="slide level2 center">
+<h2>Details of Previous Figure</h2>
+<ul>
+<li class="fragment"><p>The validation errors were calculated by randomly selecting three-quarters of the observations as the training set, and the remainder as the validation set.</p></li>
+<li class="fragment"><p>The cross-validation errors were computed using <span class="math inline">\(k = 10\)</span> folds. In this case, the validation and cross-validation methods both result in a six-variable model.</p></li>
+<li class="fragment"><p>However, all three approaches suggest that the four-, five-, and six-variable models are roughly equivalent in terms of their test errors.</p></li>
+<li class="fragment"><p>In this setting, we can select a model using the <em>one-standard-error rule</em>. We first calculate the standard error of the estimated test MSE for each model size, and then select the smallest model for which the estimated test error is within one standard error of the lowest point on the curve. <em>What is the rationale for this?</em></p></li>
+</ul>
+</section>
+<section id="shrinkage-methods" class="slide level2 center">
+<h2>Shrinkage Methods</h2>
+<p><em>Ridge regression</em> and <em>Lasso</em></p>
+<ul>
+<li class="fragment"><p>The subset selection methods use least squares to fit a linear model that contains a subset of the predictors.</p></li>
+<li class="fragment"><p>As an alternative, we can fit a model containing all <span class="math inline">\(p\)</span> predictors using a technique that <em>constrains</em> or <em>regularizes</em> the coefficient estimates, or equivalently, that <em>shrinks</em> the coefficient estimates towards zero.</p></li>
+<li class="fragment"><p>It may not be immediately obvious why such a constraint should improve the fit, but it turns out that shrinking the coefficient estimates can significantly reduce their variance.</p></li>
+</ul>
+</section>
+<section id="ridge-regression" class="slide level2 center">
+<h2>Ridge regression</h2>
+<ul>
+<li class="fragment"><p>Recall that the least squares fitting procedure estimates <span class="math inline">\(\beta_0, \beta_1, \ldots, \beta_p\)</span> using the values that minimize <span class="math display">\[
+\text{RSS} = \sum_{i=1}^n \left( y_i - \beta_0 - \sum_{j=1}^p \beta_j x_{ij} \right)^2.
+\]</span></p></li>
+<li class="fragment"><p>In contrast, the ridge regression coefficient estimates <span class="math inline">\(\hat{\beta}^R\)</span> are the values that minimize <span class="math display">\[
+\sum_{i=1}^n \left( y_i - \beta_0 - \sum_{j=1}^p \beta_j x_{ij} \right)^2 + \lambda \sum_{j=1}^p \beta_j^2
+= \text{RSS} + \lambda \sum_{j=1}^p \beta_j^2,
+\]</span> where <span class="math inline">\(\lambda \geq 0\)</span> is a <em>tuning parameter</em>, to be determined separately.</p></li>
+</ul>
+</section>
+<section id="ridge-regression-continued" class="slide level2 center">
+<h2>Ridge regression: continued</h2>
+<ul>
+<li class="fragment"><p>As with least squares, ridge regression seeks coefficient estimates that fit the data well, by making the RSS small.</p></li>
+<li class="fragment"><p>However, the second term, <span class="math inline">\(\lambda \sum_j \beta_j^2\)</span>, called a <em>shrinkage penalty</em>, is small when <span class="math inline">\(\beta_1, \ldots, \beta_p\)</span> are close to zero, and so it has the effect of <em>shrinking</em> the estimates of <span class="math inline">\(\beta_j\)</span> towards zero.</p></li>
+<li class="fragment"><p>The tuning parameter <span class="math inline">\(\lambda\)</span> serves to control the relative impact of these two terms on the regression coefficient estimates.</p></li>
+<li class="fragment"><p>Selecting a good value for <span class="math inline">\(\lambda\)</span> is critical; cross-validation is used for this.</p></li>
+</ul>
+</section>
+<section id="credit-data-example-3" class="slide level2 center">
+<h2>Credit data example</h2>
+
+<img data-src="figs/6_4-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"></section>
+<section id="details-of-previous-figure-1" class="slide level2 center">
+<h2>Details of Previous Figure</h2>
+<ul>
+<li class="fragment"><p>In the left-hand panel, each curve corresponds to the ridge regression coefficient estimate for one of the ten variables, plotted as a function of <span class="math inline">\(\lambda\)</span>.</p></li>
+<li class="fragment"><p>The right-hand panel displays the same ridge coefficient estimates as the left-hand panel, but instead of displaying <span class="math inline">\(\lambda\)</span> on the <span class="math inline">\(x\)</span>-axis, we now display <span class="math inline">\(\|\hat{\beta}_\lambda^R\|_2 / \|\hat{\beta}\|_2\)</span>, where <span class="math inline">\(\hat{\beta}\)</span> denotes the vector of least squares coefficient estimates.</p></li>
+<li class="fragment"><p>The notation <span class="math inline">\(\|\beta\|_2\)</span> denotes the <span class="math inline">\(\ell_2\)</span> norm (pronounced “ell 2”) of a vector, and is defined as <span class="math inline">\(\|\beta\|_2 = \sqrt{\sum_{j=1}^p \beta_j^2}\)</span>.</p></li>
+</ul>
+</section>
+<section id="ridge-regression-scaling-of-predictors" class="slide level2 center">
+<h2>Ridge Regression: Scaling of Predictors</h2>
+<ul>
+<li class="fragment">The standard least squares coefficient estimates are <em>scale equivariant</em>: multiplying <span class="math inline">\(X_j\)</span> by a constant <span class="math inline">\(c\)</span> simply leads to a scaling of the least squares coefficient estimates by a factor of <span class="math inline">\(1/c\)</span>. In other words, regardless of how the <span class="math inline">\(j\)</span>th predictor is scaled, <span class="math inline">\(X_j \hat{\beta}_j\)</span> will remain the same.</li>
+<li class="fragment">In contrast, the ridge regression coefficient estimates can change <em>substantially</em> when multiplying a given predictor by a constant, due to the sum of squared coefficients term in the penalty part of the ridge regression objective function.</li>
+<li class="fragment">Therefore, it is best to apply ridge regression after <em>standardizing the predictors</em>, using the formula</li>
+</ul>
+<p><span class="math display">\[
+\tilde{x}_{ij} = \frac{x_{ij}}{\sqrt{\frac{1}{n} \sum_{i=1}^n (x_{ij} - \bar{x}_j)^2}}
+\]</span></p>
+</section>
+<section id="why-does-ridge-regression-improve-over-least-squares" class="slide level2 center">
+<h2>Why Does Ridge Regression Improve Over Least Squares?</h2>
+<p><strong>The Bias-Variance Tradeoff</strong></p>
+
+<img data-src="figs/6_5-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p>Simulated data with <span class="math inline">\(n = 50\)</span> observations, <span class="math inline">\(p = 45\)</span> predictors, all having nonzero coefficients. Squared bias (black), variance (green), and test mean squared error (purple) for the ridge regression predictions on a simulated data set, as a function of <span class="math inline">\(\lambda\)</span> and <span class="math inline">\(\|\hat{\beta}_\lambda^R\|_2 / \|\hat{\beta}\|_2\)</span>. The horizontal dashed lines indicate the minimum possible MSE. The purple crosses indicate the ridge regression models for which the MSE is smallest.</p>
+</section>
+<section id="the-lasso" class="slide level2 center">
+<h2>The Lasso</h2>
+<ul>
+<li class="fragment"><p>Ridge regression does have one obvious disadvantage: unlike subset selection, which will generally select models that involve just a subset of the variables, ridge regression will include all <span class="math inline">\(p\)</span> predictors in the final model.</p></li>
+<li class="fragment"><p>The <em>Lasso</em> is a relatively recent alternative to ridge regression that overcomes this disadvantage. The lasso coefficients, <span class="math inline">\(\hat{\beta}^L_\lambda\)</span>, minimize the quantity</p></li>
+</ul>
+<p><span class="math display">\[
+  \sum_{i=1}^n \left( y_i - \beta_0 - \sum_{j=1}^p \beta_j x_{ij} \right)^2 + \lambda \sum_{j=1}^p |\beta_j| = RSS + \lambda \sum_{j=1}^p |\beta_j|.
+\]</span></p>
+<ul>
+<li class="fragment">In statistical parlance, the lasso uses an <span class="math inline">\(\ell_1\)</span> (pronounced “ell 1”) penalty instead of an <span class="math inline">\(\ell_2\)</span> penalty. The <span class="math inline">\(\ell_1\)</span> norm of a coefficient vector <span class="math inline">\(\beta\)</span> is given by <span class="math inline">\(\|\beta\|_1 = \sum |\beta_j|\)</span>.</li>
+</ul>
+</section>
+<section id="the-lasso-continued" class="slide level2 center">
+<h2>The Lasso: Continued</h2>
+<ul>
+<li class="fragment"><p>As with ridge regression, the lasso shrinks the coefficient estimates towards zero.</p></li>
+<li class="fragment"><p>However, in the case of the lasso, the <span class="math inline">\(\ell_1\)</span> penalty has the effect of forcing some of the coefficient estimates to be exactly equal to zero when the tuning parameter <span class="math inline">\(\lambda\)</span> is sufficiently large.</p></li>
+<li class="fragment"><p>Hence, much like best subset selection, the lasso performs <em>variable selection</em>.</p></li>
+<li class="fragment"><p>We say that the lasso yields <em>sparse</em> models — that is, models that involve only a subset of the variables.</p></li>
+<li class="fragment"><p>As in ridge regression, selecting a good value of <span class="math inline">\(\lambda\)</span> for the lasso is critical; cross-validation is again the method of choice.</p></li>
+</ul>
+</section>
+<section id="example-credit-dataset" class="slide level2 center">
+<h2>Example: Credit Dataset</h2>
+
+<img data-src="figs/6_6-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"></section>
+<section id="the-variable-selection-property-of-the-lasso" class="slide level2 center">
+<h2>The Variable Selection Property of the Lasso</h2>
+<p>Why is it that the lasso, unlike ridge regression, results in coefficient estimates that are exactly equal to zero?</p>
+<p>One can show that the lasso and ridge regression coefficient estimates solve the problems:</p>
+<p><span class="math display">\[
+\text{minimize}_{\beta} \sum_{i=1}^{n} \left( y_i - \beta_0 - \sum_{j=1}^{p} \beta_j x_{ij} \right)^2 \quad \text{subject to} \quad \sum_{j=1}^{p} |\beta_j| \leq s
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\text{minimize}_{\beta} \sum_{i=1}^{n} \left( y_i - \beta_0 - \sum_{j=1}^{p} \beta_j x_{ij} \right)^2 \quad \text{subject to} \quad \sum_{j=1}^{p} \beta_j^2 \leq s,
+\]</span></p>
+<p>respectively.</p>
+</section>
+<section id="the-lasso-picture" class="slide level2 center">
+<h2>The Lasso Picture</h2>
+
+<img data-src="figs/6_7-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"></section>
+<section id="comparing-the-lasso-and-ridge-regression" class="slide level2 center">
+<h2>Comparing the Lasso and Ridge Regression</h2>
+
+<img data-src="figs/6_8-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><strong>Left:</strong> Plots of squared bias (black), variance (green), and test MSE (purple) for the lasso on simulated data set.</p>
+<p><strong>Right:</strong> Comparison of squared bias, variance, and test MSE between lasso (solid) and ridge (dashed). Both are plotted against their <span class="math inline">\(R^2\)</span> on the training data, as a common form of indexing. The crosses in both plots indicate the lasso model for which the MSE is smallest.</p>
+</section>
+<section id="comparing-the-lasso-and-ridge-regression-continued" class="slide level2 center">
+<h2>Comparing the Lasso and Ridge Regression: continued</h2>
+
+<img data-src="figs/6_9-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><strong>Left:</strong> Plots of squared bias (black), variance (green), and test MSE (purple) for the lasso. The simulated data, except that now only two predictors are related to the response.</p>
+<p><strong>Right:</strong> Comparison of squared bias, variance, and test MSE between lasso (solid) and ridge (dashed). Both are plotted against their <span class="math inline">\(R^2\)</span> on the training data, as a common form of indexing. The crosses in both plots indicate the lasso model for which the MSE is smallest.</p>
+</section>
+<section id="conclusions" class="slide level2 center">
+<h2>Conclusions</h2>
+<ul>
+<li class="fragment">These two examples illustrate that neither ridge regression nor the lasso will universally dominate the other.</li>
+<li class="fragment">In general, one might expect the lasso to perform better when the response is a function of only a relatively small number of predictors.</li>
+<li class="fragment">However, the number of predictors that is related to the response is never known <em>a priori</em> for real data sets.</li>
+<li class="fragment">A technique such as cross-validation can be used in order to determine which approach is better on a particular data set.</li>
+</ul>
+</section>
+<section id="selecting-the-tuning-parameter-for-ridge-regression-and-lasso" class="slide level2 center">
+<h2>Selecting the Tuning Parameter for Ridge Regression and Lasso</h2>
+<ul>
+<li class="fragment">As for subset selection, for ridge regression and lasso we require a method to determine which of the models under consideration is best.</li>
+<li class="fragment">That is, we require a method selecting a value for the tuning parameter <span class="math inline">\(\lambda\)</span> or equivalently, the value of the constraint <span class="math inline">\(s\)</span>.</li>
+<li class="fragment"><em>Cross-validation</em> provides a simple way to tackle this problem. We choose a grid of <span class="math inline">\(\lambda\)</span> values, and compute the cross-validation error rate for each value of <span class="math inline">\(\lambda\)</span>.</li>
+<li class="fragment">We then select the tuning parameter value for which the cross-validation error is smallest.</li>
+<li class="fragment">Finally, the model is re-fit using all of the available observations and the selected value of the tuning parameter.</li>
+</ul>
+</section>
+<section id="credit-data-example-4" class="slide level2 center">
+<h2>Credit data example</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="path-to-left-plot.png"></p>
+<figcaption>Cross-validation errors for ridge regression</figcaption>
+</figure>
+</div>
+<p><strong>Left:</strong> Cross-validation errors that result from applying ridge regression to the <em>Credit</em> data set with various values of <span class="math inline">\(\lambda\)</span>.</p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="path-to-right-plot.png"></p>
+<figcaption>Coefficient estimates as function of lambda</figcaption>
+</figure>
+</div>
+<p><strong>Right:</strong> The coefficient estimates as a function of <span class="math inline">\(\lambda\)</span>. The vertical dashed line indicates the value of <span class="math inline">\(\lambda\)</span> selected by cross-validation.</p>
+</div></div>
+</section>
+<section id="simulated-data-example" class="slide level2 center">
+<h2>Simulated data example</h2>
+
+<img data-src="figs/6_12-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><strong>Left:</strong> Ten-fold cross-validation MSE for the lasso, applied to the sparse simulated data set.</p>
+<p><strong>Right:</strong> The corresponding lasso coefficient estimates are displayed. The vertical dashed lines indicate the lasso fit for which the cross-validation error is smallest.</p>
+</section>
+<section id="dimension-reduction-methods" class="slide level2 center">
+<h2>Dimension Reduction Methods</h2>
+<ul>
+<li class="fragment"><p>The methods that we have discussed so far in this chapter have involved fitting linear regression models, via least squares or a shrunken approach, using the original predictors, <span class="math inline">\(X_1, X_2, \ldots, X_p\)</span>.</p></li>
+<li class="fragment"><p>We now explore a class of approaches that <em>transform</em> the predictors and then fit a least squares model using the transformed variables. We will refer to these techniques as <em>dimension reduction</em> methods.</p></li>
+</ul>
+</section>
+<section id="dimension-reduction-methods-details" class="slide level2 center">
+<h2>Dimension Reduction Methods: Details</h2>
+<ul>
+<li class="fragment"><p>Let <span class="math inline">\(Z_1, Z_2, \ldots, Z_M\)</span> represent <span class="math inline">\(M &lt; p\)</span> <em>linear combinations</em> of our original <span class="math inline">\(p\)</span> predictors. That is, <span class="math display">\[
+Z_m = \sum_{j=1}^p \phi_{mj} X_j \quad \text{(1)}
+\]</span> for some constants <span class="math inline">\(\phi_{m1}, \ldots, \phi_{mp}\)</span>.</p></li>
+<li class="fragment"><p>We can then fit the linear regression model, <span class="math display">\[
+y_i = \theta_0 + \sum_{m=1}^M \theta_m z_{im} + \epsilon_i, \quad i = 1, \ldots, n, \quad \text{(2)}
+\]</span> using ordinary least squares.</p></li>
+<li class="fragment"><p>Note that in model (2), the regression coefficients are given by <span class="math inline">\(\theta_0, \theta_1, \ldots, \theta_M\)</span>. If the constants <span class="math inline">\(\phi_{m1}, \ldots, \phi_{mp}\)</span> are chosen wisely, then such dimension reduction approaches can often outperform OLS regression.</p></li>
+</ul>
+</section>
+<section id="dimension-reduction-methods-continued" class="slide level2 center">
+<h2>Dimension Reduction Methods: Continued</h2>
+<ul>
+<li class="fragment"><p>Notice that from definition (1), <span class="math display">\[
+\sum_{m=1}^M \theta_m z_{im} = \sum_{m=1}^M \theta_m \sum_{j=1}^p \phi_{mj} x_{ij} = \sum_{j=1}^p \sum_{m=1}^M \theta_m \phi_{mj} x_{ij} = \sum_{j=1}^p \beta_j x_{ij},
+\]</span> where <span class="math display">\[
+\beta_j = \sum_{m=1}^M \theta_m \phi_{mj}. \quad \text{(3)}
+\]</span></p></li>
+<li class="fragment"><p>Hence model (2) can be thought of as a special case of the original linear regression model.</p></li>
+<li class="fragment"><p>Dimension reduction serves to constrain the estimated <span class="math inline">\(\beta_j\)</span> coefficients, since now they must take the form (3).</p></li>
+<li class="fragment"><p>Can win in the bias-variance tradeoff.</p></li>
+</ul>
+</section>
+<section id="principal-components-regression" class="slide level2 center">
+<h2>Principal Components Regression</h2>
+<ul>
+<li class="fragment">Here we apply principal components analysis (PCA) (discussed in Chapter 10 of the text) to define the linear combinations of the predictors, for use in our regression.</li>
+<li class="fragment">The first principal component is that (normalized) linear combination of the variables with the largest variance.</li>
+<li class="fragment">The second principal component has the largest variance, subject to being uncorrelated with the first.</li>
+<li class="fragment">And so on.</li>
+<li class="fragment">Hence with many correlated original variables, we replace them with a small set of principal components that capture their joint variation.</li>
+</ul>
+</section>
+<section id="pictures-of-pca" class="slide level2 center">
+<h2>Pictures of PCA</h2>
+
+<img data-src="figs/6_14-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><em>The population size (<code>pop</code>) and ad spending (<code>ad</code>) for 100 different cities are shown as purple circles. The green solid line indicates the first principal component, and the blue dashed line indicates the second principal component.</em></p>
+</section>
+<section id="pictures-of-pca-continued" class="slide level2 center">
+<h2>Pictures of PCA: continued</h2>
+
+<img data-src="figs/6_15-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><em>A subset of the advertising data. <strong>Left:</strong> The first principal component, chosen to minimize the sum of the squared perpendicular distances to each point, is shown in green. These distances are represented using the black dashed line segments. <strong>Right:</strong> The left-hand panel has been rotated so that the first principal component lies on the x-axis.</em></p>
+</section>
+<section id="pictures-of-pca-continued-1" class="slide level2 center">
+<h2>Pictures of PCA: continued</h2>
+
+<img data-src="figs/6_16-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><em>Plots of the first principal component scores <span class="math inline">\(z_{i1}\)</span> versus <strong>pop</strong> and <strong>ad</strong>. The relationships are strong.</em></p>
+</section>
+<section id="pictures-of-pca-continued-2" class="slide level2 center">
+<h2>Pictures of PCA: continued</h2>
+
+<img data-src="figs/6_17-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><em>Plots of the second principal component scores <span class="math inline">\(z_{i2}\)</span> versus <strong>pop</strong> and <strong>ad</strong>. The relationships are weak.</em></p>
+</section>
+<section id="application-to-principal-components-regression" class="slide level2 center">
+<h2>Application to Principal Components Regression</h2>
+
+<img data-src="figs/6_18-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><em>PCR was applied to two simulated data sets. The black, green, and purple lines correspond to squared bias, variance, and test mean squared error, respectively. <strong>Left</strong>: Simulated data. <strong>Right</strong>: Simulated data.</em></p>
+</section>
+<section id="choosing-the-number-of-directions-m" class="slide level2 center">
+<h2>Choosing the Number of Directions <span class="math inline">\(M\)</span></h2>
+
+<img data-src="figs/6_20-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:65.0%"><p><em>Left</em>: <strong>PCR standardized coefficient estimates</strong> on the <strong>Credit</strong> data set for different values of <span class="math inline">\(M\)</span>.</p>
+<p><em>Right</em>: The <strong>10-fold cross-validation MSE</strong> obtained using PCR, as a function of <span class="math inline">\(M\)</span>.</p>
+</section>
+<section id="partial-least-squares" class="slide level2 center">
+<h2>Partial Least Squares</h2>
+<ul>
+<li class="fragment"><p><strong>PCR</strong> identifies linear combinations, or <strong>directions</strong>, that best represent the predictors <span class="math inline">\(X_1, \dots, X_p\)</span>.</p></li>
+<li class="fragment"><p>These directions are identified in an <strong>unsupervised</strong> way, since the response <span class="math inline">\(Y\)</span> is not used to help determine the principal component directions.</p></li>
+<li class="fragment"><p>That is, the response does not <strong>supervise</strong> the identification of the principal components.</p></li>
+<li class="fragment"><p>Consequently, <strong>PCR</strong> suffers from a potentially serious drawback: there is no guarantee that the directions that best explain the predictors will also be the best directions to use for predicting the response.</p></li>
+</ul>
+</section>
+<section id="partial-least-squares-continued" class="slide level2 center">
+<h2>Partial Least Squares: Continued</h2>
+<ul>
+<li class="fragment"><p>Like <strong>PCR</strong>, <strong>PLS</strong> is a dimension reduction method, which first identifies a new set of features <span class="math inline">\(Z_1, \dots, Z_M\)</span> that are linear combinations of the original features, and then fits a linear model via <strong>OLS</strong> using these <span class="math inline">\(M\)</span> new features.</p></li>
+<li class="fragment"><p>But unlike <strong>PCR</strong>, <strong>PLS</strong> identifies these new features in a <strong>supervised</strong> way – that is, it makes use of the response <span class="math inline">\(Y\)</span> in order to identify new features that not only approximate the old features well, but also that <em>are related to the response</em>.</p></li>
+<li class="fragment"><p>Roughly speaking, the <strong>PLS</strong> approach attempts to find directions that help explain both the response and the predictors.</p></li>
+</ul>
+</section>
+<section id="details-of-partial-least-squares" class="slide level2 center">
+<h2>Details of Partial Least Squares</h2>
+<ul>
+<li class="fragment"><p>After standardizing the <span class="math inline">\(p\)</span> predictors, <strong>PLS</strong> computes the first direction <span class="math inline">\(Z_1\)</span> by setting each <span class="math inline">\(\phi_{1j}\)</span> in (1) equal to the coefficient from the simple linear regression of <span class="math inline">\(Y\)</span> onto <span class="math inline">\(X_j\)</span>.</p></li>
+<li class="fragment"><p>One can show that this coefficient is proportional to the correlation between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X_j\)</span>.</p></li>
+<li class="fragment"><p>Hence, in computing <span class="math inline">\(Z_1 = \sum_{j=1}^p \phi_{1j} X_j\)</span>, <strong>PLS</strong> places the highest weight on the variables that are most strongly related to the response.</p></li>
+<li class="fragment"><p>Subsequent directions are found by taking residuals and then repeating the above prescription.</p></li>
+</ul>
+</section>
+<section id="summary" class="slide level2 center">
+<h2>Summary</h2>
+<ul>
+<li class="fragment"><p>Research into methods that give <em>sparsity</em>, such as the <strong>lasso</strong>, is an especially hot area.</p></li>
+<li class="fragment"><p>Later, we will return to sparsity in more detail, and will describe related approaches such as the <strong>elastic net</strong>.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="summary-1" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Summary</h1>
+
+</section>
+<section id="summary-2" class="slide level2 center">
+<h2>Summary</h2>
+<div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="font-size: 80%;">
+<ul>
+<li><p>Model selection methods are an essential tool for data analysis, especially for big datasets involving many predictors.</p></li>
+<li><p>XXXX</p></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 80%;">
+<ul>
+<li>XXXX</li>
+</ul>
+</div>
+</div></div>
+</div>
+</section></section>
+<section id="thank-you" class="title-slide slide level1 center" data-background-color="#cfb991">
+<h1>Thank you!</h1>
+
+<div class="quarto-auto-generated-content">
+<div class="footer footer-default">
+<p>Predictive Analytics</p>
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1600,
+
+        height: 900,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

@@ -1,0 +1,148 @@
+---
+title: "Syllabus"
+author: "Davi Moreira"
+# title: "Syllabus: MGMT 30500: Business Statistics"
+# subtitle: "Mitch. Daniels School of Business, Purdue University"
+# date-modified: "last-modified"
+# date: "2025-08-01"
+# date-format: "MMM D, YYYY"
+#listing:
+# - id: schedule
+#   contents:
+#      - topics/topic-*.qmd
+#    type: table
+#    fields: [title, subtitle, date]
+#    field-display-names:
+#      title: "Topic"
+#      description: "Dates"
+#      subtitle: "Topics"
+#    date-format: "MMMM DD, YYYY"
+#    sort: [filename]
+#    sort-ui: false
+#    filter-ui: false
+---
+
+<br>
+<center>
+_IMPORTANT_
+
+_This document does not replace the official syllabus in the course brightspace page_
+
+</center>
+<br>
+
+## Course Description
+
+The course is designed to introduce students to basic data analysis techniques. Coverage will include the application of probability distributions such as the normal, the $t$, and the binomial; sampling distributions, basic statistical inference methods, analysis of variance, applied linear regression techniques, logistic regression time series analysis, statistical quality control, and decision analysis.
+
+**Course Website**: <https://davi-moreira.github.io/2025S_business_statistics_purdue_MGMT305>{target="_blank"}
+
+## Instructor
+
+### Instructor: [Professor Davi Moreira](https://davi-moreira.github.io)
+
+-   Office: Young Hall 414
+-   Email: [dmoreira@purdue.edu](mailto:dmoreira@purdue.edu)
+-   Virtual Office hours: Zoom link in your Course Brightspace Page
+-   Individual Appointments: Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.
+
+## Learning Outcomes
+
+By the end of this course, students will be able to:
+
+1. Understand the basic statistical principles and their applications in the area of management and business.
+2. Understand fundamental issues in business and management.
+3. Describe and use the commonly used statistical techniques for analyzing business data.
+4. Understand the impacts of recent developments in big data and AI in business and management.
+5. Be proficient in using Excel to carry out statistical and analytics methods covered in the course.
+
+## Objectives
+
+Our main goal is to instill the basic quantitative and data analysis skills needed by managers in modern business, where Business Analytics and Data Science have become important. These skills will help managers to understand and carry out data-based decision making, risk assessments, and policy making and to work effectively with data analysis teams to improve all aspects of business performance.
+
+Modern data analysis is done using computers and various types of sophisticated software. Therefore, to most effectively introduce management candidates to its techniques, we will also emphasize software applications (with Microsoft Excel, R, or Python) in this course.
+
+## Course Materials
+
+1. **Textbook**: Anderson, Sweeney, Williams, Camn, Cochran, Fry, and Ohlmann: Modern Business Statistics with Microsoft Excel, 7th edition, 2020, Cengage Learning, Inc. (Required). This text is also used in STAT 30301.
+2. **Handouts**: Lecture slides and supplementary materials. These are posted on Brightspace (Brightspace -> Content -> Table of Contents -> ….)
+
+## Course Infrastructure
+
+- **Brightspace**: The Course Brightspace Page (<https://purdue.brightspace.com/>) should be checked on a regular basis for announcements and course material.
+- **Software**: Microsoft Excel will be used for in-class demonstrations and instruction. The main tool is Data Analysis under Tools. If you don’t see this tool, follow these steps to add it in:
+  - File > Options > Add-ins > Select Analysis ToolPak and Analysis ToolPak-VBA (also select StatTools 7.5, if available) > Go > Data > Data Analysis (to conduct analyses)
+- **Course Website**: This class website will be used throughout the course, but it does not replace the Course Brightspace Page.
+
+## Assessments
+
+### Grading
+
+Following a university-wide initiative, the School has adopted an Official Grading Policy for core courses such as MGMT 30500. Under this policy, the overall GPA for this class can be no higher than 3.0. To comply with this course policy, final course letter grades will be based on the curved class final course percentages. The final course percentage is based on a weighted percentage computed using the weights shown in the table below:
+
+| **Assignment**             | **Percentage** |
+|----------------------------|:--------------:|
+| Homework*                  |      40%       |
+| Quizzes**                  |      15%       |
+| Midterms***                |      15%       |
+| Attendance/Participation   |       7%       |
+| Final****                  |      23%       |
+
+\*There are eight homework assignments. No homework assignment is dropped. The final homework score is calculated using aggregated points.
+
+\**There are three quizzes worth 5% each. Quizzes 2 and 3 are not cumulative.
+
+\***There are two midterms: each is worth 7.5%. Midterms are not cumulative.
+
+\**** Final is cumulative.
+
+### Homework
+
+Homework assignments are uploaded to Brightspace and must be submitted as a single PDF or Word file with all relevant outputs. Late submissions are not accepted. Ensure to:
+
+- Include all software outputs addressing the homework questions.
+- Clearly identify each problem with its respective chapter and problem number.
+- Do not copy and paste datasets into your submissions.
+
+Discuss problems with classmates, but ensure individual submissions. Duplicate papers are considered cheating.
+
+### Quizzes and Exams
+
+- Quizzes: Three quizzes will be given, with none being cumulative. Exceptional circumstances for make-ups require documentation.
+- Exams: Two midterms (7.5% each) and one final (23%) will test technical and conceptual understanding. Calculators without internet access are required. Makeup exams are only granted for documented exceptional circumstances.
+
+### Attendance and Participation
+
+Random attendance will be recorded through participation activities during class time. Participation in class discussions is essential and will influence the grade.
+
+### Grade Challenges
+
+Challenges to grades must be submitted within 7 calendar days of the grade announcement, with the exception of the final homework, which has a 3-day window. Provide specific details and reasons for challenges via email.
+
+### Extra Credit Opportunity
+
+A bonus will be provided if at least 85% of the class completes the midterm and/or final course evaluations.
+
+## Keys to Success
+
+1. Consistent Effort: Follow the schedule diligently.
+2. Pre-Class Preparation: Review materials and exercises beforehand.
+3. Class Materials: Ensure accessibility of readings and notes.
+4. Engagement: Regularly practice problems and seek clarifications.
+5. Active Learning: Actively engage with materials and presentations.
+
+## AI Policy
+
+Students are encouraged to use AI tools for learning enhancement but must adhere to the following:
+
+- AI tools are prohibited during exams.
+- Refine prompts for effective outputs.
+- Use AI for learning, not solution generation.
+- Cite any use of AI tools in submissions.
+
+## Additional Information
+
+Refer to Brightspace for deadlines, academic integrity policies, accommodations, CAPS information, and non-discrimination statements.
+
+## [Schedule](./schedule.qmd)
+

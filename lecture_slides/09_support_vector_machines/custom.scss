@@ -1,0 +1,90 @@
+/*-- scss:defaults --*/
+
+/* Default root font size for the presentation */
+$presentation-font-size-root: 35px;
+
+/* Default heading color for the presentation */
+$presentation-heading-color: #daaa00;
+
+/* Background color for code blocks */
+$code-block-bg:#F0F0F0;
+
+/*-- scss:rules --*/
+
+/* Define CSS custom properties (variables) for link colors in the :root scope */
+:root {
+  --r-link-color: #8e6f3e;       /* Default link color */
+  --r-link-color-dark: #8e6f3e;  /* Dark link color */
+  --r-link-color-hover: #8e6f3e; /* Link hover color */
+}
+
+/* Align text to the left within nested sections of Reveal.js slides */
+.reveal .slides > section > section { 
+  text-align: left; 
+}
+
+/* Class for blue text with a specific color and bold font weight */
+.blue {
+  color: #daaa00;
+  font-weight: bold;
+}
+
+/* Class for red text with a specific color and bold font weight */
+.red {
+  color: #D50032;
+  font-weight: bold;
+}
+
+/* Center the text of h1 elements within elements with class 'center' */
+.center h1 {
+  text-align: center;
+}
+
+/* Center the text of h2 elements within elements with class 'centered' */
+.centered h2 {
+  text-align: center;
+}
+
+/* Center the text of h3 elements within elements with class 'centered' */
+.centered h3 {
+  text-align: center;
+}
+
+/* Center the text of p (paragraph) elements within elements with class 'centered' */
+.centered p {
+  text-align: center;
+}
+
+/* Style for code blocks with a larger font size */
+code.sourceCode {
+  font-size: 1.6em;
+  /* Alternative option: font-size: xx-large; */
+}
+
+/* General style for inline code elements with a specific font size and color */
+code {
+  font-size: 1.2em;
+  color: #555960 !important; /* Inline code color with !important to ensure it overrides other styles */
+  /* Alternative option: font-size: xx-large; */
+}
+
+/* Style for links within Reveal.js slides to use the custom link color variable */
+.reveal .slides a {
+  color: var(--r-link-color) !important; /* Use the custom property for link color */
+  text-decoration: none !important;      /* Remove underline from links */
+}
+
+/* Styles for the menu button icon in the Reveal.js slide menu */
+
+/* Target various possible class combinations for the Font Awesome icon's ::before pseudo-element */
+.reveal .slide-menu-button i.fas::before,
+.reveal .slide-menu-button i.fa::before,
+.reveal .slide-menu-button [class^="fa-"]::before,
+.reveal .slide-menu-button [class*=" fa-"]::before {
+  background-image: none !important; /* Remove any background image */
+  content: "\f0c9";                  /* Use the Unicode for the Font Awesome 'bars' icon */
+  font-family: 'Font Awesome 5 Free';/* Set the font family to Font Awesome */
+  color: #8e6f3e !important;         /* Set the icon color and use !important to override other styles */
+  display: inline-block;             /* Ensure the icon displays as an inline block */
+  font-weight: 900;                  /* Use the solid weight for the Font Awesome icon */
+}
