@@ -154,7 +154,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nTopic\nReadings [ISLP]\nMaterial*\nSupplementary Materials\n\n\n\n\nWeek 1\nSyllabus, Logistics, and Introduction to Predictive Analytics.\nCh. 1; 2.1; 2.2; 2.3\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 2\nLinear Regression\nCh. 3.1; 3.2; 3.6\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 3\nClassification\nCh. 4.1; 4.2; 4.3; 4.4; 4.5; 4.7\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 4\nResampling Methods\nCh. 5.1; 5.2; 5.3\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 5\nLinear Model Selection & Regularization\nCh. 6.1; 6.2; 6.3; 6.4; 6.5\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 6\nBeyond Linearity\nCh. 7.1; 7.2; 7.4; 7.7; 7.8\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 7\nTree-Based Methods\nCh. 8.1; 8.2; 8.3\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 8\nSupport Vector Machines\nCh. 9.1; 9.2; 9.6\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 09\nUnsupervised Learning\nCh. 12.1; 12.2; 12.3; 12.4\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 10\nFinal Project\n.\n.\n.\n\n\nWeek 11\nFinal Project\n.\n.\n.\n\n\nWeek 12\nFinal Project\n.\n.\n.\n\n\nWeek 13\nDeep Learning\nCh. 10.1; 10.2; 10.3; 10.9\nslidesscript\n- Video: XXX- Video: XXX\n\n\nWeek 14\nDeep Learning\nCh. 10.4; 10.5; 10.6; 10.9\n.\n.\n\n\nWeek 15\nDeep Learning\nCh. 10.7; 10.8; 10.9\n.\n.\n\n\n\n* The course slides and labs are based on the [ISLP] book, “An Introduction to Statistical Learning with Applications in Python” by James, G., Witten, D., Hastie, T., and Tibshirani, R., and have been adapted to suit the specific needs of our course.",
+    "text": "Week\nTopic\nReadings [ISLP]\nMaterial*\nSupplementary Materials\n\n\n\n\nWeek 1\nSyllabus, Logistics, and Introduction.\nCh. 1; Ch. 2;\nslidesscript\n- Video: Statistical Learning: 2.1 Introduction to Regression Models- Video: Statistical Learning: 2.2 Dimensionality and Structured Models- Video: Statistical Learning: 2.3 Model Selection and Bias Variance Tradeoff- Video: Statistical Learning: 2.4 Classification- Video: Statistical Learning: 2.Py Data Types, Arrays, and Basics - 2023- Video: Statistical Learning: 2.Py.3 Graphics - 2023- Video: Statistical Learning: 2.Py Indexing and Dataframes - 2023\n\n\nWeek 2\nLinear Regression\nCh. 3.\nslidesscript\n- Video: Statistical Learning: 3.1 Simple linear regression- Video: Statistical Learning: 3.2 Hypothesis Testing and Confidence Intervals- Video: Statistical Learning: 3.3 Multiple Linear Regression- Video: Statistical Learning: 3.4 Some important questions- Video: Statistical Learning: 3.5 Extensions of the Linear Model- Video: Statistical Learning: 3.Py Linear Regression and statsmodels Package - 2023- Video: Statistical Learning: 3.Py Multiple Linear Regression Package - 2023- Video: Statistical Learning: 3.Py Interactions, Qualitative Predictors and Other Details I 2023\n\n\nWeek 3\nClassification\nCh. 4\nslidesscript\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 5\nLinear Model Selection & Regularization\nCh. 6\nslidesscript\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 6\nBeyond Linearity\nCh. 7\nslidesscript\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 7\nTree-Based Methods\nCh. 8\nslidesscript\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 8\nSupport Vector Machines\nCh. 9\nslidesscript\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 09\nUnsupervised Learning\nCh. 12\nslidesscript\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 10\nFinal Project\n.\n.\n.\n\n\nWeek 11\nFinal Project\n.\n.\n.\n\n\nWeek 12\nFinal Project\n.\n.\n.\n\n\nWeek 13\nDeep Learning\nCh. 10\nslidesscript\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 14\nDeep Learning\nCh. 10\n.\n.\n\n\nWeek 15\nDeep Learning\nCh. 10\n.\n.\n\n\n\n* The course slides and labs are based on the [ISLP] book, “An Introduction to Statistical Learning with Applications in Python” by James, G., Witten, D., Hastie, T., and Tibshirani, R., and have been adapted to suit the specific needs of our course.",
     "crumbs": [
       "Schedule and Material"
     ]
@@ -5245,15 +5245,15 @@
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#overview",
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#overview",
     "title": " MGMT 47400: Predictive Analytics ",
-    "section": "",
-    "text": "XXXX\n\n\n\nXXX"
+    "section": "Overview",
+    "text": "Overview\n\n\n\n\nXXXX\n\n\n\nXXX"
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#what-is-statistical-learning",
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#what-is-statistical-learning",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "What is Statistical Learning?",
-    "text": "What is Statistical Learning?\n\n\n\n\n\n\n\n\n\nShown are Sales vs TV, Radio, and Newspaper, with a blue linear-regression line fit separately to each.\nCan we predict Sales using these three?\nPerhaps we can do better using a model:\n\\[\n\\text{Sales} \\approx f(\\text{TV}, \\text{Radio}, \\text{Newspaper})\n\\]"
+    "text": "What is Statistical Learning?\n\nShown are Sales vs TV, Radio, and Newspaper, with a blue linear-regression line fit separately to each.\nCan we predict Sales using these three?\nPerhaps we can do better using a model:\n\\[\n\\text{Sales} \\approx f(\\text{TV}, \\text{Radio}, \\text{Newspaper})\n\\]"
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#notation",
@@ -5274,7 +5274,7 @@
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#is-there-an-ideal-fx",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Is There an Ideal \\(f(X)\\)?",
-    "text": "Is There an Ideal \\(f(X)\\)?\n\n\n\n\n\n\n\n\n\nIn particular, what is a good value for \\(f(X)\\) at a selected value of \\(X\\), say \\(X = 4\\)?\nA good value is:\n\\[\nf(4) = E(Y|X=4)\n\\]\nwhere \\(E(Y|X=4)\\) means the expected value (average) of \\(Y\\) given \\(X=4\\).\nThis ideal \\(f(x) = E(Y|X=x)\\) is called the regression function."
+    "text": "Is There an Ideal \\(f(X)\\)?\n\nIn particular, what is a good value for \\(f(X)\\) at a selected value of \\(X\\), say \\(X = 4\\)?\nA good value is:\n\\[\nf(4) = E(Y|X=4)\n\\]\nwhere \\(E(Y|X=4)\\) means the expected value (average) of \\(Y\\) given \\(X=4\\).\nThis ideal \\(f(x) = E(Y|X=x)\\) is called the regression function."
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#the-regression-function-fx",
@@ -5330,28 +5330,28 @@
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#simulated-example",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Simulated Example",
-    "text": "Simulated Example\n\n\n\n\n\n\n\n\n\nSimulated example. Red points are simulated values for income from the model:\n\\[\n\\text{income} = f(\\text{education}, \\text{seniority}) + \\epsilon\n\\]\n\\(f\\) is the blue surface."
+    "text": "Simulated Example\n\nSimulated example. Red points are simulated values for income from the model:\n\\[\n\\text{income} = f(\\text{education}, \\text{seniority}) + \\epsilon\n\\]\n\\(f\\) is the blue surface."
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#linear-regression-fit",
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#linear-regression-fit",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Linear Regression Fit",
-    "text": "Linear Regression Fit\n\n\n\n\n\n\n\n\n\nLinear regression model fit to the simulated data:\n\\[\n\\hat{f}_L(\\text{education}, \\text{seniority}) = \\hat{\\beta}_0 + \\hat{\\beta}_1 \\times \\text{education} + \\hat{\\beta}_2 \\times \\text{seniority}\n\\]"
+    "text": "Linear Regression Fit\n\nLinear regression model fit to the simulated data:\n\\[\n\\hat{f}_L(\\text{education}, \\text{seniority}) = \\hat{\\beta}_0 + \\hat{\\beta}_1 \\times \\text{education} + \\hat{\\beta}_2 \\times \\text{seniority}\n\\]"
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#flexible-regression-model-fit",
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#flexible-regression-model-fit",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Flexible Regression Model Fit",
-    "text": "Flexible Regression Model Fit\n\n\n\n\n\n\n\n\n\nMore flexible regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data. Here we use a technique called a thin-plate spline to fit a flexible surface.\nWe control the roughness of the fit."
+    "text": "Flexible Regression Model Fit\n\nMore flexible regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data. Here we use a technique called a thin-plate spline to fit a flexible surface.\nWe control the roughness of the fit."
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#overfitting",
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#overfitting",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Overfitting",
-    "text": "Overfitting\n\n\n\n\n\n\n\n\n\nEven more flexible spline regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data.\nThe fitted model makes no errors on the training data! This is known as overfitting."
+    "text": "Overfitting\n\nEven more flexible spline regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data.\nThe fitted model makes no errors on the training data! This is known as overfitting."
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#some-trade-offs",
@@ -5365,7 +5365,7 @@
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#flexibility-vs.-interpretability",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Flexibility vs. Interpretability",
-    "text": "Flexibility vs. Interpretability\nTrade-offs between flexibility and interpretability:\n\n\n\n\n\n\n\n\n\n\nHigh interpretability: Subset selection, Lasso\n\nIntermediate: Least squares, Generalized Additive Models, Trees\n\nHigh flexibility: Bagging, Boosting, Support Vector Machines"
+    "text": "Flexibility vs. Interpretability\nTrade-offs between flexibility and interpretability:\n\n\nHigh interpretability: Subset selection, Lasso\n\nIntermediate: Least squares, Generalized Additive Models, Trees\n\nHigh flexibility: Bagging, Boosting, Support Vector Machines"
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#assessing-model-accuracy",
@@ -5379,21 +5379,21 @@
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#bias-variance-trade-off",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Bias-Variance Trade-off",
-    "text": "Bias-Variance Trade-off\n\n\n\n\n\n\n\n\n\n\nBlack curve is the truth. Red curve on right is MSE on the test set (\\(\\text{MSE}_{Te}\\)), grey curve is MSE on the training set (\\(\\text{MSE}_{Tr}\\)).\nOrange, blue, green curves/squares correspond to fits of different flexibilities."
+    "text": "Bias-Variance Trade-off\n\n\nBlack curve is the truth. Red curve on right is MSE on the test set (\\(\\text{MSE}_{Te}\\)), grey curve is MSE on the training set (\\(\\text{MSE}_{Tr}\\)).\nOrange, blue, green curves/squares correspond to fits of different flexibilities."
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#smoother-truth-example",
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#smoother-truth-example",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Smoother Truth Example",
-    "text": "Smoother Truth Example\n\n\n\n\n\n\n\n\n\nHere the truth is smoother, so smoother fits and linear models perform well."
+    "text": "Smoother Truth Example\n\nHere the truth is smoother, so smoother fits and linear models perform well."
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#noisy-wiggly-truth-example",
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#noisy-wiggly-truth-example",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Noisy, Wiggly Truth Example",
-    "text": "Noisy, Wiggly Truth Example\n\n\n\n\n\n\n\n\n\nHere the truth is wiggly and the noise is low. More flexible fits perform the best."
+    "text": "Noisy, Wiggly Truth Example\n\nHere the truth is wiggly and the noise is low. More flexible fits perform the best."
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#bias-variance-trade-off-1",
@@ -5456,7 +5456,7 @@
     "href": "lecture_slides/02_statistical_learning/02_statistical_learning.html#knn-k-1-vs.-k-100",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "KNN: K = 1 vs. K = 100",
-    "text": "KNN: K = 1 vs. K = 100\n\n\n\n\n\n\n\n\n\nComparisons of a very low value of \\(k\\) (left, \\(k=1\\)) versus a very high value (right, \\(k=100\\)).\n\n\\(k=1\\): Overly flexible boundary that can overfit.\n\\(k=100\\): Very smooth boundary that can underfit."
+    "text": "KNN: K = 1 vs. K = 100\n\nComparisons of a very low value of \\(k\\) (left, \\(k=1\\)) versus a very high value (right, \\(k=100\\)).\n\n\\(k=1\\): Overly flexible boundary that can overfit.\n\\(k=100\\): Very smooth boundary that can underfit."
   },
   {
     "objectID": "lecture_slides/02_statistical_learning/02_statistical_learning.html#knn-error-rates",
@@ -5483,8 +5483,8 @@
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#overview",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#overview",
     "title": " MGMT 47400: Predictive Analytics ",
-    "section": "",
-    "text": "XXXX\n\n\n\nXXX"
+    "section": "Overview",
+    "text": "Overview\n\n\n\n\nLinear Regression\nSimple Linear Regression\nMultiple Linear Regression\nConsiderations in the Regression Model\n\nQualitative Predictors\n\n\n\n\nExtensions of the Linear Model\n\nInteractions\nHierarchy\n\nNon-linear effects of predictors\n\n\n\n\n\n\nThis lecture content is inspired by and replicates the material from An Introduction to Statistical Learning."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#xxx",
@@ -5498,14 +5498,14 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#linear-regression",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Linear Regression",
-    "text": "Linear Regression\n\nLinear regression is a simple approach to supervised learning. It assumes that the dependence of \\(Y\\) on \\(X_1, X_2, \\ldots, X_p\\) is linear.\nTrue regression functions are never linear!\n\n\n\n\n\n\n\n\n\n\n\nAlthough it may seem overly simplistic, linear regression is extremely useful both conceptually and practically."
+    "text": "Linear Regression\n\n\n\nLinear regression is a simple approach to supervised learning. It assumes that the dependence of \\(Y\\) on \\(X_1, X_2, \\ldots, X_p\\) is linear.\nTrue regression functions are never linear!\n\n\n\n\n\n\n\n\n\n\n\nAlthough it may seem overly simplistic, linear regression is extremely useful both conceptually and practically."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#linear-regression-for-the-advertising-data",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#linear-regression-for-the-advertising-data",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Linear Regression for the Advertising Data",
-    "text": "Linear Regression for the Advertising Data\nConsider the advertising data shown:\n\n\n\n\n\n\n\n\n\nQuestions we might ask:\n\nIs there a relationship between advertising budget and sales?\nHow strong is the relationship between advertising budget and sales?\nWhich media contribute to sales?\nHow accurately can we predict future sales?\nIs the relationship linear?\nIs there synergy among the advertising media?"
+    "text": "Linear Regression for the Advertising Data\n\n\nConsider the advertising data shown:\n\n\n\n\n\n\n\n\n\nQuestions we might ask:\n\n\n\n\nIs there a relationship between advertising budget and sales?\nHow strong is the relationship between advertising budget and sales?\nWhich media contribute to sales?\nHow accurately can we predict future sales?\nIs the relationship linear?\nIs there synergy among the advertising media?"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#advertising-data",
@@ -5518,8 +5518,8 @@
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#simple-linear-regression-using-a-single-predictor-x",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#simple-linear-regression-using-a-single-predictor-x",
     "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Simple Linear Regression Using a Single Predictor \\(X\\)",
-    "text": "Simple Linear Regression Using a Single Predictor \\(X\\)\n\nWe assume a model:\n\n\\[\n  Y = \\beta_0 + \\beta_1 X + \\epsilon,\n\\]\nwhere \\(\\beta_0\\) and \\(\\beta_1\\) are the intercept and slope, and \\(\\epsilon\\) is the error term.\n\nPredictions are given by:\n\n\\[\n  \\hat{y} = \\hat{\\beta}_0 + \\hat{\\beta}_1 x.\n\\]"
+    "section": "Simple Linear Regression using a single predictor \\(X\\)",
+    "text": "Simple Linear Regression using a single predictor \\(X\\)\n\n\n\nWe assume a model:\n\n\\[\n  Y = \\beta_0 + \\beta_1X + \\epsilon,\n\\]\nwhere \\(\\beta_0\\) and \\(\\beta_1\\) are two unknown constants that represent the intercept and slope, also known as coefficients or parameters, and \\(\\epsilon\\) is the error term.\n\n\nGiven some estimates \\(\\hat{\\beta}_0\\) and \\(\\hat{\\beta}_1\\) for the model coefficients, we predict future sales using:\n\n\\[\n  \\hat{y} = \\hat{\\beta}_0 + \\hat{\\beta}_1x,\n\\]\nwhere \\(\\hat{y}\\) indicates a prediction of \\(Y\\) on the basis of \\(X = x\\). The hat symbol denotes an estimated value."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#estimation-of-parameters-by-least-squares",
@@ -5533,21 +5533,21 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#example-advertising-data",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Example: Advertising Data",
-    "text": "Example: Advertising Data\n\n\n\n\n\n\n\n\n\nThe least squares fit for the regression of sales onto TV is shown. In this case a linear fit captures the essence of the relationship, although it is somewhat deficient in the left of the plot"
+    "text": "Example: Advertising Data\n\n\n\n\n\n\n\n\n\n\n\nThe least squares fit for the regression of sales onto TV is shown. In this case a linear fit captures the essence of the relationship, although it is somewhat deficient in the left of the plot"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#assessing-the-accuracy-of-the-coefficient-estimates",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#assessing-the-accuracy-of-the-coefficient-estimates",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Assessing the Accuracy of the Coefficient Estimates",
-    "text": "Assessing the Accuracy of the Coefficient Estimates\n\nThe standard error of an estimator reflects how it varies under repeated sampling:\n\n\\[\n  SE(\\hat{\\beta}_1)^2 = \\frac{\\sigma^2}{\\sum_{i=1}^n (x_i - \\bar{x})^2}, \\quad SE(\\hat{\\beta}_0)^2 = \\sigma^2 \\left[ \\frac{1}{n} + \\frac{\\bar{x}^2}{\\sum_{i=1}^n (x_i - \\bar{x})^2} \\right].\n\\]\nwhere \\(\\sigma^2 = Var(\\epsilon)\\)\n\nThese standard errors can be used to compute confidence intervals. A 95% confidence interval is defined as a range of values such that with 95% probability, the range will contain the true unknown value of the parameter. It has the form:\n\n\\[\n  \\hat{\\beta}_1 \\pm 2 \\cdot SE(\\hat{\\beta}_1).\n\\]\n\nThere is approximately a 95% chance that the interval:\n\n\\[\n  \\left[ \\hat{\\beta}_1 - 2 \\cdot SE(\\hat{\\beta}_1), \\hat{\\beta}_1 + 2 \\cdot SE(\\hat{\\beta}_1) \\right]\n\\]\nwill contain the true value of \\(\\beta_1\\) (under a scenario where we obtained repeated samples like the present sample).\n\nFor the advertising data, the 95% confidence interval for \\(\\beta_1\\) is:\n\n\\[\n  [0.042, 0.053].\n\\]"
+    "text": "Assessing the Accuracy of the Coefficient Estimates\n\n\n\nThe standard error of an estimator reflects how it varies under repeated sampling:\n\n\\[\n  SE(\\hat{\\beta}_1)^2 = \\frac{\\sigma^2}{\\sum_{i=1}^n (x_i - \\bar{x})^2}, \\quad SE(\\hat{\\beta}_0)^2 = \\sigma^2 \\left[ \\frac{1}{n} + \\frac{\\bar{x}^2}{\\sum_{i=1}^n (x_i - \\bar{x})^2} \\right].\n\\]\nwhere \\(\\sigma^2 = Var(\\epsilon)\\)\n\n\nThese standard errors can be used to compute confidence intervals. A 95% confidence interval is defined as a range of values such that with 95% probability, the range will contain the true unknown value of the parameter. It has the form:\n\n\\[\n  \\hat{\\beta}_1 \\pm 2 \\cdot SE(\\hat{\\beta}_1).\n\\]\n\n\n\nThere is approximately a 95% chance that the interval:\n\n\\[\n  \\left[ \\hat{\\beta}_1 - 2 \\cdot SE(\\hat{\\beta}_1), \\hat{\\beta}_1 + 2 \\cdot SE(\\hat{\\beta}_1) \\right]\n\\]\nwill contain the true value of \\(\\beta_1\\) (under a scenario where we obtained repeated samples like the present sample).\n\nFor the advertising data, the 95% confidence interval for \\(\\beta_1\\) is:\n\n\\[\n  [0.042, 0.053].\n\\]"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#hypothesis-testing",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#hypothesis-testing",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Hypothesis Testing",
-    "text": "Hypothesis Testing\n\nStandard errors can be used to perform hypothesis tests on coefficients.\nThe most common hypothesis test involves testing the null hypothesis:\n\n\\[\n  H_0: \\text{There is no relationship between } X \\text{ and } Y\n\\] versus the alternative hypothesis:\n\\[\n  H_A: \\text{There is some relationship between } X \\text{ and } Y.\n\\]\n\nMathematically, this corresponds to testing:\n\n\\[\n  H_0: \\beta_1 = 0\n\\] versus:\n\\[\n  H_A: \\beta_1 \\neq 0,\n\\]\nsince if \\(\\beta_1 = 0\\), then the model reduces to \\(Y = \\beta_0 + \\epsilon\\), and \\(X\\) is not associated with \\(Y\\)."
+    "text": "Hypothesis Testing\n\n\n\nStandard errors can be used to perform hypothesis tests on coefficients. The most common hypothesis test involves testing the null hypothesis:\n\n\\[\n  H_0: \\text{There is no relationship between } X \\text{ and } Y\n\\] versus the alternative hypothesis:\n\\[\n  H_A: \\text{There is some relationship between } X \\text{ and } Y.\n\\]\n\n\nMathematically, this corresponds to testing:\n\n\\[\n  H_0: \\beta_1 = 0\n\\] versus:\n\\[\n  H_A: \\beta_1 \\neq 0,\n\\]\nsince if \\(\\beta_1 = 0\\), then the model reduces to \\(Y = \\beta_0 + \\epsilon\\), and \\(X\\) is not associated with \\(Y\\)."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#hypothesis-testing-continued",
@@ -5561,21 +5561,21 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#results-for-the-advertising-data",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Results for the Advertising Data",
-    "text": "Results for the Advertising Data\n\n\n\nVariable\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n7.0325\n0.4578\n15.36\n&lt; 0.0001\n\n\nTV\n0.0475\n0.0027\n17.67\n&lt; 0.0001"
+    "text": "Results for the Advertising Data\n\n\n\n\nVariable\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n7.0325\n0.4578\n15.36\n&lt; 0.0001\n\n\nTV\n0.0475\n0.0027\n17.67\n&lt; 0.0001"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#assessing-the-overall-accuracy-of-the-model",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#assessing-the-overall-accuracy-of-the-model",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Assessing the Overall Accuracy of the Model",
-    "text": "Assessing the Overall Accuracy of the Model\n\nResidual Standard Error (RSE):\n\n\\[\n  RSE = \\sqrt{\\frac{1}{n-2} RSS} = \\sqrt{\\frac{1}{n-2} \\sum_{i=1}^n (y_i - \\hat{y}_i)^2}\n\\] where the Residual Sum of Square (RSS) is \\(\\sum_{i=1}^n (y_i - \\hat{y})^2\\).\n\n\\(R^2\\), the fraction of variance explained:\n\n\\[\n  R^2 = \\frac{TSS - RSS}{TSS} = 1 - \\frac{RSS}{TSS}, \\quad TSS = \\sum_{i=1}^n (y_i - \\bar{y})^2\n\\] where TSS is the Total Sums of Squares.\n\nIt can be shown that in this simple linear regression setting that \\(R^2 = r^2\\), where \\(r\\) is the correlation between X and Y:\n\n\\[\nr = \\frac{\\sum_{i=1}^n (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum_{i=1}^n (x_i - \\bar{x})^2 \\sum_{i=1}^n (y_i - \\bar{y})^2}}\n\\]"
+    "text": "Assessing the Overall Accuracy of the Model\n\n\n\nResidual Standard Error (RSE):\n\n\\[\n  RSE = \\sqrt{\\frac{1}{n-2} RSS} = \\sqrt{\\frac{1}{n-2} \\sum_{i=1}^n (y_i - \\hat{y}_i)^2}\n\\] where the Residual Sum of Square (RSS) is \\(\\sum_{i=1}^n (y_i - \\hat{y})^2\\).\n\n\n\\(R^2\\), the fraction of variance explained:\n\n\\[\n  R^2 = \\frac{TSS - RSS}{TSS} = 1 - \\frac{RSS}{TSS}, \\quad TSS = \\sum_{i=1}^n (y_i - \\bar{y})^2\n\\] where TSS is the Total Sums of Squares.\n\n\n\nIt can be shown that in this Simple Linear Regression setting that \\(R^2 = r^2\\), where \\(r\\) is the correlation between X and Y:\n\n\\[\nr = \\frac{\\sum_{i=1}^n (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum_{i=1}^n (x_i - \\bar{x})^2 \\sum_{i=1}^n (y_i - \\bar{y})^2}}\n\\]"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#advertising-data-results",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#advertising-data-results",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Advertising Data Results",
-    "text": "Advertising Data Results\n\nKey metrics for model accuracy:\n\n\n\n\nQuantity\nValue\n\n\n\n\nResidual Standard Error\n3.26\n\n\nR²\n0.612\n\n\nF-statistic\n312.1"
+    "text": "Advertising Data Results\n\n\nKey metrics for model accuracy:\n\n\n\n\nQuantity\nValue\n\n\n\n\nResidual Standard Error\n3.26\n\n\nR²\n0.612\n\n\nF-statistic\n312.1"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#multiple-linear-regression",
@@ -5589,7 +5589,7 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#interpreting-regression-coefficients",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Interpreting Regression Coefficients",
-    "text": "Interpreting Regression Coefficients\n\nThe ideal scenario is when the predictors are uncorrelated — a balanced design:\n\nEach coefficient can be estimated and tested separately.\nInterpretations such as *“a unit change in* \\(X_j\\) is associated with a \\(\\beta_j\\) change in \\(Y\\), while all the other variables stay fixed” are possible.\n\nCorrelations amongst predictors cause problems:\n\nThe variance of all coefficients tends to increase, sometimes dramatically.\nInterpretations become hazardous — when \\(X_j\\) changes, everything else changes.\n\nClaims of causality should be avoided for observational data."
+    "text": "Interpreting Regression Coefficients\n\nThe ideal scenario is when the predictors are uncorrelated — a balanced design:\n\nEach coefficient can be estimated and tested separately.\nInterpretations such as “a unit change in \\(X_j\\) is associated with a \\(\\beta_j\\) change in \\(Y\\), while all the other variables stay fixed” are possible.\n\nCorrelations amongst predictors cause problems:\n\nThe variance of all coefficients tends to increase, sometimes dramatically.\nInterpretations become hazardous — when \\(X_j\\) changes, everything else changes.\n\nClaims of causality should be avoided for observational data."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#the-woes-of-interpreting-regression-coefficients",
@@ -5610,49 +5610,49 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#estimation-and-prediction-for-multiple-regression",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Estimation and Prediction for Multiple Regression",
-    "text": "Estimation and Prediction for Multiple Regression\n\nGiven estimates ( _0, _1, , _p ), we can make predictions using the formula:\n\n[ = _0 + _1x_1 + _2x_2 + + _px_p. ]\n\nWe estimate ( _0, _1, , _p ) as the values that minimize the sum of squared residuals:\n\n[ RSS = _{i=1}^n (y_i - i)^2 ] [ = ^n ( y_i - _0 - 1x{i1} - 2x{i2} - - px{ip} )^2. ]\n\nThis is done using standard statistical software. The values ( _0, _1, , _p ) that minimize ( RSS ) are the multiple least squares regression coefficient estimates."
+    "text": "Estimation and Prediction for Multiple Regression\n\n\n\nGiven estimates \\(\\hat{\\beta}_0, \\hat{\\beta}_1, \\ldots, \\hat{\\beta}_p\\), we can make predictions using the formula:\n\n\\[\n  \\hat{y} = \\hat{\\beta}_0 + \\hat{\\beta}_1x_1 + \\hat{\\beta}_2x_2 + \\cdots + \\hat{\\beta}_px_p.\n\\]\n\n\nWe estimate \\(\\beta_0, \\beta_1, \\ldots, \\beta_p\\) as the values that minimize the sum of squared residuals:\n\n\\[\n  \\text{RSS} = \\sum_{i=1}^n \\left( y_i - \\hat{y}_i \\right)^2\n             = \\sum_{i=1}^n \\left( y_i - \\hat{\\beta}_0 - \\hat{\\beta}_1x_{i1} - \\hat{\\beta}_2x_{i2} - \\cdots - \\hat{\\beta}_px_{ip} \\right)^2.\n\\]\n\nThis is done using standard statistical software. The values \\(\\hat{\\beta}_0, \\hat{\\beta}_1, \\ldots, \\hat{\\beta}_p\\) that minimize RSS are the multiple least squares regression coefficient estimates."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#results-for-advertising-data",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#results-for-advertising-data",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Results for Advertising Data",
-    "text": "Results for Advertising Data\nRegression Coefficients\n\n\n\nPredictor\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n2.939\n0.3119\n9.42\n&lt; 0.0001\n\n\nTV\n0.046\n0.0014\n32.81\n&lt; 0.0001\n\n\nradio\n0.189\n0.0086\n21.89\n&lt; 0.0001\n\n\nnewspaper\n-0.001\n0.0059\n-0.18\n0.8599\n\n\n\nCorrelations\n\n\n\nPredictor\nTV\nradio\nnewspaper\nsales\n\n\n\n\nTV\n1.0000\n0.0548\n0.0567\n0.7822\n\n\nradio\n\n1.0000\n0.3541\n0.5762\n\n\nnewspaper\n\n\n1.0000\n0.2283\n\n\nsales\n\n\n\n1.0000"
+    "text": "Results for Advertising Data\n\n\n\nRegression Coefficients\n\n\n\n\nPredictor\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n2.939\n0.3119\n9.42\n&lt; 0.0001\n\n\nTV\n0.046\n0.0014\n32.81\n&lt; 0.0001\n\n\nradio\n0.189\n0.0086\n21.89\n&lt; 0.0001\n\n\nnewspaper\n-0.001\n0.0059\n-0.18\n0.8599\n\n\n\n\n\n\nCorrelations\n\n\n\n\nPredictor\nTV\nradio\nnewspaper\nsales\n\n\n\n\nTV\n1.0000\n0.0548\n0.0567\n0.7822\n\n\nradio\n\n1.0000\n0.3541\n0.5762\n\n\nnewspaper\n\n\n1.0000\n0.2283\n\n\nsales\n\n\n\n1.0000"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#some-important-questions",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#some-important-questions",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Some Important Questions",
-    "text": "Some Important Questions\n\nIs at least one of the predictors \\(X_1, X_2, \\dots, X_p\\) useful in predicting the response?\nDo all the predictors help to explain \\(Y\\), or is only a subset of the predictors useful?\nHow well does the model fit the data?\nGiven a set of predictor values, what response value should we predict, and how accurate is our prediction?"
+    "text": "Some Important Questions\n\n\nIs at least one of the predictors \\(X_1, X_2, \\dots, X_p\\) useful in predicting the response?\nDo all the predictors help to explain \\(Y\\), or is only a subset of the predictors useful?\nHow well does the model fit the data?\nGiven a set of predictor values, what response value should we predict, and how accurate is our prediction?"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#is-at-least-one-predictor-useful",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#is-at-least-one-predictor-useful",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Is at Least One Predictor Useful?",
-    "text": "Is at Least One Predictor Useful?\nFor the first question, we can use the F-statistic:\n\\[\nF = \\frac{(TSS - RSS) / p}{RSS / (n - p - 1)} \\sim F_{p, n-p-1}\n\\]\n\n\n\nQuantity\nValue\n\n\n\n\nResidual Standard Error\n1.69\n\n\n\\(R^2\\)\n0.897\n\n\nF-statistic\n570"
+    "text": "Is at Least One Predictor Useful?\nFor the first question, we can use the F-statistic:\n\\[\nF = \\frac{(TSS - RSS) / p}{RSS / (n - p - 1)} \\sim F_{p, n-p-1}\n\\]\n\n\n\nQuantity\nValue\n\n\n\n\nResidual Standard Error\n1.69\n\n\n\\(R^2\\)\n0.897\n\n\nF-statistic\n570\n\n\n\n\nThe F-statistic is huge and it’s p-value is less than \\(.0001\\). This says that there’s a strong association of the predictors on the outcome variable."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#deciding-on-the-important-variables",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#deciding-on-the-important-variables",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Deciding on the Important Variables",
-    "text": "Deciding on the Important Variables\n\nThe most direct approach is called all subsets or best subsets regression:\nCompute the least squares fit for all possible subsets.\nChoose between them based on some criterion that balances training error with model size.\nHowever, we often can’t examine all possible models since there are (2^p) of them.\nFor example, when (p = 40), there are over a billion models!\nInstead, we need an automated approach that searches through a subset of them."
+    "text": "Deciding on the Important Variables\n\nThe most direct approach is called all subsets or best subsets regression:\n\nCompute the least squares fit for all possible subsets.\nChoose between them based on some criterion that balances training error with model size.\n\n\n\n\nHowever, we often can’t examine all possible models since there are (\\(2^p\\)) of them.\n\nFor example, when (p = 40), there are over a billion models!\n\nInstead, we need an automated approach that searches through a subset of them."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#forward-selection",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#forward-selection",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Forward Selection",
-    "text": "Forward Selection\n\nBegin with the null model — a model that contains an intercept but no predictors.\nFit ( p ) simple linear regressions and add to the null model the variable that results in the lowest RSS.\nAdd to that model the variable that results in the lowest RSS amongst all two-variable models.\nContinue until some stopping rule is satisfied:\n\nFor example, when all remaining variables have a p-value above some threshold."
+    "text": "Forward Selection\n\nBegin with the null model — a model that contains an intercept but no predictors.\nFit \\(p\\) Simple Linear Regressions and add to the null model the variable that results in the lowest RSS.\nAdd to that model the variable that results in the lowest RSS amongst all two-variable models.\nContinue until some stopping rule is satisfied:\n\nFor example, when all remaining variables have a p-value above some threshold."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#backward-selection",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#backward-selection",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Backward Selection",
-    "text": "Backward Selection\n\nStart with all variables in the model.\nRemove the variable with the largest p-value — that is, the variable that is the least statistically significant.\nThe new ((p - 1))-variable model is fit, and the variable with the largest p-value is removed.\nContinue until a stopping rule is reached:\n\nFor instance, we may stop when all remaining variables have a significant p-value defined by some significance threshold."
+    "text": "Backward Selection\n\nStart with all variables in the model.\nRemove the variable with the largest p-value — that is, the variable that is the least statistically significant.\nThe new (\\(p - 1\\))-variable model is fit, and the variable with the largest p-value is removed.\nContinue until a stopping rule is reached:\n\nFor instance, we may stop when all remaining variables have a significant p-value defined by some significance threshold."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#model-selection-continued",
@@ -5679,8 +5679,8 @@
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors-continued",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors-continued",
     "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Qualitative Predictors — Continued",
-    "text": "Qualitative Predictors — Continued\nExample: investigate differences in credit card balance between males and females, ignoring the other variables. We create a new variable:\n[ x_i =\n\\[\\begin{cases}\n1 & \\text{if } i\\text{th person is female} \\\\\n0 & \\text{if } i\\text{th person is male}\n\\end{cases}\\]\n]\nResulting model:\n[ y_i = _0 + _1 x_i + _i =\n\\[\\begin{cases}\n\\beta_0 + \\beta_1 + \\epsilon_i & \\text{if } i\\text{th person is female} \\\\\n\\beta_0 + \\epsilon_i & \\text{if } i\\text{th person is male.}\n\\end{cases}\\]\n]\nInterpretation?"
+    "section": "Qualitative Predictors Continued",
+    "text": "Qualitative Predictors Continued\n\nBoth variables can be used in the regression equation to obtain the model:\n\n\\[\ny_i = \\beta_0 + \\beta_1 x_{i1} + \\beta_2 x_{i2} + \\epsilon_i\n\\]\nWhere:\n\n\\(\\beta_0 + \\beta_1 + \\epsilon_i\\): if \\(i\\)-th person is Asian\n\\(\\beta_0 + \\beta_2 + \\epsilon_i\\): if \\(i\\)-th person is Caucasian\n\\(\\beta_0 + \\epsilon_i\\): if \\(i\\)-th person is African American (baseline)\nNote: There will always be one fewer dummy variable than the number of levels. The level with no dummy variable — African American (AA) in this example — is known as the baseline."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#credit-card-data-continued",
@@ -5694,7 +5694,7 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors-with-more-than-two-levels",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Qualitative Predictors with More Than Two Levels",
-    "text": "Qualitative Predictors with More Than Two Levels\nWith more than two levels, we create additional dummy variables.\n\nFor example, for the ethnicity variable, we create two dummy variables:\n\n$$ x_{i1} =\n\\[\\begin{cases}\n      1 & \\text{if i-th person is Asian} \\\\\n      0 & \\text{if i-th person is not Asian}\n    \\end{cases}\\]\n$$\n\\[\nx_{i2} = \\begin{cases}\n      1 & \\text{if i-th person is Caucasian} \\\\\n      0 & \\text{if i-th person is not Caucasian}\n    \\end{cases}\n\\]"
+    "text": "Qualitative Predictors with More Than Two Levels\n\nWith more than two levels, we create additional dummy variables.\nFor example, for the ethnicity variable, we create two dummy variables:\n\\[\nx_{i1} =\n\\begin{cases}\n      1 & \\text{if i-th person is Asian} \\\\\n      0 & \\text{if i-th person is not Asian}\n    \\end{cases}\n\\]\n\\[\nx_{i2} = \\begin{cases}\n      1 & \\text{if i-th person is Caucasian} \\\\\n      0 & \\text{if i-th person is not Caucasian}\n    \\end{cases}\n\\]"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors-continued-1",
@@ -5708,14 +5708,14 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#results-for-ethnicity",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Results for Ethnicity",
-    "text": "Results for Ethnicity\n\n\n\n\n\n\n\n\n\n\nTerm\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n531.00\n46.32\n11.464\n&lt; 0.0001\n\n\nethnicity[Asian]\n-18.69\n65.02\n-0.287\n0.7740\n\n\nethnicity[Caucasian]\n-12.50\n56.68\n-0.221\n0.8260"
+    "text": "Results for Ethnicity\n\n\n\n\n\n\n\n\n\n\n\nTerm\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n531.00\n46.32\n11.464\n&lt; 0.0001\n\n\nethnicity \\(Asian\\)\n-18.69\n65.02\n-0.287\n0.7740\n\n\nethnicity \\(Caucasian\\)\n-12.50\n56.68\n-0.221\n0.8260\n\n\n\n\nThe coefficient -18.69 compares Asian to African American and that’s not significant. Likewise, the Caucasian to African-American is also not significant.\n\nNote: the choice of the baseline does not affect the fit of the model. The residual sum of sum of squares will be the same no matter which category we chose as the baseline. At its turn, the p-values will potentially change as we change the baseline category."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#extensions-of-the-linear-model",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#extensions-of-the-linear-model",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Extensions of the Linear Model",
-    "text": "Extensions of the Linear Model\nRemoving the additive assumption: interactions and nonlinearity\nInteractions:\n\nIn our previous analysis of the Advertising data, we assumed that the effect on sales of increasing one advertising medium is independent of the amount spent on the other media.\nFor example, the linear model:\n\n[ = _0 + _1 + _2 + _3 ]\nstates that the average effect on sales of a one-unit increase in TV is always (_1), regardless of the amount spent on radio."
+    "text": "Extensions of the Linear Model\nRemoving the additive assumption: interactions and nonlinearity\nInteractions:\n\nIn our previous analysis of the Advertising data, we assumed that the effect on sales of increasing one advertising medium is independent of the amount spent on the other media.\nFor example, the linear model:\n\n\\[ \\widehat{\\text{sales}} = \\beta\\_0 + \\beta\\_1 \\times \\text{TV} + \\beta\\_2 \\times \\text{radio} + \\beta\\_3 \\times \\text{newspaper} \\]\nstates that the average effect on sales of a one-unit increase in TV is always (_1), regardless of the amount spent on radio."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#interactions-continued",
@@ -5729,28 +5729,28 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#interaction-in-advertising-data",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Interaction in Advertising Data",
-    "text": "Interaction in Advertising Data\n\n\n\n\n\n\n\n\n\n\nWhen levels of TV or radio are low, true sales are lower than predicted.\nSplitting advertising between TV and radio underestimates sales."
+    "text": "Interaction in Advertising Data\n\n\nWhen levels of TV or radio are low, true sales are lower than predicted.\nSplitting advertising between TV and radio underestimates sales."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#modeling-interactions",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#modeling-interactions",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Modeling Interactions",
-    "text": "Modeling Interactions\n\nModel takes the form:\n\n$$\n = _0 + _1 + _2 + _3 ( ) + \n$$\n\n\n\nTerm\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n6.7502\n0.248\n27.23\n&lt; 0.0001\n\n\nTV\n0.0191\n0.002\n12.70\n&lt; 0.0001\n\n\nradio\n0.0289\n0.009\n3.24\n0.0014\n\n\nTV × radio\n0.0011\n0.000\n20.73\n&lt; 0.0001"
+    "text": "Modeling Interactions\nModel takes the form:\n\\[\n\\text{sales} = \\beta_0 + \\beta_1 \\times \\text{TV} + \\beta_2 \\times \\text{radio} + \\beta_3 \\times (\\text{radio} \\times \\text{TV}) + \\epsilon\n\\]\n\n\n\n\nTerm\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n6.7502\n0.248\n27.23\n&lt; 0.0001\n\n\nTV\n0.0191\n0.002\n12.70\n&lt; 0.0001\n\n\nradio\n0.0289\n0.009\n3.24\n0.0014\n\n\nTV × radio\n0.0011\n0.000\n20.73\n&lt; 0.0001"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#interpretation",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#interpretation",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Interpretation",
-    "text": "Interpretation\n\nThe results in this table suggest that interactions are important.\nThe p-value for the interaction term TV × radio is extremely low, indicating that there is strong evidence for ( H_A : _3 ).\nThe ( R^2 ) for the interaction model is 96.8%, compared to only 89.7% for the model that predicts sales using TV and radio without an interaction term.\nThis means that ( (96.8 - 89.7)/(100 - 89.7) = 69% ) of the variability in sales that remains after fitting the additive model has been explained by the interaction term.\nThe coefficient estimates in the table suggest that an increase in TV advertising of $1,000 is associated with increased sales of\n[ (_1 + _3 ) = 19 + 1.1 . ]\nAn increase in radio advertising of $1,000 will be associated with an increase in sales of\n[ (_2 + _3 ) = 29 + 1.1 . ]"
+    "text": "Interpretation\n\nThe results in this table suggest that interactions are important.The p-value for the interaction term TV \\(\\times\\) radio is extremely low, indicating that there is strong evidence for ( H_A : \\(\\beta_3 \\neq 0\\)).\nThe ( \\(R^2\\) ) for the interaction model is 96.8%, compared to only 89.7% for the model that predicts sales using TV and radio without an interaction term.\nThis means that (\\(\\frac{96.8 - 89.7}{100 - 89.7}\\)) = 69% of the variability in sales that remains after fitting the additive model has been explained by the interaction term.\nThe coefficient estimates in the table suggest that an increase in TV advertising of $1,000 is associated with increased sales of (\\(\\hat{\\beta}_1 + \\hat{\\beta}_3 \\times \\text{radio}\\)) \\(\\times 1000 = 19 + 1.1 \\times \\text{radio} \\text{ units}.\\)\nAn increase in radio advertising of $1,000 will be associated with an increase in sales of (\\(\\hat{\\beta}_2 + \\hat{\\beta}_3 \\times \\text{TV}\\)) \\(\\times 1000 = 29 + 1.1 \\times \\text{TV} \\text{ units}.\\)"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#hierarchy",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#hierarchy",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Hierarchy",
-    "text": "Hierarchy\n\nSometimes it is the case that an interaction term has a very small p-value, but the associated main effects (in this case, TV and radio) do not.\nThe hierarchy principle:\n\nIf we include an interaction in a model, we should also include the main effects, even if the p-values associated with their coefficients are not significant."
+    "text": "Hierarchy\n\nSometimes it is the case that an interaction term has a very small p-value, but the associated main effects (in this case, TV and radio) do not.\nThe hierarchy principle:\n\nIf we include an interaction in a model, we should also include the main effects, even if the p-values associated with their coefficients are not significant.\n\nThe rationale for this principle is that interactions are hard to interpret in a model without main effects.\nSpecifically, the interaction terms also contain main effects, if the model has no main effect terms."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#hierarchy-continued",
@@ -5778,7 +5778,7 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#visualizing-interactions",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Visualizing Interactions",
-    "text": "Visualizing Interactions\n\n\n\n\n\n\n\n\n\n\nLeft: no interaction between income and student.\nRight: with an interaction term between income and student."
+    "text": "Visualizing Interactions\n\n\nLeft: no interaction between income and student.\nRight: with an interaction term between income and student."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#non-linear-effects-of-predictors",
@@ -5792,42 +5792,42 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#non-linear-regression-results",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Non-linear regression results",
-    "text": "Non-linear regression results\n\nThe figure suggests that\n\n\\[\nmpg = \\\\beta_0 + \\\\beta_1 \\\\times horsepower + \\\\beta_2 \\\\times horsepower^2 + \\\\epsilon\n\\]\nmay provide a better fit.\n\n\n\n\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n56.9001\n1.8004\n31.6\n&lt; 0.0001\n\n\nhorsepower\n-0.4662\n0.0311\n-15.0\n&lt; 0.0001\n\n\nhorsepower^2\n0.0012\n0.0001\n10.1\n&lt; 0.0001"
+    "text": "Non-linear regression results\nThe figure suggests that the following model\n\\[\nmpg = \\beta_0 + \\beta_1 \\times horsepower + \\beta_2 \\times horsepower^2 + \\epsilon\n\\]\nmay provide a better fit.\n\n\n\n\n\n\n\n\n\n\n\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n56.9001\n1.8004\n31.6\n&lt; 0.0001\n\n\nhorsepower\n-0.4662\n0.0311\n-15.0\n&lt; 0.0001\n\n\n\\(\\text{horsepower}^2\\)\n0.0012\n0.0001\n10.1\n&lt; 0.0001"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#what-we-did-not-cover",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#what-we-did-not-cover",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "What we did not cover",
-    "text": "What we did not cover\n\nOutliers\nNon-constant variance of error terms\nHigh leverage points\nCollinearity"
+    "text": "What we did not cover\n\n\nOutliers\nNon-constant variance of error terms\nHigh leverage points\nCollinearity"
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#generalizations-of-the-linear-model",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#generalizations-of-the-linear-model",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Generalizations of the Linear Model",
-    "text": "Generalizations of the Linear Model\n\nIn much of the rest of this course, we discuss methods that expand the scope of linear models and how they are fit:\n\nClassification problems: logistic regression, support vector machines.\nNon-linearity: kernel smoothing, splines, generalized additive models; nearest neighbor methods.\nInteractions: Tree-based methods, bagging, random forests, boosting (these also capture non-linearities).\nRegularized fitting: Ridge regression and lasso."
+    "text": "Generalizations of the Linear Model\n\n\nIn much of the rest of the course we discuss methods that expand the scope of linear models and how they are fit:\n\nClassification problems: logistic regression, support vector machines.\nNon-linearity: kernel smoothing, splines, generalized additive models; nearest neighbor methods.\nInteractions: Tree-based methods, bagging, random forests, boosting (these also capture non-linearities).\nRegularized fitting: Ridge regression and lasso."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#summary-1",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#summary-1",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Summary",
-    "text": "Summary\n\n\n\n\n\nXXXX\n\n\n\n\n\nXXXX"
+    "text": "Summary\n\n\n\n\n\nLinear Regression:\n\nA foundational supervised learning method.\nAssumes a linear relationship between predictors (\\(X\\)) and the response (\\(Y\\)).\nUseful for both prediction and understanding relationships.\n\nSimple vs. Multiple Regression:\n\nSimple regression: one predictor.\nMultiple regression: multiple predictors.\n\nKey Metrics:\n\nResidual Standard Error (RSE), \\(R^2\\), and F-statistic.\nConfidence intervals and hypothesis testing for coefficients.\n\n\n\n\nQualitative Predictors:\n\nUse dummy variables for categorical predictors.\nInterpret results based on chosen baselines.\n\nInteractions:\n\nModels with interaction terms (e.g., \\(X_1 \\times X_2\\)) capture synergistic effects.\n\nNon-linear Effects:\n\nPolynomial regression accounts for curvature in data.\n\nChallenges:\n\nMulticollinearity, outliers, high leverage points.\nOverfitting vs. underfitting: balance flexibility and interpretability."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#estimation-of-the-parameters-by-least-squares",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#estimation-of-the-parameters-by-least-squares",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Estimation of the parameters by least squares",
-    "text": "Estimation of the parameters by least squares\n\nLet \\(\\hat{y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_i\\) be the prediction for \\(Y\\) based on the \\(i\\)th value of \\(X\\). Then \\(e_i = y_i - \\hat{y}_i\\) represents the \\(i\\)th residual.\nWe define the residual sum of squares (RSS) as:\n\\[\nRSS = e_1^2 + e_2^2 + \\cdots + e_n^2,\n\\]\nor equivalently as:\n\\[\nRSS = (y_1 - \\hat{\\beta}_0 - \\hat{\\beta}_1 x_1)^2 + (y_2 - \\hat{\\beta}_0 - \\hat{\\beta}_1 x_2)^2 + \\cdots + (y_n - \\hat{\\beta}_0 - \\hat{\\beta}_1 x_n)^2.\n\\]\nThe least squares approach chooses \\(\\hat{\\beta}_0\\) and \\(\\hat{\\beta}_1\\) to minimize the RSS. The minimizing values can be shown to be:\n\\[\n\\hat{\\beta}_1 = \\frac{\\sum_{i=1}^n (x_i - \\bar{x})(y_i - \\bar{y})}{\\sum_{i=1}^n (x_i - \\bar{x})^2}, \\quad\n\\hat{\\beta}_0 = \\bar{y} - \\hat{\\beta}_1 \\bar{x},\n\\]\n\nwhere \\(\\bar{y} \\equiv \\frac{1}{n} \\sum_{i=1}^n y_i\\) and \\(\\bar{x} \\equiv \\frac{1}{n} \\sum_{i=1}^n x_i\\) are the sample means."
+    "text": "Estimation of the parameters by least squares\n\n\n\nLet \\(\\hat{y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_i\\) be the prediction for \\(Y\\) based on the \\(i\\)th value of \\(X\\). Then \\(e_i = y_i - \\hat{y}_i\\) represents the \\(i\\)th residual.\nWe define the residual sum of squares (RSS) as:\n\n\\[\n    RSS = e_1^2 + e_2^2 + \\cdots + e_n^2,\n\\]\nor equivalently as:\n\\[\n    RSS = (y_1 - \\hat{\\beta}_0 - \\hat{\\beta}_1 x_1)^2 + (y_2 - \\hat{\\beta}_0 - \\hat{\\beta}_1 x_2)^2 + \\cdots + (y_n - \\hat{\\beta}_0 - \\hat{\\beta}_1 x_n)^2.\n\\]\n\n\nThe least squares approach selects the estimators \\(\\hat{\\beta}_0\\) and \\(\\hat{\\beta}_1\\) to minimize the RSS. The minimizing values can be shown to be:\n\n\\[\n    \\hat{\\beta}_1 = \\frac{\\sum_{i=1}^n (x_i - \\bar{x})(y_i - \\bar{y})}{\\sum_{i=1}^n (x_i - \\bar{x})^2}, \\quad\n    \\hat{\\beta}_0 = \\bar{y} - \\hat{\\beta}_1 \\bar{x},\n\\]\nwhere \\(\\bar{y} \\equiv \\frac{1}{n} \\sum_{i=1}^n y_i\\) and \\(\\bar{x} \\equiv \\frac{1}{n} \\sum_{i=1}^n x_i\\) are the sample means."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Qualitative Predictors",
-    "text": "Qualitative Predictors\n\nSome predictors are qualitative, taking discrete values (e.g., gender, ethnicity).\nCategorical predictors can be represented using factor variables.\n\nExample:\n\nQualitative variables: Gender, Student (Student Status), Status (Marital Status), Ethnicity."
+    "text": "Qualitative Predictors\n\nSome predictors are qualitative, taking discrete values (e.g., gender, ethnicity).\nCategorical predictors can be represented using factor variables.\nQualitative variables: Gender, Student (Student Status), Status (Marital Status), Ethnicity."
   },
   {
     "objectID": "lecture_slides/04_classification/04_classification.html#overview",
@@ -8438,14 +8438,14 @@
     "href": "lecture_slides/01_introduction/01_introduction.html",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "",
-    "text": "Introductions\nCourse Overview and Logistics\nMotivation\nCourse Objectives\n\n\n\nXXX"
+    "text": "Introductions\nCourse Overview and Logistics\nMotivation\nCourse Objectives\n\n\n\nXXX\n\n\n\n\n\n\n\nthis lecture draws on materials from An Introduction to Statistical Learning."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#overview",
     "href": "lecture_slides/01_introduction/01_introduction.html#overview",
     "title": " MGMT 47400: Predictive Analytics ",
-    "section": "",
-    "text": "Introductions\nCourse Overview and Logistics\nMotivation\nCourse Objectives\n\n\n\nXXX"
+    "section": "Overview",
+    "text": "Overview\n\n\n\n\nIntroductions\nCourse Overview and Logistics\nMotivation\nCourse Objectives\n\n\n\nSupervised Learning\nUnsupervised Learning\nStatistical Learning Overview\n\nWhat is Statistical Learning?\nParametric and Structured Models\nAssessing Model Accuracy\nClassification Problems\n\n\n\n\n\n\n\nThis lecture content is inspired by and replicates the material from An Introduction to Statistical Learning."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#instructor",
@@ -8466,7 +8466,7 @@
     "href": "lecture_slides/01_introduction/01_introduction.html#instructors-passions-1",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Instructor’s Passions",
-    "text": "Instructor’s Passions\n\n\n\n\n\n\n\n\n\n\nNYT - How John Travolta Became the Star of Carnival-Video."
+    "text": "Instructor’s Passions\n\n\nNYT - How John Travolta Became the Star of Carnival-Video."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#students",
@@ -8480,28 +8480,28 @@
     "href": "lecture_slides/01_introduction/01_introduction.html#course-overview-and-logistics-1",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Course Overview and Logistics",
-    "text": "Course Overview and Logistics\n\nMaterials:\n\nBrightspace\nCourse Webpage\n\nSyllabus\nSchedule"
+    "text": "Course Overview and Logistics\n\nMaterials:\n\nBrightspace\nCourse Webpage\n\nSyllabus\n\nClass Times & Location: check the course syllabus.\nOffice Hours: check the course syllabus for group and individual appointments.\n\nSchedule"
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#spam-detection",
     "href": "lecture_slides/01_introduction/01_introduction.html#spam-detection",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Spam Detection",
-    "text": "Spam Detection\n\nData from 4601 emails sent to an individual (named George, at HP Labs, before 2000). Each is labeled as spam or email.\nGoal: build a customized spam filter.\nInput features: relative frequencies of 57 of the most commonly occurring words and punctuation marks in these email messages.\n\n\n\n\nWord\nSpam\nEmail\n\n\n\n\ngeorge\n0.00\n1.27\n\n\nyou\n2.26\n1.27\n\n\nhp\n0.02\n0.90\n\n\nfree\n0.52\n0.07\n\n\n!\n0.51\n0.11\n\n\nedu\n0.01\n0.29\n\n\nremove\n0.28\n0.01\n\n\n\nAverage percentage of words or characters in an email message equal to the indicated word or character. We have chosen the words and characters showing the largest difference between spam and email."
+    "text": "Spam Detection\n\n\n\nData from 4601 emails sent to an individual (named George, at HP Labs, before 2000). Each is labeled as spam or email.\nGoal: build a customized spam filter.\nInput features: relative frequencies of 57 of the most commonly occurring words and punctuation marks in these email messages.\n\n\n\n\nWord\nSpam\nEmail\n\n\n\n\ngeorge\n0.00\n1.27\n\n\nyou\n2.26\n1.27\n\n\nhp\n0.02\n0.90\n\n\nfree\n0.52\n0.07\n\n\n!\n0.51\n0.11\n\n\nedu\n0.01\n0.29\n\n\nremove\n0.28\n0.01\n\n\n\nAverage percentage of words or characters in an email message equal to the indicated word or character. We have chosen the words and characters showing the largest difference between spam and email."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#zip-code",
     "href": "lecture_slides/01_introduction/01_introduction.html#zip-code",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Zip Code",
-    "text": "Zip Code\nIdentify the numbers in a handwritten zip code."
+    "text": "Zip Code\n\n\nIdentify the numbers in a handwritten zip code."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#the-supervised-learning-problem",
     "href": "lecture_slides/01_introduction/01_introduction.html#the-supervised-learning-problem",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "The Supervised Learning Problem",
-    "text": "The Supervised Learning Problem\nStarting point:\n\nOutcome measurement \\(Y\\) (also called dependent variable, response, target).\nVector of \\(p\\) predictor measurements \\(X\\) (also called inputs, regressors, covariates, features, independent variables).\nIn the regression problem, \\(Y\\) is quantitative (e.g., price, blood pressure).\nIn the classification problem, \\(Y\\) takes values in a finite, unordered set (e.g., survived/died, digit 0–9, cancer class of tissue sample).\nWe have training data \\((x_1, y_1), \\ldots, (x_N, y_N)\\). These are observations (examples, instances) of these measurements."
+    "text": "The Supervised Learning Problem\n\n\n\nStarting point:\n\nOutcome measurement \\(Y\\) (also called dependent variable, response, target).\nVector of \\(p\\) predictor measurements \\(X\\) (also called inputs, regressors, covariates, features, independent variables).\nIn the regression problem, \\(Y\\) is quantitative (e.g., price, blood pressure).\nIn the classification problem, \\(Y\\) takes values in a finite, unordered set (e.g., survived/died, digit 0–9, cancer class of tissue sample).\nWe have training data \\((x_1, y_1), \\ldots, (x_N, y_N)\\). These are observations (examples, instances) of these measurements."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#objectives",
@@ -8515,35 +8515,35 @@
     "href": "lecture_slides/01_introduction/01_introduction.html#philosophy",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Philosophy",
-    "text": "Philosophy\n\nIt is important to understand the ideas behind the various techniques, in order to know how and when to use them.\nOne has to understand the simpler methods first, in order to grasp the more sophisticated ones.\nIt is important to accurately assess the performance of a method, to know how well or how badly it is working (simpler methods often perform as well as fancier ones!).\nThis is an exciting research area, having important applications in science, industry, and finance.\nStatistical learning is a fundamental ingredient in the training of a modern data scientist."
+    "text": "Philosophy\n\n\n\nIt is important to understand the ideas behind the various techniques, in order to know how and when to use them.\nWe wil understand the simpler methods first to grasp the more sophisticated ones later.\nIt is important to accurately assess the performance of a method, to know how well or how badly it is working."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#unsupervised-learning",
     "href": "lecture_slides/01_introduction/01_introduction.html#unsupervised-learning",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Unsupervised Learning",
-    "text": "Unsupervised Learning\n\nNo outcome variable, just a set of predictors (features) measured on a set of samples.\nObjective is more fuzzy:\n\nFind groups of samples that behave similarly.\nFind features that behave similarly.\nFind linear combinations of features with the most variation.\n\nDifficult to know how well you are doing.\nDifferent from supervised learning, but can be useful as a pre-processing step for supervised learning."
+    "text": "Unsupervised Learning\n\n\n\nNo outcome variable, just a set of predictors (features) measured on a set of samples.\nObjective is more fuzzy:\n\nFind groups of samples that behave similarly.\nFind features that behave similarly.\nFind linear combinations of features with the most variation.\n\nDifficult to know how well you are doing.\nDifferent from supervised learning, but can be useful as a pre-processing step for supervised learning."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#the-netflix-prize",
     "href": "lecture_slides/01_introduction/01_introduction.html#the-netflix-prize",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "The Netflix Prize",
-    "text": "The Netflix Prize\n\nCompetition started in October 2006. Training data is ratings for 18,000 movies by 400,000 Netflix customers, each rating between 1 and 5.\nTraining data is very sparse—about 98% missing.\nObjective is to predict the rating for a set of 1 million customer-movie pairs that are missing in the training data.\nNetflix’s original algorithm achieved a root MSE of 0.953.\nThe first team to achieve a 10% improvement wins one million dollars.\nIs this a supervised or unsupervised problem?"
+    "text": "The Netflix Prize\n\n\n\nCompetition started in October 2006. Training data is ratings for 18,000 movies by 400,000 Netflix customers, each rating between 1 and 5.\nTraining data is very sparse—about 98% missing.\nObjective is to predict the rating for a set of 1 million customer-movie pairs that are missing in the training data.\nNetflix’s original algorithm achieved a root MSE of 0.953.\nThe first team to achieve a 10% improvement wins one million dollars.\nIs this a supervised or unsupervised problem?"
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#statistical-learning-versus-machine-learning",
     "href": "lecture_slides/01_introduction/01_introduction.html#statistical-learning-versus-machine-learning",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Statistical Learning versus Machine Learning",
-    "text": "Statistical Learning versus Machine Learning\n\nMachine learning arose as a subfield of Artificial Intelligence.\nStatistical learning arose as a subfield of Statistics.\nThere is much overlap—both fields focus on supervised and unsupervised problems:\n\nMachine learning has a greater emphasis on large scale applications and prediction accuracy.\nStatistical learning emphasizes models and their interpretability, and precision and uncertainty.\n\nThe distinction has become more blurred, with significant cross-fertilization.\nMachine learning has the upper hand in Marketing!"
+    "text": "Statistical Learning versus Machine Learning\n\n\n\nMachine learning arose as a subfield of Artificial Intelligence.\nStatistical learning arose as a subfield of Statistics.\nThere is much overlap—both fields focus on supervised and unsupervised problems:\n\nMachine learning has a greater emphasis on large scale applications and prediction accuracy.\nStatistical learning emphasizes models and their interpretability, and precision and uncertainty.\n\nThe distinction has become more blurred, with significant cross-fertilization.\nMachine learning has the upper hand in Marketing!"
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#summary-1",
     "href": "lecture_slides/01_introduction/01_introduction.html#summary-1",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Summary",
-    "text": "Summary\n\n\nXXX"
+    "text": "Summary\n\n\n\n\nStatistical Learning and Predictive Analytics\n\nGoal: Build models to predict outcomes and understand relationships between inputs (predictors) and responses.\nSupervised Learning: Focuses on predicting \\(Y\\) (response) using \\(X\\) (predictors) via models like regression and classification.\nUnsupervised Learning: Focuses on finding patterns in data without predefined responses (e.g., clustering).\n\nBias-Variance Trade-off\n\nKey Trade-off: Model flexibility affects bias and variance:\n\nHigh flexibility → Low bias but high variance (overfitting).\nLow flexibility → High bias but low variance (underfitting).\n\nGoal: Find the optimal flexibility that minimizes test error.\n\n\nTechniques and Applications\n\nParametric Models:\n\nSimpler and interpretable (e.g., linear regression).\nOften used as approximations.\n\nFlexible Models:\n\nHandle complex patterns (e.g., splines, SVMs, deep learning).\nRequire careful tuning to avoid overfitting.\n\n\nPractical Considerations\n\nAssessing Model Accuracy:\n\nUse test data to calculate MSE.\nBalance between training performance and generalizability.\n\n\nKey Challenges\n\nCurse of Dimensionality:\n\nHigh-dimensional data affects distance-based methods like KNN.\nLarger neighborhoods needed, losing “locality.”"
   },
   {
     "objectID": "lecture_slides/06_model_selection/06_model_selection.html",
@@ -9028,5 +9028,355 @@
     "crumbs": [
       "Syllabus"
     ]
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#starting-point",
+    "href": "lecture_slides/01_introduction/01_introduction.html#starting-point",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Starting point",
+    "text": "Starting point\n\n\n\n\nOutcome measurement \\(Y\\) (also called dependent variable, response, target).\nVector of \\(p\\) predictor measurements \\(X\\) (also called inputs, regressors, covariates, features, independent variables).\nIn the regression problem, \\(Y\\) is quantitative (e.g., price, blood pressure).\nIn the classification problem, \\(Y\\) takes values in a finite, unordered set (e.g., survived/died, digit 0–9, cancer class of tissue sample).\nWe have training data \\((x_1, y_1), \\ldots, (x_N, y_N)\\). These are observations (examples, instances) of these measurements."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#unsupervised-learning-1",
+    "href": "lecture_slides/01_introduction/01_introduction.html#unsupervised-learning-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Unsupervised Learning",
+    "text": "Unsupervised Learning\n\n\n\nNo outcome variable, just a set of predictors (features) measured on a set of samples.\nObjective is more fuzzy:\n\nFind groups of samples that behave similarly.\nFind features that behave similarly.\nFind linear combinations of features with the most variation.\n\nDifficult to know how well we are doing.\nDifferent from supervised learning, but can be useful as a pre-processing step for supervised learning."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#what-is-statistical-learning-1",
+    "href": "lecture_slides/01_introduction/01_introduction.html#what-is-statistical-learning-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "What is Statistical Learning?",
+    "text": "What is Statistical Learning?\n\n\n\n\n\n\n\n\n\n\n\nShown are Sales vs TV, Radio, and Newspaper, with a blue linear-regression line fit separately to each.\nCan we predict Sales using these three?\n\nPerhaps we can do better using a model:\n\\[\n\\text{Sales} \\approx f(\\text{TV}, \\text{Radio}, \\text{Newspaper})\n\\]"
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#notation",
+    "href": "lecture_slides/01_introduction/01_introduction.html#notation",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Notation",
+    "text": "Notation\n\n\n\n\nSales is a response or target that we wish to predict. We generically refer to the response as \\(Y\\).\nTV is a feature, or input, or predictor; we name it \\(X_1\\).\nLikewise, name Radio as \\(X_2\\), and so on.\nThe input vector collectively is referred to as:\n\n\\[\nX = \\begin{pmatrix}\nX_1 \\\\\nX_2 \\\\\nX_3\n\\end{pmatrix}\n\\]\nWe write our model as:\n\\[\nY = f(X) + \\epsilon\n\\]\nwhere \\(\\epsilon\\) captures measurement errors and other discrepancies."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#what-is-fx-good-for",
+    "href": "lecture_slides/01_introduction/01_introduction.html#what-is-fx-good-for",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "What is \\(f(X)\\) Good For?",
+    "text": "What is \\(f(X)\\) Good For?\n\nWith a good \\(f\\), we can make predictions of \\(Y\\) at new points \\(X = x\\).\nUnderstand which components of \\(X = (X_1, X_2, \\ldots, X_p)\\) are important in explaining \\(Y\\), and which are irrelevant.\n\nExample: Seniority and Years of Education have a big impact on Income, but Marital Status typically does not.\n\nDepending on the complexity of \\(f\\), understand how each component \\(X_j\\) affects \\(Y\\)."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#is-there-an-ideal-fx",
+    "href": "lecture_slides/01_introduction/01_introduction.html#is-there-an-ideal-fx",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Is There an Ideal \\(f(X)\\)?",
+    "text": "Is There an Ideal \\(f(X)\\)?\n\n\nIn particular, what is a good value for \\(f(X)\\) at a selected value of \\(X\\), say \\(X = 4\\)?\n\n\n\n\n\n\n\n\n\n\nThere can be many \\(Y\\) values at \\(X=4\\). A good value is:\n\\[\nf(4) = E(Y|X=4)\n\\]\nwhere \\(E(Y|X=4)\\) means the expected value (average) of \\(Y\\) given \\(X=4\\).\nThis ideal \\(f(x) = E(Y|X=x)\\) is called the regression function."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#the-regression-function-fx",
+    "href": "lecture_slides/01_introduction/01_introduction.html#the-regression-function-fx",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "The Regression Function \\(f(x)\\)",
+    "text": "The Regression Function \\(f(x)\\)\n\n\n\nIs also defined for a vector \\(\\mathbf{X}\\).\n\n\\[\nf(\\mathbf{x}) = f(x_1, x_2, x_3) = \\mathbb{E}[\\,Y \\mid X_1 = x_1,\\, X_2 = x_2,\\, X_3 = x_3\\,].\n\\]\n\n\nIs the ideal or optimal predictor of \\(Y\\) in terms of mean-squared prediction error:\n\n\\[\n  f(x) = \\mathbb{E}[Y \\mid X = x]\n  \\quad\\text{is the function that minimizes}\\quad\n  \\mathbb{E}[(Y - g(X))^2 \\mid X = x]\n  \\text{ over all } g \\text{ and for all points } X = x.\n\\]\n\n\n\n\\(\\varepsilon = Y - f(x)\\) is the irreducible error.\n\nEven if we knew \\(f(x)\\), we would still make prediction errors because at each \\(X = x\\) there is a distribution of possible \\(Y\\) values.\n\n\n\n\n\nFor any estimate \\(\\hat{f}(x)\\) of \\(f(x)\\),\n\n\\[\n    \\mathbb{E}\\bigl[(Y - \\hat{f}(X))^2 \\mid X = x\\bigr]\n    = \\underbrace{[\\,f(x) - \\hat{f}(x)\\,]^2}_{\\text{Reducible}}\n      \\;+\\; \\underbrace{\\mathrm{Var}(\\varepsilon)}_{\\text{Irreducible}}.\n\\]"
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#how-to-estimate-f",
+    "href": "lecture_slides/01_introduction/01_introduction.html#how-to-estimate-f",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "How to Estimate \\(f\\)",
+    "text": "How to Estimate \\(f\\)\n\n\nOften, we lack sufficient data points for exact computation of \\(E(Y|X=x)\\).\nSo, we relax the definition:\n\n\\[\n\\hat{f}(x) = \\text{Ave}(Y|X \\in \\mathcal{N}(x))\n\\]\nwhere \\(\\mathcal{N}(x)\\) is a neighborhood of \\(x\\)."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#nearest-neighbor-observations",
+    "href": "lecture_slides/01_introduction/01_introduction.html#nearest-neighbor-observations",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Nearest Neighbor Observations",
+    "text": "Nearest Neighbor Observations\n\nNearest neighbor averaging can be pretty good for small \\(p\\) — i.e., \\(p \\le 4\\) — and large-ish \\(N\\).\nWe will discuss smoother versions, such as kernel and spline smoothing, later in the course.\nNearest neighbor methods can be lousy when \\(p\\) is large.\n\nReason: the curse of dimensionality. Nearest neighbors tend to be far away in high dimensions.\nWe need to get a reasonable fraction of the \\(N\\) values of \\(y_i\\) to average in order to bring the variance down (e.g., 10%).\nA 10% neighborhood in high dimensions is no longer truly local, so we lose the spirit of estimating \\(\\mathbb{E}[Y \\mid X = x]\\) via local averaging."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#the-curse-of-dimensionality",
+    "href": "lecture_slides/01_introduction/01_introduction.html#the-curse-of-dimensionality",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "The curse of dimensionality",
+    "text": "The curse of dimensionality\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop panel: \\(X_1\\) and \\(X_2\\) are uniformly distributed with edges minus one to plus one.\n\n1-Dimensional Neighborhood\n\nFocuses only on \\(X_1\\), ignoring \\(X_2\\).\nNeighborhood is defined by vertical red dotted lines.\nCentered on the target point \\((0, 0)\\).\nExtends symmetrically along \\(X_1\\) until it captures 10% of the data points.\n\n2-Dimensional Neighborhood\n\nNow, Considers both \\(X_1\\) and \\(X_2\\).\nNeighborhood is a circular region centered on the same target point \\((0, 0)\\).\nRadius of the circle expands until it encloses 10% of the total data points.\nThe radius in 2D is much larger than the 1D width due to the need to account for more dimensions.\n\n\n\nBotton panel: We see how far we have to go out in one, two, three, five, and ten dimensions in order to capture a certain fraction of the points.\n\nKey Takeaway: As dimensionality increases, neighborhoods must expand significantly to capture the same fraction of data points, illustrating the curse of dimensionality."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#parametric-and-structured-models",
+    "href": "lecture_slides/01_introduction/01_introduction.html#parametric-and-structured-models",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Parametric and Structured Models",
+    "text": "Parametric and Structured Models\nThe linear model is a key example of a parametric model to deal with the curse of dimensionality:\n\\[\nf_L(X) = \\beta_0 + \\beta_1X_1 + \\beta_2X_2 + \\ldots + \\beta_pX_p\n\\]\n\nA linear model is specified in terms of \\(p+1\\) parameters (\\(\\beta_0, \\beta_1, \\ldots, \\beta_p\\)).\nWe estimate the parameters by fitting the model to training data.\nAlthough it is almost never correct, it serves as a good and interpretable approximation to the unknown true function \\(f(X)\\)."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#comparison-of-models-1",
+    "href": "lecture_slides/01_introduction/01_introduction.html#comparison-of-models-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Comparison of Models",
+    "text": "Comparison of Models\n\n\n\n\nLinear model\n\n\\[\n\\hat{f}_L(X) = \\hat{\\beta}_0 + \\hat{\\beta}_1X\n\\]\n\n\n\n\n\n\n\n\n\nThe linear model gives a reasonable fit here.\n\n\n\nQuadratic model:\n\n\\[\n\\hat{f}_Q(X) = \\hat{\\beta}_0 + \\hat{\\beta}_1X + \\hat{\\beta}_2X^2\n\\]\n\n\n\n\n\n\n\n\n\nQuadratic models may fit slightly better than linear models in some cases."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#simulated-example",
+    "href": "lecture_slides/01_introduction/01_introduction.html#simulated-example",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Simulated Example",
+    "text": "Simulated Example\nRed points are simulated values for income from the model:\n\n\\[\n\\text{income} = f(\\text{education}, \\text{seniority}) + \\epsilon\n\\]\n\\(f\\) is the blue surface."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#linear-regression-fit",
+    "href": "lecture_slides/01_introduction/01_introduction.html#linear-regression-fit",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Linear Regression Fit",
+    "text": "Linear Regression Fit\nLinear regression model fit to the simulated data:\n\n\\[\n\\hat{f}_L(\\text{education}, \\text{seniority}) = \\hat{\\beta}_0 + \\hat{\\beta}_1 \\times \\text{education} + \\hat{\\beta}_2 \\times \\text{seniority}\n\\]"
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#flexible-regression-model-fit",
+    "href": "lecture_slides/01_introduction/01_introduction.html#flexible-regression-model-fit",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Flexible Regression Model Fit",
+    "text": "Flexible Regression Model Fit\nMore flexible regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data.\n\nHere we use a technique called a thin-plate spline to fit a flexible surface. We control the roughness of the fit."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#overfitting",
+    "href": "lecture_slides/01_introduction/01_introduction.html#overfitting",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Overfitting",
+    "text": "Overfitting\nEven more flexible spline regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data. We tunned the parameter all the way down to zero and this surface actually goes through every single data point.\n\nThe fitted model makes no errors on the training data! This is known as overfitting."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#some-trade-offs",
+    "href": "lecture_slides/01_introduction/01_introduction.html#some-trade-offs",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Some Trade-offs",
+    "text": "Some Trade-offs\n\nPrediction accuracy versus interpretability:\n\nLinear models are easy to interpret; thin-plate splines are not.\n\nGood fit versus over-fit or under-fit:\n\nHow do we know when the fit is just right?\n\nParsimony versus black-box:\n\nPrefer simpler models involving fewer variables over black-box predictors."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#flexibility-vs.-interpretability",
+    "href": "lecture_slides/01_introduction/01_introduction.html#flexibility-vs.-interpretability",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Flexibility vs. Interpretability",
+    "text": "Flexibility vs. Interpretability\n\nTrade-offs between flexibility and interpretability:\n\n\n\n\n\n\n\n\n\n\nHigh interpretability: Subset selection, Lasso.\n\nIntermediate: Least squares, Generalized Additive Models, Trees.\n\nHigh flexibility: Support Vector Machines, Deep Learning."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#assessing-model-accuracy",
+    "href": "lecture_slides/01_introduction/01_introduction.html#assessing-model-accuracy",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Assessing Model Accuracy",
+    "text": "Assessing Model Accuracy\n\n\nSuppose we fit a model \\(\\hat{f}(x)\\) to some training data \\(Tr = \\{x_i, y_i\\}_{i=1}^N\\), and we wish to evaluate its performance:\n\nCompute the average squared prediction error over the training set \\(Tr\\):\n\n\\[\n\\text{MSE}_{Tr} = \\text{Ave}_{i \\in Tr}[(y_i - \\hat{f}(x_i))^2]\n\\]\nHowever, this may be biased toward more overfit models.\n\n\nInstead, use fresh test data \\(Te = \\{x_i, y_i\\}_{i=1}^M\\):\n\n\\[\n\\text{MSE}_{Te} = \\text{Ave}_{i \\in Te}[(y_i - \\hat{f}(x_i))^2]\n\\]"
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off",
+    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Bias-Variance Trade-off",
+    "text": "Bias-Variance Trade-off\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop Panel: Model Fits\n\nBlack Curve: The true generating function, representing the underlying relationship we want to estimate.\nData Points: Observations generated from the black curve, with added noise (error).\nFitted Models:\n\nOrange Line: A simple linear model (low flexibility).\nBlue Line: A moderately flexible model, likely a spline or thin plate spline.\nGreen Line: A highly flexible model that closely fits the data points but may overfit.\n\n\nKey Insight:\nThe green model captures the data points well but risks overfitting, while the orange model is too rigid and misses the underlying structure. The blue model strikes a balance.\n\nBotton Panel: Mean Squared Error (MSE)\n\nGray Curve: Training data MSE.\n\nDecreases consistently as flexibility increases.\nFlexible models fit the training data well, but this does not generalize to test data.\n\nRed Curve: Test data MSE across models of increasing flexibility.\n\nStarts high for rigid models (orange line).\nDecreases to a minimum (optimal model complexity, blue line).\nIncreases again for overly flexible models (green line), due to overfitting.\n\n\nKey Takeaway:\nThere is an optimal model complexity (the “magic point”) where test data MSE is minimized. Beyond this point, models become overly complex and generalization performance deteriorates."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#smoother-truth-example",
+    "href": "lecture_slides/01_introduction/01_introduction.html#smoother-truth-example",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Smoother Truth Example",
+    "text": "Smoother Truth Example\n\nHere the truth is smoother, so smoother fits and linear models perform well."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#noisy-wiggly-truth-example",
+    "href": "lecture_slides/01_introduction/01_introduction.html#noisy-wiggly-truth-example",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Noisy, Wiggly Truth Example",
+    "text": "Noisy, Wiggly Truth Example\n\nHere the truth is wiggly and the noise is low. More flexible fits perform the best."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-1",
+    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Bias-Variance Trade-off",
+    "text": "Bias-Variance Trade-off\n\n\nSuppose we have fit a model \\(\\hat{f}(x)\\) to some training data \\(\\text{Tr}\\), and let \\((x_0, y_0)\\) be a test observation drawn from the population.\nIf the true model is\n\\[\n    Y = f(X) + \\varepsilon\n    \\quad \\text{(with } f(x) = \\mathbb{E}[Y \\mid X = x]\\text{)},\n\\]\nthen\n\\[\n\\mathbb{E}\\Bigl[\\bigl(y_0 - \\hat{f}(x_0)\\bigr)^2\\Bigr]\n    = \\mathrm{Var}\\bigl(\\hat{f}(x_0)\\bigr)\n    + \\bigl[\\mathrm{Bias}\\bigl(\\hat{f}(x_0)\\bigr)\\bigr]^2\n    + \\mathrm{Var}(\\varepsilon).\n\\]\nThe expectation averages over the variability of \\(y_0\\) as well as the variability in \\(\\text{Tr}\\). Note that\n\\[\n    \\mathrm{Bias}\\bigl(\\hat{f}(x_0)\\bigr)\n    = \\mathbb{E}[\\hat{f}(x_0)] - f(x_0).\n\\]\nTypically, as the flexibility of \\(\\hat{f}\\) increases, its variance increases and its bias decreases. Hence, choosing the flexibility based on average test error amounts to a bias-variance trade-off."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-examples",
+    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-examples",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Bias-Variance Trade-off (Examples)",
+    "text": "Bias-Variance Trade-off (Examples)\n\n\nBelow is a schematic illustration of the mean squared error (MSE), bias, and variance curves as a function of the model’s flexibility.\n\n\n\n\n\n\n\n\n\n\n\nMSE (red curve) goes down initially (as the model becomes more flexible) but eventually goes up (as overfitting sets in).\nBias (blue/teal curve) decreases with increasing flexibility.\nVariance (orange curve) increases with increasing flexibility.\n\n\nThe vertical dotted line in each panel suggests a model flexibility that balances both bias and variance in an “optimal” region for minimizing MSE."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#classification-problems-1",
+    "href": "lecture_slides/01_introduction/01_introduction.html#classification-problems-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Classification Problems",
+    "text": "Classification Problems\n\n\nHere the response variable \\(Y\\) is qualitative. For example:\n\nEmail could be classified as spam or ham (good email).\nDigit classification could be one of \\(\\{0, 1, 2, \\dots, 9\\}\\).\n\n\nOur goals are to:\n\nBuild a classifier \\(C(X)\\) that assigns a class label from the set \\(C\\) to a future unlabeled observation \\(X\\).\nAssess the uncertainty in each classification.\nUnderstand the roles of the different predictors among \\(X = (X_1, X_2, \\dots, X_p)\\)."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#ideal-classifier-and-bayes-decision-rule",
+    "href": "lecture_slides/01_introduction/01_introduction.html#ideal-classifier-and-bayes-decision-rule",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Ideal Classifier and Bayes Decision Rule",
+    "text": "Ideal Classifier and Bayes Decision Rule\n\n\n\n\n\n\n\n\n\n\n\nConsider a classification problem with \\(K\\) possible classes, numbered \\(1, 2, \\ldots, K\\). Define\n\\[\n  p_k(x) = \\Pr(Y = k \\mid X = x),\n  \\quad k = 1, 2, \\ldots, K.\n\\]\nThese are the conditional class probabilities at \\(x\\); e.g. see little barplot at \\(x=5\\).\nThe Bayes optimal classifier at \\(x\\) is\n\\[\n  C(x) \\;=\\; j \\quad \\text{if} \\quad p_j(x) =\n      \\max \\{\\,p_1(x),\\, p_2(x),\\, \\dots,\\, p_K(x)\\}.\n\\]"
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#nearest-neighbor-averaging",
+    "href": "lecture_slides/01_introduction/01_introduction.html#nearest-neighbor-averaging",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Nearest-Neighbor Averaging",
+    "text": "Nearest-Neighbor Averaging\n\n\n\n\n\n\n\n\n\n\n\nNearest-neighbor averaging can be used as before.\nAlso breaks down as dimension grows. However, the impact on \\(\\hat{C}(x)\\)is less than on \\(\\hat{p}_k(x)\\), for \\(k = 1,\\ldots,K\\)."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#classification-some-details",
+    "href": "lecture_slides/01_introduction/01_introduction.html#classification-some-details",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Classification: Some Details",
+    "text": "Classification: Some Details\n\n\nTypically we measure the performance of \\(\\hat{C}(x)\\) using the misclassification error rate:\n\\[\n    \\mathrm{Err}_{\\mathrm{Te}}\n      = \\mathrm{Ave}_{i\\in \\mathrm{Te}}\n        \\bigl[I(y_i \\neq \\hat{C}(x_i))\\bigr].\n\\]\n\nThe Bayes classifier (using the true \\(p_k(x)\\)) has the smallest error in the population.\nSupport-vector machines build structured models for \\(\\hat{C}(x)\\).\nWe also build structured models for representing \\(p_k(x)\\). For example, logistic regression or generalized additive models."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#example-k-nearest-neighbors-in-two-dimensions",
+    "href": "lecture_slides/01_introduction/01_introduction.html#example-k-nearest-neighbors-in-two-dimensions",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Example: K-Nearest Neighbors in Two Dimensions",
+    "text": "Example: K-Nearest Neighbors in Two Dimensions\nBelow is an example data set in two dimensions \\((X_1, X_2)\\). Points shown in blue might represent one class, and points in orange the other. The dashed boundary suggests a decision boundary formed by a classifier."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#knn-k-10",
+    "href": "lecture_slides/01_introduction/01_introduction.html#knn-k-10",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "KNN: K = 10",
+    "text": "KNN: K = 10\nHere is the same data set classified by k-nearest neighbors with \\(k = 10\\). The black boundary line encloses the region of the feature space predicted as orange vs. blue, showing how the decision boundary has become smoother."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#knn-k-1-vs.-k-100",
+    "href": "lecture_slides/01_introduction/01_introduction.html#knn-k-1-vs.-k-100",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "KNN: K = 1 vs. K = 100",
+    "text": "KNN: K = 1 vs. K = 100\n\nComparisons of a very low value of \\(k\\) (left, \\(k=1\\)) versus a very high value (right, \\(k=100\\)).\n\n\\(k=1\\): Overly flexible boundary that can overfit.\n\\(k=100\\): Very smooth boundary that can underfit."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#knn-error-rates",
+    "href": "lecture_slides/01_introduction/01_introduction.html#knn-error-rates",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "KNN Error Rates",
+    "text": "KNN Error Rates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe figure illustrates how training errors (blue curve) and test errors (orange curve) change for a K-nearest neighbors (KNN) classifier as \\(\\frac{1}{K}\\) varies.\n\nFor small \\(K\\) (i.e., large \\(\\frac{1}{K}\\)), the model can become very flexible, often driving down training error but increasing overfitting and thus test error.\nFor large \\(K\\) (i.e., small \\(\\frac{1}{K}\\)), the model becomes smoother, which can help avoid overfitting but sometimes leads to underfitting.\n\nThe dashed horizontal line is the bayes error, used as reference for comparison."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#the-curse-of-dimensionality-1",
+    "href": "lecture_slides/01_introduction/01_introduction.html#the-curse-of-dimensionality-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "The curse of dimensionality",
+    "text": "The curse of dimensionality\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop panel: \\(X_1\\) and \\(X_2\\) are uniformly distributed with edges minus one to plus one.\n\n1-Dimensional Neighborhood\n\nFocuses only on \\(X_1\\), ignoring \\(X_2\\).\nNeighborhood is defined by vertical red dotted lines.\nCentered on the target point (\\((0, 0)\\)).\nExtends symmetrically along \\(X_1\\) until it captures 10% of the data points.\n\n2-Dimensional Neighborhood\n\nNow, Considers both \\(X_1\\) and \\(X_2\\).\nNeighborhood is a circular region centered on the same target point (\\((0, 0)\\)).\nRadius of the circle expands until it encloses 10% of the total data points.\nThe radius in 2D is much larger than the 1D width due to the need to account for more dimensions.\n\n\n\nBotton panel: We see how far we have to go out in one, two, three, five, and ten dimensions in order to capture a certain fraction of the points.\n\nKey Takeaway: As dimensionality increases, neighborhoods must expand significantly to capture the same fraction of data points, illustrating the curse of dimensionality.\n\n\n\n\n\n\n\nParametric and Structured Models\nThe linear model is a key example of a parametric model:\n\\[\nf_L(X) = \\beta_0 + \\beta_1X_1 + \\beta_2X_2 + \\ldots + \\beta_pX_p\n\\]\n\nA linear model is specified in terms of \\(p+1\\) parameters (\\(\\beta_0, \\beta_1, \\ldots, \\beta_p\\)).\nWe estimate the parameters by fitting the model to training data.\nAlthough it is almost never correct, it serves as a good and interpretable approximation to the unknown true function \\(f(X)\\).\n\n\n\nComparison of Models\n\n\n\nComparison of Models\n\n\n\n\nLinear model\n\n\\[\n\\hat{f}_L(X) = \\hat{\\beta}_0 + \\hat{\\beta}_1X\n\\]\n\n\n\n\n\n\n\n\n\nThe linear model gives a reasonable fit here.\n\n\n\nQuadratic model:\n\n\\[\n\\hat{f}_Q(X) = \\hat{\\beta}_0 + \\hat{\\beta}_1X + \\hat{\\beta}_2X^2\n\\]\n\n\n\n\n\n\n\n\n\nQuadratic models may fit slightly better than linear models in some cases.\n\n\n\n\n\nSimulated Example\n\nSimulated example. Red points are simulated values for income from the model:\n\\[\n\\text{income} = f(\\text{education}, \\text{seniority}) + \\epsilon\n\\]\n\\(f\\) is the blue surface.\n\n\n\nLinear Regression Fit\n\nLinear regression model fit to the simulated data:\n\\[\n\\hat{f}_L(\\text{education}, \\text{seniority}) = \\hat{\\beta}_0 + \\hat{\\beta}_1 \\times \\text{education} + \\hat{\\beta}_2 \\times \\text{seniority}\n\\]\n\n\n\nFlexible Regression Model Fit\n\nMore flexible regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data. Here we use a technique called a thin-plate spline to fit a flexible surface.\nWe control the roughness of the fit.\n\n\n\nOverfitting\n\nEven more flexible spline regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data.\nThe fitted model makes no errors on the training data! This is known as overfitting.\n\n\n\nSome Trade-offs\n\nPrediction accuracy versus interpretability:\n\nLinear models are easy to interpret; thin-plate splines are not.\n\nGood fit versus over-fit or under-fit:\n\nHow do we know when the fit is just right?\n\nParsimony versus black-box:\n\nPrefer simpler models involving fewer variables over black-box predictors.\n\n\n\n\nFlexibility vs. Interpretability\nTrade-offs between flexibility and interpretability:\n\n\nHigh interpretability: Subset selection, Lasso\n\nIntermediate: Least squares, Generalized Additive Models, Trees\n\nHigh flexibility: Bagging, Boosting, Support Vector Machines\n\n\n\n\nAssessing Model Accuracy\n\nSuppose we fit a model \\(\\hat{f}(x)\\) to some training data \\(Tr = \\{x_i, y_i\\}_{i=1}^N\\), and we wish to evaluate its performance:\n\nCompute the average squared prediction error over the training set \\(Tr\\):\n\n\\[\n\\text{MSE}_{Tr} = \\text{Ave}_{i \\in Tr}[(y_i - \\hat{f}(x_i))^2]\n\\]\nHowever, this may be biased toward more overfit models.\n\n\nInstead, use fresh test data \\(Te = \\{x_i, y_i\\}_{i=1}^M\\):\n\n\\[\n\\text{MSE}_{Te} = \\text{Ave}_{i \\in Te}[(y_i - \\hat{f}(x_i))^2]\n\\]\n\n\n\n\nBias-Variance Trade-off\n\n\nBlack curve is the truth. Red curve on right is MSE on the test set (\\(\\text{MSE}_{Te}\\)), grey curve is MSE on the training set (\\(\\text{MSE}_{Tr}\\)).\nOrange, blue, green curves/squares correspond to fits of different flexibilities.\n\n\n\n\nSmoother Truth Example\n\nHere the truth is smoother, so smoother fits and linear models perform well.\n\n\n\nNoisy, Wiggly Truth Example\n\nHere the truth is wiggly and the noise is low. More flexible fits perform the best.\n\n\n\nBias-Variance Trade-off\n\n\nSuppose we have fit a model \\(\\hat{f}(x)\\) to some training data \\(\\text{Tr}\\), and let \\((x_0, y_0)\\) be a test observation drawn from the population.\nIf the true model is\n\\[\n    Y = f(X) + \\varepsilon\n    \\quad \\text{(with } f(x) = \\mathbb{E}[Y \\mid X = x]\\text{)},\n\\]\nthen\n\\[\n\\mathbb{E}\\Bigl[\\bigl(y_0 - \\hat{f}(x_0)\\bigr)^2\\Bigr]\n    = \\mathrm{Var}\\bigl(\\hat{f}(x_0)\\bigr)\n    + \\bigl[\\mathrm{Bias}\\bigl(\\hat{f}(x_0)\\bigr)\\bigr]^2\n    + \\mathrm{Var}(\\varepsilon).\n\\]\nThe expectation averages over the variability of \\(y_0\\) as well as the variability in \\(\\text{Tr}\\). Note that\n\\[\n    \\mathrm{Bias}\\bigl(\\hat{f}(x_0)\\bigr)\n    = \\mathbb{E}[\\hat{f}(x_0)] - f(x_0).\n\\]\nTypically, as the flexibility of \\(\\hat{f}\\) increases, its variance increases and its bias decreases. Hence, choosing the flexibility based on average test error amounts to a bias-variance trade-off.\n\n\n\n\n\nBias-Variance Trade-off (Examples)\n\n\nBelow is a schematic illustration of the mean squared error (MSE), bias, and variance curves as a function of the model’s flexibility.\n\n\n\n\n\n\n\n\n\n\n\nMSE (red curve) goes down initially (as the model becomes more flexible) but eventually goes up (as overfitting sets in).\nBias (blue/teal curve) decreases with increasing flexibility.\nVariance (orange curve) increases with increasing flexibility.\n\n\nThe vertical dotted line in each panel suggests a model flexibility that balances both bias and variance in an “optimal” region for minimizing MSE.\n\n\n\n\n\n\nClassification Problems\n\n\n\nClassification Problems\n\n\nHere the response variable \\(Y\\) is qualitative. For example:\n\nEmail could be classified as spam or ham (good email).\nDigit classification could be one of \\(\\{0, 1, 2, \\dots, 9\\}\\).\n\n\nOur goals are to:\n\nBuild a classifier \\(C(X)\\) that assigns a class label from the set \\(C\\) to a future unlabeled observation \\(X\\).\nAssess the uncertainty in each classification.\nUnderstand the roles of the different predictors among \\(X = (X_1, X_2, \\dots, X_p)\\).\n\n\n\n\n\n\nIdeal Classifier and Bayes Decision Rule\n\n\n\n\n\n\n\n\n\n\n\nConsider a classification problem with \\(K\\) possible classes, numbered \\(1, 2, \\ldots, K\\). Define\n\\[\n  p_k(x) = \\Pr(Y = k \\mid X = x),\n  \\quad k = 1, 2, \\ldots, K.\n\\]\nThese are the conditional class probabilities at \\(x\\); e.g. see little barplot at \\(x=5\\).\nThe Bayes optimal classifier at \\(x\\) is\n\\[\n  C(x) \\;=\\; j \\quad \\text{if} \\quad p_j(x) =\n      \\max \\{\\,p_1(x),\\, p_2(x),\\, \\dots,\\, p_K(x)\\}.\n\\]\n\n\n\n\n\nNearest-Neighbor Averaging\n\n\n\n\n\n\n\n\n\n\n\nNearest-neighbor averaging can be used as before.\nAlso breaks down as dimension grows. However, the impact on \\(\\hat{C}(x)\\)is less than on \\(\\hat{p}_k(x)\\), for \\(k = 1,\\ldots,K\\).\n\n\n\n\nClassification: Some Details\n\n\nTypically we measure the performance of \\(\\hat{C}(x)\\) using the misclassification error rate:\n\\[\n    \\mathrm{Err}_{\\mathrm{Te}}\n      = \\mathrm{Ave}_{i\\in \\mathrm{Te}}\n        \\bigl[I(y_i \\neq \\hat{C}(x_i))\\bigr].\n\\]\n\nThe Bayes classifier (using the true \\(p_k(x)\\)) has the smallest error in the population.\nSupport-vector machines build structured models for \\(\\hat{C}(x)\\).\nWe also build structured models for representing \\(p_k(x)\\). For example, logistic regression or generalized additive models.\n\n\n\n\n\nExample: K-Nearest Neighbors in Two Dimensions\nBelow is an example data set in two dimensions \\((X_1, X_2)\\). Points shown in blue might represent one class, and points in orange the other. The dashed boundary suggests a decision boundary formed by a classifier.\n\n\n\nKNN: K = 10\nHere is the same data set classified by k-nearest neighbors with \\(k = 10\\). The black boundary line encloses the region of the feature space predicted as orange vs. blue, showing how the decision boundary has become smoother.\n\n\n\nKNN: K = 1 vs. K = 100\n\nComparisons of a very low value of \\(k\\) (left, \\(k=1\\)) versus a very high value (right, \\(k=100\\)).\n\n\\(k=1\\): Overly flexible boundary that can overfit.\n\\(k=100\\): Very smooth boundary that can underfit.\n\n\n\nKNN Error Rates\n\n\n\n\n\n\n\n\n\n\n\nThis figure illustrates how training errors (teal curve) and test errors (orange curve) change for a K-nearest neighbors (KNN) classifier as \\(\\frac{1}{K}\\) varies.\n\nFor small \\(K\\) (i.e., large \\(\\frac{1}{K}\\)), the model can become very flexible, often driving down training error but increasing overfitting and thus test error.\nFor large \\(K\\) (i.e., small \\(\\frac{1}{K}\\)), the model becomes smoother, which can help avoid overfitting but sometimes leads to underfitting.\n\nThe dashed horizontal line (around 0.15) might indicate a baseline or reference error rate for comparison.\n\n\n\n\n\nSummary\n\n\n\nSummary\n\n\nXXX\n\n\n\n\n\nThank you!\n\n\n\nPredictive Analytics"
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#parametric-and-structured-models-1",
+    "href": "lecture_slides/01_introduction/01_introduction.html#parametric-and-structured-models-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Parametric and Structured Models",
+    "text": "Parametric and Structured Models\nThe linear model is a key example of a parametric model to deal with the curse of dimensionality:\n\\[\nf_L(X) = \\beta_0 + \\beta_1X_1 + \\beta_2X_2 + \\ldots + \\beta_pX_p\n\\]\n\nA linear model is specified in terms of \\(p+1\\) parameters (\\(\\beta_0, \\beta_1, \\ldots, \\beta_p\\)).\nWe estimate the parameters by fitting the model to training data.\nAlthough it is almost never correct, it serves as a good and interpretable approximation to the unknown true function \\(f(X)\\)."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#comparison-of-models",
+    "href": "lecture_slides/01_introduction/01_introduction.html#comparison-of-models",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Comparison of Models",
+    "text": "Comparison of Models\n\n\n\n\nLinear model\n\n\\[\n\\hat{f}_L(X) = \\hat{\\beta}_0 + \\hat{\\beta}_1X\n\\]\n\n\n\n\n\n\n\n\n\nThe linear model gives a reasonable fit here.\n\n\n\nQuadratic model:\n\n\\[\n\\hat{f}_Q(X) = \\hat{\\beta}_0 + \\hat{\\beta}_1X + \\hat{\\beta}_2X^2\n\\]\n\n\n\n\n\n\n\n\n\nQuadratic models may fit slightly better than linear models in some cases."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#assessing-model-accuracy-1",
+    "href": "lecture_slides/01_introduction/01_introduction.html#assessing-model-accuracy-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Assessing Model Accuracy",
+    "text": "Assessing Model Accuracy\n\n\nSuppose we fit a model \\(\\hat{f}(x)\\) to some training data \\(Tr = \\{x_i, y_i\\}_{i=1}^N\\), and we wish to evaluate its performance:\n\nCompute the average squared prediction error over the training set \\(Tr\\), the Mean Squared Error (MSE):\n\n\\[\n\\text{MSE}_{Tr} = \\text{Ave}_{i \\in Tr}[(y_i - \\hat{f}(x_i))^2]\n\\]\nHowever, this may be biased toward more overfit models.\n\n\nInstead, use fresh test data \\(Te = \\{x_i, y_i\\}_{i=1}^M\\):\n\n\\[\n\\text{MSE}_{Te} = \\text{Ave}_{i \\in Te}[(y_i - \\hat{f}(x_i))^2]\n\\]"
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-2",
+    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-2",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Bias-Variance Trade-off",
+    "text": "Bias-Variance Trade-off\n\n\nSuppose we have fit a model \\(\\hat{f}(x)\\) to some training data \\(\\text{Tr}\\), and let \\((x_0, y_0)\\) be a test observation drawn from the population.\nIf the true model is\n\\[\n    Y = f(X) + \\varepsilon\n    \\quad \\text{(with } f(x) = \\mathbb{E}[Y \\mid X = x]\\text{)},\n\\]\nthen\n\\[\n\\mathbb{E}\\Bigl[\\bigl(y_0 - \\hat{f}(x_0)\\bigr)^2\\Bigr]\n    = \\mathrm{Var}\\bigl(\\hat{f}(x_0)\\bigr)\n    + \\bigl[\\mathrm{Bias}\\bigl(\\hat{f}(x_0)\\bigr)\\bigr]^2\n    + \\mathrm{Var}(\\varepsilon).\n\\]\nThe expectation averages over the variability of \\(y_0\\) as well as the variability in \\(\\text{Tr}\\). Note that\n\\[\n    \\mathrm{Bias}\\bigl(\\hat{f}(x_0)\\bigr)\n    = \\mathbb{E}[\\hat{f}(x_0)] - f(x_0).\n\\]\nTypically, as the flexibility of \\(\\hat{f}\\) increases, its variance increases and its bias decreases. Hence, choosing the flexibility based on average test error amounts to a bias-variance trade-off."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-other-examples",
+    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-other-examples",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Bias-Variance Trade-off: Other Examples",
+    "text": "Bias-Variance Trade-off: Other Examples\n\n\n\n\n\nHere, the truth is smoother, so smoother fits and linear models perform well.\n\n\n\n\n\n\n\n\n\n\n\n\nHere, the truth is wiggly and the noise is low. More flexible fits perform the best."
+  },
+  {
+    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-of-the-examples",
+    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-of-the-examples",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Bias-Variance Trade-off of the Examples",
+    "text": "Bias-Variance Trade-off of the Examples\n\n\nBelow is a schematic illustration of the mean squared error (MSE), bias, and variance curves as a function of the model’s flexibility.\n\n\n\n\n\n\n\n\n\n\n\nMSE (red curve) goes down initially (as the model becomes more flexible) but eventually goes up (as overfitting sets in).\nBias (blue/teal curve) decreases with increasing flexibility.\nVariance (orange curve) increases with increasing flexibility.\n\n\nThe vertical dotted line in each panel suggests a model flexibility that balances both bias and variance in an “optimal” region for minimizing MSE."
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#hypothesis-testing-1",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#hypothesis-testing-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Hypothesis Testing",
+    "text": "Hypothesis Testing\n\n\n\nTo test the null hypothesis (\\(H_0\\)), compute a \\(t\\)-statistic as follows:\n\n\\[\n  t = \\frac{\\hat{\\beta}_1 - 0}{SE(\\hat{\\beta}_1)}.\n\\]\n\nThe \\(t\\)-statistic follows a \\(t\\)-distribution with \\(n - 2\\) degrees of freedom under the null hypothesis (\\(\\beta_1 = 0\\)).\nUsing statistical software, we can compute the \\(p\\)-value to determine the likelihood of observing a \\(t\\)-statistic as extreme as the one calculated."
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#linear-regression-1",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#linear-regression-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Linear Regression",
+    "text": "Linear Regression\n\n\n\nLinear regression is a simple approach to supervised learning. It assumes that the dependence of \\(Y\\) on \\(X_1, X_2, \\ldots, X_p\\) is linear.\nTrue regression functions are never linear!\n\n\n\n\n\n\n\n\n\n\n\nAlthough it may seem overly simplistic, linear regression is extremely useful both conceptually and practically."
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#multiple-linear-regression-1",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#multiple-linear-regression-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Multiple Linear Regression",
+    "text": "Multiple Linear Regression\n\n\n\nHere our model is\n\n\\[\nY = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2 + \\cdots + \\beta_p X_p + \\epsilon,\n\\]\n\nWe interpret \\(\\beta_j\\) as the average effect on \\(Y\\) of a one-unit increase in \\(X_j\\), holding all other predictors fixed.\n\n\n\nIn the advertising example, the model becomes\n\n\\[\n\\text{sales} = \\beta_0 + \\beta_1 \\times \\text{TV} + \\beta_2 \\times \\text{radio} + \\beta_3 \\times \\text{newspaper} + \\epsilon.\n\\]"
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#model-selection",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#model-selection",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Model Selection",
+    "text": "Model Selection\n\nWe will discuss other criterias for choosing an “optimal” member in the path of models produced by forward or backward stepwise selection, including:\n\nMallow’s \\(C_p\\)\nAkaike information criterion (AIC)\nBayesian information criterion (BIC)\nAdjusted \\(R^2\\)\nCross-validation (CV)"
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#credit-card-data",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#credit-card-data",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Credit Card Data",
+    "text": "Credit Card Data"
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#credit-card-data-1",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#credit-card-data-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Credit Card Data",
+    "text": "Credit Card Data\nSuppose we investigate differences in credit card balance between males and females, ignoring the other variables. We create a new variable:\n\\[\nx_i =\n\\begin{cases}\n1 & \\text{if } i\\text{th person is female} \\\\\n0 & \\text{if } i\\text{th person is male}\n\\end{cases}\n\\]\nResulting model:\n\\[\ny_i = \\beta_0 + \\beta_1 x_i + \\epsilon_i =\n\\begin{cases}\n\\beta_0 + \\beta_1 + \\epsilon_i & \\text{if } i\\text{th person is female} \\\\\n\\beta_0 + \\epsilon_i & \\text{if } i\\text{th person is male.}\n\\end{cases}\n\\]"
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#credit-card-data-2",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#credit-card-data-2",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Credit Card Data",
+    "text": "Credit Card Data\n\nResults for gender model:\n\n\n\n\n\n\n\n\n\n\n\nPredictor\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n509.80\n33.13\n15.389\n&lt; 0.0001\n\n\nGender \\(Female\\)\n19.73\n46.05\n0.429\n0.6690\n\n\n\n\nWe see the coefficient is 19.73, but it’s not significant. The p value is 0.66 which is not significant (&gt; 0.05). So, contrary to popular wisdom, females don’t generally have a higher credit card balance than males."
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors-1",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Qualitative Predictors",
+    "text": "Qualitative Predictors\n\nBoth variables can be used in the regression equation to obtain the model:\n\\[\ny_i = \\beta_0 + \\beta_1 x_{i1} + \\beta_2 x_{i2} + \\epsilon_i =\n\\begin{cases}\n      \\beta_0 + \\beta_1 + \\epsilon_i & \\text{if i-th person is Asian} \\\\\n      \\beta_0 + \\beta_2 + \\epsilon_i & \\text{if i-th person is Caucasian}\\\\\n      \\beta_0 + \\epsilon_i & \\text{if i-th person is African American (baseline)}\n    \\end{cases}\n\\] \nNote: There will always be one fewer dummy variable than the number of levels. The level with no dummy variable — African American (AA) in this example — is known as the baseline."
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#interactions",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#interactions",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Interactions",
+    "text": "Interactions\nIn our previous analysis of the Advertising data, we assumed that the effect on sales of increasing one advertising medium is independent of the amount spent on the other media.\n\nFor example, the linear model\n\\[\n\\widehat{\\text{sales}} = \\beta_0 + \\beta_1 \\times \\text{TV} + \\beta_2 \\times \\text{radio} + \\beta_3 \\times \\text{newspaper}\n\\]\nstates that the average effect on sales of a one-unit increase in TV is always \\(\\beta_1\\), regardless of the amount spent on radio."
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#interactions-1",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#interactions-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Interactions",
+    "text": "Interactions\n\nBut suppose that spending money on radio advertising actually increases the effectiveness of TV advertising, so that the slope term for TV should increase as radio increases.\nIn this situation, given a fixed budget of $100,000, spending half on radio and half on TV may increase sales more than allocating the entire amount to either TV or radio.\nIn marketing, this is known as a synergy effect, and in statistics, it is referred to as an interaction effect."
+  },
+  {
+    "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#non-linear-effects-of-predictors-1",
+    "href": "lecture_slides/03_linear_regression/03_linear_regression.html#non-linear-effects-of-predictors-1",
+    "title": " MGMT 47400: Predictive Analytics ",
+    "section": "Non-linear effects of predictors",
+    "text": "Non-linear effects of predictors\n\nPolynomial regression on Auto data"
   }
 ]
