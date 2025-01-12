@@ -209,6 +209,24 @@ knitr::include_graphics("figs/zip_code.png")
 
 <br>
 
+## Netflix Prize
+
+<br>
+
+<center>
+
+```{r  echo=FALSE, out.width = "60%", fig.align="center"}
+knitr::include_graphics("figs/netflix_prize.png") 
+```
+
+[Video: Winning the Netflix Prize](https://www.youtube.com/watch?v=ImpV70uLxyw){target="_blank"}
+
+[Netflix Prize - Wiki](https://en.wikipedia.org/wiki/Netflix_Prize){target="_blank"}
+
+<br>
+
+</center>
+
 
 # Supervised Learning {background-color="#cfb991"}
 
