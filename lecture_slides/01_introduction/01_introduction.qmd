@@ -35,7 +35,7 @@ html-math-method:
 -   Introductions
 -   Course Overview and Logistics
 -   Motivation
--   Course Objectives
+-   Course Objectives 
 
 :::
 
