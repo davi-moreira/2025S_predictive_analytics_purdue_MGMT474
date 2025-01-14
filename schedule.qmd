@@ -64,6 +64,7 @@ editor: visual
 |Week 14| Deep Learning          | Ch. 10 | .   | . | 
 |Week 15| Deep Learning          | Ch. 10 | .   | . | 
 
-\* The course slides and labs are based on the **[ISLP]** book, *["An Introduction to Statistical Learning with Applications in Python"](https://www.statlearning.com/){target="_blank"}* by James, G., Witten, D., Hastie, T., and Tibshirani, R., and have been adapted to suit the specific needs of our course.
 
 :::
+
+\* The course slides and labs are based on the **[ISLP]** book, *["An Introduction to Statistical Learning with Applications in Python"](https://www.statlearning.com/){target="_blank"}* by James, G., Witten, D., Hastie, T., and Tibshirani, R., and have been adapted to suit the specific needs of our course.
