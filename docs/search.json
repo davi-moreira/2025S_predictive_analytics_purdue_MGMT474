@@ -8438,7 +8438,7 @@
     "href": "lecture_slides/01_introduction/01_introduction.html",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "",
-    "text": "Introductions\nCourse Overview and Logistics\nMotivation\nCourse Objectives\n\n\n\nXXX\n\n\n\n\n\n\n\nthis lecture draws on materials from An Introduction to Statistical Learning."
+    "text": "Introductions\nCourse Overview and Logistics\nMotivation\nCourse Objectives\n\n\n\nSupervised Learning\nUnsupervised Learning\nStatistical Learning Overview\n\nWhat is Statistical Learning?\nParametric and Structured Models\nAssessing Model Accuracy\nClassification Problems\n\n\n\n\n\n\n\n\n\nThis lecture content is inspired by and replicates the material from An Introduction to Statistical Learning."
   },
   {
     "objectID": "lecture_slides/01_introduction/01_introduction.html#overview",
