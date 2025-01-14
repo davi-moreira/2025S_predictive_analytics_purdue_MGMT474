@@ -5483,8 +5483,8 @@
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#overview",
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#overview",
     "title": " MGMT 47400: Predictive Analytics ",
-    "section": "",
-    "text": "Linear Regression\nSimple Linear Regression\nMultiple Linear Regression\nConsiderations in the Regression Model\n\nQualitative Predictors\n\n\n\n\nExtensions of the Linear Model\n\nInteractions\nHierarchy\n\nNon-linear effects of predictors\n\n\n\n\n\n\n\nThis lecture content is inspired by and replicates the material from An Introduction to Statistical Learning."
+    "section": "Overview",
+    "text": "Overview\n\n\n\n\nLinear Regression\nSimple Linear Regression\nMultiple Linear Regression\nConsiderations in the Regression Model\n\nQualitative Predictors\n\n\n\n\nExtensions of the Linear Model\n\nInteractions\nHierarchy\n\nNon-linear effects of predictors\n\n\n\n\n\n\nThis lecture content is inspired by and replicates the material from An Introduction to Statistical Learning."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#xxx",
@@ -5729,7 +5729,7 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#interaction-in-advertising-data",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Interaction in Advertising Data",
-    "text": "Interaction in Advertising Data\n\n\n\n\n\n\n\n\n\n\nWhen levels of TV or radio are low, true sales are lower than predicted.\nSplitting advertising between TV and radio underestimates sales."
+    "text": "Interaction in Advertising Data\n\n\nWhen levels of TV or radio are low, true sales are lower than predicted.\nSplitting advertising between TV and radio underestimates sales."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#modeling-interactions",
@@ -5778,7 +5778,7 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#visualizing-interactions",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Visualizing Interactions",
-    "text": "Visualizing Interactions\n\n\n\n\n\n\n\n\n\n\nLeft: no interaction between income and student.\nRight: with an interaction term between income and student."
+    "text": "Visualizing Interactions\n\n\nLeft: no interaction between income and student.\nRight: with an interaction term between income and student."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#non-linear-effects-of-predictors",

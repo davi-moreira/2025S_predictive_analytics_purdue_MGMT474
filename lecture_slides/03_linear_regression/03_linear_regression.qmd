@@ -55,7 +55,7 @@ html-math-method:
 
 <br>
 
-::: aside
+:::{.aside}
 *This lecture content is inspired by and replicates the material from [An Introduction to Statistical Learning](https://www.statlearning.com/).*
 :::
 
