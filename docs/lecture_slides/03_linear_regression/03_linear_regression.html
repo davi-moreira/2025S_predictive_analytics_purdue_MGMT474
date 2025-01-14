@@ -706,7 +706,7 @@ Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p + \epsilon,
 <li class="fragment">The ideal scenario is when the predictors are uncorrelated — a <em>balanced design</em>:
 <ul>
 <li class="fragment">Each coefficient can be estimated and tested separately.</li>
-<li class="fragment">Interpretations such as <em>“a unit change in <span class="math inline">\(X_j\)</span> is associated with a <span class="math inline">\(\beta_j\)</span> change in <span class="math inline">\(Y\)</span>, while all the other variables stay fixed”</em> are possible.</li>
+<li class="fragment">Interpretations such as *“a unit change in* <span class="math inline">\(X_j\)</span> is associated with a <span class="math inline">\(\beta_j\)</span> change in <span class="math inline">\(Y\)</span>, while all the other variables stay fixed” are possible.</li>
 </ul></li>
 <li class="fragment">Correlations amongst predictors cause problems:
 <ul>
@@ -761,7 +761,7 @@ Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p + \epsilon,
 <div>
 <div style="font-size: 80%;">
 <center>
-<p><strong>Regression Coefficients</strong></p>
+<strong>Regression Coefficients</strong>
 </center>
 <table class="caption-top">
 <thead>
@@ -807,7 +807,7 @@ Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p + \epsilon,
 
 <div class="fragment">
 <center>
-<p><strong>Correlations</strong></p>
+<strong>Correlations</strong>
 </center>
 <table class="caption-top">
 <thead>
@@ -994,13 +994,6 @@ y_i = \beta_0 + \beta_1 x_i + \epsilon_i =
 <strong>Results for gender model:</strong>
 </center>
 <table class="caption-top">
-<colgroup>
-<col style="width: 27%">
-<col style="width: 19%">
-<col style="width: 17%">
-<col style="width: 19%">
-<col style="width: 16%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Predictor</th>
@@ -1069,10 +1062,10 @@ y_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \epsilon_i =
 <p><br></p>
 <table class="caption-top">
 <colgroup>
-<col style="width: 32%">
-<col style="width: 17%">
+<col style="width: 31%">
+<col style="width: 18%">
 <col style="width: 16%">
-<col style="width: 17%">
+<col style="width: 18%">
 <col style="width: 15%">
 </colgroup>
 <thead>
@@ -1198,7 +1191,7 @@ y_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \epsilon_i =
 <section id="interpretation" class="slide level2 center">
 <h2>Interpretation</h2>
 <ul>
-<li class="fragment"><p>The results in this table suggest that interactions are important.The p-value for the interaction term <strong>TV <span class="math inline">\(\times\)</span> radio</strong> is extremely low, indicating that there is strong evidence for ( H_A : <span class="math inline">\(\beta_3 \neq 0\)</span>).</p></li>
+<li class="fragment"><p>The results in this table suggest that interactions are important.The p-value for the interaction term <strong>TV</strong> <span class="math inline">\(\times\)</span> radio is extremely low, indicating that there is strong evidence for ( H_A : <span class="math inline">\(\beta_3 \neq 0\)</span>).</p></li>
 <li class="fragment"><p>The ( <span class="math inline">\(R^2\)</span> ) for the interaction model is 96.8%, compared to only 89.7% for the model that predicts <strong>sales</strong> using <strong>TV</strong> and <strong>radio</strong> without an interaction term.</p></li>
 <li class="fragment"><p>This means that (<span class="math inline">\(\frac{96.8 - 89.7}{100 - 89.7}\)</span>) = 69% of the variability in <strong>sales</strong> that remains after fitting the additive model has been explained by the interaction term.</p></li>
 <li class="fragment"><p>The coefficient estimates in the table suggest that an increase in <strong>TV</strong> advertising of $1,000 is associated with increased sales of (<span class="math inline">\(\hat{\beta}_1 + \hat{\beta}_3 \times \text{radio}\)</span>) <span class="math inline">\(\times 1000 = 19 + 1.1 \times \text{radio} \text{ units}.\)</span></p></li>
@@ -1283,11 +1276,11 @@ mpg = \beta_0 + \beta_1 \times horsepower + \beta_2 \times horsepower^2 + \epsil
 <p>may provide a better fit.</p>
 <table class="caption-top">
 <colgroup>
-<col style="width: 23%">
-<col style="width: 20%">
+<col style="width: 31%">
 <col style="width: 18%">
-<col style="width: 20%">
-<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 15%">
 </colgroup>
 <thead>
 <tr class="header">

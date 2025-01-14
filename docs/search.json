@@ -5589,7 +5589,7 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#interpreting-regression-coefficients",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Interpreting Regression Coefficients",
-    "text": "Interpreting Regression Coefficients\n\nThe ideal scenario is when the predictors are uncorrelated — a balanced design:\n\nEach coefficient can be estimated and tested separately.\nInterpretations such as “a unit change in \\(X_j\\) is associated with a \\(\\beta_j\\) change in \\(Y\\), while all the other variables stay fixed” are possible.\n\nCorrelations amongst predictors cause problems:\n\nThe variance of all coefficients tends to increase, sometimes dramatically.\nInterpretations become hazardous — when \\(X_j\\) changes, everything else changes.\n\nClaims of causality should be avoided for observational data."
+    "text": "Interpreting Regression Coefficients\n\nThe ideal scenario is when the predictors are uncorrelated — a balanced design:\n\nEach coefficient can be estimated and tested separately.\nInterpretations such as *“a unit change in* \\(X_j\\) is associated with a \\(\\beta_j\\) change in \\(Y\\), while all the other variables stay fixed” are possible.\n\nCorrelations amongst predictors cause problems:\n\nThe variance of all coefficients tends to increase, sometimes dramatically.\nInterpretations become hazardous — when \\(X_j\\) changes, everything else changes.\n\nClaims of causality should be avoided for observational data."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#the-woes-of-interpreting-regression-coefficients",
@@ -9349,7 +9349,7 @@
     "href": "lecture_slides/03_linear_regression/03_linear_regression.html#credit-card-data-2",
     "title": " MGMT 47400: Predictive Analytics ",
     "section": "Credit Card Data",
-    "text": "Credit Card Data\n\nResults for gender model:\n\n\n\n\n\n\n\n\n\n\n\nPredictor\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n509.80\n33.13\n15.389\n&lt; 0.0001\n\n\nGender \\(Female\\)\n19.73\n46.05\n0.429\n0.6690\n\n\n\n\nWe see the coefficient is 19.73, but it’s not significant. The p value is 0.66 which is not significant (&gt; 0.05). So, contrary to popular wisdom, females don’t generally have a higher credit card balance than males."
+    "text": "Credit Card Data\n\nResults for gender model:\n\n\n\n\nPredictor\nCoefficient\nStd. Error\nt-statistic\np-value\n\n\n\n\nIntercept\n509.80\n33.13\n15.389\n&lt; 0.0001\n\n\nGender \\(Female\\)\n19.73\n46.05\n0.429\n0.6690\n\n\n\n\nWe see the coefficient is 19.73, but it’s not significant. The p value is 0.66 which is not significant (&gt; 0.05). So, contrary to popular wisdom, females don’t generally have a higher credit card balance than males."
   },
   {
     "objectID": "lecture_slides/03_linear_regression/03_linear_regression.html#qualitative-predictors-1",

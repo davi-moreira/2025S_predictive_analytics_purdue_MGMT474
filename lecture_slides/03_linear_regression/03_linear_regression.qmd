@@ -29,44 +29,40 @@ html-math-method:
 :::::: nonincremental
 ::::: columns
 ::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
+-   Linear Regression
 
-- Linear Regression
-- Simple Linear Regression
-- Multiple Linear Regression
-- Considerations in the Regression Model
+-   Simple Linear Regression
 
-    - Qualitative Predictors
+-   Multiple Linear Regression
 
+-   Considerations in the Regression Model
 
+    -   Qualitative Predictors
 :::
 
 ::: {.column width="50%" style="text-align: center; justify-content: center; align-items: center;"}
+-   Extensions of the Linear Model
 
-- Extensions of the Linear Model
-    
-    - Interactions
-    - Hierarchy
+    -   Interactions
+    -   Hierarchy
 
-- Non-linear effects of predictors
-
+-   Non-linear effects of predictors
 :::
 :::::
 ::::::
 
 <br>
 
-:::{.aside}
+::: aside
 *This lecture content is inspired by and replicates the material from [An Introduction to Statistical Learning](https://www.statlearning.com/).*
 :::
-
 
 # Linear Regression {background-color="#cfb991"}
 
 ## Linear Regression
 
-::: nonincremental
+:::: nonincremental
 ::: {style="font-size: 80%;"}
-
 -   Linear regression is a simple approach to supervised learning. It assumes that the dependence of $Y$ on $X_1, X_2, \ldots, X_p$ is linear.
 
 -   True regression functions are never linear!
@@ -76,15 +72,13 @@ knitr::include_graphics("figs/3_1_1-1.png")
 ```
 
 -   Although it may seem overly simplistic, linear regression is extremely useful both conceptually and practically.
-
 :::
-:::
+::::
 
 ## Linear Regression for the Advertising Data
 
-::: nonincremental
+:::: nonincremental
 ::: {style="font-size: 80%;"}
-
 Consider the advertising data shown:
 
 ```{r  echo=FALSE, out.width = "55%", fig.align="center"}
@@ -92,29 +86,25 @@ knitr::include_graphics("figs/2_1-1.png")
 ```
 
 Questions we might ask:
+:::
+::::
 
-:::
-:::
 ::: {style="font-size: 70%;"}
-
-
 -   Is there a relationship between advertising budget and sales?
 -   How strong is the relationship between advertising budget and sales?
 -   Which media contribute to sales?
 -   How accurately can we predict future sales?
 -   Is the relationship linear?
 -   Is there synergy among the advertising media?
-
 :::
 
 # Simple Linear Regression {background-color="#cfb991"}
 
 ## Simple Linear Regression using a single predictor $X$
 
-::: nonincremental
-::: {style="font-size: 80%;"}
-
-- We assume a model:
+::::: nonincremental
+:::: {style="font-size: 80%;"}
+-   We assume a model:
 
 $$
   Y = \beta_0 + \beta_1X + \epsilon,
@@ -122,26 +112,22 @@ $$
 
 where $\beta_0$ and $\beta_1$ are two unknown constants that represent the **intercept** and **slope**, also known as **coefficients** or **parameters**, and $\epsilon$ is the error term.
 
-:::{.fragment}
-
-- Given some estimates $\hat{\beta}_0$ and $\hat{\beta}_1$ for the model coefficients, we predict future sales using:
+::: fragment
+-   Given some estimates $\hat{\beta}_0$ and $\hat{\beta}_1$ for the model coefficients, we predict future sales using:
 
 $$
   \hat{y} = \hat{\beta}_0 + \hat{\beta}_1x,
 $$
 
 where $\hat{y}$ indicates a prediction of $Y$ on the basis of $X = x$. The hat symbol denotes an estimated value.
-
 :::
-
-:::
-:::
+::::
+:::::
 
 ## Estimation of the parameters by least squares
 
-::: nonincremental
-::: {style="font-size: 80%;"}
-
+::::: nonincremental
+:::: {style="font-size: 80%;"}
 -   Let $\hat{y}_i = \hat{\beta}_0 + \hat{\beta}_1 x_i$ be the prediction for $Y$ based on the $i$th value of $X$. Then $e_i = y_i - \hat{y}_i$ represents the $i$th **residual**.
 
 -   We define the **residual sum of squares** (RSS) as:
@@ -156,8 +142,7 @@ $$
     RSS = (y_1 - \hat{\beta}_0 - \hat{\beta}_1 x_1)^2 + (y_2 - \hat{\beta}_0 - \hat{\beta}_1 x_2)^2 + \cdots + (y_n - \hat{\beta}_0 - \hat{\beta}_1 x_n)^2.
 $$
 
-:::{.fragment}
-
+::: fragment
 -   The least squares approach selects the estimators $\hat{\beta}_0$ and $\hat{\beta}_1$ to minimize the RSS. The minimizing values can be shown to be:
 
 $$
@@ -166,31 +151,26 @@ $$
 $$
 
 where $\bar{y} \equiv \frac{1}{n} \sum_{i=1}^n y_i$ and $\bar{x} \equiv \frac{1}{n} \sum_{i=1}^n x_i$ are the sample means.
-
 :::
-
-:::
-:::
+::::
+:::::
 
 ## Example: Advertising Data
 
-::: nonincremental
+:::: nonincremental
 ::: {style="font-size: 80%;"}
-
 ```{r  echo=FALSE, out.width = "60%", fig.align="center"}
 knitr::include_graphics("figs/3_1-1.png") 
 ```
 
 The least squares fit for the regression of sales onto TV is shown. In this case a linear fit captures the essence of the relationship, although it is somewhat deficient in the left of the plot
-
 :::
-:::
+::::
 
 ## Assessing the Accuracy of the Coefficient Estimates
 
-::: nonincremental
-::: {style="font-size: 70%;"}
-
+:::::: nonincremental
+::::: {style="font-size: 70%;"}
 -   The standard error of an estimator reflects how it varies under repeated sampling:
 
 $$
@@ -199,18 +179,15 @@ $$
 
 where $\sigma^2 = Var(\epsilon)$
 
-:::{.fragment}
-
+::: fragment
 -   These standard errors can be used to compute confidence intervals. A 95% confidence interval is defined as a range of values such that with 95% probability, the range will contain the true unknown value of the parameter. It has the form:
 
 $$
   \hat{\beta}_1 \pm 2 \cdot SE(\hat{\beta}_1).
 $$
-
 :::
 
-:::{.fragment}
-
+::: fragment
 -   There is approximately a **95% chance** that the interval:
 
 $$
@@ -224,17 +201,14 @@ will contain the true value of $\beta_1$ (under a scenario where we obtained rep
 $$
   [0.042, 0.053].
 $$
-
 :::
-
-:::
-:::
+:::::
+::::::
 
 ## Hypothesis Testing
 
-::: nonincremental
-::: {style="font-size: 70%;"}
-
+::::: nonincremental
+:::: {style="font-size: 70%;"}
 -   **Standard errors** can be used to perform **hypothesis tests** on coefficients. The most common hypothesis test involves testing the **null hypothesis**:
 
 $$
@@ -245,8 +219,7 @@ $$
   H_A: \text{There is some relationship between } X \text{ and } Y.
 $$
 
-:::{.fragment}
-
+::: fragment
 -   Mathematically, this corresponds to testing:
 
 $$
@@ -258,17 +231,14 @@ $$
 $$
 
 since if $\beta_1 = 0$, then the model reduces to $Y = \beta_0 + \epsilon$, and $X$ is not associated with $Y$.
-
 :::
+::::
+:::::
 
-:::
-:::
+## Hypothesis Testing
 
-## Hypothesis Testing 
-
-::: nonincremental
+:::: nonincremental
 ::: {style="font-size: 90%;"}
-
 -   To test the null hypothesis ($H_0$), compute a $t$-statistic as follows:
 
 $$
@@ -278,9 +248,8 @@ $$
 -   The $t$-statistic follows a $t$-distribution with $n - 2$ degrees of freedom under the null hypothesis ($\beta_1 = 0$).
 
 -   Using statistical software, we can compute the $p$-value to determine the likelihood of observing a $t$-statistic as extreme as the one calculated.
-
 :::
-:::
+::::
 
 ## Results for the Advertising Data
 
@@ -293,37 +262,31 @@ $$
 
 ## Assessing the Overall Accuracy of the Model
 
-::: nonincremental
-::: {style="font-size: 80%;"}
-
+:::::: nonincremental
+::::: {style="font-size: 80%;"}
 -   Residual Standard Error (RSE):
 
 $$
   RSE = \sqrt{\frac{1}{n-2} RSS} = \sqrt{\frac{1}{n-2} \sum_{i=1}^n (y_i - \hat{y}_i)^2}
 $$ where the Residual Sum of Square (RSS) is $\sum_{i=1}^n (y_i - \hat{y})^2$.
 
-:::{.fragment}
-
+::: fragment
 -   $R^2$, the fraction of variance explained:
 
 $$
   R^2 = \frac{TSS - RSS}{TSS} = 1 - \frac{RSS}{TSS}, \quad TSS = \sum_{i=1}^n (y_i - \bar{y})^2
 $$ where TSS is the Total Sums of Squares.
-
 :::
 
-:::{.fragment}
-
+::: fragment
 -   It can be shown that in this Simple Linear Regression setting that $R^2 = r^2$, where $r$ is the correlation between X and Y:
 
 $$
 r = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^n (x_i - \bar{x})^2 \sum_{i=1}^n (y_i - \bar{y})^2}}
 $$
-
 :::
-
-:::
-:::
+:::::
+::::::
 
 ## Advertising Data Results
 
@@ -343,42 +306,37 @@ $$
 
 ## Multiple Linear Regression
 
-::: nonincremental
-::: {style="font-size: 80%;"}
-
+::::: nonincremental
+:::: {style="font-size: 80%;"}
 -   Here our model is
 
 $$
 Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p + \epsilon,
 $$
 
-
 -   We interpret $\beta_j$ as the *average* effect on $Y$ of a one-unit increase in $X_j$, *holding all other predictors fixed*.
 
-
-:::{.fragment}
-
+::: fragment
 -   In the advertising example, the model becomes
 
 $$
 \text{sales} = \beta_0 + \beta_1 \times \text{TV} + \beta_2 \times \text{radio} + \beta_3 \times \text{newspaper} + \epsilon.
 $$
-
 :::
-
-:::
-:::
+::::
+:::::
 
 ## Interpreting Regression Coefficients
 
 -   The ideal scenario is when the predictors are uncorrelated — a *balanced design*:
     -   Each coefficient can be estimated and tested separately.
-    -   Interpretations such as *“a unit change in $X_j$ is associated with a $\beta_j$ change in $Y$, while all the other variables stay fixed”* are possible.
+    -   Interpretations such as *“a unit change in* $X_j$ is associated with a $\beta_j$ change in $Y$, while all the other variables stay fixed” are possible.
 -   Correlations amongst predictors cause problems:
     -   The variance of all coefficients tends to increase, sometimes dramatically.
     -   Interpretations become hazardous — when $X_j$ changes, everything else changes.
 -   *Claims of causality* should be avoided for observational data.
 
+```{=html}
 <!---
 ## Two Quotes by Famous Statisticians
 
@@ -389,35 +347,30 @@ $$
 > — **Fred Mosteller and John Tukey**
 
 --->
+```
 
 ## Estimation and Prediction for Multiple Regression
 
-::: nonincremental
-::: {style="font-size: 80%;"}
-
-- Given estimates $\hat{\beta}_0, \hat{\beta}_1, \ldots, \hat{\beta}_p$, we can make predictions using the formula:
+::::: nonincremental
+:::: {style="font-size: 80%;"}
+-   Given estimates $\hat{\beta}_0, \hat{\beta}_1, \ldots, \hat{\beta}_p$, we can make predictions using the formula:
 
 $$
   \hat{y} = \hat{\beta}_0 + \hat{\beta}_1x_1 + \hat{\beta}_2x_2 + \cdots + \hat{\beta}_px_p.
 $$
 
-
-:::{.fragment}
-
-- We estimate $\beta_0, \beta_1, \ldots, \beta_p$ as the values that minimize the sum of squared residuals:
+::: fragment
+-   We estimate $\beta_0, \beta_1, \ldots, \beta_p$ as the values that minimize the sum of squared residuals:
 
 $$
   \text{RSS} = \sum_{i=1}^n \left( y_i - \hat{y}_i \right)^2 
              = \sum_{i=1}^n \left( y_i - \hat{\beta}_0 - \hat{\beta}_1x_{i1} - \hat{\beta}_2x_{i2} - \cdots - \hat{\beta}_px_{ip} \right)^2.
 $$
 
-- This is done using standard statistical software. The values $\hat{\beta}_0, \hat{\beta}_1, \ldots, \hat{\beta}_p$ that minimize RSS are the multiple least squares regression coefficient estimates.
-
+-   This is done using standard statistical software. The values $\hat{\beta}_0, \hat{\beta}_1, \ldots, \hat{\beta}_p$ that minimize RSS are the multiple least squares regression coefficient estimates.
 :::
-
-:::
-:::
-
+::::
+:::::
 
 ## 
 
@@ -429,14 +382,9 @@ knitr::include_graphics("figs/3_4-1.png")
 
 ## Results for Advertising Data
 
-::: nonincremental
-::: {style="font-size: 80%;"}
-
-<center>
-
-**Regression Coefficients**
-
-</center>
+::::: nonincremental
+:::: {style="font-size: 80%;"}
+<center>**Regression Coefficients**</center>
 
 | Predictor | Coefficient | Std. Error | t-statistic | p-value   |
 |-----------|-------------|------------|-------------|-----------|
@@ -447,13 +395,8 @@ knitr::include_graphics("figs/3_4-1.png")
 
 </center>
 
-:::{.fragment}
-
-<center>
-
-**Correlations**
-
-</center>
+::: fragment
+<center>**Correlations**</center>
 
 | Predictor     | TV     | radio  | newspaper | sales  |
 |---------------|--------|--------|-----------|--------|
@@ -461,11 +404,9 @@ knitr::include_graphics("figs/3_4-1.png")
 | **radio**     |        | 1.0000 | 0.3541    | 0.5762 |
 | **newspaper** |        |        | 1.0000    | 0.2283 |
 | **sales**     |        |        |           | 1.0000 |
-
 :::
-
-:::
-:::
+::::
+:::::
 
 ## Some Important Questions
 
@@ -505,14 +446,12 @@ The F-statistic is huge and it's p-value is less than $.0001$. This says that th
 
     -   Choose between them based on some criterion that balances training error with model size.
 
-:::{.fragment}
-
+::: fragment
 -   However, we often can't examine all possible models since there are ($2^p$) of them.
 
     -   For example, when (p = 40), there are over a billion models!
 
 -   Instead, we need an automated approach that searches through a subset of them.
-
 :::
 
 ## Forward Selection
@@ -539,10 +478,9 @@ The F-statistic is huge and it's p-value is less than $.0001$. This says that th
 
     -   For instance, we may stop when all remaining variables have a significant p-value defined by some significance threshold.
 
-## Model Selection 
+## Model Selection
 
--   We will discuss other criterias for choosing an “optimal” member in the path of models produced by
-forward or backward stepwise selection, including:
+-   We will discuss other criterias for choosing an “optimal” member in the path of models produced by forward or backward stepwise selection, including:
 
     -   Mallow's $C_p$
 
@@ -563,7 +501,6 @@ forward or backward stepwise selection, including:
 -   Categorical predictors can be represented using **factor variables**.
 
 -   **Qualitative variables:** Gender, Student (Student Status), Status (Marital Status), Ethnicity.
-
 
 ## Credit Card Data
 
@@ -595,16 +532,13 @@ y_i = \beta_0 + \beta_1 x_i + \epsilon_i =
 \end{cases}
 $$
 
+## Credit Card Data
 
-## Credit Card Data 
+<center>**Results for gender model:**</center>
 
-<center>
-**Results for gender model:**
-</center>
-
-| Predictor         | Coefficient | Std. Error | t-statistic | p-value   |
-|-------------------|-------------|------------|-------------|-----------|
-| Intercept         | 509.80      | 33.13      | 15.389      | \< 0.0001 |
+| Predictor       | Coefficient | Std. Error | t-statistic | p-value   |
+|-----------------|-------------|------------|-------------|-----------|
+| Intercept       | 509.80      | 33.13      | 15.389      | \< 0.0001 |
 | Gender $Female$ | 19.73       | 46.05      | 0.429       | 0.6690    |
 
 <br>
@@ -636,7 +570,7 @@ x_{i2} = \begin{cases}
     \end{cases}
 $$
 
-## Qualitative Predictors 
+## Qualitative Predictors
 
 <br>
 
@@ -649,8 +583,7 @@ y_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \epsilon_i =
       \beta_0 + \beta_2 + \epsilon_i & \text{if i-th person is Caucasian}\\
       \beta_0 + \epsilon_i & \text{if i-th person is African American (baseline)}
     \end{cases}
-$$
-<br>
+$$ <br>
 
 **Note:** There will always be one fewer dummy variable than the number of levels. The level with no dummy variable — African American (AA) in this example — is known as the baseline.
 
@@ -658,9 +591,9 @@ $$
 
 <br>
 
-| Term                   | Coefficient | Std. Error | t-statistic | p-value   |
-|------------------------|-------------|------------|-------------|-----------|
-| Intercept              | 531.00      | 46.32      | 11.464      | \< 0.0001 |
+| Term                  | Coefficient | Std. Error | t-statistic | p-value   |
+|-----------------------|-------------|------------|-------------|-----------|
+| Intercept             | 531.00      | 46.32      | 11.464      | \< 0.0001 |
 | ethnicity $Asian$     | -18.69      | 65.02      | -0.287      | 0.7740    |
 | ethnicity $Caucasian$ | -12.50      | 56.68      | -0.221      | 0.8260    |
 
@@ -678,8 +611,7 @@ The coefficient -18.69 compares Asian to African American and that's not signifi
 
 In our previous analysis of the **Advertising** data, we assumed that the effect on **sales** of increasing one advertising medium is independent of the amount spent on the other media.
 
-:::{.fragment}
-
+::: fragment
 For example, the linear model
 
 $$ 
@@ -687,12 +619,11 @@ $$
 $$
 
 states that the average effect on **sales** of a one-unit increase in **TV** is always $\beta_1$, regardless of the amount spent on **radio**.
-
 :::
 
 ## Interactions
 
-- But suppose that spending money on **radio** advertising actually increases the effectiveness of **TV** advertising, so that the slope term for **TV** should increase as **radio** increases.
+-   But suppose that spending money on **radio** advertising actually increases the effectiveness of **TV** advertising, so that the slope term for **TV** should increase as **radio** increases.
 
 -   In this situation, given a fixed budget of \$100,000, spending half on **radio** and half on **TV** may increase **sales** more than allocating the entire amount to either **TV** or **radio**.
 
@@ -729,11 +660,11 @@ $$
 
 ## Interpretation
 
--   The results in this table suggest that interactions are important.The p-value for the interaction term **TV $\times$ radio** is extremely low, indicating that there is strong evidence for ( H_A : $\beta_3 \neq 0$).
+-   The results in this table suggest that interactions are important.The p-value for the interaction term **TV** $\times$ radio is extremely low, indicating that there is strong evidence for ( H_A : $\beta_3 \neq 0$).
 
 -   The ( $R^2$ ) for the interaction model is 96.8%, compared to only 89.7% for the model that predicts **sales** using **TV** and **radio** without an interaction term.
 
--   This means that ($\frac{96.8 - 89.7}{100 - 89.7}$) = 69%  of the variability in **sales** that remains after fitting the additive model has been explained by the interaction term.
+-   This means that ($\frac{96.8 - 89.7}{100 - 89.7}$) = 69% of the variability in **sales** that remains after fitting the additive model has been explained by the interaction term.
 
 -   The coefficient estimates in the table suggest that an increase in **TV** advertising of \$1,000 is associated with increased sales of ($\hat{\beta}_1 + \hat{\beta}_3 \times \text{radio}$) $\times 1000 = 19 + 1.1 \times \text{radio} \text{ units}.$
 
@@ -743,7 +674,7 @@ $$
 
 -   Sometimes it is the case that an interaction term has a very small p-value, but the associated main effects (in this case, **TV** and **radio**) do not.
 
-- The *hierarchy principle*:
+-   The *hierarchy principle*:
 
     -   *If we include an interaction in a model, we should also include the main effects, even if the p-values associated with their coefficients are not significant.*
 
@@ -806,9 +737,7 @@ knitr::include_graphics("figs/3_7-1.png")
 
 ## Non-linear effects of predictors
 
-<center>
-**Polynomial regression on Auto data**
-</center>
+<center>**Polynomial regression on Auto data**</center>
 
 ```{r  echo=FALSE, out.width = "65%", fig.align="center"}
 knitr::include_graphics("figs/3_8-1.png") 
@@ -824,27 +753,24 @@ $$
 
 may provide a better fit.
 
-|               | Coefficient | Std. Error | t-statistic | p-value   |
-|---------------|-------------|------------|-------------|-----------|
-| Intercept     | 56.9001     | 1.8004     | 31.6        | \< 0.0001 |
-| horsepower    | -0.4662     | 0.0311     | -15.0       | \< 0.0001 |
+|                       | Coefficient | Std. Error | t-statistic | p-value   |
+|-----------------------|-------------|------------|-------------|-----------|
+| Intercept             | 56.9001     | 1.8004     | 31.6        | \< 0.0001 |
+| horsepower            | -0.4662     | 0.0311     | -15.0       | \< 0.0001 |
 | $\text{horsepower}^2$ | 0.0012      | 0.0001     | 10.1        | \< 0.0001 |
 
 ## What we did not cover
 
 ::: nonincremental
-
 -   Outliers
 -   Non-constant variance of error terms
 -   High leverage points
 -   Collinearity
-
 :::
 
 ## Generalizations of the Linear Model
 
 ::: nonincremental
-
 -   In much of the rest of the course we discuss methods that expand the scope of linear models and how they are fit:
 
     -   **Classification problems:** logistic regression, support vector machines.
@@ -854,58 +780,54 @@ may provide a better fit.
     -   **Interactions:** Tree-based methods, bagging, random forests, boosting (these also capture non-linearities).
 
     -   **Regularized fitting:** Ridge regression and lasso.
-
 :::
 
 # Summary {background-color="#cfb991"}
 
 ## Summary
 
-
-:::::::: nonincremental
-::: {style="font-size: 80%;"}
-:::: {.columns}
+::::::: nonincremental
+:::::: {style="font-size: 80%;"}
+::::: columns
 ::: {.column width="50%"}
+-   **Linear Regression**:
 
-- **Linear Regression**:
+    -   A foundational supervised learning method.
+    -   Assumes a linear relationship between predictors ($X$) and the response ($Y$).
+    -   Useful for both **prediction** and **understanding relationships**.
 
-    - A foundational supervised learning method.
-    - Assumes a linear relationship between predictors ($X$) and the response ($Y$).
-    - Useful for both **prediction** and **understanding relationships**.
-  
-- **Simple vs. Multiple Regression**:
+-   **Simple vs. Multiple Regression**:
 
-    - Simple regression: one predictor.
-    - Multiple regression: multiple predictors.
-  
-- **Key Metrics**:
+    -   Simple regression: one predictor.
+    -   Multiple regression: multiple predictors.
 
-    - Residual Standard Error (RSE), $R^2$, and F-statistic.
-    - Confidence intervals and hypothesis testing for coefficients.
+-   **Key Metrics**:
+
+    -   Residual Standard Error (RSE), $R^2$, and F-statistic.
+    -   Confidence intervals and hypothesis testing for coefficients.
 :::
+
 ::: {.column width="50%"}
+-   **Qualitative Predictors**:
 
-- **Qualitative Predictors**:
+    -   Use dummy variables for categorical predictors.
+    -   Interpret results based on chosen baselines.
 
-    - Use dummy variables for categorical predictors.
-    - Interpret results based on chosen baselines.
+-   **Interactions**:
 
-- **Interactions**:
-  
-    - Models with interaction terms (e.g., $X_1 \times X_2$) capture synergistic effects.
+    -   Models with interaction terms (e.g., $X_1 \times X_2$) capture synergistic effects.
 
-- **Non-linear Effects**:
-  
-    - Polynomial regression accounts for curvature in data.
+-   **Non-linear Effects**:
 
-- **Challenges**:
-  
-    - Multicollinearity, outliers, high leverage points.
-    - Overfitting vs. underfitting: balance flexibility and interpretability.
+    -   Polynomial regression accounts for curvature in data.
 
+-   **Challenges**:
+
+    -   Multicollinearity, outliers, high leverage points.
+    -   Overfitting vs. underfitting: balance flexibility and interpretability.
 :::
-::::
-:::
-::::::::
+:::::
+::::::
+:::::::
 
 # Thank you! {background-color="#cfb991"}
