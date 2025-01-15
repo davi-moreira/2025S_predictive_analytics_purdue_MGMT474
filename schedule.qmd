@@ -23,29 +23,6 @@ author: "Davi Moreira"
 editor: visual
 ---
 
-<style>
-  .overflow-table {
-    font-size: 0.85rem; /* Smaller font for compact display */
-    width: 100%; /* Ensure the table fits within page width */
-    line-height: 1.2; /* Tighter line spacing */
-  }
-  .overflow-table th, .overflow-table td {
-    padding: 0.3rem; /* Reduce padding for compact layout */
-    text-align: left; /* Left-align for readability */
-    word-wrap: break-word; /* Wrap long text within cells */
-    vertical-align: top; /* Align cell content to the top */
-  }
-  .overflow-table th:nth-child(1), .overflow-table td:nth-child(1) {
-    width: 7%; /* Increase width of the first column */
-  }
-  .below-table {
-    font-size: 0.85rem; /* Match the font size of the table */
-    line-height: 1.2; /* Match line height */
-    margin-top: 1rem; /* Add spacing above the text */
-  }
-</style>
-
-::: {.overflow-table}
 
 | Week  | Topic                                         | Readings [ISLP] |Material*   | Supplementary Materials                                               | 
 |-------|-----------------------------------------------|------------|------------|------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,6 +43,5 @@ editor: visual
 |Week 15| Deep Learning          | Ch. 10 | .   | . | 
 
 
-:::
 
 \* The course slides and labs are based on the **[ISLP]** book, *["An Introduction to Statistical Learning with Applications in Python"](https://www.statlearning.com/){target="_blank"}* by James, G., Witten, D., Hastie, T., and Tibshirani, R., and have been adapted to suit the specific needs of our course.
