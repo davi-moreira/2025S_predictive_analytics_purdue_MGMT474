@@ -40,6 +40,76 @@
     ]
   },
   {
+    "objectID": "syllabus.html#course-description-and-objectives",
+    "href": "syllabus.html#course-description-and-objectives",
+    "title": "Syllabus",
+    "section": "Course Description and Objectives",
+    "text": "Course Description and Objectives\nThe course enables students to navigate the entire predictive analytics pipeline skillfully—from data preparation and exploration to modeling, assessment, and interpretation. Throughout the course, learners engage with real-world examples and hands-on labs emphasizing essential programming and analytical skills. By exploring topics such as linear and logistic regression, classification, resampling methods, regularization techniques, tree-based approaches, support vector machines, and advanced learning paradigms (including neural networks and unsupervised methods), participants gain a robust theoretical understanding and practical experience. Ultimately, students will leave the course equipped to apply predictive models to data-driven problems, communicate their findings to diverse audiences, and critically evaluate model performance to inform strategic decision-making across various business contexts.\nCourse Website: https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#instructor",
+    "href": "syllabus.html#instructor",
+    "title": "Syllabus",
+    "section": "Instructor",
+    "text": "Instructor\n\nInstructor: Professor Davi Moreira\n\nEmail: dmoreira@purdue.edu\nOffice: Young Hall 414\nVirtual Office hours: Zoom link in your Course Brightspace Page\nIndividual Appointments: Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#learning-outcomes",
+    "href": "syllabus.html#learning-outcomes",
+    "title": "Syllabus",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the conclusion of this course, students will be able to:\n\nExplain Core Predictive Analytics Concepts: Articulate key principles of statistical learning and predictive analytics, including fundamental terminology, modeling strategies, and the role of data-driven insights in business contexts.\nPrepare and Explore Data Effectively: Demonstrate proficiency in cleaning, organizing, and exploring datasets, applying tools and techniques for data preprocessing, feature engineering, and exploratory analysis.\nImplement Diverse Modeling Techniques: Construct predictive models using linear and logistic regression, classification methods, resampling procedures, and regularization techniques.\nAssess and Interpret Model Performance: Evaluate the accuracy, robustness, and interpretability of predictive models, critically examining issues such as overfitting, bias-variance trade-offs, and cross-validation results.\nCommunicate Analytical Findings: Present analytical outcomes and model interpretations to technical and non-technical audiences, crafting clear, concise, and visually effective reports or presentations.\nIntegrate Predictive Analytics into Decision-Making: Recommend actionable strategies based on model findings, demonstrating the ability to align analytical results with organizational objectives and inform evidence-based decision processes.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-materials",
+    "href": "syllabus.html#course-materials",
+    "title": "Syllabus",
+    "section": "Course Materials",
+    "text": "Course Materials\n\nTextbooks (Required): [ISLP] James, G., Witten, D., Hastie, T., & Tibshirani, R. (2023). An Introduction to Statistical Learning with Applications in Python. Springer. https://doi.org/10.1007/978-1-0716-2926-2. Download here: https://www.statlearning.com/\nComputing (Required): A laptop or desktop with internet access and the capability to run Python code through Google Colab: https://colab.research.google.com/.\nSoftware (Required): Google Colab is a cloud-based platform that requires no software installation on your local machine; it is accessible through a modern web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari. To use Google Colab, you need a Google account and a stable internet connection. While optional, having tools like a local Python installation (e.g., Anaconda) or a Python IDE (e.g., Jupyter Notebook or VS Code) can be helpful for offline development. Additionally, browser extensions, such as those for VS Code integration, can enhance your experience but are not required. This makes Google Colab convenient and easy for Python programming and data science tasks.\n\n\nCourse Infra-structure\nBrightspace: The Course Brightspace Page https://purdue.brightspace.com/ should be checked on a regular basis for announcements and course material.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#assessments",
+    "href": "syllabus.html#assessments",
+    "title": "Syllabus",
+    "section": "Assessments",
+    "text": "Assessments\nAs part of a university-wide initiative, the Business School has adopted an Official Grading Policy that caps the overall class GPA at 3.3. Final letter grades are determined by curving final percentages, subject to any extra-credit exceptions discussed in this syllabus. While you will see your final percentage in Brightspace, individual grade thresholds will not be disclosed before official submissions.\n\n\n\nAssessment\nWeight\n\n\n\n\nAttendance/Participation\n10%\n\n\nQuizzes\n20%\n\n\nHomework\n30%\n\n\nFinal Project\n40%\n\n\n\n\nAttendance and Participation\nAttend class, participate in activities, and complete any participatory exercises. Random attendance checks will be used to measure involvement. According to Purdue regulations, students are expected to attend every class/lab meeting for which they are registered.\n\n\nQuizzes\nRegular quizzes based on lecture material will be administered, with no drops. Due dates and details will be on Brightspace. Quizzes help reinforce content and maintain steady engagement.\n\n\nHomework\nHomework assignments offer practical, hands-on exposure to data mining tasks. Expect multiple-choice questions requiring analysis of provided results. Deadlines will be posted in Brightspace. These assignments are crucial for building technical and analytical skills.\n\n\nFinal Project\nIn groups, students will complete a practical predictive analytics project culminating in a poster presentation at the Undergraduate Research Conference. A comprehensive set of project guidelines will be provided, and the assessment structure will adhere to the following criteria:\n\nMilestone Deliverables (40%): Students will submit incremental project components on specific due dates. These deliverables allow for early feedback and ensure steady progress throughout the semester. Grades will reflect each milestone’s clarity, completeness, and timely submission.\nPeer Evaluation (20%): To encourage accountability and productive teamwork, students will evaluate their peers’ contributions. These assessments help ensure balanced participation and measure collaborative effectiveness.\nPoster Presentation at the Purdue Undergraduate Research Conference (40%): A poster template and assessment rubric will be shared, and you are encouraged to review previous award-winning student posters for inspiration. Your final posters must be submitted by the due date indicated in the syllabus, after which they will be printed and distributed during a dedicated Poster Presentation Preparation class. Additional details on the conference can be found at https://www.purdue.edu/undergrad-research/conferences/index.php. As the event may not coincide with our regular class time, please communicate with your other course instructors in advance regarding potential scheduling conflicts. If any issues arise, please let me know. We will not hold our usual class immediately following the Poster Presentation, allowing you time to rest and catch up on other coursework. Consult the course schedule for further details.\n\n\n\nGrade Challenges\nGrades and solutions will be posted soon after each assignment deadline. Students have 7 calendar days from the grade posting to submit any challenge (3 days for the final two quizzes and homework assignments). Challenges must be based on legitimate discrepancies regarding data mining principles or grading accuracy.\n\nReview posted solutions thoroughly.\n\nIf you suspect an error, email Dr. Moreira with:\n\nCourse name, section, and lecture day/time\n\nYour name and Student ID\n\nAssignment/Exam Title or Number\n\nSpecific deduction questioned\n\nClear rationale referencing solutions or rubrics\n\n\n\nNo grades will be discussed in-class. Please use office hours for clarifications. After the 7-day (or 3-day) window, grades are final.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-policies-and-additional-details",
+    "href": "syllabus.html#course-policies-and-additional-details",
+    "title": "Syllabus",
+    "section": "Course Policies and Additional Details",
+    "text": "Course Policies and Additional Details\n\nExtra Credit Opportunities\n\nCheck the Course Syllabus document on Brightspace for details.\n\n\n\nAI Policy\n\nYou may use AI tools to support your learning (e.g., clarifying concepts, generating examples), but:\n\nDo not use AI for requesting solutions or exams.\n\nPractice refining prompts to get better AI outputs.\n\nVerify all AI-generated content for accuracy.\n\nCite any AI usage in your documents.\n\n\n\n\nAdditional Information\nRefer to Brightspace for deadlines, academic integrity policies, accommodations, CAPS information, and non-discrimination statements.\n\n\nSubject to Change Policy\nWhile we will endeavor to maintain the course schedule, the syllabus may be adjusted to accommodate the learning pace and needs of the class.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#schedule",
+    "href": "syllabus.html#schedule",
+    "title": "Syllabus",
+    "section": "Schedule",
+    "text": "Schedule",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
@@ -48,13 +118,6 @@
     "crumbs": [
       "Schedule and Material"
     ]
-  },
-  {
-    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html",
-    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html",
-    "title": " MGMT 17300: Data Mining Lab ",
-    "section": "",
-    "text": "Structured Data\nUnstructured Data\nDatabases\nRelational Databases\n\n\n\nNon Relational Databases\nMeta Data and Dictionary (code book)"
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#overview",
@@ -230,82 +293,5 @@
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Summary",
     "text": "Summary\n\n\n\n\n\nStructured Data: Highly organized and formatted data that is easily searchable (e.g., tables with rows and columns).\nDatabases: Used to store and manage structured data efficiently.\n\nTypes: Include relational databases (RDBMS) like MySQL and NoSQL databases like MongoDB.\nFunctionality: Provides tools for querying, updating, and managing large datasets.\n\nRelational Databases: Organizes data into tables that can be linked by shared keys.\n\nBenefits: Ensures data integrity and supports complex queries and transactions.\nKey Components: Tables, primary and foreign keys, SQL for data manipulation.\n\n\n\n\n\n\nNon-Relational Databases: NoSQL databases designed for unstructured data and scalability.\n- Advantages: Handle large-scale data across distributed systems more effectively than traditional RDBMS.\nMeta Data: Information describing other data, providing context and making it easier to understand.\nData Dictionary: Detailed description of dataset variables, ensuring consistent data usage."
-  },
-  {
-    "objectID": "schedule_aux.html",
-    "href": "schedule_aux.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Week\nTopic\nReadings [ISLP]\nMaterial*\nSupplementary Materials\n\n\n\n\nWeek 1\nSyllabus, Logistics, and Introduction.\nCh. 1; Ch. 2;\nslidesbook lab\n- Video: Statistical Learning: 2.1 Introduction to Regression Models- Video: Statistical Learning: 2.2 Dimensionality and Structured Models- Video: Statistical Learning: 2.3 Model Selection and Bias Variance Tradeoff- Video: Statistical Learning: 2.4 Classification- Video: Statistical Learning: 2.Py Data Types, Arrays, and Basics - 2023- Video: Statistical Learning: 2.Py.3 Graphics - 2023- Video: Statistical Learning: 2.Py Indexing and Dataframes - 2023\n\n\nWeek 2\nLinear Regression\nCh. 3.\nslidesbook lab\n- Video: Statistical Learning: 3.1 Simple linear regression- Video: Statistical Learning: 3.2 Hypothesis Testing and Confidence Intervals- Video: Statistical Learning: 3.3 Multiple Linear Regression- Video: Statistical Learning: 3.4 Some important questions- Video: Statistical Learning: 3.5 Extensions of the Linear Model- Video: Statistical Learning: 3.Py Linear Regression and statsmodels Package - 2023- Video: Statistical Learning: 3.Py Multiple Linear Regression Package - 2023- Video: Statistical Learning: 3.Py Interactions, Qualitative Predictors and Other Details I 2023\n\n\nWeek 3\nClassification\nCh. 4\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 4\nResampling Methods\nCh. 5\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 5\nLinear Model Selection & Regularization\nCh. 6\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 6\nBeyond Linearity\nCh. 7\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 7\nTree-Based Methods\nCh. 8\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 8\nSupport Vector Machines\nCh. 9\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 09\nUnsupervised Learning\nCh. 12\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 10\nFinal Project\n.\n.\n.\n\n\nWeek 11\nFinal Project\n.\n.\n.\n\n\nWeek 12\nFinal Project\n.\n.\n.\n\n\nWeek 13\nDeep Learning\nCh. 10\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 14\nDeep Learning\nCh. 10\n.\n.\n\n\nWeek 15\nDeep Learning\nCh. 10\n.\n.\n\n\n\n* The course slides and labs are based on the [ISLP] book, “An Introduction to Statistical Learning with Applications in Python” by James, G., Witten, D., Hastie, T., and Tibshirani, R., and have been adapted to suit the specific needs of our course."
-  },
-  {
-    "objectID": "syllabus.html#course-description-and-objectives",
-    "href": "syllabus.html#course-description-and-objectives",
-    "title": "Syllabus",
-    "section": "Course Description and Objectives",
-    "text": "Course Description and Objectives\nThe course enables students to navigate the entire predictive analytics pipeline skillfully—from data preparation and exploration to modeling, assessment, and interpretation. Throughout the course, learners engage with real-world examples and hands-on labs emphasizing essential programming and analytical skills. By exploring topics such as linear and logistic regression, classification, resampling methods, regularization techniques, tree-based approaches, support vector machines, and advanced learning paradigms (including neural networks and unsupervised methods), participants gain a robust theoretical understanding and practical experience. Ultimately, students will leave the course equipped to apply predictive models to data-driven problems, communicate their findings to diverse audiences, and critically evaluate model performance to inform strategic decision-making across various business contexts.\nCourse Website: https://davi-moreira.github.io/2025S_predictive_analytics_purdue_MGMT474/",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#instructor",
-    "href": "syllabus.html#instructor",
-    "title": "Syllabus",
-    "section": "Instructor",
-    "text": "Instructor\n\nInstructor: Professor Davi Moreira\n\nEmail: dmoreira@purdue.edu\nOffice: Young Hall 414\nVirtual Office hours: Zoom link in your Course Brightspace Page\nIndividual Appointments: Book time with me through the link in the course syllabus on your Course Brightspace Page or by appointment.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#learning-outcomes",
-    "href": "syllabus.html#learning-outcomes",
-    "title": "Syllabus",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nBy the conclusion of this course, students will be able to:\n\nExplain Core Predictive Analytics Concepts: Articulate key principles of statistical learning and predictive analytics, including fundamental terminology, modeling strategies, and the role of data-driven insights in business contexts.\nPrepare and Explore Data Effectively: Demonstrate proficiency in cleaning, organizing, and exploring datasets, applying tools and techniques for data preprocessing, feature engineering, and exploratory analysis.\nImplement Diverse Modeling Techniques: Construct predictive models using linear and logistic regression, classification methods, resampling procedures, and regularization techniques.\nAssess and Interpret Model Performance: Evaluate the accuracy, robustness, and interpretability of predictive models, critically examining issues such as overfitting, bias-variance trade-offs, and cross-validation results.\nCommunicate Analytical Findings: Present analytical outcomes and model interpretations to technical and non-technical audiences, crafting clear, concise, and visually effective reports or presentations.\nIntegrate Predictive Analytics into Decision-Making: Recommend actionable strategies based on model findings, demonstrating the ability to align analytical results with organizational objectives and inform evidence-based decision processes.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#course-materials",
-    "href": "syllabus.html#course-materials",
-    "title": "Syllabus",
-    "section": "Course Materials",
-    "text": "Course Materials\n\nTextbooks (Required): [ISLP] James, G., Witten, D., Hastie, T., & Tibshirani, R. (2023). An Introduction to Statistical Learning with Applications in Python. Springer. https://doi.org/10.1007/978-1-0716-2926-2. Download here: https://www.statlearning.com/\nComputing (Required): A laptop or desktop with internet access and the capability to run Python code through Google Colab: https://colab.research.google.com/.\nSoftware (Required): Google Colab is a cloud-based platform that requires no software installation on your local machine; it is accessible through a modern web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari. To use Google Colab, you need a Google account and a stable internet connection. While optional, having tools like a local Python installation (e.g., Anaconda) or a Python IDE (e.g., Jupyter Notebook or VS Code) can be helpful for offline development. Additionally, browser extensions, such as those for VS Code integration, can enhance your experience but are not required. This makes Google Colab convenient and easy for Python programming and data science tasks.\n\n\nCourse Infra-structure\nBrightspace: The Course Brightspace Page https://purdue.brightspace.com/ should be checked on a regular basis for announcements and course material.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#assessments",
-    "href": "syllabus.html#assessments",
-    "title": "Syllabus",
-    "section": "Assessments",
-    "text": "Assessments\nAs part of a university-wide initiative, the Business School has adopted an Official Grading Policy that caps the overall class GPA at 3.3. Final letter grades are determined by curving final percentages, subject to any extra-credit exceptions discussed in this syllabus. While you will see your final percentage in Brightspace, individual grade thresholds will not be disclosed before official submissions.\n\n\n\nAssessment\nWeight\n\n\n\n\nAttendance/Participation\n10%\n\n\nQuizzes\n20%\n\n\nHomework\n30%\n\n\nFinal Project\n40%\n\n\n\n\nAttendance and Participation\nAttend class, participate in activities, and complete any participatory exercises. Random attendance checks will be used to measure involvement. According to Purdue regulations, students are expected to attend every class/lab meeting for which they are registered.\n\n\nQuizzes\nRegular quizzes based on lecture material will be administered, with no drops. Due dates and details will be on Brightspace. Quizzes help reinforce content and maintain steady engagement.\n\n\nHomework\nHomework assignments offer practical, hands-on exposure to data mining tasks. Expect multiple-choice questions requiring analysis of provided results. Deadlines will be posted in Brightspace. These assignments are crucial for building technical and analytical skills.\n\n\nFinal Project\nIn groups, students will complete a practical predictive analytics project culminating in a poster presentation at the Undergraduate Research Conference. A comprehensive set of project guidelines will be provided, and the assessment structure will adhere to the following criteria:\n\nMilestone Deliverables (40%): Students will submit incremental project components on specific due dates. These deliverables allow for early feedback and ensure steady progress throughout the semester. Grades will reflect each milestone’s clarity, completeness, and timely submission.\nPeer Evaluation (20%): To encourage accountability and productive teamwork, students will evaluate their peers’ contributions. These assessments help ensure balanced participation and measure collaborative effectiveness.\nPoster Presentation at the Purdue Undergraduate Research Conference (40%): A poster template and assessment rubric will be shared, and you are encouraged to review previous award-winning student posters for inspiration. Your final posters must be submitted by the due date indicated in the syllabus, after which they will be printed and distributed during a dedicated Poster Presentation Preparation class. Additional details on the conference can be found at https://www.purdue.edu/undergrad-research/conferences/index.php. As the event may not coincide with our regular class time, please communicate with your other course instructors in advance regarding potential scheduling conflicts. If any issues arise, please let me know. We will not hold our usual class immediately following the Poster Presentation, allowing you time to rest and catch up on other coursework. Consult the course schedule for further details.\n\n\n\nGrade Challenges\nGrades and solutions will be posted soon after each assignment deadline. Students have 7 calendar days from the grade posting to submit any challenge (3 days for the final two quizzes and homework assignments). Challenges must be based on legitimate discrepancies regarding data mining principles or grading accuracy.\n\nReview posted solutions thoroughly.\n\nIf you suspect an error, email Dr. Moreira with:\n\nCourse name, section, and lecture day/time\n\nYour name and Student ID\n\nAssignment/Exam Title or Number\n\nSpecific deduction questioned\n\nClear rationale referencing solutions or rubrics\n\n\n\nNo grades will be discussed in-class. Please use office hours for clarifications. After the 7-day (or 3-day) window, grades are final.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#course-policies-and-additional-details",
-    "href": "syllabus.html#course-policies-and-additional-details",
-    "title": "Syllabus",
-    "section": "Course Policies and Additional Details",
-    "text": "Course Policies and Additional Details\n\nExtra Credit Opportunities\n\nCheck the Course Syllabus document on Brightspace for details.\n\n\n\nAI Policy\n\nYou may use AI tools to support your learning (e.g., clarifying concepts, generating examples), but:\n\nDo not use AI for requesting solutions or exams.\n\nPractice refining prompts to get better AI outputs.\n\nVerify all AI-generated content for accuracy.\n\nCite any AI usage in your documents.\n\n\n\n\nAdditional Information\nRefer to Brightspace for deadlines, academic integrity policies, accommodations, CAPS information, and non-discrimination statements.\n\n\nSubject to Change Policy\nWhile we will endeavor to maintain the course schedule, the syllabus may be adjusted to accommodate the learning pace and needs of the class.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#schedule",
-    "href": "syllabus.html#schedule",
-    "title": "Syllabus",
-    "section": "Schedule",
-    "text": "Schedule",
-    "crumbs": [
-      "Syllabus"
-    ]
   }
 ]
