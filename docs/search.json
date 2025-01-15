@@ -50,312 +50,186 @@
     ]
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html",
-    "href": "lecture_slides/01_introduction/01_introduction.html",
-    "title": " MGMT 47400: Predictive Analytics ",
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html",
+    "title": " MGMT 17300: Data Mining Lab ",
     "section": "",
-    "text": "Introductions\nCourse Overview and Logistics\nMotivation\nCourse Objectives\n\n\n\nSupervised Learning\nUnsupervised Learning\nStatistical Learning Overview\n\nWhat is Statistical Learning?\nParametric and Structured Models\nAssessing Model Accuracy\nClassification Problems\n\n\n\n\n\n\n\n\n\nThis lecture content is inspired by and replicates the material from An Introduction to Statistical Learning."
+    "text": "Structured Data\nUnstructured Data\nDatabases\nRelational Databases\n\n\n\nNon Relational Databases\nMeta Data and Dictionary (code book)"
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#overview",
-    "href": "lecture_slides/01_introduction/01_introduction.html#overview",
-    "title": " MGMT 47400: Predictive Analytics ",
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#overview",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#overview",
+    "title": " MGMT 17300: Data Mining Lab ",
     "section": "Overview",
-    "text": "Overview\n\n\n\n\nIntroductions\nCourse Overview and Logistics\nMotivation\nCourse Objectives\n\n\n\nSupervised Learning\nUnsupervised Learning\nStatistical Learning Overview\n\nWhat is Statistical Learning?\nParametric and Structured Models\nAssessing Model Accuracy\nClassification Problems\n\n\n\n\n\nThis lecture content is inspired by and replicates the material from An Introduction to Statistical Learning."
+    "text": "Overview\n\n\n\n\nStructured Data\nUnstructured Data\nDatabases\nRelational Databases\n\n\n\nNon Relational Databases\nMeta Data and Dictionary (code book)"
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#instructor",
-    "href": "lecture_slides/01_introduction/01_introduction.html#instructor",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Instructor",
-    "text": "Instructor\n\n\n\n\n\n\n\n\n\n\n\ndmoreira@purdue.edu\nhttps://davi-moreira.github.io/\n\n\nClinical Assistant Professor in the Management Department at Purdue University;\n\n\n\nMy academic work addresses Political Communication, Data Science, Text as Data, Artificial Intelligence, and Comparative Politics.\n\n\n\nM&E Specialist consultant - World Bank (Brazil, Mozambique, Angola, and DRC)"
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#what-is-data-1",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#what-is-data-1",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "What is Data?",
+    "text": "What is Data?\n\n\n\n\nData refers to raw, unprocessed facts, figures, and symbols that represent information about the world around us. Data can take many forms, such as numbers, text, images, audio, and video, and it can be quantitative (numerical) or qualitative (categorical).\n\n\n\nData (Wiki)"
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#instructors-passions",
-    "href": "lecture_slides/01_introduction/01_introduction.html#instructors-passions",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Instructor’s Passions",
-    "text": "Instructor’s Passions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Most Exciting Game in History - Video"
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#types-of-data-1",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#types-of-data-1",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Types of Data",
+    "text": "Types of Data\n\n\nStructured Data: Data that is organized in a defined format, such as rows and columns in a database (e.g., an Excel spreadsheet).\nUnstructured Data: Data that does not have a predefined structure, such as text, emails, social media posts, videos, and images.\nSemi-Structured Data: Data that does not conform to a strict structure but contains tags or markers to separate elements (e.g., XML or JSON files)."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#instructors-passions-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#instructors-passions-1",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Instructor’s Passions",
-    "text": "Instructor’s Passions\n\n\nNYT - How John Travolta Became the Star of Carnival-Video."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#structured-business-data",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#structured-business-data",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Structured Business Data",
+    "text": "Structured Business Data\n\n\nBusiness data refers to the information gathered by an organization, such as customer data, financial data, sales data, employee data, and more. Business data can come from a wide variety of sources - from customers’ purchase transactions and social media activities to market research and financial reports.\n\nBecause structured data is typically organized in a specific format that can be easily searched and analyzed, most business analytics are designed and applied to structured data. This course will focus solely on using and analyzing structured data."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#students",
-    "href": "lecture_slides/01_introduction/01_introduction.html#students",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Students",
-    "text": "Students\n\n\nIt is your turn! - 5 minutes\n\n\n\nPresent yourself to your left/right colleague and tell her/him what are the current two main passions in your life."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#introduction-to-databases-1",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#introduction-to-databases-1",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Introduction to Databases",
+    "text": "Introduction to Databases\n\n\n\n\nA Database is a structured collection of data, typically managed by a Database Management System (DBMS) to efficiently store, retrieve, and manage data for various applications."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#course-overview-and-logistics-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#course-overview-and-logistics-1",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Course Overview and Logistics",
-    "text": "Course Overview and Logistics\n\nMaterials:\n\nBrightspace\nCourse Webpage\n\nSyllabus\n\nClass Times & Location: check the course syllabus.\nOffice Hours: check the course syllabus for group and individual appointments.\n\nSchedule"
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#the-relational-model-1970s",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#the-relational-model-1970s",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "The Relational Model: 1970s",
+    "text": "The Relational Model: 1970s\n\n\n\n\n\n\n\n\n\n\n\n\n\nEdgar F. Codd\n\n\n\n\nEdgar F. Codd: Proposed the relational model in 1970, which became the foundation for modern databases.\nRDBMS: A Relational Database Management System (RDBMS) is used to maintain relational databases.\nSQL: Structured Query Language (SQL) was developed to interact (query and update) with relational databases.\nAdoption: The relational model became dominant in the 1980s, with systems like Oracle, IBM DB2, and Microsoft SQL Server emerging. Nowadays, open-source systems like MySQL are used by big companies to handle their relational data."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#spam-detection",
-    "href": "lecture_slides/01_introduction/01_introduction.html#spam-detection",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Spam Detection",
-    "text": "Spam Detection\n\n\n\nData from 4601 emails sent to an individual (named George, at HP Labs, before 2000). Each is labeled as spam or email.\nGoal: build a customized spam filter.\nInput features: relative frequencies of 57 of the most commonly occurring words and punctuation marks in these email messages.\n\n\n\n\nWord\nSpam\nEmail\n\n\n\n\ngeorge\n0.00\n1.27\n\n\nyou\n2.26\n1.27\n\n\nhp\n0.02\n0.90\n\n\nfree\n0.52\n0.07\n\n\n!\n0.51\n0.11\n\n\nedu\n0.01\n0.29\n\n\nremove\n0.28\n0.01\n\n\n\nAverage percentage of words or characters in an email message equal to the indicated word or character. We have chosen the words and characters showing the largest difference between spam and email."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#the-rise-of-nosql-2000s",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#the-rise-of-nosql-2000s",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "The Rise of NoSQL: 2000s",
+    "text": "The Rise of NoSQL: 2000s\n\nLimitations of RDBMS: Traditional relational databases struggled with the scale and complexity of modern web applications.\n\nExample: A social media platform with millions of users posting, commenting, and liking content simultaneously.\nLimitation: RDBMS typically scale vertically (adding more power to a single server), which becomes increasingly expensive and challenging as the database grows. In contrast, NoSQL databases like Cassandra or MongoDB are designed to scale horizontally (adding more servers), making them better suited for handling such large-scale data across distributed systems.\n\nNoSQL Databases: Emerged to address these challenges. They offer flexibility, scalability, and performance improvements. They are designed to scale horizontally (adding more servers), making them better suited for handling such large-scale data across distributed systems.\n\nTypes: Document (e.g., MongoDB), Key-Value (e.g., Redis), Column-Family (e.g., Cassandra), and Graph (e.g., Neo4j).\nUse Cases: Ideal for big data, handling unstructured data, real-time web applications, and distributed systems."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#zip-code",
-    "href": "lecture_slides/01_introduction/01_introduction.html#zip-code",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Zip Code",
-    "text": "Zip Code\n\n\nIdentify the numbers in a handwritten zip code."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#modern-database-trends",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#modern-database-trends",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Modern Database Trends",
+    "text": "Modern Database Trends\n\n\nNewSQL: Combines the scalability of NoSQL with the Atomicity, Consistency, Isolation, and Durability (ACID) guarantees of traditional relational databases (e.g., Google Spanner).\nCloud Databases: The adoption of cloud computing has led to the rise of managed database services (e.g., Amazon RDS, Google Cloud SQL).\nData Lakes: A storage repository that holds vast amounts of raw data in its native format (e.g., AWS S3, Azure Data Lake)."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#netflix-prize",
-    "href": "lecture_slides/01_introduction/01_introduction.html#netflix-prize",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Netflix Prize",
-    "text": "Netflix Prize\n\n\n\n\n\n\n\n\n\n\n\nVideo: Winning the Netflix Prize\nNetflix Prize - Wiki"
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#relational-database-1",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#relational-database-1",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Relational Database",
+    "text": "Relational Database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA relational database links data tables through pre-defined and shared fields in various data tables, establishing relationships.\nThis permits more efficient organization and utilization of data across multiple tables.\nMoreover, a relational database serves as a potent tool for handling extensive data volumes and managing complex data structures."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#starting-point",
-    "href": "lecture_slides/01_introduction/01_introduction.html#starting-point",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Starting point",
-    "text": "Starting point\n\n\n\n\nOutcome measurement \\(Y\\) (also called dependent variable, response, target).\nVector of \\(p\\) predictor measurements \\(X\\) (also called inputs, regressors, covariates, features, independent variables).\nIn the regression problem, \\(Y\\) is quantitative (e.g., price, blood pressure).\nIn the classification problem, \\(Y\\) takes values in a finite, unordered set (e.g., survived/died, digit 0–9, cancer class of tissue sample).\nWe have training data \\((x_1, y_1), \\ldots, (x_N, y_N)\\). These are observations (examples, instances) of these measurements."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#relational-database-2",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#relational-database-2",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Relational Database",
+    "text": "Relational Database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery 1: Flights from a Specific Carrier\n\n\nSELECT flights.year, flights.month, flights.day, \n       flights.flight, airlines.names AS airline_name\nFROM flights\nJOIN airlines ON flights.carrier = airlines.carrier\nWHERE airlines.names = 'American Airlines';  \n-- Replace 'American Airlines' with the desired carrier name"
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#objectives",
-    "href": "lecture_slides/01_introduction/01_introduction.html#objectives",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Objectives",
-    "text": "Objectives\nOn the basis of the training data, we would like to:\n\nAccurately predict unseen test cases.\nUnderstand which inputs affect the outcome, and how.\nAssess the quality of our predictions and inferences."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#relational-database-3",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#relational-database-3",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Relational Database",
+    "text": "Relational Database\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery 2: Weather Conditions at the Time of a Specific Flight\n\n\nSELECT flights.flight, flights.origin, \n        flights.dest, weather.*\nFROM flights\nJOIN weather \nON flights.year = weather.year AND\n   flights.month = weather.month AND\n   flights.day = weather.day AND\n   flights.hour = weather.hour AND\n   flights.origin = weather.origin\nWHERE flights.flight = 'AA123';  \n-- Replace 'AA123' with the desired flight number"
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#philosophy",
-    "href": "lecture_slides/01_introduction/01_introduction.html#philosophy",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Philosophy",
-    "text": "Philosophy\n\n\n\nIt is important to understand the ideas behind the various techniques, in order to know how and when to use them.\nWe wil understand the simpler methods first to grasp the more sophisticated ones later.\nIt is important to accurately assess the performance of a method, to know how well or how badly it is working."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#relational-database-4",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#relational-database-4",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Relational Database",
+    "text": "Relational Database\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery 3: Count of Flights Per Airport\n\n\n\nSELECT airports.faa, \n        COUNT(flights.flight) AS flight_count\nFROM flights\nJOIN airports ON flights.origin = airports.faa\nGROUP BY airports.faa\nORDER BY flight_count DESC;"
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#unsupervised-learning-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#unsupervised-learning-1",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Unsupervised Learning",
-    "text": "Unsupervised Learning\n\n\n\nNo outcome variable, just a set of predictors (features) measured on a set of samples.\nObjective is more fuzzy:\n\nFind groups of samples that behave similarly.\nFind features that behave similarly.\nFind linear combinations of features with the most variation.\n\nDifficult to know how well we are doing.\nDifferent from supervised learning, but can be useful as a pre-processing step for supervised learning."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-warehouse",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-warehouse",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Data Warehouse",
+    "text": "Data Warehouse\n\n\nA Data Warehouse is a large and comprehensive storage system that consolidates data from various sources, including relational databases, into a centralized repository, much like a university campus that encompasses buildings of various functions.\n\nThe primary purpose of a data warehouse is to facilitate data storage, reporting, and analysis for business intelligence and decision-making purposes."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#what-is-statistical-learning-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#what-is-statistical-learning-1",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "What is Statistical Learning?",
-    "text": "What is Statistical Learning?\n\n\n\n\n\n\n\n\n\n\n\nShown are Sales vs TV, Radio, and Newspaper, with a blue linear-regression line fit separately to each.\nCan we predict Sales using these three?\n\nPerhaps we can do better using a model:\n\\[\n\\text{Sales} \\approx f(\\text{TV}, \\text{Radio}, \\text{Newspaper})\n\\]"
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#information-management-system-1",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#information-management-system-1",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Information Management System",
+    "text": "Information Management System\n\n\nThe primary goal of an Information Management System (IMS) is to ensure that accurate, timely, and relevant information is generated and available to the right people at the right time, enabling efficient and informed decision-making processes."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#notation",
-    "href": "lecture_slides/01_introduction/01_introduction.html#notation",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Notation",
-    "text": "Notation\n\n\n\n\nSales is a response or target that we wish to predict. We generically refer to the response as \\(Y\\).\nTV is a feature, or input, or predictor; we name it \\(X_1\\).\nLikewise, name Radio as \\(X_2\\), and so on.\nThe input vector collectively is referred to as:\n\n\\[\nX = \\begin{pmatrix}\nX_1 \\\\\nX_2 \\\\\nX_3\n\\end{pmatrix}\n\\]\nWe write our model as:\n\\[\nY = f(X) + \\epsilon\n\\]\nwhere \\(\\epsilon\\) captures measurement errors and other discrepancies."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#information-management-system-2",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#information-management-system-2",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Information Management System",
+    "text": "Information Management System\n\n\nKey Components: Data sources, ETL (Extract, Transform, Load), Data Warehouse, OLAP Engine, and Analytic Reporting."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#what-is-fx-good-for",
-    "href": "lecture_slides/01_introduction/01_introduction.html#what-is-fx-good-for",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "What is \\(f(X)\\) Good For?",
-    "text": "What is \\(f(X)\\) Good For?\n\nWith a good \\(f\\), we can make predictions of \\(Y\\) at new points \\(X = x\\).\nUnderstand which components of \\(X = (X_1, X_2, \\ldots, X_p)\\) are important in explaining \\(Y\\), and which are irrelevant.\n\nExample: Seniority and Years of Education have a big impact on Income, but Marital Status typically does not.\n\nDepending on the complexity of \\(f\\), understand how each component \\(X_j\\) affects \\(Y\\)."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-sources",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-sources",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Data Sources",
+    "text": "Data Sources\n\n\nFinance Data: Information related to financial transactions, budgeting, and accounting.\nCRM Data: Customer Relationship Management data, including customer interactions, sales, and service records.\nOperations Data: Data concerning the day-to-day operations of a business, such as supply chain, inventory, and production.\nMore Data: Any additional data sources that contribute to the organization’s information ecosystem."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#is-there-an-ideal-fx",
-    "href": "lecture_slides/01_introduction/01_introduction.html#is-there-an-ideal-fx",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Is There an Ideal \\(f(X)\\)?",
-    "text": "Is There an Ideal \\(f(X)\\)?\n\n\nIn particular, what is a good value for \\(f(X)\\) at a selected value of \\(X\\), say \\(X = 4\\)?\n\n\n\n\n\n\n\n\n\n\nThere can be many \\(Y\\) values at \\(X=4\\). A good value is:\n\\[\nf(4) = E(Y|X=4)\n\\]\nwhere \\(E(Y|X=4)\\) means the expected value (average) of \\(Y\\) given \\(X=4\\).\nThis ideal \\(f(x) = E(Y|X=x)\\) is called the regression function."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#etl-process-extract-transform-load",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#etl-process-extract-transform-load",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "ETL Process (Extract, Transform, Load)",
+    "text": "ETL Process (Extract, Transform, Load)\n\n\nExtract: Data is collected from various sources, such as finance systems, CRM systems, and operations databases.\nTransform: The extracted data is cleaned, aggregated, and formatted to fit the data warehouse schema.\nLoad: The transformed data is loaded into the Data Warehouse, where it is stored and made available for analysis."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#the-regression-function-fx",
-    "href": "lecture_slides/01_introduction/01_introduction.html#the-regression-function-fx",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "The Regression Function \\(f(x)\\)",
-    "text": "The Regression Function \\(f(x)\\)\n\n\n\nIs also defined for a vector \\(\\mathbf{X}\\).\n\n\\[\nf(\\mathbf{x}) = f(x_1, x_2, x_3) = \\mathbb{E}[\\,Y \\mid X_1 = x_1,\\, X_2 = x_2,\\, X_3 = x_3\\,].\n\\]\n\n\nIs the ideal or optimal predictor of \\(Y\\) in terms of mean-squared prediction error:\n\n\\[\n  f(x) = \\mathbb{E}[Y \\mid X = x]\n  \\quad\\text{is the function that minimizes}\\quad\n  \\mathbb{E}[(Y - g(X))^2 \\mid X = x]\n  \\text{ over all } g \\text{ and for all points } X = x.\n\\]\n\n\n\n\\(\\varepsilon = Y - f(x)\\) is the irreducible error.\n\nEven if we knew \\(f(x)\\), we would still make prediction errors because at each \\(X = x\\) there is a distribution of possible \\(Y\\) values.\n\n\n\n\n\nFor any estimate \\(\\hat{f}(x)\\) of \\(f(x)\\),\n\n\\[\n    \\mathbb{E}\\bigl[(Y - \\hat{f}(X))^2 \\mid X = x\\bigr]\n    = \\underbrace{[\\,f(x) - \\hat{f}(x)\\,]^2}_{\\text{Reducible}}\n      \\;+\\; \\underbrace{\\mathrm{Var}(\\varepsilon)}_{\\text{Irreducible}}.\n\\]"
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-warehouse-and-olap-engine",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-warehouse-and-olap-engine",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Data Warehouse and OLAP Engine",
+    "text": "Data Warehouse and OLAP Engine\n\n\nData Warehouse: A centralized repository that stores integrated data from multiple sources, optimized for query and analysis.\nOLAP Engine (Online Analytical Processing): Tools that allow for complex analytical queries and multi-dimensional data analysis.\n\nExample: Analyzing sales trends over time, across different regions, or by product categories."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#how-to-estimate-f",
-    "href": "lecture_slides/01_introduction/01_introduction.html#how-to-estimate-f",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "How to Estimate \\(f\\)",
-    "text": "How to Estimate \\(f\\)\n\n\nOften, we lack sufficient data points for exact computation of \\(E(Y|X=x)\\).\nSo, we relax the definition:\n\n\\[\n\\hat{f}(x) = \\text{Ave}(Y|X \\in \\mathcal{N}(x))\n\\]\nwhere \\(\\mathcal{N}(x)\\) is a neighborhood of \\(x\\)."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#analytic-reporting-and-advanced-analytics",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#analytic-reporting-and-advanced-analytics",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Analytic Reporting and Advanced Analytics",
+    "text": "Analytic Reporting and Advanced Analytics\n\n\nAnalytic Reporting Engine: Produces reports and dashboards for users to visualize and understand the data.\n\nAd Hoc Reporting: Enables users to create custom reports on-demand.\nDashboards: Provides a visual summary of key performance indicators (KPIs) and metrics.\n\nAdvanced Analytics: Includes data mining, predictive modeling, and other sophisticated analytical techniques to uncover hidden patterns and insights."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#nearest-neighbor-observations",
-    "href": "lecture_slides/01_introduction/01_introduction.html#nearest-neighbor-observations",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Nearest Neighbor Observations",
-    "text": "Nearest Neighbor Observations\n\nNearest neighbor averaging can be pretty good for small \\(p\\) — i.e., \\(p \\le 4\\) — and large-ish \\(N\\).\nWe will discuss smoother versions, such as kernel and spline smoothing, later in the course.\nNearest neighbor methods can be lousy when \\(p\\) is large.\n\nReason: the curse of dimensionality. Nearest neighbors tend to be far away in high dimensions.\nWe need to get a reasonable fraction of the \\(N\\) values of \\(y_i\\) to average in order to bring the variance down (e.g., 10%).\nA 10% neighborhood in high dimensions is no longer truly local, so we lose the spirit of estimating \\(\\mathbb{E}[Y \\mid X = x]\\) via local averaging."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#users-and-decision-making",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#users-and-decision-making",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Users and Decision-Making",
+    "text": "Users and Decision-Making\n\n\nUsers: Business analysts, managers, and executives who use the IMS to make informed decisions.\nOutcome: The IMS enables data-driven decision-making, improving efficiency, reducing risks, and enhancing overall business performance."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#the-curse-of-dimensionality",
-    "href": "lecture_slides/01_introduction/01_introduction.html#the-curse-of-dimensionality",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "The curse of dimensionality",
-    "text": "The curse of dimensionality\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop panel: \\(X_1\\) and \\(X_2\\) are uniformly distributed with edges minus one to plus one.\n\n1-Dimensional Neighborhood\n\nFocuses only on \\(X_1\\), ignoring \\(X_2\\).\nNeighborhood is defined by vertical red dotted lines.\nCentered on the target point \\((0, 0)\\).\nExtends symmetrically along \\(X_1\\) until it captures 10% of the data points.\n\n2-Dimensional Neighborhood\n\nNow, Considers both \\(X_1\\) and \\(X_2\\).\nNeighborhood is a circular region centered on the same target point \\((0, 0)\\).\nRadius of the circle expands until it encloses 10% of the total data points.\nThe radius in 2D is much larger than the 1D width due to the need to account for more dimensions.\n\n\n\nBotton panel: We see how far we have to go out in one, two, three, five, and ten dimensions in order to capture a certain fraction of the points.\n\nKey Takeaway: As dimensionality increases, neighborhoods must expand significantly to capture the same fraction of data points, illustrating the curse of dimensionality."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#meta-data-and-data-dictionary-1",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#meta-data-and-data-dictionary-1",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Meta Data and Data Dictionary",
+    "text": "Meta Data and Data Dictionary\n\n\n\nMetadata is essentially information about structured data. It can include details like the date and time a database or file was created, who created it, and what types of information it contains.\nA data dictionary is a more specific type of metadata that describes the structure, content, and format of a dataset. It’s like a guidebook and a codebook that provides a comprehensive list of all the variables or columns in a dataset, along with their definitions, data types, and other attributes.\n\nWithout it, you might get lost in a sea of information and struggle to make sense of it all."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#parametric-and-structured-models-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#parametric-and-structured-models-1",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Parametric and Structured Models",
-    "text": "Parametric and Structured Models\nThe linear model is a key example of a parametric model to deal with the curse of dimensionality:\n\\[\nf_L(X) = \\beta_0 + \\beta_1X_1 + \\beta_2X_2 + \\ldots + \\beta_pX_p\n\\]\n\nA linear model is specified in terms of \\(p+1\\) parameters (\\(\\beta_0, \\beta_1, \\ldots, \\beta_p\\)).\nWe estimate the parameters by fitting the model to training data.\nAlthough it is almost never correct, it serves as a good and interpretable approximation to the unknown true function \\(f(X)\\)."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#mtcars",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#mtcars",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "mtcars",
+    "text": "mtcars\n\n\n\nThe mtcars data file provides information on various features of different brands of cars, including their engine size, horsepower, and fuel efficiency. The dataset is structured as a table, where each row represents a different car, and each column represents a different variable or feature of the cars."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#comparison-of-models",
-    "href": "lecture_slides/01_introduction/01_introduction.html#comparison-of-models",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Comparison of Models",
-    "text": "Comparison of Models\n\n\n\n\nLinear model\n\n\\[\n\\hat{f}_L(X) = \\hat{\\beta}_0 + \\hat{\\beta}_1X\n\\]\n\n\n\n\n\n\n\n\n\nThe linear model gives a reasonable fit here.\n\n\n\nQuadratic model:\n\n\\[\n\\hat{f}_Q(X) = \\hat{\\beta}_0 + \\hat{\\beta}_1X + \\hat{\\beta}_2X^2\n\\]\n\n\n\n\n\n\n\n\n\nQuadratic models may fit slightly better than linear models in some cases."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-dictionary-for-mtcars",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-dictionary-for-mtcars",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Data Dictionary for mtcars",
+    "text": "Data Dictionary for mtcars\n\n\n?mtcars"
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#simulated-example",
-    "href": "lecture_slides/01_introduction/01_introduction.html#simulated-example",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Simulated Example",
-    "text": "Simulated Example\nRed points are simulated values for income from the model:\n\n\\[\n\\text{income} = f(\\text{education}, \\text{seniority}) + \\epsilon\n\\]\n\\(f\\) is the blue surface."
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#learning-path-1",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#learning-path-1",
+    "title": " MGMT 17300: Data Mining Lab ",
+    "section": "Learning Path",
+    "text": "Learning Path\nThere are plenty of college courses to choose (course titles may vary by schools):\n\nDatabase Management Systems: This course focuses on the design, implementation, and management of databases, teaching students how to organize and manage data effectively.\nInformation Security and Privacy: This course covers the principles and practices of securing information and ensuring data privacy, preparing students to handle data security challenges.\nData Governance and Management: This course explores the governance and management of data assets, including data quality, data integration, and data lifecycle management.\nInformation Systems Analysis and Design: This course teaches students how to analyze business requirements and design information systems to meet organizational needs."
   },
   {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#linear-regression-fit",
-    "href": "lecture_slides/01_introduction/01_introduction.html#linear-regression-fit",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Linear Regression Fit",
-    "text": "Linear Regression Fit\nLinear regression model fit to the simulated data:\n\n\\[\n\\hat{f}_L(\\text{education}, \\text{seniority}) = \\hat{\\beta}_0 + \\hat{\\beta}_1 \\times \\text{education} + \\hat{\\beta}_2 \\times \\text{seniority}\n\\]"
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#flexible-regression-model-fit",
-    "href": "lecture_slides/01_introduction/01_introduction.html#flexible-regression-model-fit",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Flexible Regression Model Fit",
-    "text": "Flexible Regression Model Fit\nMore flexible regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data.\n\nHere we use a technique called a thin-plate spline to fit a flexible surface. We control the roughness of the fit."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#overfitting",
-    "href": "lecture_slides/01_introduction/01_introduction.html#overfitting",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Overfitting",
-    "text": "Overfitting\nEven more flexible spline regression model \\(\\hat{f}_S(\\text{education}, \\text{seniority})\\) fit to the simulated data. We tunned the parameter all the way down to zero and this surface actually goes through every single data point.\n\nThe fitted model makes no errors on the training data! This is known as overfitting."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#some-trade-offs",
-    "href": "lecture_slides/01_introduction/01_introduction.html#some-trade-offs",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Some Trade-offs",
-    "text": "Some Trade-offs\n\nPrediction accuracy versus interpretability:\n\nLinear models are easy to interpret; thin-plate splines are not.\n\nGood fit versus over-fit or under-fit:\n\nHow do we know when the fit is just right?\n\nParsimony versus black-box:\n\nPrefer simpler models involving fewer variables over black-box predictors."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#flexibility-vs.-interpretability",
-    "href": "lecture_slides/01_introduction/01_introduction.html#flexibility-vs.-interpretability",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Flexibility vs. Interpretability",
-    "text": "Flexibility vs. Interpretability\n\nTrade-offs between flexibility and interpretability:\n\n\n\n\n\n\n\n\n\n\nHigh interpretability: Subset selection, Lasso.\n\nIntermediate: Least squares, Generalized Additive Models, Trees.\n\nHigh flexibility: Support Vector Machines, Deep Learning."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#assessing-model-accuracy-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#assessing-model-accuracy-1",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Assessing Model Accuracy",
-    "text": "Assessing Model Accuracy\n\n\nSuppose we fit a model \\(\\hat{f}(x)\\) to some training data \\(Tr = \\{x_i, y_i\\}_{i=1}^N\\), and we wish to evaluate its performance:\n\nCompute the average squared prediction error over the training set \\(Tr\\), the Mean Squared Error (MSE):\n\n\\[\n\\text{MSE}_{Tr} = \\text{Ave}_{i \\in Tr}[(y_i - \\hat{f}(x_i))^2]\n\\]\nHowever, this may be biased toward more overfit models.\n\n\nInstead, use fresh test data \\(Te = \\{x_i, y_i\\}_{i=1}^M\\):\n\n\\[\n\\text{MSE}_{Te} = \\text{Ave}_{i \\in Te}[(y_i - \\hat{f}(x_i))^2]\n\\]"
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off",
-    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Bias-Variance Trade-off",
-    "text": "Bias-Variance Trade-off\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop Panel: Model Fits\n\nBlack Curve: The true generating function, representing the underlying relationship we want to estimate.\nData Points: Observations generated from the black curve, with added noise (error).\nFitted Models:\n\nOrange Line: A simple linear model (low flexibility).\nBlue Line: A moderately flexible model, likely a spline or thin plate spline.\nGreen Line: A highly flexible model that closely fits the data points but may overfit.\n\n\nKey Insight:\nThe green model captures the data points well but risks overfitting, while the orange model is too rigid and misses the underlying structure. The blue model strikes a balance.\n\nBotton Panel: Mean Squared Error (MSE)\n\nGray Curve: Training data MSE.\n\nDecreases consistently as flexibility increases.\nFlexible models fit the training data well, but this does not generalize to test data.\n\nRed Curve: Test data MSE across models of increasing flexibility.\n\nStarts high for rigid models (orange line).\nDecreases to a minimum (optimal model complexity, blue line).\nIncreases again for overly flexible models (green line), due to overfitting.\n\n\nKey Takeaway:\nThere is an optimal model complexity (the “magic point”) where test data MSE is minimized. Beyond this point, models become overly complex and generalization performance deteriorates."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-other-examples",
-    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-other-examples",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Bias-Variance Trade-off: Other Examples",
-    "text": "Bias-Variance Trade-off: Other Examples\n\n\n\n\n\nHere, the truth is smoother, so smoother fits and linear models perform well.\n\n\n\n\n\n\n\n\n\n\n\n\nHere, the truth is wiggly and the noise is low. More flexible fits perform the best."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-1",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Bias-Variance Trade-off",
-    "text": "Bias-Variance Trade-off\n\n\nSuppose we have fit a model \\(\\hat{f}(x)\\) to some training data \\(\\text{Tr}\\), and let \\((x_0, y_0)\\) be a test observation drawn from the population.\nIf the true model is\n\\[\n    Y = f(X) + \\varepsilon\n    \\quad \\text{(with } f(x) = \\mathbb{E}[Y \\mid X = x]\\text{)},\n\\]\nthen\n\\[\n\\mathbb{E}\\Bigl[\\bigl(y_0 - \\hat{f}(x_0)\\bigr)^2\\Bigr]\n    = \\mathrm{Var}\\bigl(\\hat{f}(x_0)\\bigr)\n    + \\bigl[\\mathrm{Bias}\\bigl(\\hat{f}(x_0)\\bigr)\\bigr]^2\n    + \\mathrm{Var}(\\varepsilon).\n\\]\nThe expectation averages over the variability of \\(y_0\\) as well as the variability in \\(\\text{Tr}\\). Note that\n\\[\n    \\mathrm{Bias}\\bigl(\\hat{f}(x_0)\\bigr)\n    = \\mathbb{E}[\\hat{f}(x_0)] - f(x_0).\n\\]\nTypically, as the flexibility of \\(\\hat{f}\\) increases, its variance increases and its bias decreases. Hence, choosing the flexibility based on average test error amounts to a bias-variance trade-off."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-of-the-examples",
-    "href": "lecture_slides/01_introduction/01_introduction.html#bias-variance-trade-off-of-the-examples",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Bias-Variance Trade-off of the Examples",
-    "text": "Bias-Variance Trade-off of the Examples\n\n\nBelow is a schematic illustration of the mean squared error (MSE), bias, and variance curves as a function of the model’s flexibility.\n\n\n\n\n\n\n\n\n\n\n\nMSE (red curve) goes down initially (as the model becomes more flexible) but eventually goes up (as overfitting sets in).\nBias (blue/teal curve) decreases with increasing flexibility.\nVariance (orange curve) increases with increasing flexibility.\n\n\nThe vertical dotted line in each panel suggests a model flexibility that balances both bias and variance in an “optimal” region for minimizing MSE."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#classification-problems-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#classification-problems-1",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Classification Problems",
-    "text": "Classification Problems\n\n\nHere the response variable \\(Y\\) is qualitative. For example:\n\nEmail could be classified as spam or ham (good email).\nDigit classification could be one of \\(\\{0, 1, 2, \\dots, 9\\}\\).\n\n\nOur goals are to:\n\nBuild a classifier \\(C(X)\\) that assigns a class label from the set \\(C\\) to a future unlabeled observation \\(X\\).\nAssess the uncertainty in each classification.\nUnderstand the roles of the different predictors among \\(X = (X_1, X_2, \\dots, X_p)\\)."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#ideal-classifier-and-bayes-decision-rule",
-    "href": "lecture_slides/01_introduction/01_introduction.html#ideal-classifier-and-bayes-decision-rule",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Ideal Classifier and Bayes Decision Rule",
-    "text": "Ideal Classifier and Bayes Decision Rule\n\n\n\n\n\n\n\n\n\n\n\nConsider a classification problem with \\(K\\) possible classes, numbered \\(1, 2, \\ldots, K\\). Define\n\\[\n  p_k(x) = \\Pr(Y = k \\mid X = x),\n  \\quad k = 1, 2, \\ldots, K.\n\\]\nThese are the conditional class probabilities at \\(x\\); e.g. see little barplot at \\(x=5\\).\nThe Bayes optimal classifier at \\(x\\) is\n\\[\n  C(x) \\;=\\; j \\quad \\text{if} \\quad p_j(x) =\n      \\max \\{\\,p_1(x),\\, p_2(x),\\, \\dots,\\, p_K(x)\\}.\n\\]"
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#nearest-neighbor-averaging",
-    "href": "lecture_slides/01_introduction/01_introduction.html#nearest-neighbor-averaging",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Nearest-Neighbor Averaging",
-    "text": "Nearest-Neighbor Averaging\n\n\n\n\n\n\n\n\n\n\n\nNearest-neighbor averaging can be used as before.\nAlso breaks down as dimension grows. However, the impact on \\(\\hat{C}(x)\\)is less than on \\(\\hat{p}_k(x)\\), for \\(k = 1,\\ldots,K\\)."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#classification-some-details",
-    "href": "lecture_slides/01_introduction/01_introduction.html#classification-some-details",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Classification: Some Details",
-    "text": "Classification: Some Details\n\n\nTypically we measure the performance of \\(\\hat{C}(x)\\) using the misclassification error rate:\n\\[\n    \\mathrm{Err}_{\\mathrm{Te}}\n      = \\mathrm{Ave}_{i\\in \\mathrm{Te}}\n        \\bigl[I(y_i \\neq \\hat{C}(x_i))\\bigr].\n\\]\n\nThe Bayes classifier (using the true \\(p_k(x)\\)) has the smallest error in the population.\nSupport-vector machines build structured models for \\(\\hat{C}(x)\\).\nWe also build structured models for representing \\(p_k(x)\\). For example, logistic regression or generalized additive models."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#example-k-nearest-neighbors-in-two-dimensions",
-    "href": "lecture_slides/01_introduction/01_introduction.html#example-k-nearest-neighbors-in-two-dimensions",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "Example: K-Nearest Neighbors in Two Dimensions",
-    "text": "Example: K-Nearest Neighbors in Two Dimensions\nBelow is an example data set in two dimensions \\((X_1, X_2)\\). Points shown in blue might represent one class, and points in orange the other. The dashed boundary suggests a decision boundary formed by a classifier."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#knn-k-10",
-    "href": "lecture_slides/01_introduction/01_introduction.html#knn-k-10",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "KNN: K = 10",
-    "text": "KNN: K = 10\nHere is the same data set classified by k-nearest neighbors with \\(k = 10\\). The black boundary line encloses the region of the feature space predicted as orange vs. blue, showing how the decision boundary has become smoother."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#knn-k-1-vs.-k-100",
-    "href": "lecture_slides/01_introduction/01_introduction.html#knn-k-1-vs.-k-100",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "KNN: K = 1 vs. K = 100",
-    "text": "KNN: K = 1 vs. K = 100\n\nComparisons of a very low value of \\(k\\) (left, \\(k=1\\)) versus a very high value (right, \\(k=100\\)).\n\n\\(k=1\\): Overly flexible boundary that can overfit.\n\\(k=100\\): Very smooth boundary that can underfit."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#knn-error-rates",
-    "href": "lecture_slides/01_introduction/01_introduction.html#knn-error-rates",
-    "title": " MGMT 47400: Predictive Analytics ",
-    "section": "KNN Error Rates",
-    "text": "KNN Error Rates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe figure illustrates how training errors (blue curve) and test errors (orange curve) change for a K-nearest neighbors (KNN) classifier as \\(\\frac{1}{K}\\) varies.\n\nFor small \\(K\\) (i.e., large \\(\\frac{1}{K}\\)), the model can become very flexible, often driving down training error but increasing overfitting and thus test error.\nFor large \\(K\\) (i.e., small \\(\\frac{1}{K}\\)), the model becomes smoother, which can help avoid overfitting but sometimes leads to underfitting.\n\nThe dashed horizontal line is the bayes error, used as reference for comparison."
-  },
-  {
-    "objectID": "lecture_slides/01_introduction/01_introduction.html#summary-1",
-    "href": "lecture_slides/01_introduction/01_introduction.html#summary-1",
-    "title": " MGMT 47400: Predictive Analytics ",
+    "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#summary-1",
+    "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#summary-1",
+    "title": " MGMT 17300: Data Mining Lab ",
     "section": "Summary",
-    "text": "Summary\n\n\n\n\nStatistical Learning and Predictive Analytics\n\nGoal: Build models to predict outcomes and understand relationships between inputs (predictors) and responses.\nSupervised Learning: Focuses on predicting \\(Y\\) (response) using \\(X\\) (predictors) via models like regression and classification.\nUnsupervised Learning: Focuses on finding patterns in data without predefined responses (e.g., clustering).\n\nBias-Variance Trade-off\n\nKey Trade-off: Model flexibility affects bias and variance:\n\nHigh flexibility → Low bias but high variance (overfitting).\nLow flexibility → High bias but low variance (underfitting).\n\nGoal: Find the optimal flexibility that minimizes test error.\n\n\nTechniques and Applications\n\nParametric Models:\n\nSimpler and interpretable (e.g., linear regression).\nOften used as approximations.\n\nFlexible Models:\n\nHandle complex patterns (e.g., splines, SVMs, deep learning).\nRequire careful tuning to avoid overfitting.\n\n\nPractical Considerations\n\nAssessing Model Accuracy:\n\nUse test data to calculate MSE.\nBalance between training performance and generalizability.\n\n\nKey Challenges\n\nCurse of Dimensionality:\n\nHigh-dimensional data affects distance-based methods like KNN.\nLarger neighborhoods needed, losing “locality.”"
+    "text": "Summary\n\n\n\n\n\nStructured Data: Highly organized and formatted data that is easily searchable (e.g., tables with rows and columns).\nDatabases: Used to store and manage structured data efficiently.\n\nTypes: Include relational databases (RDBMS) like MySQL and NoSQL databases like MongoDB.\nFunctionality: Provides tools for querying, updating, and managing large datasets.\n\nRelational Databases: Organizes data into tables that can be linked by shared keys.\n\nBenefits: Ensures data integrity and supports complex queries and transactions.\nKey Components: Tables, primary and foreign keys, SQL for data manipulation.\n\n\n\n\n\n\nNon-Relational Databases: NoSQL databases designed for unstructured data and scalability.\n- Advantages: Handle large-scale data across distributed systems more effectively than traditional RDBMS.\nMeta Data: Information describing other data, providing context and making it easier to understand.\nData Dictionary: Detailed description of dataset variables, ensuring consistent data usage."
   },
   {
     "objectID": "syllabus.html#course-description-and-objectives",
