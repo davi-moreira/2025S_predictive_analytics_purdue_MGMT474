@@ -60,8 +60,8 @@
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#overview",
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#overview",
     "title": " MGMT 17300: Data Mining Lab ",
-    "section": "Overview",
-    "text": "Overview\n\n\n\n\nStructured Data\nUnstructured Data\nDatabases\nRelational Databases\n\n\n\nNon Relational Databases\nMeta Data and Dictionary (code book)"
+    "section": "",
+    "text": "Structured Data\nUnstructured Data\nDatabases\nRelational Databases\n\n\n\nNon Relational Databases\nMeta Data and Dictionary (code book)"
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#what-is-data-1",
@@ -152,49 +152,49 @@
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#information-management-system-1",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Information Management System",
-    "text": "Information Management System\n\n\nThe primary goal of an Information Management System (IMS) is to ensure that accurate, timely, and relevant information is generated and available to the right people at the right time, enabling efficient and informed decision-making processes."
+    "text": "Information Management System\n\n\n\n\n\n\n\n\n\n\nThe primary goal of an Information Management System (IMS) is to ensure that accurate, timely, and relevant information is generated and available to the right people at the right time, enabling efficient and informed decision-making processes."
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#information-management-system-2",
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#information-management-system-2",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Information Management System",
-    "text": "Information Management System\n\n\nKey Components: Data sources, ETL (Extract, Transform, Load), Data Warehouse, OLAP Engine, and Analytic Reporting."
+    "text": "Information Management System\n\n\n\n\n\n\n\n\n\n\nKey Components: Data sources, ETL (Extract, Transform, Load), Data Warehouse, OLAP Engine, and Analytic Reporting."
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-sources",
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-sources",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Data Sources",
-    "text": "Data Sources\n\n\nFinance Data: Information related to financial transactions, budgeting, and accounting.\nCRM Data: Customer Relationship Management data, including customer interactions, sales, and service records.\nOperations Data: Data concerning the day-to-day operations of a business, such as supply chain, inventory, and production.\nMore Data: Any additional data sources that contribute to the organization’s information ecosystem."
+    "text": "Data Sources\n\n\n\n\n\n\n\n\n\n\nFinance Data: Information related to financial transactions, budgeting, and accounting.\nCRM Data: Customer Relationship Management data, including customer interactions, sales, and service records.\nOperations Data: Data concerning the day-to-day operations of a business, such as supply chain, inventory, and production.\nMore Data: Any additional data sources that contribute to the organization’s information ecosystem."
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#etl-process-extract-transform-load",
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#etl-process-extract-transform-load",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "ETL Process (Extract, Transform, Load)",
-    "text": "ETL Process (Extract, Transform, Load)\n\n\nExtract: Data is collected from various sources, such as finance systems, CRM systems, and operations databases.\nTransform: The extracted data is cleaned, aggregated, and formatted to fit the data warehouse schema.\nLoad: The transformed data is loaded into the Data Warehouse, where it is stored and made available for analysis."
+    "text": "ETL Process (Extract, Transform, Load)\n\n\n\n\n\n\n\n\n\n\nExtract: Data is collected from various sources, such as finance systems, CRM systems, and operations databases.\nTransform: The extracted data is cleaned, aggregated, and formatted to fit the data warehouse schema.\nLoad: The transformed data is loaded into the Data Warehouse, where it is stored and made available for analysis."
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-warehouse-and-olap-engine",
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-warehouse-and-olap-engine",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Data Warehouse and OLAP Engine",
-    "text": "Data Warehouse and OLAP Engine\n\n\nData Warehouse: A centralized repository that stores integrated data from multiple sources, optimized for query and analysis.\nOLAP Engine (Online Analytical Processing): Tools that allow for complex analytical queries and multi-dimensional data analysis.\n\nExample: Analyzing sales trends over time, across different regions, or by product categories."
+    "text": "Data Warehouse and OLAP Engine\n\n\n\n\n\n\n\n\n\n\nData Warehouse: A centralized repository that stores integrated data from multiple sources, optimized for query and analysis.\nOLAP Engine (Online Analytical Processing): Tools that allow for complex analytical queries and multi-dimensional data analysis.\n\nExample: Analyzing sales trends over time, across different regions, or by product categories."
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#analytic-reporting-and-advanced-analytics",
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#analytic-reporting-and-advanced-analytics",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Analytic Reporting and Advanced Analytics",
-    "text": "Analytic Reporting and Advanced Analytics\n\n\nAnalytic Reporting Engine: Produces reports and dashboards for users to visualize and understand the data.\n\nAd Hoc Reporting: Enables users to create custom reports on-demand.\nDashboards: Provides a visual summary of key performance indicators (KPIs) and metrics.\n\nAdvanced Analytics: Includes data mining, predictive modeling, and other sophisticated analytical techniques to uncover hidden patterns and insights."
+    "text": "Analytic Reporting and Advanced Analytics\n\n\n\n\n\n\n\n\n\n\nAnalytic Reporting Engine: Produces reports and dashboards for users to visualize and understand the data.\n\nAd Hoc Reporting: Enables users to create custom reports on-demand.\nDashboards: Provides a visual summary of key performance indicators (KPIs) and metrics.\n\nAdvanced Analytics: Includes data mining, predictive modeling, and other sophisticated analytical techniques to uncover hidden patterns and insights."
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#users-and-decision-making",
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#users-and-decision-making",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Users and Decision-Making",
-    "text": "Users and Decision-Making\n\n\nUsers: Business analysts, managers, and executives who use the IMS to make informed decisions.\nOutcome: The IMS enables data-driven decision-making, improving efficiency, reducing risks, and enhancing overall business performance."
+    "text": "Users and Decision-Making\n\n\n\n\n\n\n\n\n\n\nUsers: Business analysts, managers, and executives who use the IMS to make informed decisions.\nOutcome: The IMS enables data-driven decision-making, improving efficiency, reducing risks, and enhancing overall business performance."
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#meta-data-and-data-dictionary-1",
@@ -208,14 +208,14 @@
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#mtcars",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "mtcars",
-    "text": "mtcars\n\n\n\nThe mtcars data file provides information on various features of different brands of cars, including their engine size, horsepower, and fuel efficiency. The dataset is structured as a table, where each row represents a different car, and each column represents a different variable or feature of the cars."
+    "text": "mtcars\n\n\n\n\n\n\n\n\n\n\n\nThe mtcars data file provides information on various features of different brands of cars, including their engine size, horsepower, and fuel efficiency. The dataset is structured as a table, where each row represents a different car, and each column represents a different variable or feature of the cars."
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-dictionary-for-mtcars",
     "href": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#data-dictionary-for-mtcars",
     "title": " MGMT 17300: Data Mining Lab ",
     "section": "Data Dictionary for mtcars",
-    "text": "Data Dictionary for mtcars\n\n\n?mtcars"
+    "text": "Data Dictionary for mtcars\n\n\n\n\n\n\n\n\n\n\n?mtcars"
   },
   {
     "objectID": "lecture_slides/02_data_organization_decision/02_data_organization_decision.html#learning-path-1",
@@ -300,5 +300,12 @@
     "crumbs": [
       "Syllabus"
     ]
+  },
+  {
+    "objectID": "schedule_aux.html",
+    "href": "schedule_aux.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\nTopic\nReadings [ISLP]\nMaterial*\nSupplementary Materials\n\n\n\n\nWeek 1\nSyllabus, Logistics, and Introduction.\nCh. 1; Ch. 2;\nslidesbook lab\n- Video: Statistical Learning: 2.1 Introduction to Regression Models- Video: Statistical Learning: 2.2 Dimensionality and Structured Models- Video: Statistical Learning: 2.3 Model Selection and Bias Variance Tradeoff- Video: Statistical Learning: 2.4 Classification- Video: Statistical Learning: 2.Py Data Types, Arrays, and Basics - 2023- Video: Statistical Learning: 2.Py.3 Graphics - 2023- Video: Statistical Learning: 2.Py Indexing and Dataframes - 2023\n\n\nWeek 2\nLinear Regression\nCh. 3.\nslidesbook lab\n- Video: Statistical Learning: 3.1 Simple linear regression- Video: Statistical Learning: 3.2 Hypothesis Testing and Confidence Intervals- Video: Statistical Learning: 3.3 Multiple Linear Regression- Video: Statistical Learning: 3.4 Some important questions- Video: Statistical Learning: 3.5 Extensions of the Linear Model- Video: Statistical Learning: 3.Py Linear Regression and statsmodels Package - 2023- Video: Statistical Learning: 3.Py Multiple Linear Regression Package - 2023- Video: Statistical Learning: 3.Py Interactions, Qualitative Predictors and Other Details I 2023\n\n\nWeek 3\nClassification\nCh. 4\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 4\nResampling Methods\nCh. 5\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 5\nLinear Model Selection & Regularization\nCh. 6\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 6\nBeyond Linearity\nCh. 7\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 7\nTree-Based Methods\nCh. 8\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 8\nSupport Vector Machines\nCh. 9\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 09\nUnsupervised Learning\nCh. 12\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 10\nFinal Project\n.\n.\n.\n\n\nWeek 11\nFinal Project\n.\n.\n.\n\n\nWeek 12\nFinal Project\n.\n.\n.\n\n\nWeek 13\nDeep Learning\nCh. 10\nslidesbook lab\n- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP- Video: TBP\n\n\nWeek 14\nDeep Learning\nCh. 10\n.\n.\n\n\nWeek 15\nDeep Learning\nCh. 10\n.\n.\n\n\n\n* The course slides and labs are based on the [ISLP] book, “An Introduction to Statistical Learning with Applications in Python” by James, G., Witten, D., Hastie, T., and Tibshirani, R., and have been adapted to suit the specific needs of our course."
   }
 ]
